@@ -50,7 +50,7 @@ Key optional fields:
 
 ```bash
 # Recommended benchmarks
-jq '[.[] | select(.recommended)] | sort_by(-.stars) | .[:10] | .[] | {name, what, stars}' data/benchmarks.json
+jq '[.[] | select(.recommended)] | sort_by(-(.stars // 0)) | .[:10] | .[] | {name, what, stars}' data/benchmarks.json
 
 # Benchmarks by subcategory
 jq '[.[] | select(.subcategory == "security")] | length' data/benchmarks.json
