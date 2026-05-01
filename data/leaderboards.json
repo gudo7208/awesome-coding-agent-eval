@@ -1,0 +1,871 @@
+[
+  {
+    "id": "ai-coding-model-rankings-benchmarks",
+    "name": "AI Coding Model Rankings & Benchmarks",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Ranks major LLMs across SE, code generation, and agentic coding benchmarks",
+    "type": "paper",
+    "tags": [
+      "llm-ranking",
+      "code-generation",
+      "agentic-coding",
+      "benchmark-comparison"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://onyx.app/best-llm-for-coding",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
+        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
+        "codeagent-enhancing-code-generation-with-tool-integrated-age",
+        "codebenchgen-creating-scalable-execution-based-code-generati",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-c",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemixbench-evaluating-large-language-models-on-code-genera",
+        "codereval-a-benchmark-of-pragmatic-code-generation-with-gene",
+        "competition-level-code-generation-with-alphacode",
+        "constrained-decoding-for-secure-code-generation"
+      ]
+    }
+  },
+  {
+    "id": "aider-llm-leaderboards",
+    "name": "Aider LLM Leaderboards",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Aider polyglot benchmark leaderboard comparing LLM coding across 6 languages",
+    "type": "paper",
+    "tags": [
+      "aider",
+      "polyglot",
+      "exercism",
+      "multi-language",
+      "llm-benchmark"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://aider.chat/docs/leaderboards/",
+    "related": {
+      "benchmarks": [
+        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
+        "swe-polybench-a-multi-language-benchmark-for-repository-leve"
+      ]
+    }
+  },
+  {
+    "id": "auggie-tops-swe-bench-pro",
+    "name": "Auggie tops SWE-Bench Pro",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Auggie agent achieves top score of 51.80% on SWE-bench Pro leaderboard",
+    "type": "paper",
+    "tags": [
+      "swe-bench-pro",
+      "augment-code",
+      "auggie",
+      "se-agent",
+      "leaderboard"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.augmentcode.com/blog/auggie-tops-swe-bench-pro",
+    "related": {
+      "benchmarks": [
+        "leaderboard",
+        "programming-with-pixels-can-computer-use-agents-do-software-",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "swe-bench",
+        "swe-bench-pro",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+      ]
+    }
+  },
+  {
+    "id": "augment-leads-on-cceval-benchmarking-code-completion-for-con",
+    "name": "Augment leads on CCEval: Benchmarking code completion for continuous improvement",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Augment Code leads on CCEval code completion benchmark across multiple languages",
+    "type": "paper",
+    "tags": [
+      "code-completion",
+      "CCEval",
+      "benchmark-result",
+      "multi-language"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.augmentcode.com/blog/augment-leads-on-cceval-benchmarking-code-completion-for-continuous-improvement",
+    "related": {
+      "benchmarks": [
+        "crosscodeeval-multilingual-repository-level-code-completion-",
+        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
+        "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
+        "swe-polybench-a-multi-language-benchmark-for-repository-leve"
+      ]
+    }
+  },
+  {
+    "id": "best-ai-models-for-coding-arena-leaderboard",
+    "name": "Best AI Models for Coding - Arena Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "LM Arena coding leaderboard ranking AI models on agentic coding tasks with Elo s",
+    "type": "paper",
+    "tags": [
+      "leaderboard",
+      "elo",
+      "coding",
+      "multi-step-reasoning",
+      "tool-use"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://arena.ai/leaderboard/code",
+    "related": {
+      "benchmarks": [
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "abtest-behavior-driven-testing-for-ai-coding-agents",
+        "ai-coding-lang-bench",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "automated-benchmark-generation-for-repository-level-coding-t",
+        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
+        "can-ai-agents-solve-long-horizon-software-engineering-tasks",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "clover-a-test-case-generation-benchmark-with-coverage-long-c",
+        "constrained-decoding-for-secure-code-generation",
+        "contextbench-benchmark-for-context-retrieval-in-coding-agents",
+        "credit-budgeted-icpc-style-coding-when-agents-must-pay-for-e",
+        "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
+        "featurebench-benchmarking-agentic-coding-for-complex-feature",
+        "from-what-to-how-bridging-user-requirements-with-software-de",
+        "frontendbench-a-benchmark-for-evaluating-llms-on-front-end-d",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning",
+        "glm-5-from-vibe-coding-to-agentic-engineering",
+        "hybrid-gym-training-coding-agents-to-generalize-across-tasks",
+        "immersion-in-the-github-universe-scaling-coding-agents-to-mastery"
+      ]
+    }
+  },
+  {
+    "id": "bigcodebench-leaderboard",
+    "name": "BigCodeBench Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Ranks LLMs on complex function-level code generation with diverse library calls",
+    "type": "leaderboard",
+    "website": "https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard",
+    "tags": [
+      "code-generation",
+      "function-level",
+      "library-use",
+      "bigcodebench",
+      "leaderboard"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "ai-coding-lang-bench",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
+        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "bigcodebench",
+        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
+        "codeagent-enhancing-code-generation-with-tool-integrated-age",
+        "codebenchgen-creating-scalable-execution-based-code-generati",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-c",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemixbench-evaluating-large-language-models-on-code-genera",
+        "codereval-a-benchmark-of-pragmatic-code-generation-with-gene"
+      ]
+    }
+  },
+  {
+    "id": "coding-ai-leaderboard",
+    "name": "Coding AI Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Tracks real-world activity of AI coding bots on GitHub (PRs, merge rates)",
+    "type": "leaderboard",
+    "website": "https://www.star-history.com/coding-ai-leaderboard",
+    "tags": [
+      "activity",
+      "github-bot",
+      "pr-merge-rate",
+      "production",
+      "real-world"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "a-real-world-benchmark-for-evaluating-fine-grained-issue-sol",
+        "aegis-an-agent-based-framework-for-bug-reproduction-from-iss",
+        "agentic-bug-reproduction-for-effective-automated-program-rep",
+        "ai-coding-lang-bench",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-f",
+        "codemirage-a-multi-lingual-benchmark-for-detecting-ai-generated-and-paraphrased-",
+        "codesense-a-real-world-benchmark-and-dataset-for-code-semant",
+        "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
+        "deepcodebench-real-world-codebase-understanding-by-q-a-bench",
+        "deveval-a-manually-annotated-code-generation-benchmark-align",
+        "dynamic-cogeneration-of-bug-reproduction-test-in-agentic-pro",
+        "echo-graph-enhanced-retrieval-and-execution-feedback-for-iss",
+        "edit-bench-evaluating-llm-abilities-to-perform-real-world-in",
+        "evaluating-large-language-models-for-real-world-vulnerabilit",
+        "evocodebench-an-evolving-code-generation-benchmark-aligned-w",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
+        "frontier-eng-benchmarking-self-evolving-agents-on-real-world"
+      ]
+    }
+  },
+  {
+    "id": "evalplus-leaderboard",
+    "name": "EvalPlus Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Ranks LLMs on HumanEval+ and MBPP+ with augmented tests for stricter correctness",
+    "type": "leaderboard",
+    "website": "https://evalplus.github.io/leaderboard.html",
+    "tags": [
+      "code-generation",
+      "humaneval",
+      "mbpp",
+      "test-augmentation",
+      "evalplus"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
+        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
+        "codeagent-enhancing-code-generation-with-tool-integrated-age",
+        "codebenchgen-creating-scalable-execution-based-code-generati",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-c",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemixbench-evaluating-large-language-models-on-code-genera",
+        "codereval-a-benchmark-of-pragmatic-code-generation-with-gene",
+        "competition-level-code-generation-with-alphacode",
+        "constrained-decoding-for-secure-code-generation"
+      ]
+    }
+  },
+  {
+    "id": "lm-arena-coding-leaderboard-what-developers-need-to-know",
+    "name": "LM Arena Coding Leaderboard: What Developers Need to Know",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Analysis of LM Arena coding leaderboard results and top model rankings",
+    "type": "paper",
+    "tags": [
+      "lm-arena",
+      "coding-leaderboard",
+      "llm-ranking",
+      "blog"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://propelcode.ai/blog/lm-arena-coding-leaderboard-insights-for-developers",
+    "related": {
+      "benchmarks": [
+        "leaderboard"
+      ]
+    }
+  },
+  {
+    "id": "livecodebench-leaderboard",
+    "name": "LiveCodeBench Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Leaderboard tracking LLM code generation on fresh competitive programming proble",
+    "type": "leaderboard",
+    "website": "https://livecodebench.github.io/leaderboard.html",
+    "tags": [
+      "code-generation",
+      "competitive-programming",
+      "contamination-free",
+      "leaderboard",
+      "livecodebench"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
+        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
+        "codeagent-enhancing-code-generation-with-tool-integrated-age",
+        "codebenchgen-creating-scalable-execution-based-code-generati",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-c",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemixbench-evaluating-large-language-models-on-code-genera",
+        "codereval-a-benchmark-of-pragmatic-code-generation-with-gene",
+        "competition-level-code-generation-with-alphacode",
+        "constrained-decoding-for-secure-code-generation"
+      ]
+    }
+  },
+  {
+    "id": "swe-bench-leaderboard-march-2026",
+    "name": "SWE-Bench Leaderboard March 2026",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Aggregated leaderboard for SWE-Bench Verified, Pro, Terminal-Bench & Aider Polyg",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "leaderboard",
+      "ranking",
+      "terminal-bench",
+      "aider-polyglot"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.marc0.dev/en/leaderboard",
+    "related": {
+      "benchmarks": [
+        "apex2-terminal-bench-agent",
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "leaderboard",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft"
+      ]
+    }
+  },
+  {
+    "id": "swe-bench-leaderboard",
+    "name": "SWE-bench Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Tracks SE agent resolve rates on 500 human-validated GitHub issues",
+    "type": "leaderboard",
+    "website": "https://www.swebench.com",
+    "tags": [
+      "se-agent",
+      "bug-fix",
+      "patch-generation",
+      "python",
+      "swe-bench"
+    ],
+    "related": {
+      "meta_analysis": [
+        "metr-merge-rate",
+        "swe-bench-score-gap"
+      ],
+      "benchmarks": [
+        "an-analysis-of-the-automatic-bug-fixing-performance-of-chatg",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
+        "devin-swebench-results",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
+        "gitbug-actions-building-reproducible-bug-fix-benchmarks-with",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "programming-with-pixels-can-computer-use-agents-do-software-",
+        "python-code-generation-by-asking-clarification-questions",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java"
+      ]
+    },
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active"
+  },
+  {
+    "id": "swe-bench-verified-epoch-ai-benchmark-page",
+    "name": "SWE-bench Verified (Epoch AI benchmark page)",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Epoch AI leaderboard tracking agent performance on SWE-bench Verified",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "leaderboard",
+      "epoch-ai",
+      "bug-fix",
+      "agent-ranking"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://epoch.ai/benchmarks/swe-bench-verified/",
+    "related": {
+      "benchmarks": [
+        "an-analysis-of-the-automatic-bug-fixing-performance-of-chatg",
+        "devin-swebench-results",
+        "gitbug-actions-building-reproducible-bug-fix-benchmarks-with",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "leaderboard",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal"
+      ]
+    }
+  },
+  {
+    "id": "ultimate-llm-leaderboard-for-agentic-coders",
+    "name": "Ultimate LLM Leaderboard for Agentic Coders",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Aggregated LLM rankings for agentic coding across multiple benchmarks",
+    "type": "paper",
+    "tags": [
+      "leaderboard",
+      "agentic-coding",
+      "model-ranking",
+      "benchmark-aggregation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://theaiforger.com/",
+    "related": {
+      "benchmarks": [
+        "featurebench-benchmarking-agentic-coding-for-complex-feature",
+        "leaderboard",
+        "lita-light-agent-uncovers-the-agentic-coding-capabilities-of-llms",
+        "opengame-open-agentic-coding-for-games",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "scaling-test-time-compute-for-agentic-coding"
+      ]
+    }
+  },
+  {
+    "id": "showdown",
+    "name": "showdown",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Aggregates LLM rankings across multiple benchmarks with open community data",
+    "type": "repo",
+    "repo": "https://github.com/verseles/showdown",
+    "stars": 11,
+    "tags": [
+      "leaderboard",
+      "benchmark-aggregation",
+      "swe-bench",
+      "open-data",
+      "community-driven"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "languages": [
+      "html"
+    ],
+    "related": {
+      "benchmarks": [
+        "data",
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "leaderboard",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft"
+      ]
+    }
+  },
+  {
+    "id": "2026-4",
+    "name": "大模型代码编程能力评测排行榜 2026年4月",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "livecodebench",
+      "leaderboard",
+      "coding",
+      "multilingual"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.datalearner.com/leaderboards/category/code",
+    "related": {
+      "benchmarks": [
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "abtest-behavior-driven-testing-for-ai-coding-agents",
+        "ai-coding-lang-bench",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "automated-benchmark-generation-for-repository-level-coding-t",
+        "backportbench-a-multilingual-benchmark-for-automated-backpor",
+        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemirage-a-multi-lingual-benchmark-for-detecting-ai-generated-and-paraphrased-",
+        "codescope-an-execution-based-multilingual-multitask-multidim",
+        "constrained-decoding-for-secure-code-generation",
+        "contextbench-benchmark-for-context-retrieval-in-coding-agents",
+        "credit-budgeted-icpc-style-coding-when-agents-must-pay-for-e",
+        "crosscodeeval-a-diverse-and-multilingual-benchmark-for-cross",
+        "crosscodeeval-multilingual-repository-level-code-completion-",
+        "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
+        "devin-swebench-results",
+        "featurebench-benchmarking-agentic-coding-for-complex-feature",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning"
+      ]
+    }
+  },
+  {
+    "id": "agentpulse-a-continuous-multi-signal-framework-for-evaluating-ai-agents-in-deplo",
+    "name": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Continuous multi-signal framework scoring 50 AI agents across deployment lifecyc",
+    "type": "paper",
+    "tags": [
+      "continuous-eval",
+      "deployment",
+      "multi-signal"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.24038v1"
+  },
+  {
+    "id": "agentic-much-adoption-of-coding-agents-on-github",
+    "name": "Agentic Much? Adoption of Coding Agents on GitHub",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Study of coding agent adoption patterns on GitHub in early 2025",
+    "type": "paper",
+    "tags": [
+      "adoption",
+      "github",
+      "coding-agents"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2601.18341",
+    "related": {
+      "benchmarks": [
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "abtest-behavior-driven-testing-for-ai-coding-agents",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contribut",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication",
+        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
+        "contextbench-benchmark-for-context-retrieval-in-coding-agents",
+        "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning",
+        "gitbug-actions-building-reproducible-bug-fix-benchmarks-with",
+        "github",
+        "hybrid-gym-training-coding-agents-to-generalize-across-tasks",
+        "immersion-in-the-github-universe-scaling-coding-agents-to-mastery",
+        "omnigirl-a-multilingual-and-multimodal-benchmark-for-github-",
+        "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-pro",
+        "r2e-turning-any-github-repository-into-a-programming-agent-e",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-lo",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
+      ]
+    }
+  },
+  {
+    "id": "agentpulse-a-continuous-multi-signal-framework-for-evaluating-ai-agents-in-deplo-2",
+    "name": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Continuous multi-signal framework scoring 50 AI agents across deployment adoptio",
+    "type": "paper",
+    "tags": [
+      "continuous-eval",
+      "deployment",
+      "multi-signal"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.24038"
+  },
+  {
+    "id": "chronos",
+    "name": "Chronos",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Debugging-first LM claiming SOTA on SWE-bench Lite with 80.33% resolve rate",
+    "type": "repo",
+    "tags": [
+      "swe-bench",
+      "debugging",
+      "leaderboard"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/Kodezi/Chronos",
+    "stars": 4946,
+    "languages": [
+      "java"
+    ],
+    "related": {
+      "benchmarks": [
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
+        "coast-enhancing-the-code-debugging-ability-of-llms-through-c",
+        "debugbench-evaluating-debugging-capability-of-large-language",
+        "devin-swebench-results",
+        "empowering-autonomous-debugging-agents-with-efficient-dynamic-analysis",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "leaderboard",
+        "mldebugging-towards-benchmarking-code-debugging-across-multi",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "precise-debugging-benchmark-is-your-model-debugging-or-regen",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live"
+      ]
+    }
+  },
+  {
+    "id": "multi-agent-coding-system",
+    "name": "multi-agent-coding-system",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Multi-agent coding system reaching #13 on TerminalBench leaderboard",
+    "type": "repo",
+    "tags": [
+      "multi-agent",
+      "leaderboard",
+      "terminal-bench"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/Danau5tin/multi-agent-coding-system",
+    "stars": 1370,
+    "languages": [
+      "python"
+    ],
+    "related": {
+      "benchmarks": [
+        "apex2-terminal-bench-agent",
+        "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
+        "leaderboard",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "multiagentbench-acl-2025",
+        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "open-multi-agent",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution",
+        "terminal-bench-rl"
+      ]
+    }
+  },
+  {
+    "id": "julia-llm-leaderboard",
+    "name": "Julia-LLM-Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Leaderboard comparing AI models on Julia code generation with automated evals",
+    "type": "repo",
+    "tags": [
+      "julia",
+      "code-generation",
+      "leaderboard"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/svilupp/Julia-LLM-Leaderboard",
+    "stars": 86,
+    "languages": [
+      "html"
+    ],
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
+        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
+        "codeagent-enhancing-code-generation-with-tool-integrated-age",
+        "codebenchgen-creating-scalable-execution-based-code-generati",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-c",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "codemixbench-evaluating-large-language-models-on-code-genera",
+        "codereval-a-benchmark-of-pragmatic-code-generation-with-gene",
+        "competition-level-code-generation-with-alphacode",
+        "constrained-decoding-for-secure-code-generation"
+      ]
+    }
+  },
+  {
+    "id": "claude-agent-leaderboard",
+    "name": "claude-agent-leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "activity",
+    "what": "Leaderboard tracking agent/skill execution contributions in Claude Code",
+    "type": "repo",
+    "tags": [
+      "claude-code",
+      "activity-tracking",
+      "agent-leaderboard"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/kubony/claude-agent-leaderboard",
+    "stars": 12,
+    "languages": [
+      "python"
+    ],
+    "related": {
+      "benchmarks": [
+        "leaderboard"
+      ]
+    }
+  },
+  {
+    "id": "computer-agent-arena-toward-human-centric-evaluation-and-analysis-of-computer-us",
+    "name": "Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents",
+    "stage": "leaderboard",
+    "subcategory": "se-agent",
+    "what": "Human-centric evaluation platform and leaderboard for computer-use agents",
+    "type": "paper",
+    "tags": [
+      "computer-use",
+      "human-eval",
+      "leaderboard"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://openreview.net/forum?id=3x4SDbXbgl",
+    "related": {
+      "benchmarks": [
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
+        "humaneval-pro-and-mbpp-pro-evaluating-large-language-models-",
+        "humaneval-v-benchmarking-high-level-visual-reasoning-with-co",
+        "leaderboard",
+        "programming-with-pixels-can-computer-use-agents-do-software-",
+        "repairbench-leaderboard-of-frontier-models-for-program-repai",
+        "vader-a-human-evaluated-benchmark-for-vulnerability-assessme"
+      ]
+    }
+  }
+]

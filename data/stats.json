@@ -1,0 +1,159 @@
+{
+  "total": 900,
+  "by_stage": {
+    "benchmarks": 530,
+    "leaderboards": 24,
+    "meta-analysis": 100,
+    "methodology": 133,
+    "toolchain": 113
+  },
+  "by_subcategory": {
+    "code-generation": 156,
+    "end-to-end": 110,
+    "bug-fix": 70,
+    "sandbox": 55,
+    "security": 48,
+    "llm-judge": 46,
+    "process-eval": 45,
+    "quality-study": 43,
+    "harness": 42,
+    "testing": 39,
+    "long-horizon": 35,
+    "blog": 35,
+    "code-review": 24,
+    "execution-based": 23,
+    "large-codebase": 21,
+    "multi-agent": 15,
+    "survey": 15,
+    "production": 13,
+    "hybrid": 10,
+    "se-agent": 9,
+    "human-eval": 9,
+    "observability": 9,
+    "feature-development": 8,
+    "limitation": 7,
+    "judge-tool": 7,
+    "activity": 6
+  },
+  "by_type": {
+    "paper": 701,
+    "repo": 84,
+    "tool": 58,
+    "paper+repo": 41,
+    "blog": 11,
+    "leaderboard": 5
+  },
+  "by_status": {
+    "active": 900
+  },
+  "by_language": {
+    "python": 134,
+    "typescript": 21,
+    "java": 17,
+    "rust": 14,
+    "go": 11,
+    "javascript": 10,
+    "html": 9,
+    "c": 5,
+    "css": 3,
+    "c++": 3,
+    "c#": 3,
+    "jupyter notebook": 2,
+    "cpp": 2,
+    "structured text": 1,
+    "kotlin": 1,
+    "ruby": 1,
+    "lean": 1,
+    "dockerfile": 1,
+    "shell": 1
+  },
+  "by_eval_method": {
+    "execution-based": 187,
+    "llm-judge": 9,
+    "human-eval": 6,
+    "hybrid": 2
+  },
+  "top_tags": [
+    {
+      "tag": "benchmark",
+      "count": 253
+    },
+    {
+      "tag": "code-generation",
+      "count": 174
+    },
+    {
+      "tag": "swe-bench",
+      "count": 103
+    },
+    {
+      "tag": "sandbox",
+      "count": 61
+    },
+    {
+      "tag": "evaluation",
+      "count": 54
+    },
+    {
+      "tag": "security",
+      "count": 52
+    },
+    {
+      "tag": "llm-judge",
+      "count": 52
+    },
+    {
+      "tag": "code-review",
+      "count": 48
+    },
+    {
+      "tag": "bug-fix",
+      "count": 47
+    },
+    {
+      "tag": "execution-based",
+      "count": 43
+    },
+    {
+      "tag": "agent-evaluation",
+      "count": 42
+    },
+    {
+      "tag": "llm-evaluation",
+      "count": 41
+    },
+    {
+      "tag": "multi-agent",
+      "count": 39
+    },
+    {
+      "tag": "llm",
+      "count": 38
+    },
+    {
+      "tag": "repository-level",
+      "count": 36
+    },
+    {
+      "tag": "long-horizon",
+      "count": 34
+    },
+    {
+      "tag": "end-to-end",
+      "count": 32
+    },
+    {
+      "tag": "test-generation",
+      "count": 29
+    },
+    {
+      "tag": "code-execution",
+      "count": 27
+    },
+    {
+      "tag": "software-engineering",
+      "count": 26
+    }
+  ],
+  "last_updated": "2026-05-01"
+}

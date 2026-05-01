@@ -1,0 +1,4274 @@
+[
+  {
+    "id": "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+    "name": "A Benchmark Mutation Approach for Realistic Agent Evaluation",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Benchmark mutation approach generating realistic SE agent evaluation tasks",
+    "type": "paper",
+    "tags": [
+      "benchmark-mutation",
+      "realistic-evaluation",
+      "agent-evaluation",
+      "methodology"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.08996",
+    "related": {
+      "variants": [
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "a-framework-for-continuous-evaluation-of-llm-test-generation",
+    "name": "A Framework for Continuous Evaluation of LLM Test Generation in Industry",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Framework for continuous evaluation of LLM test generation in industry settings",
+    "type": "paper",
+    "tags": [
+      "testing",
+      "continuous-evaluation",
+      "industry",
+      "llm-test-generation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2504.18985v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+    "name": "A Multi-Dimensional Framework for Evaluating Enterprise Agentic AI Systems",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Multi-dimensional framework evaluating enterprise AI agents on cost, reliability",
+    "type": "paper",
+    "tags": [
+      "enterprise",
+      "process-evaluation",
+      "cost-efficiency",
+      "reliability",
+      "operational-stability"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2511.14136v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "a-survey-on-llm-as-a-judge",
+    "name": "A Survey on LLM-as-a-Judge",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Surveys LLM-as-a-Judge scoring modes, biases, consistency, and applications",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "survey",
+      "evaluation-methodology",
+      "bias-analysis",
+      "scoring"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2411.15594",
+    "related": {
+      "variants": [
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "a-systematic-approach-for-assessing-llm-test-case-generation",
+    "name": "A Systematic Approach for Assessing LLM Test Case Generation Capability",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Systematic methodology for evaluating LLM-generated test cases",
+    "type": "paper",
+    "tags": [
+      "testing",
+      "evaluation-framework",
+      "test-generation",
+      "llm-assessment"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2502.02866v1",
+    "related": {
+      "variants": [
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "a-methodical-approach-to-agent-evaluation",
+    "name": "A methodical approach to agent evaluation",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Google Cloud blog on systematic agent evaluation covering reasoning, tool use, a",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "methodology",
+      "reasoning",
+      "tool-use",
+      "google-cloud"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://cloud.google.com/blog/topics/developers-practitioners/a-methodical-approach-to-agent-evaluation",
+    "related": {
+      "variants": [
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+    "name": "AI agent evaluation: A practical framework for testing multi-step agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Braintrust practical framework for evaluating multi-step agents across reasoning",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "multi-step",
+      "process-tracking",
+      "framework"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.braintrust.dev/articles/ai-agent-evaluation-framework",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+    "name": "AXIOM: Benchmarking LLM-as-a-Judge for Code via Rule-Based Perturbation and Mult",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Benchmarks LLM-as-a-Judge for code via rule-based perturbation and multi-source ",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-evaluation",
+      "benchmark",
+      "perturbation",
+      "calibration"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2512.20159",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "agent-eval-refine",
+    "name": "Agent-Eval-Refine",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Uses LLM to evaluate agent trajectories and generate refinement feedback",
+    "type": "paper+repo",
+    "repo": "https://github.com/Berkeley-NLP/Agent-Eval-Refine",
+    "stars": 149,
+    "tags": [
+      "agent-evaluation",
+      "llm-as-judge",
+      "self-refinement",
+      "trajectory-analysis"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "languages": [
+      "python"
+    ],
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "agent-as-a-judge-evaluate-agents-with-agents",
+    "name": "Agent-as-a-Judge: Evaluate Agents with Agents",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Uses agent judges for process-level evaluation of agentic system outputs",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "agent-evaluation",
+      "process-eval",
+      "intermediate-feedback",
+      "agentic-systems"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2410.10934",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+    "name": "AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "DAG-based step-level evaluation tracking error propagation in agentic workflows",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "llm-judge",
+      "dag",
+      "error-propagation",
+      "step-level"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.23581",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "agentic-harness-engineering-observability-driven-automatic-e",
+    "name": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Observability-driven automatic evolution of eval harnesses for coding agents",
+    "type": "paper",
+    "tags": [
+      "harness-engineering",
+      "observability",
+      "coding-agent",
+      "automatic-evolution",
+      "evaluation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25850v1",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "alphaeval-evaluating-agents-in-production",
+    "name": "AlphaEval: Evaluating Agents in Production",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Framework for evaluating AI agents in production with implicit constraints",
+    "type": "paper",
+    "tags": [
+      "production-evaluation",
+      "agent-eval",
+      "process-eval",
+      "multimodal",
+      "real-world"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.12162",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+    "name": "An LLM-as-Judge Metric for Bridging the Gap with Human Evaluation in SE Tasks",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM-as-Judge metric bridging gap with human evaluation for SE tasks",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "human-evaluation",
+      "software-engineering",
+      "evaluation-metric",
+      "code-generation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2505.20854",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+    "name": "Atropos: Improving Cost-Benefit Trade-off of LLM-based Agents under Self-Consist",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Optimizes cost-benefit trade-off of SE agents via predictive early stopping and ",
+    "type": "paper",
+    "tags": [
+      "cost-benefit",
+      "self-consistency",
+      "early-termination",
+      "model-hotswap",
+      "swe-bench"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.15075",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+    "name": "Auto-Arena: Automating LLM Evaluations with Agent Peer Battles and Committee Dis",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Auto-Arena: automated LLM evaluation via agent peer battles and committee discus",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "automated-evaluation",
+      "multi-agent",
+      "pairwise-comparison"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://aclanthology.org/2025.acl-long.223/",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "automatic-failure-attribution-and-critical-step-prediction-m",
+    "name": "Automatic Failure Attribution and Critical Step Prediction Method for Multi-Agen",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Attributes failures and predicts critical steps in multi-agent systems",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "failure-attribution",
+      "critical-step-prediction",
+      "causal-inference",
+      "root-cause-analysis"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2509.08682",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "automatically-benchmarking-llm-code-agents-through-agent-dri",
+    "name": "Automatically Benchmarking LLM Code Agents through Agent-Driven Annotation and E",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Agent-driven annotation and evaluation framework reducing benchmark labeling cos",
+    "type": "paper",
+    "tags": [
+      "benchmark-construction",
+      "automated-annotation",
+      "code-agent",
+      "evaluation-framework"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.24358",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+    "name": "Beyond Accuracy: Evaluating Source Code Capabilities in Large Language Models fo",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates LLM source code capabilities beyond accuracy using interpretability me",
+    "type": "paper",
+    "tags": [
+      "interpretability",
+      "code-evaluation",
+      "beyond-accuracy",
+      "llm-assessment",
+      "evaluation-methodology"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/208217bedf590ae49bcc0cb6f779271e644b8a01",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+    "name": "Bridging HCI and AI Research for the Evaluation of Conversational SE Assistants",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "HCI+AI framework for human-centered evaluation of conversational SE assistants",
+    "type": "paper",
+    "tags": [
+      "hci",
+      "conversational-agent",
+      "human-centered",
+      "evaluation-framework"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2502.07956",
+    "related": {
+      "variants": [
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "coco-testing-code-generation-systems-via-concretized-instruc",
+    "name": "COCO: Testing Code Generation Systems via Concretized Instructions",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Tests code generation via concretizing ambiguous natural-language instructions",
+    "type": "paper",
+    "tags": [
+      "code-generation",
+      "testing",
+      "concretization",
+      "instruction-ambiguity"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2308.13319",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+    "name": "CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluatio",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM reasoning-based metric for evaluating functional alignment of generated code",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-evaluation",
+      "functional-alignment",
+      "reasoning-metric",
+      "code-generation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2505.19502",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "crscore-grounding-automated-evaluation-of-code-review-commen",
+    "name": "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims a",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Reference-free metric scoring code review comments via code claims and smells",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "reference-free-metric",
+      "review-quality",
+      "automated-evaluation",
+      "code-claims"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2409.19801",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+    "name": "Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Softw",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Empirical study on LLM-as-judge replacing human evaluators in software engineeri",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "human-evaluation",
+      "code-generation",
+      "empirical-study",
+      "software-engineering"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2502.06193",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "codecircuit-toward-inferring-llm-generated-code-correctness-",
+    "name": "CodeCircuit: Toward Inferring LLM-Generated Code Correctness via Attribution Gra",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Infers LLM-generated code correctness via attribution graphs without execution",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "attribution-graph",
+      "internal-signal",
+      "code-correctness",
+      "interpretability"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2602.07080",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+    "name": "CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verifica",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Taxonomy and benchmark for detecting code hallucinations in LLMs via execution v",
+    "type": "paper",
+    "tags": [
+      "code-hallucination",
+      "execution-based",
+      "llm-evaluation",
+      "code-generation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2405.00253",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "codejudge-eval-can-large-language-models-be-good-judges-in-c",
+    "name": "CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Benchmark evaluating LLMs as judges of code correctness for code understanding",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-understanding",
+      "benchmark",
+      "correctness-judging"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2408.10718",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudgebench"
+      ]
+    }
+  },
+  {
+    "id": "codejudgebench",
+    "name": "CodeJudgeBench",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Benchmarks LLM-as-Judge reliability on code tasks, revealing bias and limits",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2507.10535",
+    "tags": [
+      "llm-judge",
+      "benchmark",
+      "judge-bias",
+      "code-evaluation",
+      "reliability"
+    ],
+    "limitations": [
+      "评估 judge 本身的 benchmark，不直接评估 agent",
+      "覆盖语言有限"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "codeultrafeedback-an-llm-as-a-judge-dataset-for-aligning-lar",
+    "name": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models ",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM-as-a-Judge dataset for aligning code LLMs with user preferences",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-preference-alignment",
+      "dataset",
+      "code-generation",
+      "feedback"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2403.09032",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "coffee-gym-an-environment-for-evaluating-and-improving-natur",
+    "name": "Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedbac",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Environment for training and evaluating LLM-generated feedback on erroneous code",
+    "type": "paper",
+    "tags": [
+      "natural-language-feedback",
+      "code-repair",
+      "reward-model",
+      "feedback-quality"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2409.19715",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "comparing-developer-and-llm-biases-in-code-evaluation",
+    "name": "Comparing Developer and LLM Biases in Code Evaluation",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Compares developer and LLM biases in code evaluation using TRACE framework",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "bias-analysis",
+      "human-preference",
+      "code-evaluation",
+      "trace-framework"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.24586",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "critiquellm-towards-an-informative-critique-generation-model",
+    "name": "CritiqueLLM: Towards an Informative Critique Generation Model for Evaluation of ",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Trains LLMs to generate informative critiques for pointwise and pairwise evaluat",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "critique-generation",
+      "pointwise-grading",
+      "pairwise-comparison"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2311.18702",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "deep-assessment-of-code-review-generation-approaches-beyond-",
+    "name": "Deep Assessment of Code Review Generation Approaches: Beyond Lexical Similarity",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Critiques lexical metrics like BLEU for code review and proposes better methods",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "evaluation-metrics",
+      "bleu-critique",
+      "lexical-similarity",
+      "assessment"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2501.05176",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "deepcrceval-revisiting-the-evaluation-of-code-review-comment",
+    "name": "DeepCRCEval: Revisiting the Evaluation of Code Review Comment Generation",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Proposes semantic-based framework for evaluating code review comment generation",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "evaluation-methodology",
+      "semantic-evaluation",
+      "text-similarity",
+      "llm-judge"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2412.18291",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-",
+    "name": "Does RL Expand the Capability Boundary of LLM Agents? A PASS@(k,T) Analysis",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "PASS@(k,T) metric jointly measuring sampling and interaction depth for RL agents",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "metric-design",
+      "rl-agent",
+      "capability-boundary",
+      "pass-at-k"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.14877",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "effective-strategies-for-asynchronous-software-engineering-a"
+      ]
+    }
+  },
+  {
+    "id": "effective-strategies-for-asynchronous-software-engineering-a",
+    "name": "Effective Strategies for Asynchronous Software Engineering Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates coordination strategies for asynchronous multi-agent SE workflows",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "async",
+      "coordination",
+      "process-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2603.21489v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+    "name": "Evaluating AI Agents: A Practical Guide with Microsoft Foundry",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Practical guide to defining quality criteria and continuous evaluation of AI age",
+    "type": "paper",
+    "tags": [
+      "azure",
+      "ai-agent",
+      "evaluation",
+      "quality-criteria",
+      "continuous-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/evaluating-ai-agents-a-practical-guide-with-microsoft-foundry/4500224",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-ai-agents-more-than-just-llms",
+    "name": "Evaluating AI Agents: More than just LLMs",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Microsoft blog on evaluating AI agents beyond single LLM responses covering acti",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "methodology",
+      "microsoft",
+      "reasoning",
+      "execution"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/evaluating-ai-agents-more-than-just-llms/4460575",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-judges-as-evaluators-the-jetts-benchmark-of-llm-a",
+    "name": "Evaluating Judges as Evaluators: The JETTS Benchmark of LLM-as-Judges as Test-Ti",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Benchmarks LLM-as-Judge reliability for evaluating test-time compute scaling",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "test-time-scaling",
+      "benchmark",
+      "evaluator-evaluation",
+      "jetts"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2504.15253",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-large-language-models-with-runtime-behavior-of-pr",
+    "name": "Evaluating Large Language Models with Runtime Behavior of Program Execution",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Evaluates LLMs using runtime behavior and program execution traces",
+    "type": "paper",
+    "tags": [
+      "execution-based",
+      "runtime-analysis",
+      "program-behavior",
+      "llm-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2403.16437",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "evaluation-of-llm-based-software-engineering-tools-practices",
+    "name": "Evaluation of LLM-Based Software Engineering Tools: Practices, Challenges, and F",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Systematic review of evaluation practices and challenges for LLM-based SE tools",
+    "type": "paper",
+    "tags": [
+      "meta-analysis",
+      "evaluation-methodology",
+      "survey",
+      "llm4se",
+      "reliability"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.24621",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "execution-based-evaluation-for-open-domain-code-generation",
+    "name": "Execution-Based Evaluation for Open-Domain Code Generation",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Proposes execution-based evaluation methods for open-domain code generation task",
+    "type": "paper",
+    "tags": [
+      "execution-based",
+      "code-generation",
+      "evaluation",
+      "methodology"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2212.10481",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "exploration-and-exploitation-errors-are-measurable-for-langu",
+    "name": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Quantifies exploration and exploitation errors of LM agents in controlled enviro",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "exploration-exploitation",
+      "agent-behavior",
+      "error-taxonomy",
+      "controlled-environment"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.13151",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "foundational-automatic-evaluators-scaling-multi-task-generat",
+    "name": "Foundational Automatic Evaluators: Scaling Multi-Task Generative Evaluator Train",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Trains multi-task generative evaluator on 2.5M samples for pairwise and stepwise",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "generative-evaluator",
+      "multi-task",
+      "data-scaling",
+      "step-level-eval"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.17793",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "from-code-to-courtroom-llms-as-the-new-software-judges",
+    "name": "From Code to Courtroom: LLMs as the New Software Judges",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Survey of LLM-as-a-Judge paradigm for evaluating SE tasks like code generation",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "software-quality",
+      "survey",
+      "code-generation-eval"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2503.02246",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "from-correctness-to-collaboration-a-human-centered-taxonomy-",
+    "name": "From Correctness to Collaboration: A Human-Centered Taxonomy of AI Agent Behavio",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Taxonomy of AI agent behaviors from 91 developer rules beyond correctness",
+    "type": "paper",
+    "tags": [
+      "taxonomy",
+      "agent-behavior",
+      "human-centered",
+      "collaborative-coding",
+      "developer-rules"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/85198c5c58ceb3c8681ce3fbd19f52b9533164ec",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "from-reproduction-to-replication-evaluating-research-agents-",
+    "name": "From Reproduction to Replication: Evaluating Research Agents with Progressive Co",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Progressive code masking framework to evaluate research agents from reproduction",
+    "type": "paper",
+    "tags": [
+      "research-agent",
+      "code-masking",
+      "reproduction",
+      "replication",
+      "evaluation-methodology"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2506.19724",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "hodoscope-unsupervised-monitoring-for-ai-misbehaviors",
+    "name": "Hodoscope: Unsupervised Monitoring for AI Misbehaviors",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Unsupervised monitoring framework for detecting unknown AI agent misbehaviors",
+    "type": "paper",
+    "tags": [
+      "unsupervised-monitoring",
+      "agent-misbehavior",
+      "anomaly-detection",
+      "observability",
+      "process-eval"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.11072",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+    "name": "How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Binary matrix framework evaluating LLM-generated test case quality and coverage",
+    "type": "paper",
+    "tags": [
+      "test-generation",
+      "evaluation-methodology",
+      "binary-matrix",
+      "code-coverage",
+      "llm-testing"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.08720",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+    "name": "How can we assess human-agent interactions? Case studies in software agent desig",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Framework for assessing human-agent interaction quality in software agent design",
+    "type": "paper",
+    "tags": [
+      "human-agent-interaction",
+      "evaluation-framework",
+      "software-agents",
+      "case-study",
+      "interaction-quality"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.09801",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "how-to-evaluate-coding-agents-in-production",
+    "name": "How to Evaluate Coding Agents in Production",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Four metrics for evaluating coding agents in real production engineering environ",
+    "type": "paper",
+    "tags": [
+      "production",
+      "metrics",
+      "task-completion",
+      "regression",
+      "evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://labs.adaline.ai/p/evaluate-coding-agents-production",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "intervenor-prompt-the-coding-ability-of-large-language-model",
+    "name": "INTERVENOR: Prompt the Coding Ability of Large Language Models with the Interact",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Interactive chain-of-repair methodology to improve LLM code generation via itera",
+    "type": "paper",
+    "tags": [
+      "code-repair",
+      "iterative-prompting",
+      "code-generation",
+      "LLM",
+      "execution-feedback"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2311.09868",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "incentivizing-agentic-reasoning-in-llm-judges-via-tool-integ",
+    "name": "Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement ",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Trains LLM judges via tool-integrated reinforcement learning with code executor",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "reinforcement-learning",
+      "tool-integrated-reasoning",
+      "code-executor",
+      "agentic-reasoning"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.23038",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "judgelm-fine-tuned-large-language-models-are-scalable-judges",
+    "name": "JudgeLM: Fine-tuned Large Language Models are Scalable Judges",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Fine-tunes LLMs as scalable judges for evaluating open-ended LLM outputs",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "fine-tuned-judge",
+      "scalable-evaluation",
+      "open-ended-qa"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2310.17631",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "judging-llm-as-a-judge-with-mt-bench-and-chatbot-arena",
+    "name": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Studies LLM-as-a-judge biases and proposes MT-Bench and Chatbot Arena frameworks",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "bias-analysis",
+      "mt-bench",
+      "chatbot-arena",
+      "evaluation-framework"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2306.05685",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "judging-the-judges-a-systematic-study-of-position-bias-in-ll",
+    "name": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Studies position bias in LLM-as-a-Judge with stability, consistency, and fairnes",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "position-bias",
+      "evaluation-reliability",
+      "meta-evaluation",
+      "benchmark"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2406.07791",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "llm-critics-help-catch-llm-bugs",
+    "name": "LLM Critics Help Catch LLM Bugs",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Trains LLM critic models to generate NL feedback helping catch bugs in LLM code",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-review",
+      "critic-model",
+      "rlhf",
+      "human-evaluation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2407.00215",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "llm-as-a-judge",
+    "name": "LLM as a Judge",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Studies LLM-as-judge for automated evaluation, analyzing human alignment and bia",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "evaluation-methodology",
+      "automated-scoring",
+      "judge-bias",
+      "human-alignment"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/1c629669812cf4cdc354de1f6d36084a4b2adc8c",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "llm-as-a-judge-for-scalable-test-coverage-evaluation",
+    "name": "LLM-as-a-Judge for Scalable Test Coverage Evaluation",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM-as-judge approach for scalable test coverage evaluation across model configs",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "test-coverage",
+      "evaluation",
+      "scalability"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2512.01232",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "llm-as-a-judge-for-software-engineering-literature-review-vi",
+    "name": "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Survey on LLM-as-a-Judge in SE: potential, limitations, and future directions",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "survey",
+      "evaluation-methodology",
+      "software-engineering"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/04745b236cf9ebdb06f33d14afa5e7541775af6c",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "large-language-monkeys-scaling-inference-compute-with-repeat",
+    "name": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Scales inference compute via repeated sampling with coverage as power law",
+    "type": "paper",
+    "tags": [
+      "repeated-sampling",
+      "inference-scaling",
+      "pass-at-k",
+      "coverage",
+      "power-law"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2407.21787",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "leveraging-large-language-model-for-automatic-patch-correctn",
+    "name": "Leveraging Large Language Model for Automatic Patch Correctness Assessment",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Uses LLMs to assess correctness of auto-generated patches against overfitting",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "patch-correctness",
+      "automated-program-repair",
+      "overfitting",
+      "assessment"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/3c00979b598d834b92dbd0fd8e4399d594802de3",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "making-bias-non-predictive-training-robust-llm-judges-via-re",
+    "name": "Making Bias Non-Predictive: Training Robust LLM Judges via Reinforcement Learnin",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "RL-based training method to make LLM judge biases non-predictive for robustness",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "bias-mitigation",
+      "reinforcement-learning",
+      "robustness"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/d3c5ff93edbc9b37bcd3657acbebe276c650b18a",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "measuring-the-unmeasurable-markov-chain-reliability-for-llm-",
+    "name": "Measuring the Unmeasurable: Markov Chain Reliability for LLM Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Models agent traces as Markov chains for pass@k uncertainty quantification",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "reliability",
+      "markov-chain",
+      "pass-at-k",
+      "uncertainty-quantification"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.24579",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "measuring-the-performance-of-our-models-on-real-world-tasks-",
+    "name": "Measuring the performance of our models on real-world tasks (GDPval)",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "GDPval: framework evaluating model performance on real-world GDP-sector tasks",
+    "type": "paper",
+    "tags": [
+      "openai",
+      "real-world-tasks",
+      "evaluation-framework",
+      "industry-benchmark"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://openai.com/index/gdpval/",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "mutation-guided-unit-test-generation-with-a-large-language-m",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "multi-agent-code-verification-via-information-theory",
+    "name": "Multi-Agent Code Verification via Information Theory",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Multi-agent code verification system using information theory to detect flawed p",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "verification",
+      "SWE-bench",
+      "BaxBench",
+      "security"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2511.16708",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "mutation-guided-unit-test-generation-with-a-large-language-m",
+    "name": "Mutation-Guided Unit Test Generation with a Large Language Model",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Uses mutation score instead of coverage to evaluate LLM-generated unit tests",
+    "type": "paper",
+    "tags": [
+      "mutation-testing",
+      "unit-test-generation",
+      "test-quality",
+      "coverage-inadequacy",
+      "LLM"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/html/2506.02954v6",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "paper-l2mac-large-language-model-automatic-computer-for-exte"
+      ]
+    }
+  },
+  {
+    "id": "pandalm-an-automatic-evaluation-benchmark-for-llm-instructio",
+    "name": "PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimizati",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Trains dedicated judge model to auto-evaluate instruction-tuned LLM outputs",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "instruction-tuning",
+      "automatic-evaluation",
+      "judge-model",
+      "pairwise-comparison"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2306.05087",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "paper-l2mac-large-language-model-automatic-computer-for-exte",
+    "name": "Paper - L2MAC: Large Language Model Automatic Computer for Extensive Code Genera",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "LLM-based multi-step code generation framework with automatic task decomposition",
+    "type": "paper",
+    "tags": [
+      "code-generation",
+      "long-context",
+      "multi-step",
+      "LLM-agent",
+      "task-decomposition"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2310.02003",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "playing-psychic-using-thought-trees-to-predict-reasoning-mod",
+    "name": "Playing Psychic: Using Thought Trees to Predict Reasoning Models Accuracy on Cod",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Predicts reasoning model accuracy on coding tasks via thought tree structure",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "test-time-scaling",
+      "reasoning-trace",
+      "coding",
+      "livecodebench"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.16931",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "process-level-trajectory-eval",
+    "name": "Process-Level Trajectory Eval",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Scores each agent step in trajectories rather than just final outcomes",
+    "type": "paper",
+    "paper": "https://arxiv.org/html/2510.25694v1",
+    "tags": [
+      "process-eval",
+      "trajectory",
+      "step-level",
+      "fine-grained",
+      "agent-behavior"
+    ],
+    "limitations": [
+      "轨迹标注成本高",
+      "过程评分标准难以统一"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "process-oriented-error-analysis",
+    "name": "Process-Oriented Error Analysis",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Classifies and attributes process errors in software engineering agents",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2503.12374",
+    "tags": [
+      "process-eval",
+      "error-analysis",
+      "error-taxonomy",
+      "agent-failure",
+      "se-agent"
+    ],
+    "limitations": [
+      "错误分类体系依赖人工标注",
+      "泛化到新任务类型需要重新标注"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "prometheus-2-an-open-source-language-model-specialized-in-ev",
+    "name": "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Lang",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Open-source LLM judge for evaluating LM outputs via direct scoring and pairwise ",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "open-source-evaluator",
+      "direct-assessment",
+      "pairwise-ranking",
+      "evaluation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2405.01535",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "rm-r1-reward-modeling-as-reasoning",
+    "name": "RM-R1: Reward Modeling as Reasoning",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Integrates chain-of-thought reasoning into reward models for interpretable LLM j",
+    "type": "paper",
+    "tags": [
+      "reward-model",
+      "chain-of-thought",
+      "reasoning",
+      "interpretability",
+      "llm-judge"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2505.02387",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "safedit-does-multi-agent-decomposition-resolve-the-reliabili",
+    "name": "SAFEdit: Does Multi-Agent Decomposition Resolve the Reliability Challenges of In",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Multi-agent decomposition framework for reliable instructed code editing on Edit",
+    "type": "paper",
+    "tags": [
+      "code-editing",
+      "multi-agent",
+      "reliability",
+      "instructed-editing",
+      "editbench"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25737v1",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "swe-effi-re-evaluating-software-ai-agent-system-effectivenes",
+    "name": "SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Co",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates AI coding agent effectiveness under resource constraints like cost and",
+    "type": "paper",
+    "tags": [
+      "efficiency",
+      "resource-constraints",
+      "process-eval",
+      "swe-bench",
+      "cost-effectiveness"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2509.09853",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "swe-trace-optimizing-long-horizon-swe-agents-through-rubric-",
+    "name": "SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Mode",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Rubric-based process reward model with test-time scaling for long-horizon SWE ag",
+    "type": "paper",
+    "tags": [
+      "process-reward-model",
+      "long-horizon",
+      "test-time-scaling",
+      "rubric-eval",
+      "swe-bench"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.14820",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "scoring-verifiers-evaluating-synthetic-verification-in-code-",
+    "name": "Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "Evaluates synthetic verifiers on code and reasoning using scoring benchmarks",
+    "type": "paper",
+    "tags": [
+      "synthetic-verification",
+      "reward-model",
+      "test-generation",
+      "scoring",
+      "code-reasoning"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2502.13820",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi"
+      ]
+    }
+  },
+  {
+    "id": "self-taught-evaluators",
+    "name": "Self-Taught Evaluators",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Iteratively improves LLM-as-Judge evaluators using only synthetic data",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "synthetic-data",
+      "self-training",
+      "reward-model",
+      "iterative-refinement"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2408.02666",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "stepcoder-improve-code-generation-with-reinforcement-learnin",
+    "name": "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Fee",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "RL from compiler feedback to improve LLM code generation via stepwise optimizati",
+    "type": "paper",
+    "tags": [
+      "reinforcement-learning",
+      "compiler-feedback",
+      "code-generation",
+      "execution-based-eval"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2402.01391",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "test-case-generation-from-bug-reports-via-large-language-mod",
+    "name": "Test Case Generation from Bug Reports via Large Language Models: A Cognitive Lay",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates LLM test generation from bug reports using Bloom's taxonomy cognitive ",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "bloom-taxonomy",
+      "test-generation",
+      "bug-reports",
+      "cognitive-analysis"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.05365",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "the-realhumaneval-evaluating-large-language-models-abilities",
+    "name": "The RealHumanEval: Evaluating Large Language Models' Abilities to Support Progra",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Web-based framework evaluating LLM coding support via real programmer task compl",
+    "type": "paper",
+    "tags": [
+      "human-study",
+      "programmer-productivity",
+      "benchmark-validity",
+      "real-user-eval",
+      "llm-assistance"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2404.02806",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "turning-the-tide-repository-based-code-reflection",
+    "name": "Turning the Tide: Repository-based Code Reflection",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Proposes repository-based code reflection to improve SE agent reasoning",
+    "type": "paper",
+    "tags": [
+      "reflection",
+      "repository-level",
+      "agent-reasoning",
+      "methodology"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2507.09866",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "vibe-checker-aligning-code-evaluation-with-human-preference",
+    "name": "Vibe Checker: Aligning Code Evaluation with Human Preference",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Aligns LLM-as-judge code evaluation with human preference on readability and sty",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "human-preference",
+      "code-readability",
+      "non-functional-quality",
+      "alignment"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.07315",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "code-agent-eval",
+    "name": "code-agent-eval",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Evaluates agent-generated code patches using LLM critics without execution",
+    "type": "paper+repo",
+    "repo": "https://github.com/amazon-science/code-agent-eval",
+    "tags": [
+      "llm-judge",
+      "no-execution",
+      "code-change",
+      "critics",
+      "evaluation-framework"
+    ],
+    "limitations": [
+      "依赖 LLM 判断质量，存在 judge 偏差",
+      "无执行验证，无法检测运行时错误"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "stars": 10,
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "acon-context-compression-long-horizon-agents",
+    "name": "ACON",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Compresses observations and interaction histories to reduce agent memory usage",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2510.00615",
+    "tags": [
+      "context-compression",
+      "long-horizon",
+      "agent-efficiency",
+      "observation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "complexity-trap-observation-masking-vs-summarization",
+    "name": "The Complexity Trap",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Observation masking matches LLM summarization performance at half the cost",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2508.21433",
+    "tags": [
+      "observation-masking",
+      "context-compression",
+      "agent-efficiency",
+      "cost"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "reasoning-through-execution-process-outcome-supervision",
+    "name": "Reasoning Through Execution (ORPS)",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Combines process and outcome supervision via execution for code gen",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2412.15118",
+    "tags": [
+      "process-supervision",
+      "outcome-reward",
+      "code-generation",
+      "verification"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "tdd-governance-for-multi-agent-code-generation-via-prompt-engineering",
+    "name": "TDD Governance for Multi-Agent Code Generation via Prompt Engineering",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "TDD governance framework for multi-agent code generation via prompt engineering",
+    "type": "paper",
+    "tags": [
+      "tdd",
+      "multi-agent",
+      "code-generation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.26615v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "tdd-governance-for-multi-agent-code-generation-via-prompt-engineering-2",
+    "name": "TDD Governance for Multi-Agent Code Generation via Prompt Engineering",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "TDD governance framework enforcing Red-Green-Refactor as prompt-level constraint",
+    "type": "paper",
+    "tags": [
+      "tdd",
+      "multi-agent",
+      "prompt-engineering"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.26615",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "enforcing-benign-trajectories-a-behavioral-firewall-for-structured-workflow-ai-a",
+    "name": "Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Behavioral firewall using pDFA to detect anomalous tool-call sequences in AI age",
+    "type": "paper",
+    "tags": [
+      "behavioral-analysis",
+      "tool-call-monitoring",
+      "runtime-enforcement"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.26274",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "can-code-evaluation-metrics-detect-code-plagiarism",
+    "name": "Can Code Evaluation Metrics Detect Code Plagiarism?",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Study on whether code evaluation metrics can reliably detect source code plagiar",
+    "type": "paper",
+    "tags": [
+      "code-evaluation",
+      "plagiarism-detection",
+      "metrics"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25778v1",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "conditional-misalignment-common-interventions-can-hide-emergent-misalignment-beh",
+    "name": "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Studies interventions that hide emergent misalignment via contextual triggers in",
+    "type": "paper",
+    "tags": [
+      "emergent-misalignment",
+      "finetuning",
+      "evaluation-robustness"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25891",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "can-code-evaluation-metrics-detect-code-plagiarism-2",
+    "name": "Can Code Evaluation Metrics Detect Code Plagiarism?",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Empirical study on whether code evaluation metrics can detect source code plagia",
+    "type": "paper",
+    "tags": [
+      "code-evaluation",
+      "plagiarism-detection",
+      "metrics"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25778",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "plausible-but-wrong-a-case-study-on-agentic-failures-in-astrophysical-workflows",
+    "name": "Plausible but Wrong: A case study on Agentic Failures in Astrophysical Workflows",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Case study on agentic AI failures in scientific workflows across 18 tasks",
+    "type": "paper",
+    "tags": [
+      "silent-failures",
+      "scientific-workflows",
+      "agentic-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.25345",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-whether-ai-models-would-sabotage-ai-safety-research",
+    "name": "Evaluating whether AI models would sabotage AI safety research",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates frontier models' propensity to sabotage AI safety research when deploy",
+    "type": "paper",
+    "tags": [
+      "safety",
+      "sabotage",
+      "agent-behavior"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.24618",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "failure-centered-runtime-evaluation-for-deployed-trilingual-public-space-agents",
+    "name": "Failure-Centered Runtime Evaluation for Deployed Trilingual Public-Space Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Failure-centered runtime evaluation framework for deployed trilingual SE agents",
+    "type": "paper",
+    "tags": [
+      "runtime-eval",
+      "failure-analysis",
+      "regression-testing"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.23990",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "agenteval-dag-structured-step-level-evaluation-for-agentic-workflows-with-error-",
+    "name": "AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "DAG-structured step-level evaluation for agentic workflows with error propagatio",
+    "type": "paper",
+    "tags": [
+      "agentic-workflows",
+      "error-propagation",
+      "step-level-eval"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.23581v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "how-do-ai-agents-spend-your-money-analyzing-and-predicting-token-consumption-in-",
+    "name": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Analyzes and predicts token consumption patterns in agentic coding tasks",
+    "type": "paper",
+    "tags": [
+      "token-efficiency",
+      "cost-analysis",
+      "agentic-coding"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.22750v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "refute-or-promote-an-adversarial-stage-gated-multi-agent-review-methodology-for-",
+    "name": "Refute-or-Promote: An Adversarial Stage-Gated Multi-Agent Review Methodology for High-Precision LLM-Assisted Defect Discovery",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Adversarial multi-agent review pipeline to improve precision in LLM defect disco",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "code-review",
+      "defect-detection"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.19049v1",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "agents-explore-but-agents-ignore-llms-lack-environmental-curiosity",
+    "name": "Agents Explore but Agents Ignore: LLMs Lack Environmental Curiosity",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates whether LLM agents exploit unexpected environmental discoveries in SE ",
+    "type": "paper",
+    "tags": [
+      "agent-behavior",
+      "environmental-observation",
+      "process-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.17609v1",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "evaluating-plan-compliance-in-autonomous-programming-agents",
+    "name": "Evaluating Plan Compliance in Autonomous Programming Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Evaluates plan compliance in autonomous programming agents using reason-act-obse",
+    "type": "paper",
+    "tags": [
+      "plan-compliance",
+      "process-evaluation",
+      "autonomous-agents"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.12147v2",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "how-trustworthy-are-llm-as-judge-ratings-for-interpretive-responses-implications",
+    "name": "How Trustworthy Are LLM-as-Judge Ratings for Interpretive Responses? Implications for Qualitative Research Workflows",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Study examining LLM-as-judge alignment with human judgments for interpretive res",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "human-eval",
+      "qualitative-research"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.00008",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "a-self-evolving-framework-for-efficient-terminal-agents-via-observational-contex",
+    "name": "A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Self-evolving observation compression framework for long-horizon terminal agents",
+    "type": "paper",
+    "tags": [
+      "long-horizon",
+      "token-efficiency",
+      "observation-compression"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.19572",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "how-adversarial-environments-mislead-agentic-ai",
+    "name": "How Adversarial Environments Mislead Agentic AI?",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Formalizes adversarial tool environments as evaluation gap for agentic AI",
+    "type": "paper",
+    "tags": [
+      "adversarial",
+      "tool-use",
+      "trust-gap"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.18874",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "don-t-let-ai-agents-yolo-your-files-shifting-information-and-control-to-filesyst",
+    "name": "Don't Let AI Agents YOLO Your Files: Shifting Information and Control to Filesystems for Agent Safety and Autonomy",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Systematic study of AI agent filesystem misuse across 290 reports, 13 frameworks",
+    "type": "paper",
+    "tags": [
+      "agent-safety",
+      "filesystem",
+      "autonomy"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.13536",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+    "name": "From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Formalizes informal user vibe-testing of LLMs into systematic evaluation methodo",
+    "type": "paper",
+    "tags": [
+      "vibe-testing",
+      "human-eval",
+      "informal-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.14137",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "how-many-tries-does-it-take-iterative-self-repair-in-llm-code-generation-across-",
+    "name": "How Many Tries Does It Take? Iterative Self-Repair in LLM Code Generation Across Model Scales and Benchmarks",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Iterative self-repair evaluation across model scales and benchmarks with executi",
+    "type": "paper",
+    "tags": [
+      "self-repair",
+      "iterative-evaluation",
+      "code-generation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.10508",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "inspectcoder-dynamic-analysis-driven-self-repair-through-interactive-llm-debugge",
+    "name": "InspectCoder: Dynamic Analysis-Driven Self Repair through Interactive LLM-Debugger Collaboration",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Agentic self-repair via LLM-debugger dynamic analysis for code error diagnosis",
+    "type": "paper",
+    "tags": [
+      "self-repair",
+      "dynamic-analysis",
+      "code-generation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.semanticscholar.org/paper/5dc2d9d2be600942cb26293230899535ee35d70f",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "the-kitchen-loop-user-spec-driven-development-for-a-self-evolving-codebase",
+    "name": "The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Kitchen Loop: spec-driven autonomous eval with synthetic users and unbeatable te",
+    "type": "paper",
+    "tags": [
+      "synthetic-user",
+      "spec-driven",
+      "self-evolving"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.25697",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "swe-rl-advancing-llm-reasoning-via-reinforcement-learning-on-open-software-evolu",
+    "name": "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "RL-based training for SWE tasks using rule-based similarity rewards on real repo",
+    "type": "paper",
+    "tags": [
+      "reinforcement-learning",
+      "swe-bench",
+      "reasoning"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2502.18449",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "relook-vision-grounded-rl-with-a-multimodal-llm-critic-for-agentic-web-coding",
+    "name": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "RL framework using multimodal LLM as visual critic for front-end code evaluation",
+    "type": "paper",
+    "tags": [
+      "vision-grounded",
+      "llm-judge",
+      "web-coding"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.11498",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "issue-oriented-agent-based-framework-for-automated-review-comment-generation",
+    "name": "Issue-Oriented Agent-Based Framework for Automated Review Comment Generation",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Multi-agent framework for automated code review comment generation",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "multi-agent",
+      "llm-judge"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2511.00517",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "self-abstraction-from-grounded-experience-for-plan-guided-policy-refinement",
+    "name": "Self-Abstraction from Grounded Experience for Plan-Guided Policy Refinement",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Self-improving LLM agent via experience abstraction and plan-guided policy refin",
+    "type": "paper",
+    "tags": [
+      "self-improvement",
+      "multi-step-reasoning",
+      "software-engineering-agent"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2511.05931",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "llm-as-a-judge-for-software-engineering-literature-review-vision-and-the-road-ah",
+    "name": "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Literature review of LLM-as-a-Judge paradigm for evaluating SE artifacts",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "code-generation",
+      "survey"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.24367",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "judgebench-a-benchmark-for-evaluating-llm-based-judges",
+    "name": "JudgeBench: A Benchmark for Evaluating LLM-based Judges",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Benchmark for evaluating reliability of LLM-based judges on challenging tasks",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "evaluation",
+      "benchmark"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2410.12784",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "ai-powered-code-review-with-llms-early-results",
+    "name": "AI-powered Code Review with LLMs: Early Results",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM-based AI agent for automated code review, detecting bugs and code smells",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "llm-judge",
+      "automated-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2404.18496",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "chatgpt-in-action-analyzing-its-use-in-software-development",
+    "name": "ChatGPT in Action: Analyzing Its Use in Software Development",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Quantitative analysis of ChatGPT use in SE tasks using DevGPT dataset",
+    "type": "paper",
+    "tags": [
+      "chatgpt",
+      "developer-usage",
+      "prompt-quality"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.semanticscholar.org/paper/6f8f35aea416b2542d55a638ad20497f38181384",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+    "name": "A Study on Developer Behaviors for Validating and Repairing LLM-Generated Code Using Eye Tracking and IDE Actions",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Eye tracking lab study on how developers validate and repair LLM-generated code",
+    "type": "paper",
+    "tags": [
+      "human-eval",
+      "code-generation",
+      "copilot"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2405.16081",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "reinforcement-learning-from-automatic-feedback-for-high-quality-unit-test-genera",
+    "name": "Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "RL from static quality metrics to generate high-quality, smell-free unit tests",
+    "type": "paper",
+    "tags": [
+      "unit-testing",
+      "reinforcement-learning",
+      "test-quality"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2412.14308",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "on-the-reliability-and-explainability-of-language-models-for-program-generation",
+    "name": "On the Reliability and Explainability of Language Models for Program Generation",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Studies reliability and explainability of LMs for code generation, repair, trans",
+    "type": "paper",
+    "tags": [
+      "reliability",
+      "code-generation",
+      "explainability"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2302.09587",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+    "name": "What makes a code review useful to OpenDev developers? An empirical investigation",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Empirical study of what makes code review comments useful to OSS developers",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "human-eval",
+      "usefulness"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2302.11686",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "vibe-hacking",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "can-gpt-4-replicate-empirical-software-engineering-research",
+    "name": "Can GPT-4 Replicate Empirical Software Engineering Research?",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Evaluates GPT-4's ability to replicate empirical SE research studies",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "empirical-se",
+      "replication"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2310.01727",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "static-code-analysis-in-the-ai-era-an-in-depth-exploration-of-the-concept-functi",
+    "name": "Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis Agents",
+    "stage": "methodology",
+    "subcategory": "hybrid",
+    "what": "ICAA combining AI models with static analysis tools for intelligent code review",
+    "type": "paper",
+    "tags": [
+      "static-analysis",
+      "code-review",
+      "ai-agent"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2310.08837",
+    "related": {
+      "variants": [
+        "a-methodical-approach-to-agent-evaluation",
+        "atropos-improving-cost-benefit-trade-off-of-llm-based-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-dri",
+        "deep-assessment-of-code-review-generation-approaches-beyond-",
+        "evaluating-ai-agents-a-practical-guide-with-microsoft-foundr",
+        "evaluating-ai-agents-more-than-just-llms",
+        "evaluation-of-llm-based-software-engineering-tools-practices",
+        "multi-agent-code-verification-via-information-theory",
+        "scoring-verifiers-evaluating-synthetic-verification-in-code-"
+      ]
+    }
+  },
+  {
+    "id": "assessing-effectiveness-of-test-suites-what-do-we-know-and-what-should-we-do",
+    "name": "Assessing Effectiveness of Test Suites: What Do We Know and What Should We Do?",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Survey comparing test suite effectiveness metrics with standardized evaluation f",
+    "type": "paper",
+    "tags": [
+      "test-suite",
+      "mutation-testing",
+      "code-coverage"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.semanticscholar.org/paper/e0fb57dcac9c62f87dec0331e655e2c6f3250b9b",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "codet-code-generation-with-generated-tests",
+    "name": "CodeT: Code Generation with Generated Tests",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Uses generated tests to score and select code solutions via dual execution agree",
+    "type": "paper",
+    "tags": [
+      "code-generation",
+      "test-generation",
+      "execution-based"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2207.10397",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  },
+  {
+    "id": "correlating-automated-and-human-evaluation-of-code-documentation-generation-qual",
+    "name": "Correlating Automated and Human Evaluation of Code Documentation Generation Quality",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Correlates automated metrics vs human eval for code documentation generation",
+    "type": "paper",
+    "tags": [
+      "code-documentation",
+      "evaluation-metrics",
+      "human-eval",
+      "BLEU",
+      "correlation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.semanticscholar.org/paper/3f673691509b430a3c57040928008b9949508987",
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "autoreviewer",
+    "name": "AutoReviewer",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "LLM-based automatic code review tool using language models",
+    "type": "repo",
+    "tags": [
+      "code-review",
+      "llm-judge",
+      "automation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/gvasilei/AutoReviewer",
+    "stars": 48,
+    "languages": [
+      "typescript"
+    ],
+    "related": {
+      "variants": [
+        "a-survey-on-llm-as-a-judge",
+        "axiom-benchmarking-llm-as-a-judge-for-code-via-rule-based-pe",
+        "agent-eval-refine",
+        "agent-as-a-judge-evaluate-agents-with-agents",
+        "an-llm-as-judge-metric-for-bridging-the-gap-with-human-evalu",
+        "auto-arena-automating-llm-evaluations-with-agent-peer-battle",
+        "code-diting-a-reasoning-based-metric-for-functional-alignmen",
+        "crscore-grounding-automated-evaluation-of-code-review-commen",
+        "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
+        "codejudge-eval-can-large-language-models-be-good-judges-in-c"
+      ]
+    }
+  },
+  {
+    "id": "vibe-hacking",
+    "name": "vibe_hacking",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Secure code review evaluation of LLMs and vibe coding IDEs",
+    "type": "repo",
+    "tags": [
+      "security",
+      "code-review",
+      "llm-judge"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "repo": "https://github.com/tldrsec/vibe_hacking",
+    "stars": 41,
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword"
+      ]
+    }
+  },
+  {
+    "id": "deep-learning-based-code-reviews-a-paradigm-shift-or-a-double-edged-sword",
+    "name": "Deep Learning-based Code Reviews: A Paradigm Shift or a Double-Edged Sword?",
+    "stage": "methodology",
+    "subcategory": "human-eval",
+    "what": "Study on DL-based automated code review quality vs human reviewers",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "human-eval",
+      "quality-study"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://doi.org/10.1109/ICSE55347.2025.00060",
+    "related": {
+      "variants": [
+        "bridging-hci-and-ai-research-for-the-evaluation-of-conversat",
+        "how-can-we-assess-human-agent-interactions-case-studies-in-s",
+        "the-realhumaneval-evaluating-large-language-models-abilities",
+        "from-feelings-to-metrics-understanding-and-formalizing-how-users-vibe-test-llms",
+        "chatgpt-in-action-analyzing-its-use-in-software-development",
+        "a-study-on-developer-behaviors-for-validating-and-repairing-llm-generated-code-u",
+        "what-makes-a-code-review-useful-to-opendev-developers-an-empirical-investigation",
+        "vibe-hacking"
+      ]
+    }
+  },
+  {
+    "id": "a-computational-theory-for-efficient-mini-agent-evaluation-with-causal-guarantee",
+    "name": "A Computational Theory for Efficient Mini Agent Evaluation with Causal Guarantees",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Computational theory for efficient mini agent evaluation with causal guarantees",
+    "type": "paper",
+    "tags": [
+      "causal-inference",
+      "efficiency",
+      "agent-evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://openreview.net/forum?id=dsjxCoa0CO",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "smarter-not-harder-generative-process-evaluation-with-intrinsic-signal-driving-a",
+    "name": "Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability‑Adaptive Reward Shaping",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Process evaluation with intrinsic signals and adaptive reward shaping for SE age",
+    "type": "paper",
+    "tags": [
+      "process-eval",
+      "reward-shaping",
+      "llm-judge"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://openreview.net/forum?id=LZZENDlZt9",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
+        "a-framework-for-continuous-evaluation-of-llm-test-generation",
+        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
+        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
+        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
+        "alphaeval-evaluating-agents-in-production",
+        "automatic-failure-attribution-and-critical-step-prediction-m",
+        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
+        "codecircuit-toward-inferring-llm-generated-code-correctness-",
+        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
+      ]
+    }
+  },
+  {
+    "id": "dover-intervention-driven-auto-debugging-for-llm-multi-agent-systems",
+    "name": "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Intervention-driven auto debugging evaluation framework for LLM multi-agent syst",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "debugging",
+      "evaluation"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://openreview.net/forum?id=mrEK16Jy6h",
+    "related": {
+      "variants": [
+        "a-systematic-approach-for-assessing-llm-test-case-generation",
+        "agentic-harness-engineering-observability-driven-automatic-e",
+        "coco-testing-code-generation-systems-via-concretized-instruc",
+        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
+        "evaluating-large-language-models-with-runtime-behavior-of-pr",
+        "execution-based-evaluation-for-open-domain-code-generation",
+        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
+        "intervenor-prompt-the-coding-ability-of-large-language-model",
+        "measuring-the-performance-of-our-models-on-real-world-tasks-",
+        "mutation-guided-unit-test-generation-with-a-large-language-m"
+      ]
+    }
+  }
+]

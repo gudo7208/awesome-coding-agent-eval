@@ -1,0 +1,9 @@
+[project]
+name = "awesome-se-agent-eval"
+version = "1.0.0"
+description = "AI Software Engineering Agent Evaluation Resource Collection"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "jsonschema>=4.20.0",
+]

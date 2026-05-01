@@ -1,0 +1,35 @@
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+  push:
+    paths:
+      - 'data/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate schema & IDs
+        run: python scripts/process/validate.py
+
+      - name: Regenerate and check consistency
+        run: |
+          python scripts/generate/generate_stats.py
+          python scripts/generate/generate_docs.py
+          python scripts/generate/generate_readme.py
+          if [ -n "$(git diff --name-only)" ]; then
+            echo "::warning::Generated files are out of date. Run generate scripts and commit."
+            git diff --stat
+          fi
