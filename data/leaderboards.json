@@ -569,7 +569,7 @@
   },
   {
     "id": "2026-4",
-    "name": "大模型代码编程能力评测排行榜 2026年4月",
+    "name": "LLM Coding Leaderboard April 2026",
     "stage": "leaderboard",
     "subcategory": "se-agent",
     "what": "Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more",
@@ -667,23 +667,6 @@
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
       ]
     }
-  },
-  {
-    "id": "agentpulse-a-continuous-multi-signal-framework-for-evaluating-ai-agents-in-deplo-2",
-    "name": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
-    "stage": "leaderboard",
-    "subcategory": "activity",
-    "what": "Continuous multi-signal framework scoring 50 AI agents across deployment adoptio",
-    "type": "paper",
-    "tags": [
-      "continuous-eval",
-      "deployment",
-      "multi-signal"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.24038"
   },
   {
     "id": "chronos",

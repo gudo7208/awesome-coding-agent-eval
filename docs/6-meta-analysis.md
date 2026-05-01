@@ -17,7 +17,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation o](https://arxiv.org/abs/2510.21614) — Reveals mismatch between coding agent self-improvement and SE benchmark performa.
 - [Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sen](https://arxiv.org/abs/2604.04532) — Reveals language-backbone interactions in LLM-as-Judge that reverse model rankin. 🤖 🌐
 - [OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed](https://blockchain.news/news/openai-abandons-swe-bench-verified-contamination-flawed-tests) — OpenAI abandons SWE-bench Verified after finding 59% of failed tests were flawed.
-- [SWE-bench 分数与生产能力的差距](https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap) — Analyzes gap between high SWE-bench Verified scores and low SWE-bench Pro result.
+- [SWE-bench Score vs Production Capability Gap](https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap) — Analyzes gap between high SWE-bench Verified scores and low SWE-bench Pro result.
 - [What skills does SWE-bench Verified evaluate?](https://epoch.ai/blog/what-skills-does-swe-bench-verified-evaluate) — Epoch AI analyzes skill coverage and limitations of SWE-bench Verified benchmark.
 - [Why LLM Benchmarks Fail Your AI Agent (The 0.95^10 Problem)](https://www.bestaifor.com/blog/the-agentic-ai-failure-stack-benchmarks-hallucinations-and-the-0-95-10-problem) — Analyzes compounding failure in multi-step agent pipelines, exposing benchmark l.
 - [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/) — OpenAI drops SWE-bench Verified citing 59.4% test defects in failure cases.
@@ -30,13 +30,13 @@ Research on benchmark quality itself — know the traps before you trust the sco
 ### A–F
 
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99) — Analyzes quality and security of 1756 ChatGPT-generated Python code snippets. 🔒 🐍
-- [AIDev: 93 万 Agentic PR 大规模实证研究](https://arxiv.org/html/2602.09185) — Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns. 📦
+- [AIDev: Large-Scale Empirical Study of 930K Agentic PRs](https://arxiv.org/html/2602.09185) — Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns. 📦
 - [Are "Solved Issues" in SWE-bench Really Solved Correctly? An Empirical Study](https://arxiv.org/abs/2503.15223) — Analyzes correctness of SWE-bench passing patches beyond test-suite adequacy.
 - [Assessing and Advancing Benchmarks for Evaluating Large Language Models in Softw](https://arxiv.org/abs/2505.08903) — Assesses and advances benchmarks for evaluating LLMs on software engineering tas.
 - [Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues i](https://arxiv.org/abs/2601.20109) — Analyzes post-merge code quality issues in 1210 AI agent-generated bug-fix PRs.
 - [Bias in the Loop: Auditing LLM-as-a-Judge for Software Engineering](https://arxiv.org/abs/2604.16790) — Audits LLM-as-a-judge reliability and biases in software engineering evaluation. 🤖
 - [Can LLM Replace Stack Overflow? A Study on Robustness and Reliability of Large L](https://arxiv.org/abs/2308.10335) — Study on robustness and reliability of LLM code generation vs Stack Overflow.
-- [Code Review Agent 真实效用研究](https://arxiv.org/html/2603.11078v1) — Empirical study on AI code review signal-to-noise ratio and developer adoption.
+- [Code Review Agent Effectiveness Study](https://arxiv.org/html/2603.11078v1) — Empirical study on AI code review signal-to-noise ratio and developer adoption.
 - [CROWDSELECT](https://github.com/listentm/CROWDSELECT) ⭐20 — Studies factors affecting LLM-generated benchmark quality with QA dataset toolki.
 - [Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis T](https://www.semanticscholar.org/paper/160460f3954fd8a606a40bc666ac4968f7919eb5) — Tests whether LLM-based program repair reflects memorization or true reasoning.
 - [Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents](https://arxiv.org/abs/2604.11088) — Studies how natural-language rules affect coding agent performance on SWE-bench .
@@ -55,7 +55,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 
 ### M–R
 
-- [METR: SWE-bench 合并率研究](https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/) — Study finding ~50% of SWE-bench passing PRs would not be merged in real projects.
+- [METR: SWE-bench Merge Rate Study](https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/) — Study finding ~50% of SWE-bench passing PRs would not be merged in real projects.
 - [Multi-Layered Memory Architectures for LLM Agents](https://arxiv.org/abs/2603.29194) — Multi-layer memory for persona consistency and fact stability in long dialogue.
 - [Neurosymbolic Repo-level Code Localization](https://arxiv.org/abs/2604.16021) — Reveals keyword-shortcut bias in code localization benchmarks; proposes keyword-.
 - [ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Ag](https://arxiv.org/abs/2604.07789) — Quantifies oracle signal leakage impact on SWE agent benchmark performance.
@@ -97,7 +97,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software ](https://arxiv.org/abs/2604.01437) — Reviews reproducibility, explainability and effectiveness of agentic AI evaluati. 📋
 - [Software Development Life Cycle Perspective A Survey of Benchmarks for Code Larg](https://arxiv.org/abs/2505.05283) — Survey of benchmarks for code LLMs and agents across the software development li. 📋
 - [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — Surveys evaluation methods for LLM-based agents across capabilities and benchmar. 📋
-- [Symflower: LLM Agent Benchmarks 综述](https://symflower.com/en/company/blog/2025/benchmarks-llm-agents/) — Surveys SE agent benchmarks covering scope, limitations, and selection guidance.
+- [Symflower: LLM Agent Benchmarks Survey](https://symflower.com/en/company/blog/2025/benchmarks-llm-agents/) — Surveys SE agent benchmarks covering scope, limitations, and selection guidance.
 - [The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding](https://www.semanticscholar.org/paper/435053aacc2d87f401787bd9a7e9d82575dd6deb) — Surveys autonomous coding agents in SE 3.0 covering capabilities, benchmarks, an. 📋
 - [The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE](https://arxiv.org/abs/2604.15468) — Survey on agentic SE systems scope, capabilities, and implications for software .
 

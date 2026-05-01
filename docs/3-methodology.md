@@ -5,8 +5,8 @@ Different scoring approaches, each with trade-offs.
 ## Contents
 
 - [LLM-as-Judge (46)](#llm-judge)
-- [Process Evaluation (45)](#process-eval)
-- [Execution-based (23)](#execution-based)
+- [Process Evaluation (44)](#process-eval)
+- [Execution-based (22)](#execution-based)
 - [Hybrid (10)](#hybrid)
 - [Human Evaluation (9)](#human-eval)
 
@@ -129,7 +129,6 @@ Different scoring approaches, each with trade-offs.
 - [SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Co](https://arxiv.org/abs/2509.09853) — Evaluates AI coding agent effectiveness under resource constraints like cost and. 🔍
 - [SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Mode](https://arxiv.org/abs/2604.14820) — Rubric-based process reward model with test-time scaling for long-horizon SWE ag. 📅
 - [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615v1) — TDD governance framework for multi-agent code generation via prompt engineering. 🤝
-- [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615) — TDD governance framework enforcing Red-Green-Refactor as prompt-level constraint. 🤝
 - [Test Case Generation from Bug Reports via Large Language Models: A Cognitive Lay](https://arxiv.org/abs/2510.05365) — Evaluates LLM test generation from bug reports using Bloom's taxonomy cognitive . 🔍
 - [The Complexity Trap](https://arxiv.org/abs/2508.21433) — Observation masking matches LLM summarization performance at half the cost.
 - [The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase](https://arxiv.org/abs/2603.25697) — Kitchen Loop: spec-driven autonomous eval with synthetic users and unbeatable te.
@@ -142,7 +141,6 @@ Different scoring approaches, each with trade-offs.
 - [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-](https://arxiv.org/abs/2604.25850v1) — Observability-driven automatic evolution of eval harnesses for coding agents.
 - [Assessing Effectiveness of Test Suites: What Do We Know and What Should We Do?](https://www.semanticscholar.org/paper/e0fb57dcac9c62f87dec0331e655e2c6f3250b9b) — Survey comparing test suite effectiveness metrics with standardized evaluation f.
 - [Can Code Evaluation Metrics Detect Code Plagiarism?](https://arxiv.org/abs/2604.25778v1) — Study on whether code evaluation metrics can reliably detect source code plagiar.
-- [Can Code Evaluation Metrics Detect Code Plagiarism?](https://arxiv.org/abs/2604.25778) — Empirical study on whether code evaluation metrics can detect source code plagia.
 - [COCO: Testing Code Generation Systems via Concretized Instructions](https://arxiv.org/abs/2308.13319) — Tests code generation via concretizing ambiguous natural-language instructions.
 - [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verifica](https://arxiv.org/abs/2405.00253) — Taxonomy and benchmark for detecting code hallucinations in LLMs via execution v.
 - [CodeT: Code Generation with Generated Tests](https://arxiv.org/abs/2207.10397) — Uses generated tests to score and select code solutions via dual execution agree.

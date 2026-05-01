@@ -3,7 +3,7 @@
   <p>A curated collection of resources for evaluating AI Software Engineering Agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-900-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-885-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -29,10 +29,10 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 |---|---|
 | Get started in 5 minutes | → [Getting Started Guide](docs/getting-started.md) |
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
-| Find the right benchmark (530) | → [② Benchmarks](#-top-30-benchmarks) |
-| Understand scoring methods (133) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (113) | → [④ Toolchain](#-evaluation-toolchain) |
-| See agent rankings (24) | → [⑤ Leaderboards](#-leaderboards) |
+| Find the right benchmark (520) | → [② Benchmarks](#-top-30-benchmarks) |
+| Understand scoring methods (131) | → [③ Methodology](#-evaluation-methodology) |
+| Set up evaluation infrastructure (111) | → [④ Toolchain](#-evaluation-toolchain) |
+| See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
 | Learn about benchmark pitfalls (100) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 
 ## Table of Contents
@@ -96,7 +96,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | [MMBench-GUI](https://github.com/open-compass/MMBench-GUI) | Hierarchical benchmark for GUI agents across desktop, mobile, and web  | python | - | execution-based | 2025 | 106 |
 | [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) | Curated list of autonomous code agents, benchmarks, and research paper | python | - | execution-based | 2025 | 99 |
 
-→ [See all 530 benchmarks](docs/2-benchmarks.md)
+→ [See all 520 benchmarks](docs/2-benchmarks.md)
 
 ## 📖 Must-Read by Category
 
@@ -113,7 +113,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 📐 Evaluation Methodology
 
 <details>
-<summary>③ Evaluation Methodology (133 resources)</summary>
+<summary>③ Evaluation Methodology (131 resources)</summary>
 
 ### Execution-based
 
@@ -131,7 +131,6 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [SAFEdit: Does Multi-Agent Decomposition Resolve the Reliability Challenges of In](https://arxiv.org/abs/2604.25737v1) — Multi-agent decomposition framework for reliable instructed code editing on Edit.
 - 📝 [StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Fee](https://arxiv.org/abs/2402.01391) — RL from compiler feedback to improve LLM code generation via stepwise optimizati.
 - 📝 [Can Code Evaluation Metrics Detect Code Plagiarism?](https://arxiv.org/abs/2604.25778v1) — Study on whether code evaluation metrics can reliably detect source code plagiar.
-- 📝 [Can Code Evaluation Metrics Detect Code Plagiarism?](https://arxiv.org/abs/2604.25778) — Empirical study on whether code evaluation metrics can detect source code plagia.
 - 📝 [How Many Tries Does It Take? Iterative Self-Repair in LLM Code Generation Across Model Scales and Benchmarks](https://arxiv.org/abs/2604.10508) — Iterative self-repair evaluation across model scales and benchmarks with executi.
 - 📝 [InspectCoder: Dynamic Analysis-Driven Self Repair through Interactive LLM-Debugger Collaboration](https://www.semanticscholar.org/paper/5dc2d9d2be600942cb26293230899535ee35d70f) — Agentic self-repair via LLM-debugger dynamic analysis for code error diagnosis.
 - 📝 [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449) — RL-based training for SWE tasks using rule-based similarity rewards on real repo.
@@ -250,7 +249,6 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [The Complexity Trap](https://arxiv.org/abs/2508.21433) — Observation masking matches LLM summarization performance at half the cost.
 - 📝 [Reasoning Through Execution (ORPS)](https://arxiv.org/abs/2412.15118) — Combines process and outcome supervision via execution for code gen.
 - 📝 [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615v1) — TDD governance framework for multi-agent code generation via prompt engineering.
-- 📝 [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615) — TDD governance framework enforcing Red-Green-Refactor as prompt-level constraint.
 - 📝 [Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents](https://arxiv.org/abs/2604.26274) — Behavioral firewall using pDFA to detect anomalous tool-call sequences in AI age.
 - 📝 [Plausible but Wrong: A case study on Agentic Failures in Astrophysical Workflows](https://arxiv.org/abs/2604.25345) — Case study on agentic AI failures in scientific workflows across 18 tasks.
 - 📝 [Evaluating whether AI models would sabotage AI safety research](https://arxiv.org/abs/2604.24618) — Evaluates frontier models' propensity to sabotage AI safety research when deploy.
@@ -274,11 +272,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (113 resources)</summary>
+<summary>④ Evaluation Toolchain (111 resources)</summary>
 
 ### Evaluation Harness
 
-- 🔧 [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands/blob/main/evaluation/README.md) — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
+- 🔧 [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands) — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
 - 🔧 [OpenAI Evals](https://github.com/openai/evals) — Open-source framework for evaluating LLMs with benchmark registry and custom tas.
 - 🔧 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — General-purpose LLM evaluation framework supporting hundreds of benchmarks.
 - 🔧 🐍 [harbor](https://github.com/harbor-framework/harbor) — Runs AI agent evals and RL environments with terminal-based benchmarking.
@@ -317,8 +315,6 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) — Agent-computer interface framework for LM agents to resolve GitHub issues.
 - 📝 [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](https://arxiv.org/abs/2412.10133) — LLM agent that auto-configures and executes test suites for arbitrary projects.
 - 📝 [smolagents](https://github.com/huggingface/smolagents) — Hugging Face lightweight framework for building and running LLM-powered agents.
-- 📝 [ClawGym: A Scalable Framework for Building Effective Claw Agents](https://arxiv.org/abs/2604.26904) — Scalable framework for building/evaluating claw-style agents with verifiable tra.
-- 📝 [Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis](https://arxiv.org/abs/2604.24212) — Agent-centric debugging harness for LLM-based automated program repair agents.
 - 📝 [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071) — Empirical study of architectural design decisions across 70 AI agent harness pro.
 
 > See also: [Sandbox & Execution](#sandbox), [Execution-based](#execution-based)
@@ -386,7 +382,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🐍 [exec-sandbox](https://github.com/dualeai/exec-sandbox) — Lightweight secure code execution sandbox on QEMU microVM with 9-layer isolation.
 - 🔧 🐍 [python-sandbox](https://github.com/onyx-dot-app/python-sandbox) — Secure lightweight Python code execution sandbox for LLM/AI agents.
 - 🔧 🐍 [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox) — Self-hosted secure code execution sandbox for LLM agents via SkyPilot on cloud i.
-- 🔧 🐍 [SWE-bench](https://github.com/epoch-research/SWE-bench) — Containerized runtime environments for SWE-bench task evaluation via Docker.
+- 🔧 🐍 [SWE-bench Harness](https://github.com/epoch-research/SWE-bench) — Containerized runtime environments for SWE-bench task evaluation via Docker.
 - 🔧 🦀 [nix-sandbox-mcp](https://github.com/secbear/nix-sandbox-mcp) — Nix and bubblewrap sandboxed code execution via MCP for LLM agents.
 - 🔧 🐍 [sandboxer](https://github.com/ammmir/sandboxer) — Forkable code execution sandbox server for LLMs and agents.
 - 🔧 🐍 [moatless-testbeds](https://github.com/aorwall/moatless-testbeds) — Kubernetes-based isolated testbeds for applying patches and running SWE-Bench ev.
@@ -410,7 +406,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🏆 Leaderboards
 
 <details>
-<summary>⑤ Leaderboards (24 resources)</summary>
+<summary>⑤ Leaderboards (23 resources)</summary>
 
 ### Activity
 
@@ -419,7 +415,6 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📊 [Coding AI Leaderboard](https://www.star-history.com/coding-ai-leaderboard) — Tracks real-world activity of AI coding bots on GitHub (PRs, merge rates).
 - 📝 [AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment](https://arxiv.org/abs/2604.24038v1) — Continuous multi-signal framework scoring 50 AI agents across deployment lifecyc.
 - 📝 [Agentic Much? Adoption of Coding Agents on GitHub](https://arxiv.org/abs/2601.18341) — Study of coding agent adoption patterns on GitHub in early 2025.
-- 📝 [AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment](https://arxiv.org/abs/2604.24038) — Continuous multi-signal framework scoring 50 AI agents across deployment adoptio.
 
 ### Code Generation
 
@@ -442,7 +437,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📊 [SWE-bench Leaderboard](https://www.swebench.com) — Tracks SE agent resolve rates on 500 human-validated GitHub issues.
 - 📝 [SWE-bench Verified (Epoch AI benchmark page)](https://epoch.ai/benchmarks/swe-bench-verified/) — Epoch AI leaderboard tracking agent performance on SWE-bench Verified.
 - 📝 [Ultimate LLM Leaderboard for Agentic Coders](https://theaiforger.com/) — Aggregated LLM rankings for agentic coding across multiple benchmarks.
-- 📝 [大模型代码编程能力评测排行榜 2026年4月](https://www.datalearner.com/leaderboards/category/code) — Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more.
+- 📝 [LLM Coding Leaderboard April 2026](https://www.datalearner.com/leaderboards/category/code) — Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more.
 - 📝 [Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents](https://openreview.net/forum?id=3x4SDbXbgl) — Human-centric evaluation platform and leaderboard for computer-use agents.
 
 </details>
@@ -495,7 +490,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation o](https://arxiv.org/abs/2510.21614) — Reveals mismatch between coding agent self-improvement and SE benchmark performa.
 - 📝 [Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sen](https://arxiv.org/abs/2604.04532) — Reveals language-backbone interactions in LLM-as-Judge that reverse model rankin.
 - 📝 [OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed](https://blockchain.news/news/openai-abandons-swe-bench-verified-contamination-flawed-tests) — OpenAI abandons SWE-bench Verified after finding 59% of failed tests were flawed.
-- 🌐 [SWE-bench 分数与生产能力的差距](https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap) — Analyzes gap between high SWE-bench Verified scores and low SWE-bench Pro result.
+- 🌐 [SWE-bench Score vs Production Capability Gap](https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap) — Analyzes gap between high SWE-bench Verified scores and low SWE-bench Pro result.
 - 📝 [What skills does SWE-bench Verified evaluate?](https://epoch.ai/blog/what-skills-does-swe-bench-verified-evaluate) — Epoch AI analyzes skill coverage and limitations of SWE-bench Verified benchmark.
 - 📝 [Why LLM Benchmarks Fail Your AI Agent (The 0.95^10 Problem)](https://www.bestaifor.com/blog/the-agentic-ai-failure-stack-benchmarks-hallucinations-and-the-0-95-10-problem) — Analyzes compounding failure in multi-step agent pipelines, exposing benchmark l.
 - 📝 [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/) — OpenAI drops SWE-bench Verified citing 59.4% test defects in failure cases.
@@ -504,13 +499,13 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 
 - 📝 [CROWDSELECT](https://github.com/listentm/CROWDSELECT) — Studies factors affecting LLM-generated benchmark quality with QA dataset toolki.
 - 📝 [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99) — Analyzes quality and security of 1756 ChatGPT-generated Python code snippets.
-- 📝 [AIDev: 93 万 Agentic PR 大规模实证研究](https://arxiv.org/html/2602.09185) — Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns.
+- 📝 [AIDev: Large-Scale Empirical Study of 930K Agentic PRs](https://arxiv.org/html/2602.09185) — Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns.
 - 📝 [Are "Solved Issues" in SWE-bench Really Solved Correctly? An Empirical Study](https://arxiv.org/abs/2503.15223) — Analyzes correctness of SWE-bench passing patches beyond test-suite adequacy.
 - 📝 [Assessing and Advancing Benchmarks for Evaluating Large Language Models in Softw](https://arxiv.org/abs/2505.08903) — Assesses and advances benchmarks for evaluating LLMs on software engineering tas.
 - 📝 [Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues i](https://arxiv.org/abs/2601.20109) — Analyzes post-merge code quality issues in 1210 AI agent-generated bug-fix PRs.
 - 📝 [Bias in the Loop: Auditing LLM-as-a-Judge for Software Engineering](https://arxiv.org/abs/2604.16790) — Audits LLM-as-a-judge reliability and biases in software engineering evaluation.
 - 📝 [Can LLM Replace Stack Overflow? A Study on Robustness and Reliability of Large L](https://arxiv.org/abs/2308.10335) — Study on robustness and reliability of LLM code generation vs Stack Overflow.
-- 📝 [Code Review Agent 真实效用研究](https://arxiv.org/html/2603.11078v1) — Empirical study on AI code review signal-to-noise ratio and developer adoption.
+- 📝 [Code Review Agent Effectiveness Study](https://arxiv.org/html/2603.11078v1) — Empirical study on AI code review signal-to-noise ratio and developer adoption.
 - 📝 [Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis T](https://www.semanticscholar.org/paper/160460f3954fd8a606a40bc666ac4968f7919eb5) — Tests whether LLM-based program repair reflects memorization or true reasoning.
 - 📝 [Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents](https://arxiv.org/abs/2604.11088) — Studies how natural-language rules affect coding agent performance on SWE-bench .
 - 📝 [Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions](https://arxiv.org/abs/2508.18771) — Analyzes 22K+ comments from 16 AI code review bots to measure actual code change.
@@ -522,7 +517,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [How Well Does Agent Development Reflect Real-World Work?](https://arxiv.org/abs/2603.01203) — Analyzes alignment of 72K tasks across 43 agent benchmarks with real-world labor.
 - 📝 [Human-Agent versus Human Pull Requests: A Testing-Focused Characterization and C](https://arxiv.org/abs/2601.21194) — Compares testing frequency and quality in human-agent vs human-only pull request.
 - 📝 [Is Your Automated Software Engineer Trustworthy?](https://arxiv.org/abs/2506.17812) — Examines trustworthiness of coding agents and confidence calibration gaps.
-- 🌐 [METR: SWE-bench 合并率研究](https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/) — Study finding ~50% of SWE-bench passing PRs would not be merged in real projects.
+- 🌐 [METR: SWE-bench Merge Rate Study](https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/) — Study finding ~50% of SWE-bench passing PRs would not be merged in real projects.
 - 📝 [Neurosymbolic Repo-level Code Localization](https://arxiv.org/abs/2604.16021) — Reveals keyword-shortcut bias in code localization benchmarks; proposes keyword-.
 - 📝 [ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Ag](https://arxiv.org/abs/2604.07789) — Quantifies oracle signal leakage impact on SWE agent benchmark performance.
 - 📝 [Patch Patterns & Code Quality](https://arxiv.org/html/2410.12468) — Analyzes code quality of 4892 agent-generated patches for patterns and smells.
@@ -558,7 +553,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software ](https://arxiv.org/abs/2604.01437) — Reviews reproducibility, explainability and effectiveness of agentic AI evaluati.
 - 📝 [Software Development Life Cycle Perspective A Survey of Benchmarks for Code Larg](https://arxiv.org/abs/2505.05283) — Survey of benchmarks for code LLMs and agents across the software development li.
 - 📝 [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — Surveys evaluation methods for LLM-based agents across capabilities and benchmar.
-- 🌐 [Symflower: LLM Agent Benchmarks 综述](https://symflower.com/en/company/blog/2025/benchmarks-llm-agents/) — Surveys SE agent benchmarks covering scope, limitations, and selection guidance.
+- 🌐 [Symflower: LLM Agent Benchmarks Survey](https://symflower.com/en/company/blog/2025/benchmarks-llm-agents/) — Surveys SE agent benchmarks covering scope, limitations, and selection guidance.
 - 📝 [The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding](https://www.semanticscholar.org/paper/435053aacc2d87f401787bd9a7e9d82575dd6deb) — Surveys autonomous coding agents in SE 3.0 covering capabilities, benchmarks, an.
 - 📝 [code LLM survey](https://arxiv.org/abs/2311.07989) — Survey of large language models for code understanding and generation.
 - 📝 [Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering](https://arxiv.org/abs/2604.26275) — Survey of agentic AI systems across SDLC with empirical evidence and architectur.

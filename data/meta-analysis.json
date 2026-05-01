@@ -683,7 +683,7 @@
   },
   {
     "id": "aidev-930k-pr-study",
-    "name": "AIDev: 93 万 Agentic PR 大规模实证研究",
+    "name": "AIDev: Large-Scale Empirical Study of 930K Agentic PRs",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
     "what": "Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "code-review-effectiveness",
-    "name": "Code Review Agent 真实效用研究",
+    "name": "Code Review Agent Effectiveness Study",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
     "what": "Empirical study on AI code review signal-to-noise ratio and developer adoption",
@@ -2450,7 +2450,7 @@
   },
   {
     "id": "metr-merge-rate",
-    "name": "METR: SWE-bench 合并率研究",
+    "name": "METR: SWE-bench Merge Rate Study",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
     "what": "Study finding ~50% of SWE-bench passing PRs would not be merged in real projects",
@@ -3539,7 +3539,7 @@
   },
   {
     "id": "swe-bench-score-gap",
-    "name": "SWE-bench 分数与生产能力的差距",
+    "name": "SWE-bench Score vs Production Capability Gap",
     "stage": "meta-analysis",
     "subcategory": "limitation",
     "what": "Analyzes gap between high SWE-bench Verified scores and low SWE-bench Pro result",
@@ -3724,7 +3724,7 @@
   },
   {
     "id": "symflower-llm-agent-benchmarks",
-    "name": "Symflower: LLM Agent Benchmarks 综述",
+    "name": "Symflower: LLM Agent Benchmarks Survey",
     "stage": "meta-analysis",
     "subcategory": "survey",
     "what": "Surveys SE agent benchmarks covering scope, limitations, and selection guidance",

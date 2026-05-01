@@ -2914,37 +2914,6 @@
     }
   },
   {
-    "id": "tdd-governance-for-multi-agent-code-generation-via-prompt-engineering-2",
-    "name": "TDD Governance for Multi-Agent Code Generation via Prompt Engineering",
-    "stage": "methodology",
-    "subcategory": "process-eval",
-    "what": "TDD governance framework enforcing Red-Green-Refactor as prompt-level constraint",
-    "type": "paper",
-    "tags": [
-      "tdd",
-      "multi-agent",
-      "prompt-engineering"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.26615",
-    "related": {
-      "variants": [
-        "a-benchmark-mutation-approach-for-realistic-agent-evaluation",
-        "a-framework-for-continuous-evaluation-of-llm-test-generation",
-        "a-multi-dimensional-framework-for-evaluating-enterprise-agen",
-        "ai-agent-evaluation-a-practical-framework-for-testing-multi-",
-        "agenteval-dag-structured-step-level-evaluation-for-agentic-w",
-        "alphaeval-evaluating-agents-in-production",
-        "automatic-failure-attribution-and-critical-step-prediction-m",
-        "beyond-accuracy-evaluating-source-code-capabilities-in-large",
-        "codecircuit-toward-inferring-llm-generated-code-correctness-",
-        "does-rl-expand-the-capability-boundary-of-llm-agents-a-pass-"
-      ]
-    }
-  },
-  {
     "id": "enforcing-benign-trajectories-a-behavioral-firewall-for-structured-workflow-ai-a",
     "name": "Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents",
     "stage": "methodology",
@@ -3034,37 +3003,6 @@
         "crscore-grounding-automated-evaluation-of-code-review-commen",
         "can-llms-replace-human-evaluators-an-empirical-study-of-llm-",
         "codejudge-eval-can-large-language-models-be-good-judges-in-c"
-      ]
-    }
-  },
-  {
-    "id": "can-code-evaluation-metrics-detect-code-plagiarism-2",
-    "name": "Can Code Evaluation Metrics Detect Code Plagiarism?",
-    "stage": "methodology",
-    "subcategory": "execution-based",
-    "what": "Empirical study on whether code evaluation metrics can detect source code plagia",
-    "type": "paper",
-    "tags": [
-      "code-evaluation",
-      "plagiarism-detection",
-      "metrics"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.25778",
-    "related": {
-      "variants": [
-        "a-systematic-approach-for-assessing-llm-test-case-generation",
-        "agentic-harness-engineering-observability-driven-automatic-e",
-        "coco-testing-code-generation-systems-via-concretized-instruc",
-        "codehalu-investigating-code-hallucinations-in-llms-via-execu",
-        "evaluating-large-language-models-with-runtime-behavior-of-pr",
-        "execution-based-evaluation-for-open-domain-code-generation",
-        "how-many-code-and-test-cases-are-enough-evaluating-test-case",
-        "intervenor-prompt-the-coding-ability-of-large-language-model",
-        "measuring-the-performance-of-our-models-on-real-world-tasks-",
-        "mutation-guided-unit-test-generation-with-a-large-language-m"
       ]
     }
   },

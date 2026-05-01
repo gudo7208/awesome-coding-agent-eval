@@ -671,7 +671,7 @@
     "subcategory": "harness",
     "what": "Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster",
     "type": "repo",
-    "repo": "https://github.com/All-Hands-AI/OpenHands/blob/main/evaluation/README.md",
+    "repo": "https://github.com/All-Hands-AI/OpenHands",
     "tags": [
       "harness",
       "openhands",
@@ -1003,7 +1003,7 @@
   },
   {
     "id": "swe-bench-harness",
-    "name": "SWE-bench",
+    "name": "SWE-bench Harness",
     "stage": "toolchain",
     "subcategory": "sandbox",
     "what": "Containerized runtime environments for SWE-bench task evaluation via Docker",
@@ -3035,77 +3035,6 @@
       "benchmarks": [
         "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
         "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env"
-      ]
-    }
-  },
-  {
-    "id": "clawgym-a-scalable-framework-for-building-effective-claw-agents-2",
-    "name": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
-    "stage": "toolchain",
-    "subcategory": "harness",
-    "what": "Scalable framework for building/evaluating claw-style agents with verifiable tra",
-    "type": "paper",
-    "tags": [
-      "agent-training",
-      "evaluation",
-      "claw-environment"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.26904",
-    "related": {
-      "benchmarks": [
-        "a-user-centered-security-evaluation-of-copilot",
-        "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
-        "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
-        "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
-        "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
-        "matplotagent-method-and-evaluation-for-llm-based-agentic-sci",
-        "metr-s-autonomy-evaluation-resources",
-        "multi-lingual-evaluation-of-code-generation-models",
-        "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability"
-      ]
-    }
-  },
-  {
-    "id": "empowering-autonomous-debugging-agents-with-efficient-dynamic-analysis-2",
-    "name": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
-    "stage": "toolchain",
-    "subcategory": "harness",
-    "what": "Agent-centric debugging harness for LLM-based automated program repair agents",
-    "type": "paper",
-    "tags": [
-      "debugging",
-      "automated-program-repair",
-      "dynamic-analysis"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.24212",
-    "related": {
-      "benchmarks": [
-        "agentic-bug-reproduction-for-effective-automated-program-rep",
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-pr",
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "coast-enhancing-the-code-debugging-ability-of-llms-through-c",
-        "debugbench-evaluating-debugging-capability-of-large-language",
-        "empowering-autonomous-debugging-agents-with-efficient-dynamic-analysis",
-        "mldebugging-towards-benchmarking-code-debugging-across-multi",
-        "precise-debugging-benchmark-is-your-model-debugging-or-regen",
-        "reproducible-automated-program-repair-is-hard-experiences-with-the-defects4j-dat"
       ]
     }
   },

@@ -4,7 +4,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 ## Contents
 
-- [Evaluation Harness (42)](#harness)
+- [Evaluation Harness (40)](#harness)
 - [Sandbox & Execution (55)](#sandbox)
 - [Observability (9)](#observability)
 - [LLM Judge Tools (7)](#judge-tool)
@@ -30,10 +30,8 @@ The tool stack you need to run an evaluation end-to-end.
 - [Build reliable AI agents with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/) — AWS blog on evaluating AI agents using Amazon Bedrock AgentCore Evaluations.
 - [CATArena](https://github.com/AGI-Eval-Official/CATArena) ⭐64 — Tournament platform for code agents via iterative competitive peer learning.
 - [claw-eval](https://github.com/claw-eval/claw-eval) ⭐508 — Agent evaluation harness with human-verified tasks for real-world behavior asses.
-- [ClawGym: A Scalable Framework for Building Effective Claw Agents](https://arxiv.org/abs/2604.26904) — Scalable framework for building/evaluating claw-style agents with verifiable tra.
 - [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness) ⭐15 — Long-running application harness for Codex using planner-generator-evaluator pat. 📅
 - [collaborative-gym](https://github.com/SALT-NLP/collaborative-gym) ⭐128 — Framework for building and evaluating human-AI collaborative agents. 🤝
-- [Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis](https://arxiv.org/abs/2604.24212) — Agent-centric debugging harness for LLM-based automated program repair agents.
 - [evalmonkey](https://github.com/Corbell-AI/evalmonkey) ⭐21 — CLI eval harness for AI coding agents with benchmark and chaos fault injection.
 - [evals](https://github.com/strands-agents/evals) ⭐115 — Evaluation framework for AI agents and LLM apps with automated agentic testing. 🐍
 
@@ -49,7 +47,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [OD-SWE-bench](https://github.com/OpenDevin/OD-SWE-bench) ⭐30 — Enhanced SWE-bench fork with evaluation harness for OpenDevin agents.
 - [OpenAI Evals](https://github.com/openai/evals) ⭐18318 — Open-source framework for evaluating LLMs with benchmark registry and custom tas.
 - [OpenDevin: An Open Platform for AI Software Developers as Generalist Agents](https://www.semanticscholar.org/paper/be27ef5a9068d9e2be1ab97b7c3de7168c472972) — Open platform for building and evaluating AI software engineering agents.
-- [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands/blob/main/evaluation/README.md) ⭐72349 — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
+- [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands) ⭐72349 — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
 - [pr-arena](https://github.com/neulab/pr-arena) ⭐16 — Platform for pairwise PR generation and human comparison to rank coding agents.
 - [refact-bench](https://github.com/smallcloudai/refact-bench) ⭐62 — Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker.
 
@@ -130,7 +128,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [secure-exec](https://github.com/rivet-dev/secure-exec) ⭐851 — Lightweight Node.js secure execution library using V8/WASM containerless sandbox.
 - [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox) ⭐17 — Self-hosted secure code execution sandbox for LLM agents via SkyPilot on cloud i.
 - [SmolVM](https://github.com/CelestoAI/SmolVM) ⭐468 — Lightweight open-source VM sandbox for AI agent code execution and browser use.
-- [SWE-bench](https://github.com/epoch-research/SWE-bench) ⭐16 — Containerized runtime environments for SWE-bench task evaluation via Docker.
+- [SWE-bench Harness](https://github.com/epoch-research/SWE-bench) ⭐16 — Containerized runtime environments for SWE-bench task evaluation via Docker.
 - [SWE-bench-docker](https://github.com/aorwall/SWE-bench-docker) ⭐105 — Dockerized sandbox for running SWE-bench evaluations in isolated containers.
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) ⭐485 — Runtime environment for AI coding agents with local, Docker, and cloud execution.
 - [SWE-World: Building Software Engineering Agents in Docker-Free Environments](https://arxiv.org/abs/2602.03419) — Docker-free sandbox for SWE agents using simulated OS environments at lower cost.
