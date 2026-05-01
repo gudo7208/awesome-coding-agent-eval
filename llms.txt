@@ -1,0 +1,42 @@
+# Awesome SE Agent Eval
+
+> A curated collection of 900 resources for evaluating AI Software Engineering Agents. Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.
+
+This repository is organized by evaluation workflow: what to evaluate → benchmarks → scoring methods → toolchain → leaderboards → pitfalls. All data lives in data/*.json as structured JSON. Query with jq or parse programmatically.
+
+## Benchmarks & Datasets
+
+- [Full Benchmarks & Datasets list](docs/2-benchmarks.md): 530 resources
+
+## Evaluation Methodology
+
+- [Full Evaluation Methodology list](docs/3-methodology.md): 133 resources
+
+## Evaluation Toolchain
+
+- [Full Evaluation Toolchain list](docs/4-toolchain.md): 113 resources
+
+## Leaderboards
+
+- [Full Leaderboards list](docs/5-leaderboards.md): 24 resources
+
+## Meta-Analysis & Pitfalls
+
+- [Full Meta-Analysis & Pitfalls list](docs/6-meta-analysis.md): 100 resources
+
+## Guides
+
+- [Getting Started](docs/getting-started.md): 5-minute guide to choosing and running your first evaluation
+- [Evaluation Dimensions](docs/1-dimensions.md): Framework for what to measure
+- [Coverage Landscape](docs/landscape.md): Visual map of benchmark coverage and gaps
+
+## For Agents
+
+- [AGENTS.md](AGENTS.md): Structured query interface with jq commands and Python snippets
+- [Data Schema](data/schema.json): JSON Schema for all entries
+- [Statistics](data/stats.json): Aggregate counts and top tags
+
+## Optional
+
+- [Contributing Guide](CONTRIBUTING.md): How to add new resources
+- [Changelog](CHANGELOG.md): Version history

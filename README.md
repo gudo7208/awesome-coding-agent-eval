@@ -572,9 +572,15 @@ Complementary awesome lists (no duplication):
 
 ## 🤖 For AI Agents
 
-→ [AGENTS.md](AGENTS.md) — Structured query interface for AI agents
+This repo is designed for both human and AI consumption.
 
-All data lives in `data/` as JSON. Query with `jq` or parse programmatically.
+| Access Method | File | Best For |
+|---|---|---|
+| Full content dump | [llms-full.txt](llms-full.txt) | RAG ingestion, one-shot context |
+| Structured index | [llms.txt](llms.txt) | Discovering what's available |
+| Query interface | [AGENTS.md](AGENTS.md) | jq/Python query recipes |
+| Raw JSON | `data/*.json` | Programmatic filtering |
+| Claude Code | [CLAUDE.md](CLAUDE.md) | Working in this repo |
 
 ## Contributing
 
