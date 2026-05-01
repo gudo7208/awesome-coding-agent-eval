@@ -63,7 +63,6 @@
         "beyond-output-correctness-benchmarking-and-evaluating-large-",
         "bigcodebench-benchmarking-code-generation-with-diverse-funct",
         "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned--2",
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
         "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-bench",
         "codeassistbench-cab-dataset-benchmarking-for-multi-turn-chat",
@@ -99,7 +98,6 @@
         "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
         "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simula",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
         "os-spear-a-toolkit-for-the-safety-performance-efficiency-and-robustness-analysis",
         "python-code-generation-by-asking-clarification-questions",
@@ -288,7 +286,6 @@
         "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-tra",
         "evaluating-and-improving-automated-repository-level-rust-iss",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "repository-level-code-translation-benchmark-targeting-rust",
         "rust-swe-bench",
         "rustevo2-an-evolving-benchmark-for-api-evolution-in-llm-base"
@@ -316,7 +313,6 @@
     "related": {
       "benchmarks": [
         "ale-bench-towards-automating-long-horizon-algorithm-engineer",
-        "ama-bench-long-horizon-memory-agentic",
         "benchmarking-coding-agents-in-long-horizon-software-evolutio",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
         "longcli-bench-a-preliminary-benchmark-and-study-for-long-hor",
@@ -1353,7 +1349,6 @@
         "beyond-output-correctness-benchmarking-and-evaluating-large-",
         "bigcodebench-benchmarking-code-generation-with-diverse-funct",
         "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned--2",
         "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-bench",
         "codeassistbench-cab-dataset-benchmarking-for-multi-turn-chat",
         "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
@@ -1442,7 +1437,6 @@
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
         "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
         "python-code-generation-by-asking-clarification-questions",
         "redcode-risky-code-execution-and-generation-benchmark-for-co"
@@ -1844,7 +1838,6 @@
         "chasing-the-public-score-user-pressure-and-evaluation-exploi",
         "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
         "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
-        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation-2",
         "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
         "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c"
       ]
@@ -2098,7 +2091,6 @@
       "benchmarks": [
         "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "python-code-generation-by-asking-clarification-questions",
         "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-mult"
       ]
@@ -2538,11 +2530,9 @@
         "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-",
         "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
         "devops-gym-benchmarking-ai-agents-in-software-devops-cycle",
-        "devops-gym-benchmarking-ai-agents-in-software-devops-cycle-2",
         "evoclaw-evaluating-ai-agents-on-continuous-software-evolutio",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "linuxarena-a-control-setting-for-ai-agents-in-live-productio",
         "marketbench-evaluating-ai-agents-as-market-participants",
         "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env",
@@ -2726,7 +2716,6 @@
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
         "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
         "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
         "multiagentbench-acl-2025",
@@ -2943,7 +2932,6 @@
         "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-tra",
         "evaluating-and-improving-automated-repository-level-rust-iss",
         "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-2",
         "repository-level-code-translation-benchmark-targeting-rust",
         "rust-swe-bench",
         "rustevo2-an-evolving-benchmark-for-api-evolution-in-llm-base"
@@ -3172,7 +3160,6 @@
         "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-",
         "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
         "devops-gym-benchmarking-ai-agents-in-software-devops-cycle",
-        "devops-gym-benchmarking-ai-agents-in-software-devops-cycle-2",
         "evoclaw-evaluating-ai-agents-on-continuous-software-evolutio",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
         "linuxarena-a-control-setting-for-ai-agents-in-live-productio",
@@ -3237,7 +3224,6 @@
         "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
         "beyond-pip-install-evaluating-llm-agents-for-the-automated-i",
         "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned--2",
         "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
         "continuous-benchmark-generation-for-evaluating-enterprise-sc",
         "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to",
@@ -3624,7 +3610,6 @@
     "related": {
       "benchmarks": [
         "ale-bench-towards-automating-long-horizon-algorithm-engineer",
-        "ama-bench-long-horizon-memory-agentic",
         "benchmarking-coding-agents-in-long-horizon-software-evolutio",
         "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
