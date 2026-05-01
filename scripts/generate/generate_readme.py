@@ -223,11 +223,28 @@ def generate():
         "",
     ]
 
-    # 2. 3-sentence positioning
+    # 2. Philosophy
     lines += [
-        '> **What**: Benchmarks, tools, methodologies, and insights for evaluating AI agents on real-world software engineering tasks.',
-        ">",
-        "> **Scope**: SE agent evaluation only — bug fixing, code review, testing, architecture, long-horizon development.",
+        "## Why This List Exists",
+        "",
+        "Most awesome lists end up bookmarked and forgotten. This one is different.",
+        "",
+        "We built it as a **knowledge base for AI agents** — when your coding agent needs to research evaluation methods, "
+        "pick a benchmark, or understand scoring trade-offs, it can query this repo's structured data directly "
+        "([llms-full.txt](llms-full.txt) for one-shot context, [AGENTS.md](AGENTS.md) for jq/Python recipes, "
+        "or raw JSON in `data/`). Every entry is machine-readable first, human-readable second.",
+        "",
+        "Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.md) gets you oriented in 5 minutes, "
+        "the Top 30 table below gives you the lay of the land, and the cross-references (`related` field) "
+        "let you navigate from a benchmark to its harness, leaderboard, and known pitfalls in one click.",
+        "",
+        "**Agent-first, human-friendly.**",
+        "",
+    ]
+
+    # 3. Scope
+    lines += [
+        '> **Scope**: SE agent evaluation only — bug fixing, code review, testing, architecture, long-horizon development.',
         ">",
         "> **Not**: General LLM benchmarks, agent frameworks, or product reviews. See [Related Resources](#-related-resources) for those.",
         "",
