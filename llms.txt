@@ -1,20 +1,20 @@
 # Awesome Coding Agent Eval
 
-> A curated collection of 885 resources for evaluating AI coding agents. Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.
+> A curated collection of 905 resources for evaluating AI coding agents. Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.
 
 This repository is organized by evaluation workflow: what to evaluate → benchmarks → scoring methods → toolchain → leaderboards → pitfalls. All data lives in data/*.json as structured JSON. Query with jq or parse programmatically.
 
 ## Benchmarks & Datasets
 
-- [Full Benchmarks & Datasets list](docs/2-benchmarks.md): 520 resources
+- [Full Benchmarks & Datasets list](docs/2-benchmarks.md): 529 resources
 
 ## Evaluation Methodology
 
-- [Full Evaluation Methodology list](docs/3-methodology.md): 131 resources
+- [Full Evaluation Methodology list](docs/3-methodology.md): 137 resources
 
 ## Evaluation Toolchain
 
-- [Full Evaluation Toolchain list](docs/4-toolchain.md): 111 resources
+- [Full Evaluation Toolchain list](docs/4-toolchain.md): 112 resources
 
 ## Leaderboards
 
@@ -22,7 +22,7 @@ This repository is organized by evaluation workflow: what to evaluate → benchm
 
 ## Meta-Analysis & Pitfalls
 
-- [Full Meta-Analysis & Pitfalls list](docs/6-meta-analysis.md): 100 resources
+- [Full Meta-Analysis & Pitfalls list](docs/6-meta-analysis.md): 104 resources
 
 ## Guides
 

@@ -5,7 +5,7 @@ The tool stack you need to run an evaluation end-to-end.
 ## Contents
 
 - [Evaluation Harness (40)](#harness)
-- [Sandbox & Execution (55)](#sandbox)
+- [Sandbox & Execution (56)](#sandbox)
 - [Observability (9)](#observability)
 - [LLM Judge Tools (7)](#judge-tool)
 
@@ -125,6 +125,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [sandbox-sdk](https://github.com/cloudflare/sandbox-sdk) ⭐1000 — SDK for running sandboxed code environments on Cloudflare's edge network.
 - [sandboxed-jupyter-code-exec](https://github.com/anukriti-ranjan/sandboxed-jupyter-code-exec) ⭐22 — FastAPI sandboxed Python code execution environment using Jupyter kernels.
 - [sandboxer](https://github.com/ammmir/sandboxer) ⭐15 — Forkable code execution sandbox server for LLMs and agents.
+- [ScaleBox](https://arxiv.org/abs/2604.29700) — High-fidelity and scalable code verification sandbox for LLMs.
 - [secure-exec](https://github.com/rivet-dev/secure-exec) ⭐851 — Lightweight Node.js secure execution library using V8/WASM containerless sandbox.
 - [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox) ⭐17 — Self-hosted secure code execution sandbox for LLM agents via SkyPilot on cloud i.
 - [SmolVM](https://github.com/CelestoAI/SmolVM) ⭐468 — Lightweight open-source VM sandbox for AI agent code execution and browser use.

@@ -3736,5 +3736,21 @@
       "python"
     ],
     "eval_method": "execution-based"
+  },
+  {
+    "id": "scalebox",
+    "name": "ScaleBox",
+    "stage": "toolchain",
+    "subcategory": "sandbox",
+    "what": "High-fidelity and scalable code verification sandbox for LLMs",
+    "type": "paper",
+    "tags": [
+      "sandbox",
+      "verification",
+      "scalable",
+      "code-execution"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29700",
+    "added_date": "2026-05-06"
   }
 ]

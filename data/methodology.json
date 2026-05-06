@@ -4208,5 +4208,114 @@
         "mutation-guided-unit-test-generation-with-a-large-language-m"
       ]
     }
+  },
+  {
+    "id": "terminus-4b",
+    "name": "Terminus-4B",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Small 4B model replacing frontier LLMs for agentic execution subtasks",
+    "type": "paper",
+    "tags": [
+      "small-model",
+      "subagent",
+      "efficiency",
+      "execution"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29102",
+    "languages": [
+      "python"
+    ],
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "rscb-mc",
+    "name": "RSCB-MC",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Risk-sensitive contextual bandits for agent memory retrieval decisions",
+    "type": "paper",
+    "tags": [
+      "memory",
+      "risk-sensitive",
+      "contextual-bandits",
+      "retrieval"
+    ],
+    "paper": "https://arxiv.org/abs/2604.27283",
+    "languages": [
+      "python"
+    ],
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "themis-code-reward",
+    "name": "Themis",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Robust multilingual code reward models for multi-criteria scoring",
+    "type": "paper",
+    "tags": [
+      "reward-model",
+      "multilingual",
+      "code-scoring",
+      "multi-criteria"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29500",
+    "languages": [
+      "python",
+      "java",
+      "javascript"
+    ],
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "llm-judge-co-creation",
+    "name": "LLM-as-Judge for Co-Creation",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Reliability-aware evaluation framework for human-AI coding collaboration",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "reliability",
+      "co-creation",
+      "human-ai"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29600",
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "swe-zero-hero",
+    "name": "SWE-ZERO to SWE-HERO",
+    "stage": "methodology",
+    "subcategory": "execution-based",
+    "what": "Two-stage SFT recipe from execution-free to execution-based agent training",
+    "type": "paper+repo",
+    "tags": [
+      "fine-tuning",
+      "swe-bench",
+      "distillation",
+      "execution-based"
+    ],
+    "paper": "https://arxiv.org/abs/2604.01496",
+    "languages": [
+      "python"
+    ],
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "test-time-scaling-agentic",
+    "name": "Scaling Test-Time Compute for Agentic Coding",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Test-time scaling framework via compact trajectory representations",
+    "type": "paper",
+    "tags": [
+      "test-time-scaling",
+      "trajectory",
+      "agentic-coding"
+    ],
+    "paper": "https://arxiv.org/abs/2604.16529",
+    "added_date": "2026-05-06"
   }
 ]

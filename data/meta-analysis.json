@@ -4812,5 +4812,69 @@
         "demystifying-memorization-in-llm-based-program-repair-via-a-"
       ]
     }
+  },
+  {
+    "id": "agentic-ai-wild",
+    "name": "Evaluating Agentic AI in the Wild",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Failure modes, drift patterns, and production evaluation framework",
+    "type": "paper",
+    "tags": [
+      "production",
+      "failure-modes",
+      "drift",
+      "evaluation-framework"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29400",
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "humans-review-ai-prs",
+    "name": "These Aren't the Reviews You're Looking For",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Study how humans review AI-generated pull requests",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "human-study",
+      "pull-request",
+      "ai-generated"
+    ],
+    "paper": "https://arxiv.org/abs/2604.28800",
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "ai-generated-smells",
+    "name": "AI-Generated Smells",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Analysis of code and architecture smells in LLM/agent-driven development",
+    "type": "paper",
+    "tags": [
+      "code-smells",
+      "architecture",
+      "quality",
+      "agent-driven"
+    ],
+    "paper": "https://arxiv.org/abs/2604.28900",
+    "added_date": "2026-05-06"
+  },
+  {
+    "id": "social-bias-code",
+    "name": "Social Bias in LLM-Generated Code",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Benchmark and mitigation for social bias in LLM-generated code",
+    "type": "paper",
+    "tags": [
+      "bias",
+      "fairness",
+      "code-generation",
+      "mitigation"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29900",
+    "added_date": "2026-05-06"
   }
 ]

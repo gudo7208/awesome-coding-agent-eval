@@ -4,9 +4,9 @@ Different scoring approaches, each with trade-offs.
 
 ## Contents
 
-- [LLM-as-Judge (46)](#llm-judge)
-- [Process Evaluation (44)](#process-eval)
-- [Execution-based (22)](#execution-based)
+- [LLM-as-Judge (48)](#llm-judge)
+- [Process Evaluation (46)](#process-eval)
+- [Execution-based (24)](#execution-based)
 - [Hybrid (10)](#hybrid)
 - [Human Evaluation (9)](#human-eval)
 
@@ -58,6 +58,7 @@ Different scoring approaches, each with trade-offs.
 - [LLM-as-a-Judge for Scalable Test Coverage Evaluation](https://arxiv.org/html/2512.01232) — LLM-as-judge approach for scalable test coverage evaluation across model configs. 🤖
 - [LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road](https://www.semanticscholar.org/paper/04745b236cf9ebdb06f33d14afa5e7541775af6c) — Survey on LLM-as-a-Judge in SE: potential, limitations, and future directions. 🤖 📋
 - [LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead](https://arxiv.org/abs/2510.24367) — Literature review of LLM-as-a-Judge paradigm for evaluating SE artifacts. 🤖 📋
+- [LLM-as-Judge for Co-Creation](https://arxiv.org/abs/2604.29600) — Reliability-aware evaluation framework for human-AI coding collaboration. 🤖
 
 ### M–R
 
@@ -71,6 +72,7 @@ Different scoring approaches, each with trade-offs.
 ### S–Z
 
 - [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666) — Iteratively improves LLM-as-Judge evaluators using only synthetic data. 🤖
+- [Themis](https://arxiv.org/abs/2604.29500) — Robust multilingual code reward models for multi-criteria scoring. 🌐
 - [Vibe Checker: Aligning Code Evaluation with Human Preference](https://arxiv.org/abs/2510.07315) — Aligns LLM-as-judge code evaluation with human preference on readability and sty. 🤖
 
 <a id="process-eval"></a>
@@ -121,9 +123,11 @@ Different scoring approaches, each with trade-offs.
 - [Process-Level Trajectory Eval](https://arxiv.org/html/2510.25694v1) — Scores each agent step in trajectories rather than just final outcomes. 🔍
 - [Process-Oriented Error Analysis](https://arxiv.org/abs/2503.12374) — Classifies and attributes process errors in software engineering agents. 🔍
 - [Reasoning Through Execution (ORPS)](https://arxiv.org/abs/2412.15118) — Combines process and outcome supervision via execution for code gen.
+- [RSCB-MC](https://arxiv.org/abs/2604.27283) — Risk-sensitive contextual bandits for agent memory retrieval decisions.
 
 ### S–Z
 
+- [Scaling Test-Time Compute for Agentic Coding](https://arxiv.org/abs/2604.16529) — Test-time scaling framework via compact trajectory representations.
 - [Self-Abstraction from Grounded Experience for Plan-Guided Policy Refinement](https://arxiv.org/abs/2511.05931) — Self-improving LLM agent via experience abstraction and plan-guided policy refin.
 - [Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability‑Adaptive Reward Shaping](https://openreview.net/forum?id=LZZENDlZt9) — Process evaluation with intrinsic signals and adaptive reward shaping for SE age. 🔍 🤖
 - [SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Co](https://arxiv.org/abs/2509.09853) — Evaluates AI coding agent effectiveness under resource constraints like cost and. 🔍
@@ -159,6 +163,8 @@ Different scoring approaches, each with trade-offs.
 - [SAFEdit: Does Multi-Agent Decomposition Resolve the Reliability Challenges of In](https://arxiv.org/abs/2604.25737v1) — Multi-agent decomposition framework for reliable instructed code editing on Edit. 🤝
 - [StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Fee](https://arxiv.org/abs/2402.01391) — RL from compiler feedback to improve LLM code generation via stepwise optimizati.
 - [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449) — RL-based training for SWE tasks using rule-based similarity rewards on real repo.
+- [SWE-ZERO to SWE-HERO](https://arxiv.org/abs/2604.01496) — Two-stage SFT recipe from execution-free to execution-based agent training.
+- [Terminus-4B](https://arxiv.org/abs/2604.29102) — Small 4B model replacing frontier LLMs for agentic execution subtasks.
 
 <a id="hybrid"></a>
 ## Hybrid

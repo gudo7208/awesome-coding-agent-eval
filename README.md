@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-885-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-905-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -29,11 +29,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 |---|---|
 | Get started in 5 minutes | → [Getting Started Guide](docs/getting-started.md) |
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
-| Find the right benchmark (520) | → [② Benchmarks](#-top-30-benchmarks) |
-| Understand scoring methods (131) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (111) | → [④ Toolchain](#-evaluation-toolchain) |
+| Find the right benchmark (529) | → [② Benchmarks](#-top-30-benchmarks) |
+| Understand scoring methods (137) | → [③ Methodology](#-evaluation-methodology) |
+| Set up evaluation infrastructure (112) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
-| Learn about benchmark pitfalls (100) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
+| Learn about benchmark pitfalls (104) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 
 ## Table of Contents
 
@@ -50,14 +50,14 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 
 ## 🔥 Recently Added
 
-- [A Benchmark for Evaluating Repository-Level Code Agents with Intermediate Reason](https://arxiv.org/html/2603.26337) — Benchmark for repo-level code agents on feature addition with intermed
-- [A Comprehensive Benchmark to Evaluate Agent Architectures in Enterprise](https://arxiv.org/html/2509.10769v1) — Benchmark evaluating agent architectures for enterprise multi-step wor
-- [A Large-scale Class-level Benchmark Dataset for Code Generation with LLMs](https://arxiv.org/abs/2504.15564) — Large-scale class-level benchmark dataset for evaluating LLM code gene
-- [A Production-Derived Benchmark for Evaluating AI Coding Agents](https://arxiv.org/html/2604.01527v1) — Production-derived benchmark for evaluating AI coding agents in indust
-- [A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106) — Repository-level benchmark evaluating security of AI-generated code
-- [ABTest: Behavior-Driven Testing for AI Coding Agents](https://arxiv.org/html/2604.03362v1) — Behavior-driven fuzzing framework generating repo-grounded tests for A
-- [ALE-Bench: Towards Automating Long-Horizon Algorithm Engineering](https://sakana.ai/ale-bench/) — Benchmark for long-horizon algorithm engineering on hard optimization 
-- [Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Indus](https://arxiv.org/abs/2410.14209) — Benchmark for LLM-based agents generating and verifying PLC code in in
+- [MOSAIC-Bench](https://arxiv.org/abs/2604.28901) — Measure compositional vulnerability induction in coding agents
+- [Conversations Beneath the Code](https://arxiv.org/abs/2604.28455) — Triadic data (spec, discussion, code) for long-horizon SE agents
+- [AutoMat](https://arxiv.org/abs/2604.29200) — Evaluate coding agents on reproducing computational materials science
+- [ProgramBench](https://arxiv.org/abs/2604.28500) — Evaluate if LLMs can rebuild programs from scratch
+- [Workspace-Bench](https://arxiv.org/abs/2604.28600) — Benchmark AI agents on workspace tasks with large-scale file dependenc
+- [CommitSuite](https://arxiv.org/abs/2604.28700) — Comprehensive benchmark for commit classification and message generati
+- [Claw-Eval-Live](https://arxiv.org/abs/2604.29300) — Live agent benchmark for evolving real-world workflows
+- [LiveFMBench](https://arxiv.org/abs/2604.29800) — Evaluate agentic workflows in specification generation tasks
 
 ---
 
@@ -96,7 +96,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | [MMBench-GUI](https://github.com/open-compass/MMBench-GUI) | Hierarchical benchmark for GUI agents across desktop, mobile, and web  | python | - | execution-based | 2025 | 106 |
 | [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) | Curated list of autonomous code agents, benchmarks, and research paper | python | - | execution-based | 2025 | 99 |
 
-→ [See all 520 benchmarks](docs/2-benchmarks.md)
+→ [See all 529 benchmarks](docs/2-benchmarks.md)
 
 ## 📖 Must-Read by Category
 
@@ -113,7 +113,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 📐 Evaluation Methodology
 
 <details>
-<summary>③ Evaluation Methodology (131 resources)</summary>
+<summary>③ Evaluation Methodology (137 resources)</summary>
 
 ### Execution-based
 
@@ -139,6 +139,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Assessing Effectiveness of Test Suites: What Do We Know and What Should We Do?](https://www.semanticscholar.org/paper/e0fb57dcac9c62f87dec0331e655e2c6f3250b9b) — Survey comparing test suite effectiveness metrics with standardized evaluation f.
 - 📝 [CodeT: Code Generation with Generated Tests](https://arxiv.org/abs/2207.10397) — Uses generated tests to score and select code solutions via dual execution agree.
 - 📝 [DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems](https://openreview.net/forum?id=mrEK16Jy6h) — Intervention-driven auto debugging evaluation framework for LLM multi-agent syst.
+- 📝 🐍 [Terminus-4B](https://arxiv.org/abs/2604.29102) — Small 4B model replacing frontier LLMs for agentic execution subtasks.
+- 📝 🐍 [SWE-ZERO to SWE-HERO](https://arxiv.org/abs/2604.01496) — Two-stage SFT recipe from execution-free to execution-based agent training.
 
 > See also: [LLM-as-Judge](#llm-judge), [Evaluation Harness](#harness)
 
@@ -215,6 +217,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [AI-powered Code Review with LLMs: Early Results](https://arxiv.org/abs/2404.18496) — LLM-based AI agent for automated code review, detecting bugs and code smells.
 - 📝 [Can GPT-4 Replicate Empirical Software Engineering Research?](https://arxiv.org/abs/2310.01727) — Evaluates GPT-4's ability to replicate empirical SE research studies.
 - 📝 [Correlating Automated and Human Evaluation of Code Documentation Generation Quality](https://www.semanticscholar.org/paper/3f673691509b430a3c57040928008b9949508987) — Correlates automated metrics vs human eval for code documentation generation.
+- 📝 🐍 [Themis](https://arxiv.org/abs/2604.29500) — Robust multilingual code reward models for multi-criteria scoring.
+- 📝 [LLM-as-Judge for Co-Creation](https://arxiv.org/abs/2604.29600) — Reliability-aware evaluation framework for human-AI coding collaboration.
 
 > See also: [Process Evaluation](#process-eval), [Execution-based](#execution-based)
 
@@ -264,6 +268,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Self-Abstraction from Grounded Experience for Plan-Guided Policy Refinement](https://arxiv.org/abs/2511.05931) — Self-improving LLM agent via experience abstraction and plan-guided policy refin.
 - 📝 [A Computational Theory for Efficient Mini Agent Evaluation with Causal Guarantees](https://openreview.net/forum?id=dsjxCoa0CO) — Computational theory for efficient mini agent evaluation with causal guarantees.
 - 📝 [Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability‑Adaptive Reward Shaping](https://openreview.net/forum?id=LZZENDlZt9) — Process evaluation with intrinsic signals and adaptive reward shaping for SE age.
+- 📝 🐍 [RSCB-MC](https://arxiv.org/abs/2604.27283) — Risk-sensitive contextual bandits for agent memory retrieval decisions.
+- 📝 [Scaling Test-Time Compute for Agentic Coding](https://arxiv.org/abs/2604.16529) — Test-time scaling framework via compact trajectory representations.
 
 > See also: [LLM-as-Judge](#llm-judge), [Hybrid](#hybrid)
 
@@ -272,7 +278,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (111 resources)</summary>
+<summary>④ Evaluation Toolchain (112 resources)</summary>
 
 ### Evaluation Harness
 
@@ -398,6 +404,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [SWE-World: Building Software Engineering Agents in Docker-Free Environments](https://arxiv.org/abs/2602.03419) — Docker-free sandbox for SWE agents using simulated OS environments at lower cost.
 - 📝 [daVinci-Env: Open SWE Environment Synthesis at Scale](https://arxiv.org/abs/2603.13023) — Synthesizes executable SWE environments at scale for agent evaluation.
 - 📝 [AgentSim: A Platform for Verifiable Agent-Trace Simulation](https://arxiv.org/abs/2604.26653v1) — Platform for simulating and verifying agent traces for training/evaluation.
+- 📝 [ScaleBox](https://arxiv.org/abs/2604.29700) — High-fidelity and scalable code verification sandbox for LLMs.
 
 > See also: [Evaluation Harness](#harness), [Observability](#observability)
 
@@ -445,7 +452,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔬 Meta-Analysis & Pitfalls
 
 <details>
-<summary>⑥ Meta-Analysis & Pitfalls (100 resources)</summary>
+<summary>⑥ Meta-Analysis & Pitfalls (104 resources)</summary>
 
 ### Blogs & Practice Reports
 
@@ -540,6 +547,10 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Multi-Layered Memory Architectures for LLM Agents](https://arxiv.org/abs/2603.29194) — Multi-layer memory for persona consistency and fact stability in long dialogue.
 - 📝 [What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study](https://arxiv.org/abs/2604.26672v1) — Empirical study of bugs escaping testing and surfacing post-release in productio.
 - 📝 [What's Wrong with Your Code Generated by Large Language Models? An Extensive Study](https://arxiv.org/abs/2407.06153) — Empirical study of LLM code generation limitations across multiple models and be.
+- 📝 [Evaluating Agentic AI in the Wild](https://arxiv.org/abs/2604.29400) — Failure modes, drift patterns, and production evaluation framework.
+- 📝 [These Aren't the Reviews You're Looking For](https://arxiv.org/abs/2604.28800) — Study how humans review AI-generated pull requests.
+- 📝 [AI-Generated Smells](https://arxiv.org/abs/2604.28900) — Analysis of code and architecture smells in LLM/agent-driven development.
+- 📝 [Social Bias in LLM-Generated Code](https://arxiv.org/abs/2604.29900) — Benchmark and mitigation for social bias in LLM-generated code.
 
 ### Surveys
 

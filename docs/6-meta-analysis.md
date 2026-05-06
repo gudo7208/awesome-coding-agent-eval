@@ -5,7 +5,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 ## Contents
 
 - [Benchmark Limitations (7)](#limitation)
-- [Agent Output Quality Studies (43)](#quality-study)
+- [Agent Output Quality Studies (47)](#quality-study)
 - [Surveys (15)](#survey)
 - [Blogs & Practice Reports (35)](#blog)
 
@@ -30,6 +30,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 ### A–F
 
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99) — Analyzes quality and security of 1756 ChatGPT-generated Python code snippets. 🔒 🐍
+- [AI-Generated Smells](https://arxiv.org/abs/2604.28900) — Analysis of code and architecture smells in LLM/agent-driven development.
 - [AIDev: Large-Scale Empirical Study of 930K Agentic PRs](https://arxiv.org/html/2602.09185) — Empirical study of 930K agentic PRs analyzing scale, quality, and merge patterns. 📦
 - [Are "Solved Issues" in SWE-bench Really Solved Correctly? An Empirical Study](https://arxiv.org/abs/2503.15223) — Analyzes correctness of SWE-bench passing patches beyond test-suite adequacy.
 - [Assessing and Advancing Benchmarks for Evaluating Large Language Models in Softw](https://arxiv.org/abs/2505.08903) — Assesses and advances benchmarks for evaluating LLMs on software engineering tas.
@@ -41,6 +42,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis T](https://www.semanticscholar.org/paper/160460f3954fd8a606a40bc666ac4968f7919eb5) — Tests whether LLM-based program repair reflects memorization or true reasoning.
 - [Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents](https://arxiv.org/abs/2604.11088) — Studies how natural-language rules affect coding agent performance on SWE-bench .
 - [Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions](https://arxiv.org/abs/2508.18771) — Analyzes 22K+ comments from 16 AI code review bots to measure actual code change. 📦
+- [Evaluating Agentic AI in the Wild](https://arxiv.org/abs/2604.29400) — Failure modes, drift patterns, and production evaluation framework. 🏭
 - [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agen](https://arxiv.org/abs/2602.11988) — Evaluates whether AGENTS.md repo-level context files improve coding agent perfor.
 - [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) — Study exploring and evaluating hallucinations in LLM code generation.
 - [Exploring Autonomous Agents: A Closer Look at Why They Fail When Completing Task](https://arxiv.org/abs/2508.13143) — Analyzes failure modes of autonomous LLM agents across 34 programmable tasks.
@@ -74,7 +76,9 @@ Research on benchmark quality itself — know the traps before you trust the sco
 
 ### S–Z
 
+- [Social Bias in LLM-Generated Code](https://arxiv.org/abs/2604.29900) — Benchmark and mitigation for social bias in LLM-generated code.
 - [SWE-Bench+: Enhanced Coding Benchmark for LLMs](https://arxiv.org/abs/2410.06992) — Audits SWE-Bench for noisy samples and proposes SWE-Bench+ with corrected instan.
+- [These Aren't the Reviews You're Looking For](https://arxiv.org/abs/2604.28800) — Study how humans review AI-generated pull requests.
 - [Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Codi](https://arxiv.org/abs/2403.19114) — Studies whether leaderboard rankings reflect true coding proficiency via evolved.
 - [Understanding Software Engineering Agents Through the Lens of Traceability: An E](https://arxiv.org/abs/2506.08311) — Empirical study of SWE agent decision workflows via traceability lens. 🔍
 - [UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](https://arxiv.org/abs/2506.09289) — Exposes weak SWE-Bench tests and proposes UTBoost for stricter agent evaluation.
