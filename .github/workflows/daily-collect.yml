@@ -1,0 +1,82 @@
+name: Daily Paper Collection
+
+on:
+  schedule:
+    - cron: '17 3 * * *'  # Every day at UTC 03:17
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: 'Days to look back for papers'
+        default: '3'
+        type: string
+      dry_run:
+        description: 'Dry run (collect only, no LLM)'
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  collect-and-classify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Run daily collection
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="--dry-run"
+          fi
+          python scripts/ci/daily_update.py $ARGS
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.anthropic.com' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'anthropic' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'claude-haiku-4-5-20251001' }}
+          DAYS_BACK: ${{ inputs.days_back || '3' }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git diff --name-only data/ README.md llms.txt llms-full.txt docs/)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No new entries found"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true' && inputs.dry_run != 'true'
+        run: |
+          BRANCH="auto/daily-$(date +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/ README.md llms.txt llms-full.txt docs/ data/stats.json
+
+          TOTAL=$(python -c "import json; print(json.load(open('data/stats.json'))['total'])")
+          git commit -m "feat: daily collection $(date +%Y-%m-%d) — ${TOTAL} total resources"
+          git push origin "$BRANCH"
+
+          BODY="Automated daily paper collection.\n\n"
+          if [ -f ci_summary.md ]; then
+            BODY=$(cat ci_summary.md)
+          fi
+
+          gh pr create \
+            --title "📝 Daily Collection $(date +%Y-%m-%d)" \
+            --body "$BODY" \
+            --base main \
+            --label "automated"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

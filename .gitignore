@@ -10,6 +10,7 @@ build/
 candidates/
 *.jsonl
 *.checkpoint.json
+ci_summary.md
 
 # Claude Code internals
 .claude/
