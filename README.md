@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Awesome SE Agent Eval</h1>
-  <p>A curated collection of resources for evaluating AI Software Engineering Agents</p>
+  <h1>Awesome Coding Agent Eval</h1>
+  <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/resources-885-blue" alt="Resources">

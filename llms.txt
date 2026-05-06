@@ -1,6 +1,6 @@
-# Awesome SE Agent Eval
+# Awesome Coding Agent Eval
 
-> A curated collection of 885 resources for evaluating AI Software Engineering Agents. Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.
+> A curated collection of 885 resources for evaluating AI coding agents. Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.
 
 This repository is organized by evaluation workflow: what to evaluate → benchmarks → scoring methods → toolchain → leaderboards → pitfalls. All data lives in data/*.json as structured JSON. Query with jq or parse programmatically.
 

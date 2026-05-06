@@ -1,6 +1,6 @@
-# Awesome SE Agent Eval
+# Awesome Coding Agent Eval
 
-A curated collection of 900 resources for evaluating AI Software Engineering Agents.
+A curated collection of 900+ resources for evaluating AI coding agents.
 
 ## Data Architecture
 

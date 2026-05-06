@@ -87,9 +87,9 @@ def generate_llms_txt(all_data):
     total = stats.get("total", sum(len(v) for v in all_data.values()))
 
     lines = [
-        "# Awesome SE Agent Eval",
+        "# Awesome Coding Agent Eval",
         "",
-        f"> A curated collection of {total} resources for evaluating AI Software Engineering Agents. "
+        f"> A curated collection of {total} resources for evaluating AI coding agents. "
         "Covers benchmarks, scoring methods, toolchain, leaderboards, and pitfalls.",
         "",
         "This repository is organized by evaluation workflow: "
@@ -136,9 +136,9 @@ def generate_llms_full_txt(all_data):
     total = stats.get("total", sum(len(v) for v in all_data.values()))
 
     lines = [
-        "# Awesome SE Agent Eval — Full Content",
+        "# Awesome Coding Agent Eval — Full Content",
         "",
-        f"> {total} curated resources for evaluating AI Software Engineering Agents.",
+        f"> {total} curated resources for evaluating AI coding agents.",
         "",
     ]
 

@@ -1,6 +1,6 @@
-# Awesome SE Agent Eval — Full Content
+# Awesome Coding Agent Eval — Full Content
 
-> 885 curated resources for evaluating AI Software Engineering Agents.
+> 885 curated resources for evaluating AI coding agents.
 
 ## Benchmarks & Datasets (520)
 
