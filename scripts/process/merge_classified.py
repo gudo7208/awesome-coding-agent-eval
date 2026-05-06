@@ -40,7 +40,7 @@ VALID_SUBCATEGORIES = {
 
 def make_id(title):
     slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return slug[:80]
+    return slug[:120]
 
 
 def to_schema_entry(item):
@@ -61,9 +61,9 @@ def to_schema_entry(item):
     if entry_type not in ("paper", "repo", "tool", "blog", "paper+repo", "leaderboard", "dataset"):
         entry_type = "paper"
 
-    what = item.get("what", "")[:80]
+    what = item.get("what", "")[:200]
     if not what:
-        what = title[:80]
+        what = title[:200]
 
     tags = item.get("tags", [])
     if not tags:

@@ -9,7 +9,7 @@
       "name": { "type": "string" },
       "stage": { "type": "string", "enum": ["benchmark", "methodology", "toolchain", "leaderboard", "meta-analysis"] },
       "subcategory": { "type": "string" },
-      "what": { "type": "string", "maxLength": 80 },
+      "what": { "type": "string", "maxLength": 200 },
       "type": { "type": "string", "enum": ["paper", "repo", "tool", "blog", "leaderboard", "dataset", "paper+repo"] },
       "paper": { "type": "string", "format": "uri" },
       "repo": { "type": "string", "format": "uri" },

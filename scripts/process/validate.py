@@ -78,11 +78,11 @@ def check_what_length():
         data = json.loads(f.read_text())
         for item in data:
             what = item.get("what", "")
-            if len(what) > 80:
-                print(f"  ✗ {f.name}: '{item['id']}' what is {len(what)} chars (>80): {what[:60]}...")
+            if len(what) > 200:
+                print(f"  ✗ {f.name}: '{item['id']}' what is {len(what)} chars (>200): {what[:60]}...")
                 errors += 1
     if errors == 0:
-        print("  ✓ All what fields are ≤80 characters")
+        print("  ✓ All what fields are ≤200 characters")
     return errors
 
 

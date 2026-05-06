@@ -4,7 +4,7 @@
     "name": "AgentEval",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Evaluates .NET AI agents with tool-call validation, RAG metrics, and model compa",
+    "what": "AgentEval",
     "type": "tool",
     "repo": "https://github.com/AgentEvalHQ/AgentEval",
     "stars": 86,
@@ -23,7 +23,7 @@
     ],
     "related": {
       "benchmarks": [
-        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-mult"
+        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-multimodal-llms"
       ]
     }
   },
@@ -51,25 +51,25 @@
     ],
     "related": {
       "benchmarks": [
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
         "benchmarking-agentic-code-reasoning-at-the-repository-level",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-f",
-        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
-        "beyond-output-correctness-benchmarking-and-evaluating-large-",
-        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
+        "beyond-output-correctness-benchmarking-and-evaluating-large-language-model-reasoning-in-coding-tasks",
+        "bigcodebench-benchmarking-code-generation-with-diverse-function-calls-and-complex-instructions",
+        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-at-abb-robotics",
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-bench",
-        "codeassistbench-cab-dataset-benchmarking-for-multi-turn-chat",
-        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
-        "codemenv-benchmarking-large-language-models-on-code-migratio",
-        "codespecbench-benchmarking-llms-for-executable-behavioral-sp",
-        "codeupdatearena-benchmarking-knowledge-editing-on-api-update"
+        "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-benchmarking-llms-for-code-equivalence-checki",
+        "codeassistbench-cab-dataset-amp-benchmarking-for-multi-turn-chat-based-code-assistance",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-on-humaneval-x",
+        "codemenv-benchmarking-large-language-models-on-code-migration",
+        "codespecbench-benchmarking-llms-for-executable-behavioral-specification-generation",
+        "codeupdatearena-benchmarking-knowledge-editing-on-api-updates"
       ]
     }
   },
@@ -94,14 +94,14 @@
     "related": {
       "benchmarks": [
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simula",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
-        "os-spear-a-toolkit-for-the-safety-performance-efficiency-and-robustness-analysis",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simulated-workspaces",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering",
+        "os-spear-a-toolkit-for-the-safety-performance-efficiency-and-robustness-analysis-of-os-agents",
         "python-code-generation-by-asking-clarification-questions",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -110,7 +110,7 @@
     "name": "Braintrust",
     "stage": "toolchain",
     "subcategory": "observability",
-    "what": "Evaluates and monitors AI agents with experiment tracking and LLM-as-judge scori",
+    "what": "Braintrust",
     "type": "tool",
     "website": "https://braintrust.dev",
     "tags": [
@@ -125,7 +125,7 @@
     "status": "active"
   },
   {
-    "id": "build-reliable-ai-agents-with-amazon-bedrock-agentcore-evalu",
+    "id": "build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations",
     "name": "Build reliable AI agents with Amazon Bedrock AgentCore Evaluations",
     "stage": "toolchain",
     "subcategory": "harness",
@@ -144,7 +144,7 @@
     "website": "https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/",
     "related": {
       "benchmarks": [
-        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simula"
+        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simulated-workspaces"
       ]
     }
   },
@@ -172,26 +172,26 @@
     ],
     "related": {
       "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
         "awesome-code-agents",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-i",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "catarena-evaluating-evolutionary-capabilities-of-code-agents",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "catarena-evaluating-evolutionary-capabilities-of-code-agents-via-iterative-tournaments",
         "codeagent-autonomous-communicative-agents-for-code-review",
-        "codeagent-enhancing-code-generation-with-tool-integrated-age",
-        "continuous-benchmark-generation-for-evaluating-enterprise-sc",
-        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to",
-        "da-code-agent-data-science-code-generation-benchmark-for-lar",
+        "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-for-real-world-repo-level-coding-challenges",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to-backend",
+        "da-code-agent-data-science-code-generation-benchmark-for-large-language-models",
         "datascibench-an-llm-agent-benchmark-for-data-science",
         "executable-code-actions-elicit-better-llm-agents",
-        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-",
-        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug",
+        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
+        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
         "joycode-agent",
         "locagent-graph-guided-llm-agents-for-code-localization",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
-        "prdbench-automatically-benchmarking-llm-code-agents-through-"
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation"
       ]
     }
   },
@@ -219,9 +219,9 @@
     ],
     "related": {
       "benchmarks": [
-        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "swe-polybench-a-multi-language-benchmark-for-repository-leve"
+        "effibench-x-a-multi-language-benchmark-for-measuring-efficiency-of-llm-generated-code",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "swe-polybench-a-multi-language-benchmark-for-repository-level-evaluation-of-coding-agents"
       ]
     }
   },
@@ -230,7 +230,7 @@
     "name": "CodeTracer: Towards Traceable Agent States",
     "stage": "toolchain",
     "subcategory": "observability",
-    "what": "Traces agent state transitions and hidden error chains in multi-stage code workf",
+    "what": "CodeTracer: Towards Traceable Agent States",
     "type": "paper",
     "tags": [
       "observability",
@@ -245,17 +245,17 @@
     "paper": "https://arxiv.org/abs/2604.11641",
     "related": {
       "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with",
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
         "awesome-code-agents",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "catarena-evaluating-evolutionary-capabilities-of-code-agents",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "catarena-evaluating-evolutionary-capabilities-of-code-agents-via-iterative-tournaments",
         "codeagent-autonomous-communicative-agents-for-code-review",
-        "codeagent-enhancing-code-generation-with-tool-integrated-age",
-        "da-code-agent-data-science-code-generation-benchmark-for-lar",
-        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-",
+        "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-for-real-world-repo-level-coding-challenges",
+        "da-code-agent-data-science-code-generation-benchmark-for-large-language-models",
+        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
         "joycode-agent",
-        "prdbench-automatically-benchmarking-llm-code-agents-through-",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -283,12 +283,12 @@
     ],
     "related": {
       "benchmarks": [
-        "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-tra",
-        "evaluating-and-improving-automated-repository-level-rust-iss",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
+        "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-transpilation",
+        "evaluating-and-improving-automated-repository-level-rust-issue-resolution-with-llm-based-agents",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
         "repository-level-code-translation-benchmark-targeting-rust",
         "rust-swe-bench",
-        "rustevo2-an-evolving-benchmark-for-api-evolution-in-llm-base"
+        "rustevo-2-an-evolving-benchmark-for-api-evolution-in-llm-based-rust-code-generation"
       ]
     }
   },
@@ -312,16 +312,16 @@
     "status": "active",
     "related": {
       "benchmarks": [
-        "ale-bench-towards-automating-long-horizon-algorithm-engineer",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
+        "ale-bench-towards-automating-long-horizon-algorithm-engineering",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
-        "longcli-bench-a-preliminary-benchmark-and-study-for-long-hor",
-        "nl2repo-bench-towards-long-horizon-repository-generation-eva",
+        "longcli-bench-a-preliminary-benchmark-and-study-for-long-horizon-agentic-programming-in-command-line-interfaces",
+        "nl2repo-bench-towards-long-horizon-repository-generation-evaluation-of-coding-agents",
         "nl2repo-bench-towards-long-horizon-repository-generation-evaluation",
         "odysseys-benchmarking-web-agents-on-realistic-long-horizon-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-lo",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
   },
@@ -347,16 +347,16 @@
     "related": {
       "benchmarks": [
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-mod",
-        "swe-fixer-training-open-source-llms-for-effective-and-effici",
-        "swe-tester-training-open-source-llms-for-issue-reproduction-",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-model",
+        "swe-fixer-training-open-source-llms-for-effective-and-efficient-github-issue-resolution",
+        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories",
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
   {
-    "id": "evaluate-your-ai-agents-with-vertex-gen-ai-evaluation-servic",
+    "id": "evaluate-your-ai-agents-with-vertex-gen-ai-evaluation-service",
     "name": "Evaluate your AI agents with Vertex Gen AI evaluation service",
     "stage": "toolchain",
     "subcategory": "judge-tool",
@@ -375,15 +375,15 @@
     "website": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service",
     "related": {
       "benchmarks": [
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "process-level-trajectory-evaluation-for-environment-configur",
-        "termigen-high-fidelity-environment-and-robust-trajectory-synthesis-for-terminal-",
-        "traject-bench-trajectory-aware-tool-use"
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "process-level-trajectory-evaluation-for-environment-configuration-in-software-engineering-agents",
+        "termigen-high-fidelity-environment-and-robust-trajectory-synthesis-for-terminal-agents",
+        "traject-bench"
       ]
     }
   },
   {
-    "id": "how-to-build-a-coding-agent-benchmark-with-claude-s-agent-sd",
+    "id": "how-to-build-a-coding-agent-benchmark-with-claude-s-agent-sdk",
     "name": "How to Build a Coding Agent Benchmark with Claude's Agent SDK",
     "stage": "toolchain",
     "subcategory": "harness",
@@ -423,19 +423,19 @@
     "related": {
       "benchmarks": [
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
-        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-mod",
-        "swe-fixer-training-open-source-llms-for-effective-and-effici",
-        "swe-tester-training-open-source-llms-for-issue-reproduction-",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-model",
+        "swe-fixer-training-open-source-llms-for-effective-and-efficient-github-issue-resolution",
+        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories",
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
   {
-    "id": "menvagent-scalable-polyglot-environment-construction-for-ver",
-    "name": "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software En",
+    "id": "menvagent-scalable-polyglot-environment-construction-for-verifiable-software-engineering",
+    "name": "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Constructs polyglot dev environments via multi-agent plan-execute-verify pipelin",
+    "what": "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering",
     "type": "paper",
     "tags": [
       "environment-construction",
@@ -450,16 +450,16 @@
     "paper": "https://arxiv.org/abs/2601.22859",
     "related": {
       "benchmarks": [
-        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
         "ai-coding-lang-bench",
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
         "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
         "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
       ]
     }
@@ -469,7 +469,7 @@
     "name": "Modal",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Serverless cloud platform for running AI agent workloads with GPU and container ",
+    "what": "Modal",
     "type": "tool",
     "website": "https://modal.com",
     "tags": [
@@ -488,7 +488,7 @@
     "name": "MultiModal-Jupyter-Sandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Jupyter-notebook-style sandbox for isolated code execution in AI agent workflows",
+    "what": "MultiModal-Jupyter-Sandbox",
     "type": "tool",
     "repo": "https://github.com/ChenShawn/MultiModal-Jupyter-Sandbox",
     "stars": 24,
@@ -507,18 +507,18 @@
     ],
     "related": {
       "benchmarks": [
-        "clawmark-a-living-world-benchmark-for-multi-turn-multi-day-m",
-        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c",
-        "design2code-benchmarking-multimodal-code-generation-for-auto",
-        "mmcode-benchmarking-multimodal-large-language-models-for-cod",
-        "multilingual-multimodal-software-developer-for-code-generati",
-        "omnigirl-a-multilingual-and-multimodal-benchmark-for-github-",
-        "plot2code-a-comprehensive-benchmark-for-evaluating-multi-modal-large-language-mo",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
+        "clawmark-a-living-world-benchmark-for-multi-turn-multi-day-multimodal-coworker-agents",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-capabilities",
+        "design2code-benchmarking-multimodal-code-generation-for-automated-front-end-engineering",
+        "mmcode-benchmarking-multimodal-large-language-models-for-code-generation-with-visually-rich-programming-problems",
+        "multilingual-multimodal-software-developer-for-code-generation",
+        "omnigirl-a-multilingual-and-multimodal-benchmark-for-github-issue-resolution",
+        "plot2code-a-comprehensive-benchmark-for-evaluating-multi-modal-large-language-models-in-code-generation-from-scientific-",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
-        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-mult",
-        "webcompass-towards-multimodal-web-coding-evaluation-for-code"
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
+        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-multimodal-llms",
+        "webcompass-towards-multimodal-web-coding-evaluation-for-code-language-models"
       ]
     }
   },
@@ -548,24 +548,24 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "devin-swebench-results",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit"
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations"
       ]
     }
   },
@@ -574,7 +574,7 @@
     "name": "Observal",
     "stage": "toolchain",
     "subcategory": "observability",
-    "what": "Observability and eval framework for AI coding agents like Claude Code and Curso",
+    "what": "Observal",
     "type": "tool",
     "repo": "https://github.com/BlazeUp-AI/Observal",
     "stars": 797,
@@ -593,7 +593,7 @@
     ],
     "related": {
       "benchmarks": [
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm"
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems"
       ]
     }
   },
@@ -602,7 +602,7 @@
     "name": "OpenAI Evals",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Open-source framework for evaluating LLMs with benchmark registry and custom tas",
+    "what": "OpenAI Evals",
     "type": "repo",
     "repo": "https://github.com/openai/evals",
     "tags": [
@@ -618,7 +618,7 @@
     "stars": 18318
   },
   {
-    "id": "opendevin-an-open-platform-for-ai-software-developers-as-gen",
+    "id": "opendevin-an-open-platform-for-ai-software-developers-as-generalist-agents",
     "name": "OpenDevin: An Open Platform for AI Software Developers as Generalist Agents",
     "stage": "toolchain",
     "subcategory": "harness",
@@ -639,24 +639,24 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "devin-swebench-results",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
-        "matplotagent-method-and-evaluation-for-llm-based-agentic-sci"
+        "matplotagent-method-and-evaluation-for-llm-based-agentic-scientific-data-visualization"
       ]
     }
   },
@@ -699,7 +699,7 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -709,7 +709,7 @@
     "name": "OpenSandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Alibaba open-source secure sandbox runtime for AI agents with Kubernetes support",
+    "what": "OpenSandbox",
     "type": "tool",
     "repo": "https://github.com/alibaba/OpenSandbox",
     "stars": 10354,
@@ -728,12 +728,12 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
   {
-    "id": "piper-on-device-environment-setup-via-online-reinforcement-l",
+    "id": "piper-on-device-environment-setup-via-online-reinforcement-learning",
     "name": "PIPer: On-Device Environment Setup via Online Reinforcement Learning",
     "stage": "toolchain",
     "subcategory": "sandbox",
@@ -754,7 +754,7 @@
       "benchmarks": [
         "envbench-a-benchmark-for-automated-environment-setup",
         "sweet-rl",
-        "testdecision-sequential-test-suite-generation-via-greedy-optimization-and-reinfo"
+        "testdecision-sequential-test-suite-generation-via-greedy-optimization-and-reinforcement-learning"
       ]
     }
   },
@@ -784,11 +784,11 @@
     }
   },
   {
-    "id": "rat-runanything-via-fully-automated-environment-configuratio",
+    "id": "rat-runanything-via-fully-automated-environment-configuration",
     "name": "RAT: RunAnyThing via Fully Automated Environment Configuration",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Automates executable environment setup for any repo without manual configuration",
+    "what": "RAT: RunAnyThing via Fully Automated Environment Configuration",
     "type": "paper",
     "tags": [
       "sandbox",
@@ -803,11 +803,11 @@
     "paper": "https://arxiv.org/abs/2604.23190",
     "related": {
       "benchmarks": [
-        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
+        "effibench-x-a-multi-language-benchmark-for-measuring-efficiency-of-llm-generated-code",
         "envbench-a-benchmark-for-automated-environment-setup",
         "generation-based-code-review-automation-how-far-are-we",
         "repo",
-        "swe-polybench-a-multi-language-benchmark-for-repository-leve"
+        "swe-polybench-a-multi-language-benchmark-for-repository-level-evaluation-of-coding-agents"
       ]
     }
   },
@@ -830,26 +830,26 @@
     "repo": "https://github.com/OpenBMB/RepoAgent",
     "related": {
       "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-i",
-        "aacr-bench-evaluating-automatic-code-review-with-holistic-re",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
+        "aacr-bench-evaluating-automatic-code-review-with-holistic-repository-level-context",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
         "agentless-demystifying-llm-based-software-engineering-agents",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
         "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
-        "automated-benchmark-generation-for-repository-level-coding-t",
-        "automated-generation-of-issue-reproducing-tests-by-combining",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "automated-benchmark-generation-for-repository-level-coding-tasks",
+        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
         "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
         "baxbench-can-llms-generate-correct-and-secure-backends",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
         "benchmarking-agentic-code-reasoning-at-the-repository-level",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched"
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice"
       ]
     }
   },
@@ -858,7 +858,7 @@
     "name": "SWE Agent",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Agent framework that turns LLMs into software engineering agents for fixing GitH",
+    "what": "SWE Agent",
     "type": "paper",
     "tags": [
       "agent-framework",
@@ -875,7 +875,7 @@
         "github",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-"
+        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-context"
       ]
     }
   },
@@ -884,7 +884,7 @@
     "name": "SWE-ReX",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Runtime environment for AI coding agents with local, Docker, and cloud execution",
+    "what": "SWE-ReX",
     "type": "tool",
     "repo": "https://github.com/SWE-agent/SWE-ReX",
     "stars": 485,
@@ -904,19 +904,19 @@
     "related": {
       "benchmarks": [
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
-        "repoforge-training-a-sota-fast-thinking-swe-agent-with-an-end-to-end-data-curati",
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering",
+        "repoforge-training-a-sota-fast-thinking-swe-agent-with-an-end-to-end-data-curation-pipeline-synergizing-sft-and-rl-at-sc",
         "swe-edit-rethinking-code-editing-for-efficient-swe-agent",
         "sweet-rl"
       ]
     }
   },
   {
-    "id": "swe-world-building-software-engineering-agents-in-docker-fre",
+    "id": "swe-world-building-software-engineering-agents-in-docker-free-environments",
     "name": "SWE-World: Building Software Engineering Agents in Docker-Free Environments",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Docker-free sandbox for SWE agents using simulated OS environments at lower cost",
+    "what": "SWE-World: Building Software Engineering Agents in Docker-Free Environments",
     "type": "paper",
     "tags": [
       "sandbox",
@@ -947,15 +947,15 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
   },
   {
-    "id": "swe-agent-agent-computer-interfaces-enable-automated-softwar",
+    "id": "swe-agent-agent-computer-interfaces-enable-automated-software-engineering",
     "name": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
     "stage": "toolchain",
     "subcategory": "harness",
@@ -974,11 +974,11 @@
     "paper": "https://arxiv.org/abs/2405.15793",
     "related": {
       "benchmarks": [
-        "a-comprehensive-survey-on-benchmarks-and-solutions-in-softwa",
+        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
         "agentless-demystifying-llm-based-software-engineering-agents",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
-        "codemonkeys-scaling-test-time-compute-for-software-engineeri",
+        "codemonkeys-scaling-test-time-compute-for-software-engineering",
         "devin-swebench-results",
         "github",
         "introducing-swe-bench-verified",
@@ -986,7 +986,7 @@
         "multi-swe-bench",
         "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
         "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "programming-with-pixels-can-computer-use-agents-do-software-",
+        "programming-with-pixels-can-computer-use-agents-do-software-engineering",
         "rust-swe-bench",
         "swe-bench",
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
@@ -1023,23 +1023,23 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "devin-swebench-results",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation"
       ]
     }
@@ -1049,7 +1049,7 @@
     "name": "SWE-bench Experiments",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Provides open-source predictions, logs, and trajectories for SWE-bench evaluatio",
+    "what": "SWE-bench Experiments",
     "type": "repo",
     "repo": "https://github.com/SWE-bench/experiments",
     "tags": [
@@ -1065,7 +1065,7 @@
     "stars": 262,
     "related": {
       "benchmarks": [
-        "agentrewardbench-evaluating-web-agent-trajectories",
+        "agentrewardbench",
         "devin-swebench-results",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
@@ -1082,7 +1082,7 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro"
       ]
@@ -1114,23 +1114,23 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "devin-swebench-results",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation"
       ]
     }
@@ -1140,7 +1140,7 @@
     "name": "SanityHarness",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Lightweight universal eval harness for coding agents with multi-language support",
+    "what": "SanityHarness",
     "type": "tool",
     "repo": "https://github.com/lemon07r/SanityHarness",
     "stars": 220,
@@ -1159,24 +1159,24 @@
     ],
     "related": {
       "benchmarks": [
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
         "a-user-centered-security-evaluation-of-copilot",
         "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "contextbench-benchmark-for-context-retrieval-in-coding-agents",
+        "contextbench",
         "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
-        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "effibench-x-a-multi-language-benchmark-for-measuring-efficiency-of-llm-generated-code",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning-pipeline-for-connect-four-that-performs",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews"
       ]
@@ -1206,12 +1206,12 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
   {
-    "id": "systematic-debugging-for-ai-agents-introducing-the-agentrx-f",
+    "id": "systematic-debugging-for-ai-agents-introducing-the-agentrx-framework",
     "name": "Systematic debugging for AI agents: Introducing the AgentRx framework",
     "stage": "toolchain",
     "subcategory": "observability",
@@ -1229,17 +1229,17 @@
     "website": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
     "related": {
       "benchmarks": [
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "coast-enhancing-the-code-debugging-ability-of-llms-through-c",
-        "debugbench-evaluating-debugging-capability-of-large-language",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "coast-enhancing-the-code-debugging-ability-of-llms-through-communicative-agent-based-data-synthesis",
+        "debugbench-evaluating-debugging-capability-of-large-language-models",
         "empowering-autonomous-debugging-agents-with-efficient-dynamic-analysis",
-        "mldebugging-towards-benchmarking-code-debugging-across-multi",
-        "precise-debugging-benchmark-is-your-model-debugging-or-regen"
+        "mldebugging-towards-benchmarking-code-debugging-across-multi-library-scenarios",
+        "precise-debugging-benchmark-is-your-model-debugging-or-regenerating"
       ]
     }
   },
   {
-    "id": "you-name-it-i-run-it-an-llm-agent-to-execute-tests-of-arbitr",
+    "id": "you-name-it-i-run-it-an-llm-agent-to-execute-tests-of-arbitrary-projects",
     "name": "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects",
     "stage": "toolchain",
     "subcategory": "harness",
@@ -1258,17 +1258,17 @@
     "paper": "https://arxiv.org/abs/2412.10133",
     "related": {
       "benchmarks": [
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-i",
-        "continuous-benchmark-generation-for-evaluating-enterprise-sc",
-        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to-backend",
         "datascibench-an-llm-agent-benchmark-for-data-science",
         "executable-code-actions-elicit-better-llm-agents",
-        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug",
+        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
         "locagent-graph-guided-llm-agents-for-code-localization",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world"
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks"
       ]
     }
   },
@@ -1299,15 +1299,15 @@
         "ai-agent-benchmark",
         "ai-agent-benchmark-compendium",
         "appworld",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
         "code-review-agent-benchmark",
         "datascibench-an-llm-agent-benchmark-for-data-science",
-        "defects4j-a-database-of-existing-faults-to-enable-controlled-testing-studies-for",
+        "defects4j-a-database-of-existing-faults-to-enable-controlled-testing-studies-for-java-programs",
         "eval-dev-quality",
         "gaia-v2-lilt-multilingual-adaptation-of-agent-benchmark-beyond-translation",
         "gitbug-java-a-reproducible-benchmark-of-recent-java-bugs",
-        "javabench-a-benchmark-of-object-oriented-code-generation-for-evaluating-large-la",
-        "jsdeobsbench-measuring-and-benchmarking-llms-for-javascript-",
+        "javabench-a-benchmark-of-object-oriented-code-generation-for-evaluating-large-language-models",
+        "jsdeobsbench-measuring-and-benchmarking-llms-for-javascript-deobfuscation",
         "marble",
         "swe-bench-java-a-github-issue-resolving-benchmark-for-java"
       ]
@@ -1318,7 +1318,7 @@
     "name": "agent-quality-inspect",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "SAP agentic AI evaluation toolkit with multi-framework benchmarking and LLM-as-j",
+    "what": "agent-quality-inspect",
     "type": "tool",
     "repo": "https://github.com/SAP/agent-quality-inspect",
     "stars": 75,
@@ -1337,25 +1337,25 @@
     ],
     "related": {
       "benchmarks": [
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
         "benchmarking-agentic-code-reasoning-at-the-repository-level",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-f",
-        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
-        "beyond-output-correctness-benchmarking-and-evaluating-large-",
-        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
-        "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-bench",
-        "codeassistbench-cab-dataset-benchmarking-for-multi-turn-chat",
-        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-",
-        "codemenv-benchmarking-large-language-models-on-code-migratio",
-        "codespecbench-benchmarking-llms-for-executable-behavioral-sp",
-        "codeupdatearena-benchmarking-knowledge-editing-on-api-update",
-        "convcodeworld-benchmarking-conversational-code-generation-in-reproducible-feedba"
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
+        "beyond-output-correctness-benchmarking-and-evaluating-large-language-model-reasoning-in-coding-tasks",
+        "bigcodebench-benchmarking-code-generation-with-diverse-function-calls-and-complex-instructions",
+        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-at-abb-robotics",
+        "cetbench-a-novel-dataset-constructed-via-transformations-over-programs-for-benchmarking-llms-for-code-equivalence-checki",
+        "codeassistbench-cab-dataset-amp-benchmarking-for-multi-turn-chat-based-code-assistance",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-on-humaneval-x",
+        "codemenv-benchmarking-large-language-models-on-code-migration",
+        "codespecbench-benchmarking-llms-for-executable-behavioral-specification-generation",
+        "codeupdatearena-benchmarking-knowledge-editing-on-api-updates",
+        "convcodeworld-benchmarking-conversational-code-generation-in-reproducible-feedback-environments"
       ]
     }
   },
@@ -1406,7 +1406,7 @@
     ],
     "related": {
       "benchmarks": [
-        "tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-t"
+        "tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-trajectories"
       ]
     }
   },
@@ -1435,11 +1435,11 @@
     "related": {
       "benchmarks": [
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering",
         "python-code-generation-by-asking-clarification-questions",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -1484,7 +1484,7 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -1512,16 +1512,16 @@
     ],
     "related": {
       "benchmarks": [
-        "aegis-an-agent-based-framework-for-bug-reproduction-from-iss",
+        "aegis-an-agent-based-framework-for-bug-reproduction-from-issue-descriptions",
         "chatunitest-a-framework-for-llm-based-test-generation",
         "clawgym-a-scalable-framework-for-building-effective-claw-agents",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "logiceval-a-systematic-framework-for-evaluating-automated-re",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
-        "safegenbench-a-benchmark-framework-for-security-vulnerabilit",
-        "skeleton-guided-translation-a-benchmarking-framework-for-cod",
-        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-",
-        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-mult"
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "logiceval-a-systematic-framework-for-evaluating-automated-repair-techniques-for-logical-vulnerabilities-in-real-world-so",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
+        "safegenbench-a-benchmark-framework-for-security-vulnerability-detection-in-llm-generated-code",
+        "skeleton-guided-translation-a-benchmarking-framework-for-code-repository-translation-with-fine-grained-quality-evaluatio",
+        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-context",
+        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-multimodal-llms"
       ]
     }
   },
@@ -1551,21 +1551,21 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
-        "matplotagent-method-and-evaluation-for-llm-based-agentic-sci",
+        "matplotagent-method-and-evaluation-for-llm-based-agentic-scientific-data-visualization",
         "metr-s-autonomy-evaluation-resources",
         "multi-lingual-evaluation-of-code-generation-models",
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability"
@@ -1577,7 +1577,7 @@
     "name": "arrakis",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Customizable self-hosted sandbox for AI agent code execution with backtracking a",
+    "what": "arrakis",
     "type": "tool",
     "repo": "https://github.com/abshkbh/arrakis",
     "stars": 804,
@@ -1596,7 +1596,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -1625,24 +1625,24 @@
     "related": {
       "benchmarks": [
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contribut",
-        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
         "cocoabench-evaluating-unified-digital-agents-in-the-wild",
         "codefuse-cr-bench",
         "codefuse-evaluation",
-        "gitbug-actions-building-reproducible-bug-fix-benchmarks-with",
+        "gitbug-actions-building-reproducible-bug-fix-benchmarks-with-github-actions",
         "gitbug-java-a-reproducible-benchmark-of-recent-java-bugs",
-        "gitchameleon-unmasking-the-version-switching-capabilities-of",
+        "gitchameleon-unmasking-the-version-switching-capabilities-of-code-generation-models",
         "github",
         "gittaskbench",
-        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-",
+        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
         "immersion-in-the-github-universe-scaling-coding-agents-to-mastery",
-        "omnigirl-a-multilingual-and-multimodal-benchmark-for-github-",
-        "r2e-turning-any-github-repository-into-a-programming-agent-e",
+        "omnigirl-a-multilingual-and-multimodal-benchmark-for-github-issue-resolution",
+        "r2e-turning-any-github-repository-into-a-programming-agent-environment",
         "swe-bench-github-io",
         "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-fixer-training-open-source-llms-for-effective-and-effici",
-        "swingarena-competitive-programming-arena-long-context-github"
+        "swe-fixer-training-open-source-llms-for-effective-and-efficient-github-issue-resolution",
+        "swingarena"
       ]
     }
   },
@@ -1669,24 +1669,24 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "devin-swebench-results",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit"
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations"
       ]
     }
   },
@@ -1710,7 +1710,7 @@
     "status": "active",
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -1719,7 +1719,7 @@
     "name": "awslabs/agent-evaluation",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Tests generative AI agents with auto test generation and execution validation on",
+    "what": "awslabs/agent-evaluation",
     "type": "repo",
     "repo": "https://github.com/awslabs/agent-evaluation",
     "tags": [
@@ -1735,21 +1735,21 @@
     "stars": 359,
     "related": {
       "benchmarks": [
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-f",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
         "chatunitest-a-framework-for-llm-based-test-generation",
-        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simula",
+        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simulated-workspaces",
         "evaluating-and-improving-chatgpt-for-unit-test-generation",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "heterogeneous-prompting-and-execution-feedback-for-swe-issue",
-        "icore-an-iterative-correlation-aware-retriever-for-bug-reproduction-test-generat",
+        "heterogeneous-prompting-and-execution-feedback-for-swe-issue-test-generation-and-selection",
+        "icore-an-iterative-correlation-aware-retriever-for-bug-reproduction-test-generation",
         "magister-llm-based-test-generation-with-role-specialized-agents",
-        "multifiletest-a-multi-file-level-llm-unit-test-generation-be",
+        "multifiletest-a-multi-file-level-llm-unit-test-generation-benchmark-and-impact-study",
         "no-more-manual-tests-evaluating-and-improving-chatgpt-for-unit-test-generation",
-        "testexplora-benchmarking-llms-for-proactive-bug-discovery-via-repository-level-t",
-        "testgeneval-a-real-world-unit-test-generation-and-test-compl",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation"
+        "testexplora-benchmarking-llms-for-proactive-bug-discovery-via-repository-level-test-generation",
+        "testgeneval-a-real-world-unit-test-generation-and-test-completion-benchmark",
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ]
     }
   },
@@ -1777,26 +1777,26 @@
     ],
     "related": {
       "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with",
-        "a-benchmark-for-localizing-code-and-non-code-issues-in-softw",
-        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in",
-        "a-comprehensive-survey-on-benchmarks-and-solutions-in-softwa",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
-        "a-real-world-benchmark-for-evaluating-fine-grained-issue-sol",
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-i",
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
+        "a-benchmark-for-localizing-code-and-non-code-issues-in-software-projects",
+        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
+        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
+        "a-real-world-benchmark-for-evaluating-fine-grained-issue-solving-capabilities-of-large-language-models",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
         "a-user-centered-security-evaluation-of-copilot",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
-        "agentrewardbench-evaluating-web-agent-trajectories",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "agentrewardbench",
         "ai-agent-benchmark",
         "ai-agent-benchmark-compendium",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
-        "assertionbench-a-benchmark-to-evaluate-large-language-models",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "assertionbench-a-benchmark-to-evaluate-large-language-models-for-assertion-generation",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
-        "autocodebench-large-language-models-are-automatic-code-bench"
+        "autocodebench-large-language-models-are-automatic-code-benchmark-generators"
       ]
     }
   },
@@ -1821,25 +1821,25 @@
     "stars": 1040,
     "related": {
       "benchmarks": [
-        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgp",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generat",
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
         "a-user-centered-security-evaluation-of-copilot",
-        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
         "ai-coding-lang-bench",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "beyond-correctness-benchmarking-multi-dimensional-code-gener",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
         "bigcodebench",
-        "bigcodebench-benchmarking-code-generation-with-diverse-funct",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
-        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-g",
+        "bigcodebench-benchmarking-code-generation-with-diverse-function-calls-and-complex-instructions",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-generation",
         "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
-        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-mod",
-        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-c"
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-model-code-generation",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-capabilities"
       ]
     }
   },
@@ -1868,8 +1868,8 @@
     "related": {
       "benchmarks": [
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -1901,7 +1901,7 @@
     "name": "claw-eval",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Agent evaluation harness with human-verified tasks for real-world behavior asses",
+    "what": "claw-eval",
     "type": "repo",
     "repo": "https://github.com/claw-eval/claw-eval",
     "tags": [
@@ -1945,7 +1945,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -1973,7 +1973,7 @@
     ],
     "related": {
       "benchmarks": [
-        "programming-with-pixels-can-computer-use-agents-do-software-"
+        "programming-with-pixels-can-computer-use-agents-do-software-engineering"
       ]
     }
   },
@@ -1997,14 +1997,14 @@
     "paper": "https://arxiv.org/abs/2603.13023",
     "related": {
       "benchmarks": [
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
-        "repoforge-training-a-sota-fast-thinking-swe-agent-with-an-end-to-end-data-curati",
-        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-mod",
+        "repoforge-training-a-sota-fast-thinking-swe-agent-with-an-end-to-end-data-curation-pipeline-synergizing-sft-and-rl-at-sc",
+        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-model",
         "swe-edit-rethinking-code-editing-for-efficient-swe-agent",
-        "swe-fixer-training-open-source-llms-for-effective-and-effici",
-        "swe-tester-training-open-source-llms-for-issue-reproduction-",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "swe-fixer-training-open-source-llms-for-effective-and-efficient-github-issue-resolution",
+        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories",
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -2032,7 +2032,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2060,8 +2060,8 @@
     ],
     "related": {
       "benchmarks": [
-        "evaluating-llm-based-0-to-1-software-generation-in-end-to-en",
-        "longcli-bench-a-preliminary-benchmark-and-study-for-long-hor"
+        "evaluating-llm-based-0-to-1-software-generation-in-end-to-end-cli-tool-scenarios",
+        "longcli-bench-a-preliminary-benchmark-and-study-for-long-horizon-agentic-programming-in-command-line-interfaces"
       ]
     }
   },
@@ -2089,10 +2089,10 @@
     ],
     "related": {
       "benchmarks": [
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
         "python-code-generation-by-asking-clarification-questions",
-        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-mult"
+        "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-multimodal-llms"
       ]
     }
   },
@@ -2101,7 +2101,7 @@
     "name": "exec-sandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Lightweight secure code execution sandbox on QEMU microVM with 9-layer isolation",
+    "what": "exec-sandbox",
     "type": "tool",
     "repo": "https://github.com/dualeai/exec-sandbox",
     "stars": 21,
@@ -2120,7 +2120,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2175,7 +2175,7 @@
     "name": "intellagent",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Diagnostic framework using synthetic interactions to test, score, and optimize a",
+    "what": "intellagent",
     "type": "tool",
     "repo": "https://github.com/plurai-ai/intellagent",
     "stars": 1182,
@@ -2196,8 +2196,8 @@
       "benchmarks": [
         "data",
         "harbor-automated-harness-optimization",
-        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env",
-        "testdecision-sequential-test-suite-generation-via-greedy-optimization-and-reinfo"
+        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-environment-simulation",
+        "testdecision-sequential-test-suite-generation-via-greedy-optimization-and-reinforcement-learning"
       ]
     }
   },
@@ -2225,18 +2225,18 @@
     ],
     "related": {
       "benchmarks": [
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-co",
-        "codeupdatearena-benchmarking-knowledge-editing-on-api-update",
-        "effibench-x-a-multi-language-benchmark-fo-rmeasuring-effcien",
-        "llms-meet-library-evolution-evaluating-deprecated-api-usage-",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "codeupdatearena-benchmarking-knowledge-editing-on-api-updates",
+        "effibench-x-a-multi-language-benchmark-for-measuring-efficiency-of-llm-generated-code",
+        "llms-meet-library-evolution-evaluating-deprecated-api-usage-in-llm-based-code-completion",
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-mod",
-        "rustevo2-an-evolving-benchmark-for-api-evolution-in-llm-base",
-        "swe-fixer-training-open-source-llms-for-effective-and-effici",
-        "swe-polybench-a-multi-language-benchmark-for-repository-leve",
-        "swe-tester-training-open-source-llms-for-issue-reproduction-",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "rtllm-an-open-source-benchmark-for-design-rtl-generation-with-large-language-model",
+        "rustevo-2-an-evolving-benchmark-for-api-evolution-in-llm-based-rust-code-generation",
+        "swe-fixer-training-open-source-llms-for-effective-and-efficient-github-issue-resolution",
+        "swe-polybench-a-multi-language-benchmark-for-repository-level-evaluation-of-coding-agents",
+        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories",
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -2263,24 +2263,24 @@
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
         "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-g",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploi",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
         "codefuse-evaluation",
         "competition-level-problems-are-effective-llm-evaluators",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-eva",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repositor",
-        "is-your-code-generated-by-chatgpt-really-correct-rigorous-ev",
-        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
+        "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
+        "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
-        "matplotagent-method-and-evaluation-for-llm-based-agentic-sci"
+        "matplotagent-method-and-evaluation-for-llm-based-agentic-scientific-data-visualization"
       ]
     }
   },
@@ -2289,7 +2289,7 @@
     "name": "microsandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Secure lightweight sandbox for AI agent code execution with multi-language isola",
+    "what": "microsandbox",
     "type": "tool",
     "repo": "https://github.com/superradcompany/microsandbox",
     "stars": 5877,
@@ -2308,25 +2308,25 @@
     ],
     "related": {
       "benchmarks": [
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-i",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
         "a-user-centered-security-evaluation-of-copilot",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
-        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contribut",
-        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
         "cs-eval-a-comprehensive-large-language-model-benchmark-for-cybersecurity",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
-        "iris-llm-assisted-static-analysis-for-detecting-security-vul",
-        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-ge",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "iris-llm-assisted-static-analysis-for-detecting-security-vulnerabilities",
+        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-generated-code-and-stackoverflow-answers",
         "large-language-models-for-code-security-hardening-and-adversarial-testing",
         "llm-security-guard-for-code",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
-        "realvuln-benchmarking-rule-based-general-purpose-llm-and-sec",
-        "running-in-circle-a-simple-benchmark-for-llm-code-interprete",
-        "safegenbench-a-benchmark-framework-for-security-vulnerabilit",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world",
-        "securityeval-dataset-mining-vulnerability-examples-to-evalua",
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
+        "realvuln-benchmarking-rule-based-general-purpose-llm-and-security-specialized-scanners-on-real-world-code",
+        "running-in-circle-a-simple-benchmark-for-llm-code-interpreter-security",
+        "safegenbench-a-benchmark-framework-for-security-vulnerability-detection-in-llm-generated-code",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks",
+        "securityeval-dataset-mining-vulnerability-examples-to-evaluate-machine-learning-based-code-generation-techniques",
         "towards-agentic-investigation-of-security-alerts"
       ]
     }
@@ -2336,7 +2336,7 @@
     "name": "moatless-testbeds",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Kubernetes-based isolated testbeds for applying patches and running SWE-Bench ev",
+    "what": "moatless-testbeds",
     "type": "tool",
     "repo": "https://github.com/aorwall/moatless-testbeds",
     "stars": 14,
@@ -2371,10 +2371,10 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
   },
@@ -2402,7 +2402,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2430,8 +2430,8 @@
     ],
     "related": {
       "benchmarks": [
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2479,25 +2479,25 @@
     ],
     "related": {
       "benchmarks": [
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
         "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
-        "bots-don-t-mind-waiting-do-they-comparing-the-interaction-with-automatically-and",
-        "catarena-evaluating-evolutionary-capabilities-of-code-agents",
-        "codeupdatearena-benchmarking-knowledge-editing-on-api-update",
-        "contextbench-benchmark-for-context-retrieval-in-coding-agents",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "bots-don-t-mind-waiting-do-they-comparing-the-interaction-with-automatically-and-manually-created-pull-requests",
+        "catarena-evaluating-evolutionary-capabilities-of-code-agents-via-iterative-tournaments",
+        "codeupdatearena-benchmarking-knowledge-editing-on-api-updates",
+        "contextbench",
         "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
-        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning-pipeline-for-connect-four-that-performs",
         "hybrid-gym-training-coding-agents-to-generalize-across-tasks",
         "immersion-in-the-github-universe-scaling-coding-agents-to-mastery",
-        "linuxarena-a-control-setting-for-ai-agents-in-live-productio",
+        "linuxarena-a-control-setting-for-ai-agents-in-live-production-software-environments",
         "masarena",
-        "memoryarena-multi-session-agent-memory",
-        "patchtrack-a-comprehensive-analysis-of-chatgpt-s-influence-o",
-        "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-pro",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-lo",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative",
+        "memoryarena",
+        "patchtrack-a-comprehensive-analysis-of-chatgpt-s-influence-on-pull-request-outcomes",
+        "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-project-development",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
       ]
     }
@@ -2525,22 +2525,22 @@
     ],
     "related": {
       "benchmarks": [
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
-        "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
+        "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-world-web-application-vulnerabilities",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
         "devops-gym-benchmarking-ai-agents-in-software-devops-cycle",
-        "evoclaw-evaluating-ai-agents-on-continuous-software-evolutio",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "linuxarena-a-control-setting-for-ai-agents-in-live-productio",
+        "evoclaw-evaluating-ai-agents-on-continuous-software-evolution",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "linuxarena-a-control-setting-for-ai-agents-in-live-production-software-environments",
         "marketbench-evaluating-ai-agents-as-market-participants",
-        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env",
+        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-environment-simulation",
         "python-code-generation-by-asking-clarification-questions",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "securevibebench-benchmarking-secure-vibe-coding-of-ai-agents",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "securevibebench-benchmarking-secure-vibe-coding-of-ai-agents-via-reconstructing-vulnerability-introducing-scenarios",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks",
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ]
     }
   },
@@ -2571,7 +2571,7 @@
         "devin-swebench-results",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut",
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering",
         "multi-swe-bench",
         "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
         "opencode-bench-vs-swe-bench-vs-terminal-bench",
@@ -2585,7 +2585,7 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -2614,7 +2614,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2642,12 +2642,12 @@
     "related": {
       "benchmarks": [
         "devin-swebench-results",
-        "evaluating-llm-based-0-to-1-software-generation-in-end-to-en",
+        "evaluating-llm-based-0-to-1-software-generation-in-end-to-end-cli-tool-scenarios",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
-        "longcli-bench-a-preliminary-benchmark-and-study-for-long-hor",
+        "longcli-bench-a-preliminary-benchmark-and-study-for-long-horizon-agentic-programming-in-command-line-interfaces",
         "multi-swe-bench",
         "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
         "opencode-bench-vs-swe-bench-vs-terminal-bench",
@@ -2669,7 +2669,7 @@
     "name": "secure-exec",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Lightweight Node.js secure execution library using V8/WASM containerless sandbox",
+    "what": "secure-exec",
     "type": "tool",
     "repo": "https://github.com/rivet-dev/secure-exec",
     "stars": 851,
@@ -2688,7 +2688,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -2712,20 +2712,20 @@
     "repo": "https://github.com/huggingface/smolagents",
     "related": {
       "benchmarks": [
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
         "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
         "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
         "python-code-generation-by-asking-clarification-questions",
-        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-",
+        "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-context",
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution",
-        "traject-bench-trajectory-aware-tool-use"
+        "traject-bench"
       ]
     }
   },
@@ -2754,8 +2754,8 @@
     "related": {
       "benchmarks": [
         "longcodebench-evaluating-coding-llms-at-1m-context-windows",
-        "testexplora-benchmarking-llms-for-proactive-bug-discovery-via-repository-level-t",
-        "when-prompt-under-specification-improves-code-correctness-an-exploratory-study-o"
+        "testexplora-benchmarking-llms-for-proactive-bug-discovery-via-repository-level-test-generation",
+        "when-prompt-under-specification-improves-code-correctness-an-exploratory-study-of-prompt-wording-and-structure-effects-o"
       ]
     }
   },
@@ -2796,10 +2796,10 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-soft",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
   },
@@ -2854,12 +2854,12 @@
     ],
     "related": {
       "benchmarks": [
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agen",
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
         "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-pro",
+        "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-project-development",
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
       ]
     }
@@ -2888,19 +2888,19 @@
     ],
     "related": {
       "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with",
-        "automated-benchmark-generation-for-repository-level-coding-t",
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
+        "automated-benchmark-generation-for-repository-level-coding-tasks",
         "awesome-code-agents",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-",
-        "catarena-evaluating-evolutionary-capabilities-of-code-agents",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "catarena-evaluating-evolutionary-capabilities-of-code-agents-via-iterative-tournaments",
         "codeagent-autonomous-communicative-agents-for-code-review",
-        "codeagent-enhancing-code-generation-with-tool-integrated-age",
-        "continuous-benchmark-generation-for-evaluating-enterprise-sc",
-        "da-code-agent-data-science-code-generation-benchmark-for-lar",
-        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-",
+        "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-for-real-world-repo-level-coding-challenges",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "da-code-agent-data-science-code-generation-benchmark-for-large-language-models",
+        "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
         "joycode-agent",
-        "prdbench-automatically-benchmarking-llm-code-agents-through-",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
+        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
         "skill"
       ]
     }
@@ -2910,7 +2910,7 @@
     "name": "vibe",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Lightweight Linux VM launcher on macOS providing isolated sandbox for LLM agents",
+    "what": "vibe",
     "type": "tool",
     "repo": "https://github.com/lynaghk/vibe",
     "stars": 883,
@@ -2929,12 +2929,12 @@
     ],
     "related": {
       "benchmarks": [
-        "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-tra",
-        "evaluating-and-improving-automated-repository-level-rust-iss",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent",
+        "crust-bench-a-comprehensive-benchmark-for-c-to-safe-rust-transpilation",
+        "evaluating-and-improving-automated-repository-level-rust-issue-resolution-with-llm-based-agents",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
         "repository-level-code-translation-benchmark-targeting-rust",
         "rust-swe-bench",
-        "rustevo2-an-evolving-benchmark-for-api-evolution-in-llm-base"
+        "rustevo-2-an-evolving-benchmark-for-api-evolution-in-llm-based-rust-code-generation"
       ]
     }
   },
@@ -2943,7 +2943,7 @@
     "name": "vibekit",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Isolated sandbox execution for coding agents with data redaction and observabili",
+    "what": "vibekit",
     "type": "tool",
     "repo": "https://github.com/superagent-ai/vibekit",
     "stars": 1774,
@@ -2964,13 +2964,13 @@
       "benchmarks": [
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
         "data",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
         "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
         "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
       ]
     }
@@ -2980,7 +2980,7 @@
     "name": "zeroboot",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Sub-millisecond VM sandbox via Firecracker/KVM copy-on-write fork for agent code",
+    "what": "zeroboot",
     "type": "tool",
     "repo": "https://github.com/zerobootdev/zeroboot",
     "stars": 2253,
@@ -2999,7 +2999,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -3021,8 +3021,8 @@
     "paper": "https://arxiv.org/abs/2604.26653v1",
     "related": {
       "benchmarks": [
-        "agents4plc-automating-closed-loop-plc-code-generation-and-ve",
-        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env"
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
+        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-environment-simulation"
       ]
     }
   },
@@ -3031,7 +3031,7 @@
     "name": "Architectural Design Decisions in AI Agent Harnesses",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Empirical study of architectural design decisions across 70 AI agent harness pro",
+    "what": "Architectural Design Decisions in AI Agent Harnesses",
     "type": "paper",
     "tags": [
       "harness",
@@ -3044,11 +3044,11 @@
     "paper": "https://arxiv.org/abs/2604.18071",
     "related": {
       "benchmarks": [
-        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in",
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-pr",
+        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
+        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation"
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ]
     }
   },
@@ -3075,13 +3075,13 @@
     "related": {
       "benchmarks": [
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
         "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
         "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
       ]
     }
@@ -3091,7 +3091,7 @@
     "name": "sandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "All-in-one Docker sandbox combining browser, shell, file, MCP and VSCode for AI ",
+    "what": "sandbox",
     "type": "repo",
     "tags": [
       "sandbox",
@@ -3109,7 +3109,7 @@
     "related": {
       "benchmarks": [
         "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-aut"
+        "multi-docker-eval-a-shovel-of-the-gold-rush-benchmark-on-automatic-environment-building-for-software-engineering"
       ]
     }
   },
@@ -3157,17 +3157,17 @@
     "related": {
       "benchmarks": [
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
-        "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
+        "cve-bench-a-benchmark-for-ai-agents-ability-to-exploit-real-world-web-application-vulnerabilities",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
         "devops-gym-benchmarking-ai-agents-in-software-devops-cycle",
-        "evoclaw-evaluating-ai-agents-on-continuous-software-evolutio",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-",
-        "linuxarena-a-control-setting-for-ai-agents-in-live-productio",
+        "evoclaw-evaluating-ai-agents-on-continuous-software-evolution",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "linuxarena-a-control-setting-for-ai-agents-in-live-production-software-environments",
         "marketbench-evaluating-ai-agents-as-market-participants",
-        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-env",
-        "securevibebench-benchmarking-secure-vibe-coding-of-ai-agents",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation"
+        "occubench-evaluating-ai-agents-on-real-world-professional-tasks-via-language-environment-simulation",
+        "securevibebench-benchmarking-secure-vibe-coding-of-ai-agents-via-reconstructing-vulnerability-introducing-scenarios",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks",
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ]
     }
   },
@@ -3193,7 +3193,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -3220,24 +3220,24 @@
     "related": {
       "benchmarks": [
         "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-l",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-i",
-        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-",
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-tes",
-        "continuous-benchmark-generation-for-evaluating-enterprise-sc",
-        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "bug-report-driven-fault-localization-industrial-benchmarking-and-lesson-learned-at-abb-robotics",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "cujbench-benchmarking-llm-agent-on-cross-modal-failure-diagnosis-from-browser-to-backend",
         "datascibench-an-llm-agent-benchmark-for-data-science",
-        "defects4j-a-database-of-existing-faults-to-enable-controlled-testing-studies-for",
+        "defects4j-a-database-of-existing-faults-to-enable-controlled-testing-studies-for-java-programs",
         "executable-code-actions-elicit-better-llm-agents",
-        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug",
+        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
         "large-language-models-for-code-security-hardening-and-adversarial-testing",
         "locagent-graph-guided-llm-agents-for-code-localization",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
-        "pentestgpt-an-llm-empowered-automatic-penetration-testing-to",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "pentestgpt-an-llm-empowered-automatic-penetration-testing-tool",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks",
         "software-testing-with-large-language-models-survey-landscape-and-vision",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation"
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ]
     }
   },
@@ -3285,13 +3285,13 @@
     "related": {
       "benchmarks": [
         "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-revie",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
         "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
         "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
       ]
     }
@@ -3318,21 +3318,21 @@
     ],
     "related": {
       "benchmarks": [
-        "aacr-bench-evaluating-automatic-code-review-with-holistic-re",
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-imma",
+        "aacr-bench-evaluating-automatic-code-review-with-holistic-repository-level-context",
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
         "evacrc-evaluating-code-review-comments",
         "generation-based-code-review-automation-how-far-are-we",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm",
-        "the-right-prompts-for-the-job-repair-code-review-defects-wit",
+        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm-based-code-review-automation-at-atlassian",
+        "the-right-prompts-for-the-job-repair-code-review-defects-with-large-language-model",
         "towards-automating-code-review-activities",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -3341,7 +3341,7 @@
     "name": "diffdeck",
     "stage": "toolchain",
     "subcategory": "judge-tool",
-    "what": "CLI tool generating smart diffs with security scans and AI-ready outputs for cod",
+    "what": "diffdeck",
     "type": "tool",
     "tags": [
       "code-review",
@@ -3358,21 +3358,21 @@
     ],
     "related": {
       "benchmarks": [
-        "aacr-bench-evaluating-automatic-code-review-with-holistic-re",
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-imma",
+        "aacr-bench-evaluating-automatic-code-review-with-holistic-repository-level-context",
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
         "evacrc-evaluating-code-review-comments",
         "generation-based-code-review-automation-how-far-are-we",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm",
-        "the-right-prompts-for-the-job-repair-code-review-defects-wit",
+        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm-based-code-review-automation-at-atlassian",
+        "the-right-prompts-for-the-job-repair-code-review-defects-with-large-language-model",
         "towards-automating-code-review-activities",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -3398,7 +3398,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -3424,21 +3424,21 @@
     ],
     "related": {
       "benchmarks": [
-        "aacr-bench-evaluating-automatic-code-review-with-holistic-re",
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-imma",
+        "aacr-bench-evaluating-automatic-code-review-with-holistic-repository-level-context",
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
         "evacrc-evaluating-code-review-comments",
         "generation-based-code-review-automation-how-far-are-we",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm",
-        "the-right-prompts-for-the-job-repair-code-review-defects-wit",
+        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm-based-code-review-automation-at-atlassian",
+        "the-right-prompts-for-the-job-repair-code-review-defects-with-large-language-model",
         "towards-automating-code-review-activities",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -3464,21 +3464,21 @@
     ],
     "related": {
       "benchmarks": [
-        "aacr-bench-evaluating-automatic-code-review-with-holistic-re",
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-imma",
+        "aacr-bench-evaluating-automatic-code-review-with-holistic-repository-level-context",
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
         "evacrc-evaluating-code-review-comments",
         "generation-based-code-review-automation-how-far-are-we",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm",
-        "the-right-prompts-for-the-job-repair-code-review-defects-wit",
+        "rovodev-code-reviewer-a-large-scale-online-evaluation-of-llm-based-code-review-automation-at-atlassian",
+        "the-right-prompts-for-the-job-repair-code-review-defects-with-large-language-model",
         "towards-automating-code-review-activities",
-        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-p"
+        "we-benchmarked-7-ai-code-review-tools-on-large-open-source-projects"
       ]
     }
   },
@@ -3504,26 +3504,26 @@
     ],
     "related": {
       "benchmarks": [
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-i",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
         "a-user-centered-security-evaluation-of-copilot",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
-        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contribut",
-        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
         "cs-eval-a-comprehensive-large-language-model-benchmark-for-cybersecurity",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
-        "iris-llm-assisted-static-analysis-for-detecting-security-vul",
-        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-ge",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "iris-llm-assisted-static-analysis-for-detecting-security-vulnerabilities",
+        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-generated-code-and-stackoverflow-answers",
         "large-language-models-for-code-security-hardening-and-adversarial-testing",
         "llm-security-guard-for-code",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
-        "realvuln-benchmarking-rule-based-general-purpose-llm-and-sec",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "running-in-circle-a-simple-benchmark-for-llm-code-interprete",
-        "safegenbench-a-benchmark-framework-for-security-vulnerabilit",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world",
-        "securityeval-dataset-mining-vulnerability-examples-to-evalua"
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
+        "realvuln-benchmarking-rule-based-general-purpose-llm-and-security-specialized-scanners-on-real-world-code",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "running-in-circle-a-simple-benchmark-for-llm-code-interpreter-security",
+        "safegenbench-a-benchmark-framework-for-security-vulnerability-detection-in-llm-generated-code",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks",
+        "securityeval-dataset-mining-vulnerability-examples-to-evaluate-machine-learning-based-code-generation-techniques"
       ]
     }
   },
@@ -3549,7 +3549,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -3558,7 +3558,7 @@
     "name": "skypilot-code-sandbox",
     "stage": "toolchain",
     "subcategory": "sandbox",
-    "what": "Self-hosted secure code execution sandbox for LLM agents via SkyPilot on cloud i",
+    "what": "skypilot-code-sandbox",
     "type": "repo",
     "tags": [
       "sandbox",
@@ -3575,15 +3575,15 @@
     ],
     "related": {
       "benchmarks": [
-        "an-interactive-benchmark-for-llm-agents-in-long-context-soft",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-i",
-        "continuous-benchmark-generation-for-evaluating-enterprise-sc",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
         "executable-code-actions-elicit-better-llm-agents",
-        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug",
+        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
         "locagent-graph-guided-llm-agents-for-code-localization",
-        "multiagentbench-evaluating-the-collaboration-and-competition",
-        "redcode-risky-code-execution-and-generation-benchmark-for-co",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world"
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks"
       ]
     }
   },
@@ -3592,7 +3592,7 @@
     "name": "codex-long-running-harness",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "Long-running application harness for Codex using planner-generator-evaluator pat",
+    "what": "codex-long-running-harness",
     "type": "repo",
     "tags": [
       "long-horizon",
@@ -3609,21 +3609,21 @@
     ],
     "related": {
       "benchmarks": [
-        "ale-bench-towards-automating-long-horizon-algorithm-engineer",
-        "benchmarking-coding-agents-in-long-horizon-software-evolutio",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
+        "ale-bench-towards-automating-long-horizon-algorithm-engineering",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
         "can-ai-agents-solve-long-horizon-software-engineering-tasks",
-        "codexglue-a-machine-learning-benchmark-dataset-for-code-understanding-and-genera",
+        "codexglue-a-machine-learning-benchmark-dataset-for-code-understanding-and-generation",
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
-        "longcli-bench-a-preliminary-benchmark-and-study-for-long-hor",
-        "nl2repo-bench-towards-long-horizon-repository-generation-eva",
+        "longcli-bench-a-preliminary-benchmark-and-study-for-long-horizon-agentic-programming-in-command-line-interfaces",
+        "nl2repo-bench-towards-long-horizon-repository-generation-evaluation-of-coding-agents",
         "nl2repo-bench-towards-long-horizon-repository-generation-evaluation",
         "odysseys-benchmarking-web-agents-on-realistic-long-horizon-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-lo",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative",
-        "stepwise-codex-bench-evaluating-complex-multi-function-compr",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engi"
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
+        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
+        "stepwise-codex-bench-evaluating-complex-multi-function-comprehension-and-fine-grained-execution-reasoning",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
   },
@@ -3649,7 +3649,7 @@
     ],
     "related": {
       "benchmarks": [
-        "redcode-risky-code-execution-and-generation-benchmark-for-co"
+        "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
   },
@@ -3692,26 +3692,26 @@
     "paper": "https://arxiv.org/abs/2504.14985",
     "related": {
       "benchmarks": [
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-i",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
         "a-user-centered-security-evaluation-of-copilot",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-ll",
-        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contribut",
-        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
         "autobaxbuilder-bootstrapping-code-security-benchmarking",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-",
-        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simula",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "clawsbench-evaluating-capability-and-safety-of-llm-productivity-agents-in-simulated-workspaces",
         "cs-eval-a-comprehensive-large-language-model-benchmark-for-cybersecurity",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capab",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-ris",
-        "iris-llm-assisted-static-analysis-for-detecting-security-vul",
-        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-ge",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "iris-llm-assisted-static-analysis-for-detecting-security-vulnerabilities",
+        "just-another-copy-and-paste-comparing-the-security-vulnerabilities-of-chatgpt-generated-code-and-stackoverflow-answers",
         "large-language-models-for-code-security-hardening-and-adversarial-testing",
         "llm-security-guard-for-code",
-        "llmseceval-a-dataset-of-natural-language-prompts-for-securit",
-        "os-spear-a-toolkit-for-the-safety-performance-efficiency-and-robustness-analysis",
-        "realvuln-benchmarking-rule-based-general-purpose-llm-and-sec",
-        "running-in-circle-a-simple-benchmark-for-llm-code-interprete",
-        "safegenbench-a-benchmark-framework-for-security-vulnerabilit"
+        "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
+        "os-spear-a-toolkit-for-the-safety-performance-efficiency-and-robustness-analysis-of-os-agents",
+        "realvuln-benchmarking-rule-based-general-purpose-llm-and-security-specialized-scanners-on-real-world-code",
+        "running-in-circle-a-simple-benchmark-for-llm-code-interpreter-security",
+        "safegenbench-a-benchmark-framework-for-security-vulnerability-detection-in-llm-generated-code"
       ]
     }
   },
@@ -3720,7 +3720,7 @@
     "name": "token-savior",
     "stage": "toolchain",
     "subcategory": "harness",
-    "what": "MCP server enabling Claude to hit 100% on coding benchmark with token/time effic",
+    "what": "token-savior",
     "type": "repo",
     "tags": [
       "token-efficiency",

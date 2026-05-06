@@ -123,7 +123,7 @@ def top30_benchmark_table(benchmarks):
     for b in top30:
         name = item_link(b)
         rec = " ✅" if b.get("recommended") else ""
-        what = (b.get("what") or "")[:70]
+        what = (b.get("what") or "")
         langs = ", ".join(b.get("languages", [])) or "-"
         scale = str(b["scale"]) if b.get("scale") else "-"
         method = b.get("eval_method") or "-"
@@ -181,7 +181,7 @@ def section_details(stage, label, items):
         lines.append("")
         for item in sorted(sub_items, key=lambda x: -(x.get("stars") or 0)):
             link = item_link(item)
-            desc = (item.get("what") or "")[:80]
+            desc = (item.get("what") or "")
             emojis = item_emoji(item)
             prefix = f"{emojis} " if emojis else ""
             venue = f" `{item['venue']}`" if item.get("venue") else ""
@@ -296,7 +296,7 @@ def generate():
         ]
         for b in recent:
             link = item_link(b)
-            what = (b.get("what") or "")[:70]
+            what = (b.get("what") or "")
             venue = f" `{b['venue']}`" if b.get("venue") else ""
             lines.append(f"- {link}{venue} — {what}")
         lines += ["", "---", ""]
@@ -336,7 +336,7 @@ def generate():
         for sub, b in picks:
             label = SUBCATEGORY_LABELS.get(sub, sub)
             link = item_link(b)
-            what = (b.get("what") or "")[:60]
+            what = (b.get("what") or "")
             lines.append(f"| {label} | {link} | {what} |")
         lines += [""]
 

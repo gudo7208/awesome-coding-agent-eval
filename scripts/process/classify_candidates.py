@@ -7,7 +7,7 @@ Usage:
 Features:
 - Keyword pre-filter to reduce LLM calls
 - Checkpoint every 10 items (resume with --resume)
-- English what ≤80 chars
+- English what ≤150 chars
 - Batch-friendly: processes any JSONL input
 """
 import json
@@ -53,7 +53,7 @@ Inclusion: Must relate to evaluating AI SE agents (benchmarks, scoring methods, 
 Exclusion: Pure model releases, general LLM benchmarks unrelated to SE, product marketing, pure agent frameworks without evaluation.
 
 Return ONLY JSON:
-{"decision":"relevant"|"not-relevant","stage":"...","subcategory":"...","what":"≤80 char English description","type":"paper"|"repo"|"tool"|"blog"|"paper+repo","tags":["tag1","tag2","tag3"]}"""
+{"decision":"relevant"|"not-relevant","stage":"...","subcategory":"...","what":"≤150 char English description, must be a complete sentence","type":"paper"|"repo"|"tool"|"blog"|"paper+repo","tags":["tag1","tag2","tag3"]}"""
 
 CHECKPOINT_INTERVAL = 10
 
