@@ -7,7 +7,7 @@
     "what": "AgentEval",
     "type": "tool",
     "repo": "https://github.com/AgentEvalHQ/AgentEval",
-    "stars": 86,
+    "stars": 89,
     "tags": [
       "evaluation-framework",
       "dotnet",
@@ -35,7 +35,7 @@
     "what": "Isolated sandbox for side-by-side benchmarking of SE agents on kernel tasks",
     "type": "tool",
     "repo": "https://github.com/AMD-AGI/AgentKernelArena",
-    "stars": 13,
+    "stars": 15,
     "tags": [
       "sandbox",
       "side-by-side-evaluation",
@@ -103,7 +103,8 @@
         "python-code-generation-by-asking-clarification-questions",
         "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
-    }
+    },
+    "stars": 372
   },
   {
     "id": "braintrust",
@@ -156,7 +157,7 @@
     "what": "Tournament platform for code agents via iterative competitive peer learning",
     "type": "repo",
     "repo": "https://github.com/AGI-Eval-Official/CATArena",
-    "stars": 64,
+    "stars": 65,
     "tags": [
       "code-agent",
       "tournament-evaluation",
@@ -267,7 +268,7 @@
     "what": "Sandbox for secure AI agent code execution with instant concurrent containers",
     "type": "tool",
     "repo": "https://github.com/TencentCloud/CubeSandbox",
-    "stars": 4653,
+    "stars": 5257,
     "tags": [
       "sandbox",
       "container",
@@ -343,7 +344,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 11983,
+    "stars": 12134,
     "related": {
       "benchmarks": [
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
@@ -419,7 +420,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 26319,
+    "stars": 26948,
     "related": {
       "benchmarks": [
         "multitask-based-evaluation-of-open-source-llm-on-software-vulnerability",
@@ -577,7 +578,7 @@
     "what": "Observal",
     "type": "tool",
     "repo": "https://github.com/BlazeUp-AI/Observal",
-    "stars": 797,
+    "stars": 1048,
     "tags": [
       "observability",
       "eval-framework",
@@ -615,7 +616,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 18318
+    "stars": 18431
   },
   {
     "id": "opendevin-an-open-platform-for-ai-software-developers-as-generalist-agents",
@@ -678,7 +679,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 72349,
+    "stars": 73111,
     "related": {
       "benchmarks": [
         "devin-swebench-results",
@@ -712,7 +713,7 @@
     "what": "OpenSandbox",
     "type": "tool",
     "repo": "https://github.com/alibaba/OpenSandbox",
-    "stars": 10354,
+    "stars": 10544,
     "tags": [
       "sandbox",
       "agent-execution",
@@ -776,7 +777,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 20696,
+    "stars": 21115,
     "related": {
       "benchmarks": [
         "competition-level-problems-are-effective-llm-evaluators"
@@ -851,7 +852,8 @@
         "benchmarking-and-studying-the-llm-based-code-review",
         "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice"
       ]
-    }
+    },
+    "stars": 960
   },
   {
     "id": "swe-agent",
@@ -877,7 +879,8 @@
         "harnessing-large-language-models-for-curated-code-reviews",
         "swe-agile-a-software-agent-framework-for-efficiently-managing-dynamic-reasoning-context"
       ]
-    }
+    },
+    "stars": 19185
   },
   {
     "id": "swe-rex",
@@ -887,7 +890,7 @@
     "what": "SWE-ReX",
     "type": "tool",
     "repo": "https://github.com/SWE-agent/SWE-ReX",
-    "stars": 485,
+    "stars": 497,
     "tags": [
       "sandbox",
       "execution-runtime",
@@ -1062,7 +1065,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 262,
+    "stars": 263,
     "related": {
       "benchmarks": [
         "agentrewardbench",
@@ -1143,7 +1146,7 @@
     "what": "SanityHarness",
     "type": "tool",
     "repo": "https://github.com/lemon07r/SanityHarness",
-    "stars": 220,
+    "stars": 222,
     "tags": [
       "harness",
       "coding-agent",
@@ -1190,7 +1193,7 @@
     "what": "Lightweight open-source VM sandbox for AI agent code execution and browser use",
     "type": "tool",
     "repo": "https://github.com/CelestoAI/SmolVM",
-    "stars": 468,
+    "stars": 534,
     "tags": [
       "sandbox",
       "code-execution",
@@ -1367,7 +1370,7 @@
     "what": "Kubernetes-based sandbox runtime for isolated stateful AI agent workloads",
     "type": "tool",
     "repo": "https://github.com/kubernetes-sigs/agent-sandbox",
-    "stars": 1973,
+    "stars": 2114,
     "tags": [
       "sandbox",
       "kubernetes",
@@ -1390,7 +1393,7 @@
     "what": "Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way",
     "type": "tool",
     "repo": "https://github.com/agentevals-dev/agentevals",
-    "stars": 118,
+    "stars": 125,
     "tags": [
       "observability",
       "opentelemetry",
@@ -1497,7 +1500,7 @@
     "what": "AI research agent development and evaluation framework by Facebook Research",
     "type": "repo",
     "repo": "https://github.com/facebookresearch/aira-dojo",
-    "stars": 143,
+    "stars": 144,
     "tags": [
       "agent-evaluation",
       "framework",
@@ -1533,7 +1536,7 @@
     "what": "Unified interface to build agents across frameworks with tracing and scoring",
     "type": "tool",
     "repo": "https://github.com/mozilla-ai/any-agent",
-    "stars": 1156,
+    "stars": 1162,
     "tags": [
       "agent-framework",
       "multi-framework",
@@ -1580,7 +1583,7 @@
     "what": "arrakis",
     "type": "tool",
     "repo": "https://github.com/abshkbh/arrakis",
-    "stars": 804,
+    "stars": 809,
     "tags": [
       "sandbox",
       "code-execution",
@@ -1608,7 +1611,7 @@
     "what": "FUSE filesystem driver for lazy-mounting large git repos in agent sandboxes",
     "type": "tool",
     "repo": "https://github.com/cloudflare/artifact-fs",
-    "stars": 744,
+    "stars": 787,
     "tags": [
       "sandbox",
       "filesystem",
@@ -1664,7 +1667,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 870,
+    "stars": 872,
     "related": {
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
@@ -1732,7 +1735,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 359,
+    "stars": 360,
     "related": {
       "benchmarks": [
         "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
@@ -1761,7 +1764,7 @@
     "what": "Evaluates web agents on standardized scraping and navigation test scenarios",
     "type": "tool",
     "repo": "https://github.com/reworkd/bananalyzer",
-    "stars": 327,
+    "stars": 328,
     "tags": [
       "web-agent",
       "evaluation",
@@ -1818,7 +1821,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 1040,
+    "stars": 1042,
     "related": {
       "benchmarks": [
         "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
@@ -1881,7 +1884,7 @@
     "what": "Embeddable sandbox for AI agents with snapshots, state and hardware isolation",
     "type": "tool",
     "repo": "https://github.com/boxlite-ai/boxlite",
-    "stars": 1868,
+    "stars": 2042,
     "tags": [
       "sandbox",
       "agent-execution",
@@ -1913,7 +1916,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 508,
+    "stars": 537,
     "related": {
       "benchmarks": [
         "harbor-automated-harness-optimization",
@@ -1929,7 +1932,7 @@
     "what": "Local isolated sandbox for AI agents to run code safely in containers",
     "type": "tool",
     "repo": "https://github.com/instavm/coderunner",
-    "stars": 820,
+    "stars": 824,
     "tags": [
       "sandbox",
       "containerization",
@@ -1957,7 +1960,7 @@
     "what": "Sandbox infra for computer-use agents with macOS/Linux/Windows VMs and SDK",
     "type": "tool",
     "repo": "https://github.com/trycua/cua",
-    "stars": 15010,
+    "stars": 15885,
     "tags": [
       "computer-use",
       "sandbox",
@@ -2016,7 +2019,7 @@
     "what": "Experimental on-demand code execution sandbox built on Google Cloud Run",
     "type": "tool",
     "repo": "https://github.com/GoogleCloudPlatform/diy-sample-sandbox-cloud-run",
-    "stars": 22,
+    "stars": 23,
     "tags": [
       "sandbox",
       "cloud-run",
@@ -2044,7 +2047,7 @@
     "what": "CLI eval harness for AI coding agents with benchmark and chaos fault injection",
     "type": "tool",
     "repo": "https://github.com/Corbell-AI/evalmonkey",
-    "stars": 21,
+    "stars": 24,
     "tags": [
       "chaos-engineering",
       "benchmark-harness",
@@ -2073,7 +2076,7 @@
     "what": "Evaluation framework for AI agents and LLM apps with automated agentic testing",
     "type": "tool",
     "repo": "https://github.com/strands-agents/evals",
-    "stars": 115,
+    "stars": 121,
     "tags": [
       "evaluation-framework",
       "agent-testing",
@@ -2104,7 +2107,7 @@
     "what": "exec-sandbox",
     "type": "tool",
     "repo": "https://github.com/dualeai/exec-sandbox",
-    "stars": 21,
+    "stars": 24,
     "tags": [
       "sandbox",
       "code-execution",
@@ -2132,7 +2135,7 @@
     "what": "Experimental agent sandbox using Linux microVMs with TypeScript control plane",
     "type": "tool",
     "repo": "https://github.com/earendil-works/gondolin",
-    "stars": 1025,
+    "stars": 1149,
     "tags": [
       "sandbox",
       "microvm",
@@ -2155,7 +2158,7 @@
     "what": "Runs AI agent evals and RL environments with terminal-based benchmarking",
     "type": "tool",
     "repo": "https://github.com/harbor-framework/harbor",
-    "stars": 1699,
+    "stars": 1870,
     "tags": [
       "eval-harness",
       "rl-environment",
@@ -2178,7 +2181,7 @@
     "what": "intellagent",
     "type": "tool",
     "repo": "https://github.com/plurai-ai/intellagent",
-    "stars": 1182,
+    "stars": 1211,
     "tags": [
       "agent-evaluation",
       "synthetic-data",
@@ -2209,7 +2212,7 @@
     "what": "Open-source sandboxed code execution system supporting 60+ languages",
     "type": "tool",
     "repo": "https://github.com/judge0/judge0",
-    "stars": 4139,
+    "stars": 4159,
     "tags": [
       "sandbox",
       "code-execution",
@@ -2258,7 +2261,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 12369,
+    "stars": 12496,
     "related": {
       "benchmarks": [
         "a-user-centered-security-evaluation-of-copilot",
@@ -2292,7 +2295,7 @@
     "what": "microsandbox",
     "type": "tool",
     "repo": "https://github.com/superradcompany/microsandbox",
-    "stars": 5877,
+    "stars": 6019,
     "tags": [
       "sandbox",
       "agent-execution",
@@ -2414,7 +2417,7 @@
     "what": "Zero-config AI agent sandbox with capability-model-based multiplexed isolation",
     "type": "tool",
     "repo": "https://github.com/always-further/nono",
-    "stars": 2158,
+    "stars": 2342,
     "tags": [
       "sandbox",
       "agent-security",
@@ -2510,7 +2513,7 @@
     "what": "Secure lightweight Python code execution sandbox for LLM/AI agents",
     "type": "tool",
     "repo": "https://github.com/onyx-dot-app/python-sandbox",
-    "stars": 18,
+    "stars": 23,
     "tags": [
       "sandbox",
       "code-execution",
@@ -2552,7 +2555,7 @@
     "what": "Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker",
     "type": "tool",
     "repo": "https://github.com/smallcloudai/refact-bench",
-    "stars": 62,
+    "stars": 63,
     "tags": [
       "swe-bench",
       "benchmark-harness",
@@ -2598,7 +2601,7 @@
     "what": "Run coding agents in sandboxed environments with HTTP control for evaluation",
     "type": "tool",
     "repo": "https://github.com/rivet-dev/sandbox-agent",
-    "stars": 1336,
+    "stars": 1361,
     "tags": [
       "sandbox",
       "agent-runtime",
@@ -2626,7 +2629,7 @@
     "what": "Official SWE-bench CLI tool for running remote evaluation tasks",
     "type": "tool",
     "repo": "https://github.com/SWE-bench/sb-cli",
-    "stars": 63,
+    "stars": 66,
     "tags": [
       "swe-bench",
       "cli",
@@ -2672,7 +2675,7 @@
     "what": "secure-exec",
     "type": "tool",
     "repo": "https://github.com/rivet-dev/secure-exec",
-    "stars": 851,
+    "stars": 863,
     "tags": [
       "sandbox",
       "code-execution",
@@ -2727,7 +2730,8 @@
         "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution",
         "traject-bench"
       ]
-    }
+    },
+    "stars": 27212
   },
   {
     "id": "squeez",
@@ -2737,7 +2741,7 @@
     "what": "Compresses verbose tool outputs for coding agents via LoRA fine-tuning",
     "type": "tool",
     "repo": "https://github.com/KRLabsOrg/squeez",
-    "stars": 11,
+    "stars": 17,
     "tags": [
       "context-compression",
       "tool-output",
@@ -2811,7 +2815,7 @@
     "what": "Taxonomy and scoring framework for AI agent sandboxes with 7 defense layers",
     "type": "repo",
     "repo": "https://github.com/kajogo777/the-agent-sandbox-taxonomy",
-    "stars": 62,
+    "stars": 66,
     "tags": [
       "sandbox-evaluation",
       "scoring-framework",
@@ -2839,7 +2843,7 @@
     "what": "CLI benchmark tool for evaluating AI coding agents on TypeScript workloads",
     "type": "tool",
     "repo": "https://github.com/laiso/ts-bench",
-    "stars": 230,
+    "stars": 233,
     "tags": [
       "typescript",
       "benchmark-cli",
@@ -2872,7 +2876,7 @@
     "what": "Generates and evaluates coding skills of agents like Claude Code and Codex",
     "type": "tool",
     "repo": "https://github.com/huggingface/upskill",
-    "stars": 503,
+    "stars": 526,
     "tags": [
       "code-agent",
       "skill-evaluation",
@@ -2913,7 +2917,7 @@
     "what": "vibe",
     "type": "tool",
     "repo": "https://github.com/lynaghk/vibe",
-    "stars": 883,
+    "stars": 898,
     "tags": [
       "sandbox",
       "virtual-machine",
@@ -2946,7 +2950,7 @@
     "what": "vibekit",
     "type": "tool",
     "repo": "https://github.com/superagent-ai/vibekit",
-    "stars": 1774,
+    "stars": 1784,
     "tags": [
       "sandbox",
       "observability",
@@ -2983,7 +2987,7 @@
     "what": "zeroboot",
     "type": "tool",
     "repo": "https://github.com/zerobootdev/zeroboot",
-    "stars": 2253,
+    "stars": 2312,
     "tags": [
       "sandbox",
       "firecracker",
@@ -3068,7 +3072,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
-    "stars": 16146,
+    "stars": 16154,
     "languages": [
       "python"
     ],
@@ -3102,7 +3106,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/agent-infra/sandbox",
-    "stars": 4474,
+    "stars": 4613,
     "languages": [
       "python"
     ],
@@ -3129,7 +3133,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/eugene1g/agent-safehouse",
-    "stars": 1662,
+    "stars": 1740,
     "languages": [
       "shell"
     ]
@@ -3150,7 +3154,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/agentbay-ai/wuying-agentbay-sdk",
-    "stars": 1116,
+    "stars": 1117,
     "languages": [
       "python"
     ],
@@ -3187,7 +3191,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/cloudflare/sandbox-sdk",
-    "stars": 1000,
+    "stars": 1017,
     "languages": [
       "typescript"
     ],
@@ -3213,7 +3217,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/codefuse-ai/Test-Agent",
-    "stars": 688,
+    "stars": 691,
     "languages": [
       "python"
     ],
@@ -3257,7 +3261,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/portofcontext/pctx",
-    "stars": 248,
+    "stars": 251,
     "languages": [
       "rust"
     ]
@@ -3278,7 +3282,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/SALT-NLP/collaborative-gym",
-    "stars": 128,
+    "stars": 130,
     "languages": [
       "python"
     ],
@@ -3392,7 +3396,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/Michaelliv/agentbox",
-    "stars": 43,
+    "stars": 44,
     "languages": [
       "python"
     ],
@@ -3458,7 +3462,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/codefox-lab/CodeFox-CLI",
-    "stars": 39,
+    "stars": 40,
     "languages": [
       "python"
     ],
@@ -3603,7 +3607,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/LongWeihan/codex-long-running-harness",
-    "stars": 15,
+    "stars": 16,
     "languages": [
       "python"
     ],
@@ -3669,7 +3673,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/radimsem/mithril",
-    "stars": 11,
+    "stars": 13,
     "languages": [
       "rust"
     ]
@@ -3731,7 +3735,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/Mibayy/token-savior",
-    "stars": 713,
+    "stars": 834,
     "languages": [
       "python"
     ],

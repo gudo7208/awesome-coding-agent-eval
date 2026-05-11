@@ -27,7 +27,7 @@ Different scoring approaches, each with trade-offs.
 - [AXIOM: Benchmarking LLM-as-a-Judge for Code via Rule-Based Perturbation and Multisource Quality Calibration](https://arxiv.org/abs/2512.20159) — AXIOM: Benchmarking LLM-as-a-Judge for Code via Rule-Based Perturbation and Multisource Quality Calibration. 🤖
 - [Can GPT-4 Replicate Empirical Software Engineering Research?](https://arxiv.org/abs/2310.01727) — Evaluates GPT-4's ability to replicate empirical SE research studies. 🤖
 - [Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering](https://arxiv.org/abs/2502.06193) — Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering. 🤖
-- [code-agent-eval](https://github.com/amazon-science/code-agent-eval) ⭐10 — Evaluates agent-generated code patches using LLM critics without execution. 🤖
+- [code-agent-eval](https://github.com/amazon-science/code-agent-eval) ⭐11 — Evaluates agent-generated code patches using LLM critics without execution. 🤖
 - [CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation](https://arxiv.org/abs/2505.19502) — CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation. 🤖
 - [CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?](https://arxiv.org/abs/2408.10718) — Benchmark evaluating LLMs as judges of code correctness for code understanding. 🤖
 - [CodeJudgeBench](https://arxiv.org/abs/2507.10535) — Benchmarks LLM-as-Judge reliability on code tasks, revealing bias and limits. 🤖
