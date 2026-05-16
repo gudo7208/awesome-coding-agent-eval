@@ -8,7 +8,7 @@ SE Agent benchmarks organized by task type.
 - [End-to-End / Multi-Task (109)](#end-to-end)
 - [Long-Horizon / Evolution (35)](#long-horizon)
 - [Large Codebase / Multi-Repo (22)](#large-codebase)
-- [Code Review (25)](#code-review)
+- [Code Review (27)](#code-review)
 - [Testing & QA (40)](#testing)
 - [Security & Vulnerability (49)](#security)
 - [Production-Derived (13)](#production)
@@ -327,6 +327,7 @@ SE Agent benchmarks organized by task type.
 - [CodeReviewer: Pre-Training for Automating Code Review Activities](https://www.semanticscholar.org/paper/b951c0691a0d2ca65202a1eed2ccedf6e305d035) — Pre-trained model and benchmark for automating code review activities.
 - [CodeTaste: Can LLMs Generate Human-Level Code Refactorings?](https://arxiv.org/abs/2603.04177) — Benchmarks LLM ability to generate human-level code refactorings.
 - [CommitSuite](https://arxiv.org/abs/2604.28700) — Comprehensive benchmark for commit classification and message generation.
+- [CR-Bench: Evaluating Real-World Utility of AI Code Review Agents](https://arxiv.org/abs/2603.11078) — Benchmark AI code review agents with fine-grained evaluation pipeline. 🌍
 - [EvaCRC: Evaluating Code Review Comments](https://www.semanticscholar.org/paper/b13d4d943bf997d33fcc340f7a943e16ff563d1f) — Evaluates code review comment quality with interpretable conceptual model.
 - [Exploring the Capabilities of LLMs for Code-Change-Related Tasks](https://arxiv.org/abs/2407.02824) — Exploring the Capabilities of LLMs for Code-Change-Related Tasks.
 - [Exploring the Potential of ChatGPT in Automated Code Refinement: An Empirical Study](https://arxiv.org/abs/2309.08221) — Empirical study of ChatGPT on automated code refinement and review tasks.
@@ -334,6 +335,7 @@ SE Agent benchmarks organized by task type.
 - [Harnessing Large Language Models for Curated Code Reviews](https://arxiv.org/abs/2502.03425) — Benchmark for LLM-generated curated code review comments with quality filtering.
 - [PatchTrack: A Comprehensive Analysis of ChatGPT's Influence on Pull Request Outcomes](https://arxiv.org/abs/2505.07700) — PatchTrack: A Comprehensive Analysis of ChatGPT's Influence on Pull Request Outcomes.
 - [RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian](https://arxiv.org/abs/2601.01129) — Evaluates LLM-based code review quality at scale in Atlassian production. 🏭
+- [SWE-PRBench: Benchmarking AI Code Review Quality Against PR Feedback](https://arxiv.org/abs/2603.26130) — Benchmark AI code review quality against 350 human-annotated pull requests.
 - [The Right Prompts for the Job: Repair Code-Review Defects with Large Language Model](https://arxiv.org/abs/2312.17485) — Benchmarks LLM prompt strategies for repairing code-review defects.
 - [Towards Automating Code Review Activities](https://arxiv.org/abs/2101.02518) — Towards Automating Code Review Activities.
 - [Understanding Dominant Themes in Reviewing Agentic AI-authored Code](https://arxiv.org/abs/2601.19287) — Analyzes 19,450 review comments on agent-authored PRs with 12-theme taxonomy.

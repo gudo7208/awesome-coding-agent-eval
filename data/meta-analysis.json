@@ -207,6 +207,115 @@
     }
   },
   {
+    "id": "state-of-code-evals-after-swe-bench-code-clash-sota-coding-benchmarks-recap",
+    "name": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "code-eval",
+      "podcast",
+      "neurips",
+      "benchmark-landscape"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.latent.space/p/state-of-code-evals-after-swe-bench",
+    "related": {
+      "benchmarks": [
+        "complexcodeeval-a-benchmark-for-evaluating-large-code-models-on-more-complex-code",
+        "crosscodeeval-a-diverse-and-multilingual-benchmark-for-cross-file-code-completion",
+        "crosscodeeval-multilingual-repository-level-code-completion-benchmark",
+        "devin-swebench-results",
+        "dynamic-benchmarking-of-reasoning-capabilities-in-code-large-language-models-under-data-contamination",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "rust-swe-bench",
+        "sketch2code-evaluating-vision-language-models-for-interactive-web-design-prototyping",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live"
+      ],
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+    "name": "A review of OpenAI's o1 and how we evaluate coding agents",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Cognition AI blog on coding agent evaluation methodology with o1 analysis",
+    "type": "paper",
+    "tags": [
+      "coding-agent",
+      "evaluation",
+      "o1",
+      "root-cause-diagnosis"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://cognition.ai/blog/evaluating-coding-agents",
+    "related": {
+      "benchmarks": [
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
+        "a-user-centered-security-evaluation-of-copilot",
+        "abtest-behavior-driven-testing-for-ai-coding-agents",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
+        "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
+        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
+        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
+        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
+        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
+        "codefuse-evaluation",
+        "contextbench",
+        "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "evaluating-llm-based-0-to-1-software-generation-in-end-to-end-cli-tool-scenarios",
+        "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
+        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
+        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning-pipeline-for-connect-four-that-performs",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
+        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2"
+      ],
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-evaluation-in-2026",
+        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
+      ]
+    }
+  },
+  {
     "id": "a-self-improving-coding-agent",
     "name": "A Self-Improving Coding Agent",
     "stage": "meta-analysis",
@@ -258,6 +367,59 @@
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
         "agent-evaluation-in-2026",
         "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
+      ]
+    }
+  },
+  {
+    "id": "a-smarter-way-to-evaluate-coding-ai-toloka",
+    "name": "a smarter way to evaluate coding AI (Toloka)",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Toloka blog proposing smarter evaluation fixes for SWE-bench limitations",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "evaluation-critique",
+      "benchmark-improvement"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://toloka.ai/blog/fixing-swe-bench-a-smarter-way-to-evaluate-coding-ai/",
+    "related": {
+      "benchmarks": [
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
+        "swe-bench-plus-plus",
+        "swe-bench-pro",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
+      ],
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-evaluation-in-2026"
       ]
     }
   },
@@ -371,56 +533,284 @@
     }
   },
   {
-    "id": "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-    "name": "A review of OpenAI's o1 and how we evaluate coding agents",
+    "id": "agent-benchmarks-for-enterprise",
+    "name": "Agent Benchmarks for Enterprise",
     "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Cognition AI blog on coding agent evaluation methodology with o1 analysis",
+    "subcategory": "survey",
+    "what": "Agent Benchmarks for Enterprise",
     "type": "paper",
     "tags": [
-      "coding-agent",
-      "evaluation",
-      "o1",
-      "root-cause-diagnosis"
+      "enterprise",
+      "reliability",
+      "practitioner-survey",
+      "adoption-barriers"
     ],
     "added_date": "2026-04-30",
     "last_verified": "2026-04-30",
     "status": "active",
-    "website": "https://cognition.ai/blog/evaluating-coding-agents",
+    "website": "https://simmering.dev/blog/agent-benchmarks/",
+    "related": {
+      "benchmarks": [
+        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "spider-2-0-evaluating-language-models-on-real-world-enterprise-text-to-sql-workflows"
+      ],
+      "variants": [
+        "74-of-production-agents-still-rely-on-human-evaluation",
+        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
+        "a-survey-on-large-language-model-benchmarks",
+        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
+        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
+        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
+        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
+        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
+        "survey-on-evaluation-of-llm-based-agents",
+        "symflower-llm-agent-benchmarks-survey"
+      ]
+    }
+  },
+  {
+    "id": "agent-evaluation-in-2026",
+    "name": "Agent Evaluation in 2026",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Agent Evaluation in 2026",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "methodology",
+      "best-practices",
+      "tooling",
+      "2026"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://orq.ai/blog/agent-evaluation",
+    "related": {
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
+      ]
+    }
+  },
+  {
+    "id": "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+    "name": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "production",
+      "benchmark-limitations",
+      "multi-turn"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://latitude.so/blog/agent-evaluation-tools-comparison-product-specific-vs-generic-benchmarks",
     "related": {
       "benchmarks": [
         "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
-        "a-user-centered-security-evaluation-of-copilot",
-        "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
-        "an-empirical-evaluation-of-github-copilot-s-code-suggestions",
-        "an-empirical-evaluation-of-using-large-language-models-for-automated-unit-test-generation",
-        "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
-        "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents",
-        "chasing-the-public-score-user-pressure-and-evaluation-exploitation-in-coding-agent-workflows",
-        "codefuse-evaluation",
-        "contextbench",
-        "cursor-debuts-cursorbench-3-to-evaluate-coding-agents",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
-        "evaluating-llm-based-0-to-1-software-generation-in-end-to-end-cli-tool-scenarios",
-        "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
-        "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
-        "frontier-coding-agents-can-now-implement-an-alphazero-self-play-machine-learning-pipeline-for-connect-four-that-performs",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2"
+        "aegis-an-agent-based-framework-for-bug-reproduction-from-issue-descriptions",
+        "agentic-bug-reproduction-for-effective-automated-program-repair-at-google",
+        "clawmark-a-living-world-benchmark-for-multi-turn-multi-day-multimodal-coworker-agents",
+        "codeassistbench-cab-dataset-amp-benchmarking-for-multi-turn-chat-based-code-assistance",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-code-generation",
+        "codemirage-a-multi-lingual-benchmark-for-detecting-ai-generated-and-paraphrased-source-code-from-production-level-llms",
+        "dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-repair",
+        "echo-graph-enhanced-retrieval-and-execution-feedback-for-issue-reproduction-test-generation",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "icore-an-iterative-correlation-aware-retriever-for-bug-reproduction-test-generation",
+        "linuxarena-a-control-setting-for-ai-agents-in-live-production-software-environments",
+        "mocha-are-code-language-models-robust-against-multi-turn-malicious-coding-prompts",
+        "production-derived-benchmark",
+        "swe-hub-a-unified-production-system-for-scalable-executable-software-engineering-tasks",
+        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories"
       ],
       "variants": [
         "2024-in-agents-ls-live-neurips-2024",
         "8-benchmarks-shaping-ai-agents",
         "8-benchmarks-shaping-the-next-generation-of-ai-agents",
         "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-in-2026",
+        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
+      ]
+    }
+  },
+  {
+    "id": "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems",
+    "name": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
+    "type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "multi-agent",
+      "tooling",
+      "google-cloud"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems",
+    "related": {
+      "benchmarks": [
+        "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
+        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
+        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
+        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
+        "multiagentbench-acl-2025",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "open-multi-agent",
+        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
+        "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
+      ],
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
         "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
         "ai-coding-benchmarks-failingfast-io",
         "ai-evals-are-becoming-the-new-compute-bottleneck",
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026",
-        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
+        "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "agentic-ai-in-the-software-development-lifecycle-architecture-empirical-evidence-and-the-reshaping-of-software-engineeri",
+    "name": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
+    "type": "paper",
+    "tags": [
+      "agentic-ai",
+      "survey",
+      "software-engineering",
+      "llm"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.26275",
+    "related": {
+      "benchmarks": [
+        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "agentic-software-issue-resolution-with-large-language-models-a-survey",
+        "agentless-demystifying-llm-based-software-engineering-agents",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "an-llm-based-agent-for-reliable-docker-environment-configuration",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
+        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
+        "baxbench-can-llms-generate-correct-and-secure-backends",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
+        "benchmarking-and-studying-the-llm-based-code-review",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents"
+      ],
+      "variants": [
+        "74-of-production-agents-still-rely-on-human-evaluation",
+        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
+        "a-survey-on-large-language-model-benchmarks",
+        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
+        "agent-benchmarks-for-enterprise",
+        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
+        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
+        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
+        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
+        "survey-on-evaluation-of-llm-based-agents"
+      ]
+    }
+  },
+  {
+    "id": "agentic-coding-evals-ai-pm-wiki",
+    "name": "Agentic coding evals — AI PM Wiki",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "AI PM Wiki overview of core concepts for evaluating agentic coding systems",
+    "type": "paper",
+    "tags": [
+      "agentic-coding",
+      "evaluation-concepts",
+      "multi-step",
+      "tool-use",
+      "planning"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://genaipm.com/wiki/concepts/agentic-coding-evals",
+    "related": {
+      "benchmarks": [
+        "featurebench-benchmarking-agentic-coding-for-complex-feature-development",
+        "hyper-multi-step-the-truth-behind-difficult-long-context-tasks",
+        "lita-light-agent-uncovers-the-agentic-coding-capabilities-of-llms",
+        "opengame-open-agentic-coding-for-games",
+        "scaling-test-time-compute-for-agentic-coding",
+        "tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-trajectories",
+        "traject-bench"
+      ],
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "agyn-multi-agent-team-se",
+    "name": "Agyn: Multi-Agent System for Team-Based Autonomous SE",
+    "stage": "meta-analysis",
+    "subcategory": "multi-agent",
+    "what": "Multi-agent team system resolving 72.2% of SWE-bench 500 tasks",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "team-structure",
+      "autonomous-se",
+      "role-specialization"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2602.01465",
+    "related": {
+      "benchmarks": [
+        "swe-bench"
       ]
     }
   },
@@ -475,60 +865,6 @@
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
         "agent-evaluation-in-2026",
         "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
-      ]
-    }
-  },
-  {
-    "id": "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-    "name": "AI Writes, We Analyze: The ChatGPT Python Code Saga",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Analyzes quality and security of 1756 ChatGPT-generated Python code snippets",
-    "type": "paper",
-    "tags": [
-      "code-quality",
-      "security",
-      "chatgpt",
-      "python",
-      "empirical-study"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99",
-    "related": {
-      "benchmarks": [
-        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
-        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
-        "a-user-centered-security-evaluation-of-copilot",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
-        "aicgseceval",
-        "an-analysis-of-the-automatic-bug-fixing-performance-of-chatgpt",
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
-        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
-        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
-        "autobaxbuilder-bootstrapping-code-security-benchmarking",
-        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
-        "core-resolving-code-quality-issues-using-llms",
-        "cs-eval-a-comprehensive-large-language-model-benchmark-for-cybersecurity",
-        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
-        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
-        "evaluating-and-improving-chatgpt-for-unit-test-generation",
-        "exploring-the-potential-of-chatgpt-in-automated-code-refinement-an-empirical-study",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
-        "iris-llm-assisted-static-analysis-for-detecting-security-vulnerabilities"
-      ],
-      "variants": [
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
-        "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
       ]
     }
   },
@@ -618,6 +954,76 @@
         "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
       ]
     }
+  },
+  {
+    "id": "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+    "name": "AI Writes, We Analyze: The ChatGPT Python Code Saga",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Analyzes quality and security of 1756 ChatGPT-generated Python code snippets",
+    "type": "paper",
+    "tags": [
+      "code-quality",
+      "security",
+      "chatgpt",
+      "python",
+      "empirical-study"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
+        "a-s-e-a-repository-level-benchmark-for-evaluating-security-in-ai-generated-code",
+        "a-user-centered-security-evaluation-of-copilot",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "aicgseceval",
+        "an-analysis-of-the-automatic-bug-fixing-performance-of-chatgpt",
+        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
+        "asleep-at-the-keyboard-assessing-the-security-of-github-copilot-s-code-contributions",
+        "assessing-the-security-of-github-copilot-s-generated-code-a-targeted-replication-study",
+        "autobaxbuilder-bootstrapping-code-security-benchmarking",
+        "bugsinpy-a-database-of-existing-bugs-in-python-programs-to-enable-controlled-testing-and-debugging-studies",
+        "core-resolving-code-quality-issues-using-llms",
+        "cs-eval-a-comprehensive-large-language-model-benchmark-for-cybersecurity",
+        "cybergym-evaluating-ai-agents-real-world-cybersecurity-capabilities-at-scale",
+        "cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models",
+        "evaluating-and-improving-chatgpt-for-unit-test-generation",
+        "exploring-the-potential-of-chatgpt-in-automated-code-refinement-an-empirical-study",
+        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
+        "iris-llm-assisted-static-analysis-for-detecting-security-vulnerabilities"
+      ],
+      "variants": [
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
+        "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
+      ]
+    }
+  },
+  {
+    "id": "ai-generated-smells",
+    "name": "AI-Generated Smells",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Analysis of code and architecture smells in LLM/agent-driven development",
+    "type": "paper",
+    "tags": [
+      "code-smells",
+      "architecture",
+      "quality",
+      "agent-driven"
+    ],
+    "paper": "https://arxiv.org/abs/2604.28900",
+    "added_date": "2026-05-06"
   },
   {
     "id": "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
@@ -730,211 +1136,6 @@
         "code-review-agent-effectiveness-study",
         "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
         "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
-      ]
-    }
-  },
-  {
-    "id": "agent-benchmarks-for-enterprise",
-    "name": "Agent Benchmarks for Enterprise",
-    "stage": "meta-analysis",
-    "subcategory": "survey",
-    "what": "Agent Benchmarks for Enterprise",
-    "type": "paper",
-    "tags": [
-      "enterprise",
-      "reliability",
-      "practitioner-survey",
-      "adoption-barriers"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://simmering.dev/blog/agent-benchmarks/",
-    "related": {
-      "benchmarks": [
-        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
-        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
-        "spider-2-0-evaluating-language-models-on-real-world-enterprise-text-to-sql-workflows"
-      ],
-      "variants": [
-        "74-of-production-agents-still-rely-on-human-evaluation",
-        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
-        "a-survey-on-large-language-model-benchmarks",
-        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
-        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
-        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
-        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
-        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
-        "survey-on-evaluation-of-llm-based-agents",
-        "symflower-llm-agent-benchmarks-survey"
-      ]
-    }
-  },
-  {
-    "id": "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-    "name": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
-    "type": "paper",
-    "tags": [
-      "agent-evaluation",
-      "production",
-      "benchmark-limitations",
-      "multi-turn"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://latitude.so/blog/agent-evaluation-tools-comparison-product-specific-vs-generic-benchmarks",
-    "related": {
-      "benchmarks": [
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
-        "aegis-an-agent-based-framework-for-bug-reproduction-from-issue-descriptions",
-        "agentic-bug-reproduction-for-effective-automated-program-repair-at-google",
-        "clawmark-a-living-world-benchmark-for-multi-turn-multi-day-multimodal-coworker-agents",
-        "codeassistbench-cab-dataset-amp-benchmarking-for-multi-turn-chat-based-code-assistance",
-        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-code-generation",
-        "codemirage-a-multi-lingual-benchmark-for-detecting-ai-generated-and-paraphrased-source-code-from-production-level-llms",
-        "dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-repair",
-        "echo-graph-enhanced-retrieval-and-execution-feedback-for-issue-reproduction-test-generation",
-        "from-translation-to-superset-benchmark-driven-evolution-of-a-production-ai-agent-from-rust-to-python",
-        "icore-an-iterative-correlation-aware-retriever-for-bug-reproduction-test-generation",
-        "linuxarena-a-control-setting-for-ai-agents-in-live-production-software-environments",
-        "mocha-are-code-language-models-robust-against-multi-turn-malicious-coding-prompts",
-        "production-derived-benchmark",
-        "swe-hub-a-unified-production-system-for-scalable-executable-software-engineering-tasks",
-        "swe-tester-training-open-source-llms-for-issue-reproduction-in-real-world-repositories"
-      ],
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-in-2026",
-        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
-      ]
-    }
-  },
-  {
-    "id": "agent-evaluation-in-2026",
-    "name": "Agent Evaluation in 2026",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Agent Evaluation in 2026",
-    "type": "paper",
-    "tags": [
-      "agent-evaluation",
-      "methodology",
-      "best-practices",
-      "tooling",
-      "2026"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://orq.ai/blog/agent-evaluation",
-    "related": {
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems"
-      ]
-    }
-  },
-  {
-    "id": "agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems",
-    "name": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
-    "type": "paper",
-    "tags": [
-      "agent-evaluation",
-      "multi-agent",
-      "tooling",
-      "google-cloud"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-a-deep-dive-into-agent-evaluation-practical-tooling-and-multi-agent-systems",
-    "related": {
-      "benchmarks": [
-        "cadmas-ctx-contextual-capability-calibration-for-multi-agent-delegation",
-        "evoconfig-self-evolving-multi-agent-systems-for-efficient-autonomous-environment-configuration",
-        "gammaf-a-common-framework-for-graph-based-anomaly-monitoring-benchmarking-in-llm-multi-agent-systems",
-        "llm-based-multi-agent-systems-for-code-generation-a-multi-vocal-literature-review",
-        "multiagentbench-acl-2025",
-        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
-        "open-multi-agent",
-        "paper-metagpt-meta-programming-for-multi-agent-collaborative-framework",
-        "swe-debate-competitive-multi-agent-debate-for-software-issue-resolution"
-      ],
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026"
-      ]
-    }
-  },
-  {
-    "id": "agentic-coding-evals-ai-pm-wiki",
-    "name": "Agentic coding evals — AI PM Wiki",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "AI PM Wiki overview of core concepts for evaluating agentic coding systems",
-    "type": "paper",
-    "tags": [
-      "agentic-coding",
-      "evaluation-concepts",
-      "multi-step",
-      "tool-use",
-      "planning"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://genaipm.com/wiki/concepts/agentic-coding-evals",
-    "related": {
-      "benchmarks": [
-        "featurebench-benchmarking-agentic-coding-for-complex-feature-development",
-        "hyper-multi-step-the-truth-behind-difficult-long-context-tasks",
-        "lita-light-agent-uncovers-the-agentic-coding-capabilities-of-llms",
-        "opengame-open-agentic-coding-for-games",
-        "scaling-test-time-compute-for-agentic-coding",
-        "tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-trajectories",
-        "traject-bench"
-      ],
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026"
       ]
     }
   },
@@ -1193,48 +1394,6 @@
     }
   },
   {
-    "id": "crowdselect",
-    "name": "CROWDSELECT",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "CROWDSELECT",
-    "type": "paper+repo",
-    "repo": "https://github.com/listentm/CROWDSELECT",
-    "stars": 20,
-    "tags": [
-      "benchmark-generation",
-      "quality-study",
-      "llm-as-judge",
-      "qa-dataset",
-      "crowd-selection"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "languages": [
-      "html"
-    ],
-    "related": {
-      "benchmarks": [
-        "automated-benchmark-generation-for-repository-level-coding-tasks",
-        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
-        "data"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
-        "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
-      ]
-    }
-  },
-  {
     "id": "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
     "name": "Can ChatGPT replace StackOverflow? A Study on Robustness and Reliability of Large Language Model Code Generation",
     "stage": "meta-analysis",
@@ -1286,6 +1445,59 @@
         "code-review-agent-effectiveness-study",
         "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
         "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
+      ]
+    }
+  },
+  {
+    "id": "code-llm-survey",
+    "name": "code LLM survey",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "Survey of large language models for code understanding and generation",
+    "type": "paper",
+    "tags": [
+      "code-llm",
+      "survey",
+      "code-generation",
+      "code-understanding"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2311.07989",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
+        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "agentic-software-issue-resolution-with-large-language-models-a-survey",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
+        "bigcodebench-benchmarking-code-generation-with-diverse-function-calls-and-complex-instructions",
+        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-generation",
+        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
+        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-model-code-generation",
+        "coconut-structural-code-understanding-does-not-fall-out-of-a-tree",
+        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-capabilities",
+        "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-for-real-world-repo-level-coding-challenges",
+        "codebenchgen-creating-scalable-execution-based-code-generation-benchmarks",
+        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-code-generation",
+        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-on-humaneval-x",
+        "codemixbench-evaluating-large-language-models-on-code-generation-with-code-mixed-prompts"
+      ],
+      "variants": [
+        "74-of-production-agents-still-rely-on-human-evaluation",
+        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
+        "a-survey-on-large-language-model-benchmarks",
+        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
+        "agent-benchmarks-for-enterprise",
+        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
+        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
+        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
+        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
+        "survey-on-evaluation-of-llm-based-agents"
       ]
     }
   },
@@ -1454,6 +1666,80 @@
     }
   },
   {
+    "id": "crowdselect",
+    "name": "CROWDSELECT",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "CROWDSELECT",
+    "type": "paper+repo",
+    "repo": "https://github.com/listentm/CROWDSELECT",
+    "stars": 20,
+    "tags": [
+      "benchmark-generation",
+      "quality-study",
+      "llm-as-judge",
+      "qa-dataset",
+      "crowd-selection"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "languages": [
+      "html"
+    ],
+    "related": {
+      "benchmarks": [
+        "automated-benchmark-generation-for-repository-level-coding-tasks",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "data"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
+        "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
+      ]
+    }
+  },
+  {
+    "id": "demystifying-evals-for-ai-agents",
+    "name": "Demystifying evals for AI agents",
+    "stage": "meta-analysis",
+    "subcategory": "blog",
+    "what": "Demystifying evals for AI agents",
+    "type": "paper",
+    "tags": [
+      "agent-eval",
+      "evaluation-strategy",
+      "anthropic",
+      "best-practices"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "website": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "related": {
+      "variants": [
+        "2024-in-agents-ls-live-neurips-2024",
+        "8-benchmarks-shaping-ai-agents",
+        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
+        "a-self-improving-coding-agent",
+        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
+        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
+        "ai-coding-benchmarks-failingfast-io",
+        "ai-evals-are-becoming-the-new-compute-bottleneck",
+        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
+        "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
     "id": "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework",
     "name": "Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis Testing Framework",
     "stage": "meta-analysis",
@@ -1494,38 +1780,6 @@
         "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
         "code-review-agent-effectiveness-study",
         "do-agent-rules-shape-or-distort-guardrails-beat-guidance-in-coding-agents"
-      ]
-    }
-  },
-  {
-    "id": "demystifying-evals-for-ai-agents",
-    "name": "Demystifying evals for AI agents",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Demystifying evals for AI agents",
-    "type": "paper",
-    "tags": [
-      "agent-eval",
-      "evaluation-strategy",
-      "anthropic",
-      "best-practices"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-    "related": {
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026"
       ]
     }
   },
@@ -1738,6 +1992,22 @@
     }
   },
   {
+    "id": "evaluating-agentic-ai-in-the-wild",
+    "name": "Evaluating Agentic AI in the Wild",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Failure modes, drift patterns, and production evaluation framework",
+    "type": "paper",
+    "tags": [
+      "production",
+      "failure-modes",
+      "drift",
+      "evaluation-framework"
+    ],
+    "paper": "https://arxiv.org/abs/2604.29400",
+    "added_date": "2026-05-06"
+  },
+  {
     "id": "evaluating-agents-md-are-repository-level-context-files-helpful-for-coding-agents",
     "name": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
     "stage": "meta-analysis",
@@ -1884,6 +2154,60 @@
     }
   },
   {
+    "id": "exploring-and-evaluating-hallucinations-in-llm-powered-code-generation",
+    "name": "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Study exploring and evaluating hallucinations in LLM code generation",
+    "type": "paper",
+    "tags": [
+      "hallucination",
+      "code-generation",
+      "llm",
+      "quality"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2404.00971",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "agentless-demystifying-llm-based-software-engineering-agents",
+        "agentprocessbench",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "an-llm-based-agent-for-reliable-docker-environment-configuration",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
+        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
+        "baxbench-can-llms-generate-correct-and-secure-backends",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
+        "benchmarking-and-studying-the-llm-based-code-review",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
+      ]
+    }
+  },
+  {
     "id": "exploring-autonomous-agents-a-closer-look-at-why-they-fail-when-completing-tasks",
     "name": "Exploring Autonomous Agents: A Closer Look at Why They Fail When Completing Tasks",
     "stage": "meta-analysis",
@@ -1923,60 +2247,6 @@
         "automated-benchmark-generation-for-repository-level-coding-tasks",
         "backportbench-a-multilingual-benchmark-for-automated-backporting-of-patches",
         "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "exploring-and-evaluating-hallucinations-in-llm-powered-code-generation",
-    "name": "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Study exploring and evaluating hallucinations in LLM code generation",
-    "type": "paper",
-    "tags": [
-      "hallucination",
-      "code-generation",
-      "llm",
-      "quality"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2404.00971",
-    "related": {
-      "benchmarks": [
-        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
-        "agentless-demystifying-llm-based-software-engineering-agents",
-        "agentprocessbench",
-        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
-        "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
-        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
-        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
-        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
-        "baxbench-can-llms-generate-correct-and-secure-backends",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
-        "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
-        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models"
       ],
       "variants": [
         "ai-writes-we-analyze-the-chatgpt-python-code-saga",
@@ -2160,39 +2430,6 @@
     }
   },
   {
-    "id": "how-well-does-agent-development-reflect-real-world-work",
-    "name": "How Well Does Agent Development Reflect Real-World Work?",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "How Well Does Agent Development Reflect Real-World Work?",
-    "type": "paper",
-    "tags": [
-      "meta-analysis",
-      "benchmark-coverage",
-      "labor-market-alignment",
-      "task-distribution",
-      "quality-study"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2603.01203",
-    "related": {
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
     "id": "how-we-built-a-high-quality-ai-code-review-agent",
     "name": "How we built a high-quality AI code review agent",
     "stage": "meta-analysis",
@@ -2242,6 +2479,39 @@
         "ai-evals-are-becoming-the-new-compute-bottleneck",
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
         "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "how-well-does-agent-development-reflect-real-world-work",
+    "name": "How Well Does Agent Development Reflect Real-World Work?",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "How Well Does Agent Development Reflect Real-World Work?",
+    "type": "paper",
+    "tags": [
+      "meta-analysis",
+      "benchmark-coverage",
+      "labor-market-alignment",
+      "task-distribution",
+      "quality-study"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.01203",
+    "related": {
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
       ]
     }
   },
@@ -2438,6 +2708,43 @@
     }
   },
   {
+    "id": "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
+    "name": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
+    "type": "paper",
+    "tags": [
+      "benchmark-saturation",
+      "meta-analysis",
+      "ai-evaluation",
+      "benchmark-lifecycle",
+      "overfitting"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2203.04592",
+    "related": {
+      "benchmarks": [
+        "benchmarks",
+        "investigating-test-overfitting-on-swe-bench"
+      ],
+      "variants": [
+        "74-of-production-agents-still-rely-on-human-evaluation",
+        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
+        "a-survey-on-large-language-model-benchmarks",
+        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
+        "agent-benchmarks-for-enterprise",
+        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
+        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
+        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
+        "survey-on-evaluation-of-llm-based-agents",
+        "symflower-llm-agent-benchmarks-survey"
+      ]
+    }
+  },
+  {
     "id": "metr-swe-bench-merge-rate-study",
     "name": "METR: SWE-bench Merge Rate Study",
     "stage": "meta-analysis",
@@ -2497,43 +2804,6 @@
     }
   },
   {
-    "id": "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
-    "name": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
-    "stage": "meta-analysis",
-    "subcategory": "survey",
-    "what": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
-    "type": "paper",
-    "tags": [
-      "benchmark-saturation",
-      "meta-analysis",
-      "ai-evaluation",
-      "benchmark-lifecycle",
-      "overfitting"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2203.04592",
-    "related": {
-      "benchmarks": [
-        "benchmarks",
-        "investigating-test-overfitting-on-swe-bench"
-      ],
-      "variants": [
-        "74-of-production-agents-still-rely-on-human-evaluation",
-        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
-        "a-survey-on-large-language-model-benchmarks",
-        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
-        "agent-benchmarks-for-enterprise",
-        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
-        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
-        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
-        "survey-on-evaluation-of-llm-based-agents",
-        "symflower-llm-agent-benchmarks-survey"
-      ]
-    }
-  },
-  {
     "id": "minimax-production-grade-benchmark-standard",
     "name": "MiniMax: Production-Grade Benchmark Standard",
     "stage": "meta-analysis",
@@ -2581,6 +2851,59 @@
         "ai-evals-are-becoming-the-new-compute-bottleneck",
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
         "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "multi-layered-memory-architectures-for-llm-agents",
+    "name": "Multi-Layered Memory Architectures for LLM Agents",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Multi-layer memory for persona consistency and fact stability in long dialogue",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2603.29194",
+    "tags": [
+      "memory-architecture",
+      "persona-consistency",
+      "long-term",
+      "agent"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
+        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
+        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
+        "abtest-behavior-driven-testing-for-ai-coding-agents",
+        "aegis-an-agent-based-framework-for-bug-reproduction-from-issue-descriptions",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "agentarch",
+        "agentic-bug-reproduction-for-effective-automated-program-repair-at-google",
+        "agentic-software-issue-resolution-with-large-language-models-a-survey",
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
+        "agentless-demystifying-llm-based-software-engineering-agents",
+        "agentprocessbench",
+        "agentrewardbench",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
+        "ai-agent-benchmark",
+        "ai-agent-benchmark-compendium",
+        "aicrypto-agent",
+        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
       ]
     }
   },
@@ -2743,61 +3066,6 @@
     }
   },
   {
-    "id": "oracle-swe-quantifying-the-contribution-of-oracle-information-signals-on-swe-agents",
-    "name": "ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Quantifies oracle signal leakage impact on SWE agent benchmark performance",
-    "type": "paper",
-    "tags": [
-      "swe-bench",
-      "oracle-leakage",
-      "ablation-study",
-      "meta-analysis",
-      "agent-evaluation"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.07789",
-    "related": {
-      "benchmarks": [
-        "devin-swebench-results",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "rust-swe-bench",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
-        "swe-bench-plus-plus",
-        "swe-bench-pro",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
     "id": "openai-abandons-swe-bench-verified-after-finding-59-of-failed-tests-were-flawed",
     "name": "OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed",
     "stage": "meta-analysis",
@@ -2882,6 +3150,61 @@
         "ai-evals-are-becoming-the-new-compute-bottleneck",
         "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
         "agent-evaluation-in-2026"
+      ]
+    }
+  },
+  {
+    "id": "oracle-swe-quantifying-the-contribution-of-oracle-information-signals-on-swe-agents",
+    "name": "ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Quantifies oracle signal leakage impact on SWE agent benchmark performance",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "oracle-leakage",
+      "ablation-study",
+      "meta-analysis",
+      "agent-evaluation"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.07789",
+    "related": {
+      "benchmarks": [
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
+        "swe-bench-plus-plus",
+        "swe-bench-pro",
+        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
       ]
     }
   },
@@ -3470,112 +3793,20 @@
     }
   },
   {
-    "id": "swe-bench-enhanced-coding-benchmark-for-llms",
-    "name": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "id": "social-bias-in-llm-generated-code",
+    "name": "Social Bias in LLM-Generated Code",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "what": "Benchmark and mitigation for social bias in LLM-generated code",
     "type": "paper",
     "tags": [
-      "swe-bench",
-      "benchmark-quality",
-      "dataset-curation",
-      "noise-reduction",
-      "reliability"
+      "bias",
+      "fairness",
+      "code-generation",
+      "mitigation"
     ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2410.06992",
-    "related": {
-      "benchmarks": [
-        "data",
-        "devin-swebench-results",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "rust-swe-bench",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
-        "swe-bench-plus-plus",
-        "swe-bench-pro"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "swe-bench-score-vs-production-capability-gap",
-    "name": "SWE-bench Score vs Production Capability Gap",
-    "stage": "meta-analysis",
-    "subcategory": "limitation",
-    "what": "SWE-bench Score vs Production Capability Gap",
-    "type": "blog",
-    "website": "https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap",
-    "tags": [
-      "swe-bench",
-      "score-gap",
-      "production-capability",
-      "benchmark-validity"
-    ],
-    "limitations": [
-      "分析基于公开数据，部分 agent 内部实现不透明"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "related": {
-      "benchmarks": [
-        "devin-swebench-results",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "production-derived-benchmark",
-        "rust-swe-bench",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
-        "swe-bench-plus-plus",
-        "swe-bench-pro"
-      ],
-      "variants": [
-        "huxley-g-del-machine-human-level-coding-agent-development-by-an-approximation-of-the-optimal-self-improving-machine",
-        "multilingual-prompt-localization-for-agent-as-a-judge-language-and-backbone-sensitivity-in-requirement-level-evaluation",
-        "openai-abandons-swe-bench-verified-after-finding-59-of-failed-tests-were-flawed",
-        "what-skills-does-swe-bench-verified-evaluate",
-        "why-llm-benchmarks-fail-your-ai-agent-the-0-95-10-problem",
-        "why-swe-bench-verified-no-longer-measures-frontier-coding-capabilities"
-      ]
-    }
+    "paper": "https://arxiv.org/abs/2604.29900",
+    "added_date": "2026-05-06"
   },
   {
     "id": "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
@@ -3706,6 +3937,114 @@
         "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
         "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
         "symflower-llm-agent-benchmarks-survey"
+      ]
+    }
+  },
+  {
+    "id": "swe-bench-score-vs-production-capability-gap",
+    "name": "SWE-bench Score vs Production Capability Gap",
+    "stage": "meta-analysis",
+    "subcategory": "limitation",
+    "what": "SWE-bench Score vs Production Capability Gap",
+    "type": "blog",
+    "website": "https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap",
+    "tags": [
+      "swe-bench",
+      "score-gap",
+      "production-capability",
+      "benchmark-validity"
+    ],
+    "limitations": [
+      "分析基于公开数据，部分 agent 内部实现不透明"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "related": {
+      "benchmarks": [
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "production-derived-benchmark",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
+        "swe-bench-plus-plus",
+        "swe-bench-pro"
+      ],
+      "variants": [
+        "huxley-g-del-machine-human-level-coding-agent-development-by-an-approximation-of-the-optimal-self-improving-machine",
+        "multilingual-prompt-localization-for-agent-as-a-judge-language-and-backbone-sensitivity-in-requirement-level-evaluation",
+        "openai-abandons-swe-bench-verified-after-finding-59-of-failed-tests-were-flawed",
+        "what-skills-does-swe-bench-verified-evaluate",
+        "why-llm-benchmarks-fail-your-ai-agent-the-0-95-10-problem",
+        "why-swe-bench-verified-no-longer-measures-frontier-coding-capabilities"
+      ]
+    }
+  },
+  {
+    "id": "swe-bench-enhanced-coding-benchmark-for-llms",
+    "name": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "type": "paper",
+    "tags": [
+      "swe-bench",
+      "benchmark-quality",
+      "dataset-curation",
+      "noise-reduction",
+      "reliability"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2410.06992",
+    "related": {
+      "benchmarks": [
+        "data",
+        "devin-swebench-results",
+        "introducing-swe-bench-verified",
+        "investigating-test-overfitting-on-swe-bench",
+        "multi-swe-bench",
+        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
+        "opencode-bench-vs-swe-bench-vs-terminal-bench",
+        "rust-swe-bench",
+        "swe-bench",
+        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
+        "swe-bench-fork",
+        "swe-bench-github-io",
+        "swe-bench-goes-live",
+        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
+        "swe-bench-lite-samples",
+        "swe-bench-live",
+        "swe-bench-multimodal",
+        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
+        "swe-bench-plus-plus",
+        "swe-bench-pro"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
       ]
     }
   },
@@ -3874,6 +4213,64 @@
     }
   },
   {
+    "id": "the-semi-executable-stack-agentic-software-engineering-and-the-expanding-scope-of-se",
+    "name": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
+    "type": "paper",
+    "tags": [
+      "agentic-se",
+      "llm-agents",
+      "software-engineering-scope"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.15468",
+    "related": {
+      "benchmarks": [
+        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
+        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
+        "executable-code-actions-elicit-better-llm-agents",
+        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
+        "locagent-graph-guided-llm-agents-for-code-localization",
+        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
+        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks"
+      ],
+      "variants": [
+        "74-of-production-agents-still-rely-on-human-evaluation",
+        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
+        "a-survey-on-large-language-model-benchmarks",
+        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
+        "agent-benchmarks-for-enterprise",
+        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
+        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
+        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
+        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
+        "survey-on-evaluation-of-llm-based-agents"
+      ]
+    }
+  },
+  {
+    "id": "these-aren-t-the-reviews-you-re-looking-for",
+    "name": "These Aren't the Reviews You're Looking For",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Study how humans review AI-generated pull requests",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "human-study",
+      "pull-request",
+      "ai-generated"
+    ],
+    "paper": "https://arxiv.org/abs/2604.28800",
+    "added_date": "2026-05-06"
+  },
+  {
     "id": "top-leaderboard-ranking-top-coding-proficiency-always-evoeval-evolving-coding-benchmarks-via-llm",
     "name": "Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM",
     "stage": "meta-analysis",
@@ -3960,6 +4357,68 @@
     }
   },
   {
+    "id": "turn-control-strategies-coding-agents",
+    "name": "Turn-Control Strategies for Efficient Coding Agents",
+    "stage": "meta-analysis",
+    "subcategory": "efficiency",
+    "what": "Empirical study of turn-control strategies reducing agent cost 24-68%",
+    "type": "paper",
+    "tags": [
+      "turn-control",
+      "cost-reduction",
+      "efficiency",
+      "resource-allocation"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2510.16786",
+    "related": {
+      "toolchain": [
+        "agentdiet-trajectory-reduction"
+      ],
+      "methodology": [
+        "tokenomics-quantifying-token-usage-agentic-se"
+      ]
+    }
+  },
+  {
+    "id": "understanding-software-engineering-agents-through-the-lens-of-traceability-an-empirical-study",
+    "name": "Understanding Software Engineering Agents Through the Lens of Traceability: An Empirical Study",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Empirical study of SWE agent decision workflows via traceability lens",
+    "type": "paper",
+    "tags": [
+      "traceability",
+      "agent-behavior-analysis",
+      "empirical-study",
+      "process-eval"
+    ],
+    "added_date": "2026-04-29",
+    "last_verified": "2026-04-29",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2506.08311",
+    "related": {
+      "benchmarks": [
+        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
+      ]
+    }
+  },
+  {
     "id": "utboost-rigorous-evaluation-of-coding-agents-on-swe-bench",
     "name": "UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench",
     "stage": "meta-analysis",
@@ -3999,42 +4458,6 @@
         "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
         "m2rc-eval-massively-multilingual-repository-level-code-completion-evaluation",
         "matplotagent-method-and-evaluation-for-llm-based-agentic-scientific-data-visualization"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "understanding-software-engineering-agents-through-the-lens-of-traceability-an-empirical-study",
-    "name": "Understanding Software Engineering Agents Through the Lens of Traceability: An Empirical Study",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Empirical study of SWE agent decision workflows via traceability lens",
-    "type": "paper",
-    "tags": [
-      "traceability",
-      "agent-behavior-analysis",
-      "empirical-study",
-      "process-eval"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2506.08311",
-    "related": {
-      "benchmarks": [
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
       ],
       "variants": [
         "ai-writes-we-analyze-the-chatgpt-python-code-saga",
@@ -4106,6 +4529,41 @@
     }
   },
   {
+    "id": "what-makes-software-bugs-escape-testing-evidence-from-a-large-scale-empirical-study",
+    "name": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
+    "type": "paper",
+    "tags": [
+      "bug-escape",
+      "testing-gaps",
+      "empirical-study"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.26672v1",
+    "related": {
+      "benchmarks": [
+        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
+        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
+      ]
+    }
+  },
+  {
     "id": "what-skills-does-swe-bench-verified-evaluate",
     "name": "What skills does SWE-bench Verified evaluate?",
     "stage": "meta-analysis",
@@ -4152,6 +4610,59 @@
         "swe-bench-score-vs-production-capability-gap",
         "why-llm-benchmarks-fail-your-ai-agent-the-0-95-10-problem",
         "why-swe-bench-verified-no-longer-measures-frontier-coding-capabilities"
+      ]
+    }
+  },
+  {
+    "id": "what-s-wrong-with-your-code-generated-by-large-language-models-an-extensive-study",
+    "name": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
+    "type": "paper",
+    "tags": [
+      "code-generation",
+      "llm",
+      "empirical-study"
+    ],
+    "added_date": "2026-04-30",
+    "last_verified": "2026-04-30",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2407.06153",
+    "related": {
+      "benchmarks": [
+        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
+        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
+        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
+        "agentless-demystifying-llm-based-software-engineering-agents",
+        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
+        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
+        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
+        "an-llm-based-agent-for-reliable-docker-environment-configuration",
+        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
+        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
+        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
+        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
+        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
+        "baxbench-can-llms-generate-correct-and-secure-backends",
+        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
+        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
+        "benchmarking-and-studying-the-llm-based-code-review",
+        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
+        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models"
+      ],
+      "variants": [
+        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
+        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
+        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
+        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
+        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
+        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
+        "crowdselect",
+        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
+        "code-review-agent-effectiveness-study",
+        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
       ]
     }
   },
@@ -4414,467 +4925,5 @@
         "agent-evaluation-in-2026"
       ]
     }
-  },
-  {
-    "id": "state-of-code-evals-after-swe-bench-code-clash-sota-coding-benchmarks-recap",
-    "name": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
-    "type": "paper",
-    "tags": [
-      "swe-bench",
-      "code-eval",
-      "podcast",
-      "neurips",
-      "benchmark-landscape"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://www.latent.space/p/state-of-code-evals-after-swe-bench",
-    "related": {
-      "benchmarks": [
-        "complexcodeeval-a-benchmark-for-evaluating-large-code-models-on-more-complex-code",
-        "crosscodeeval-a-diverse-and-multilingual-benchmark-for-cross-file-code-completion",
-        "crosscodeeval-multilingual-repository-level-code-completion-benchmark",
-        "devin-swebench-results",
-        "dynamic-benchmarking-of-reasoning-capabilities-in-code-large-language-models-under-data-contamination",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "rust-swe-bench",
-        "sketch2code-evaluating-vision-language-models-for-interactive-web-design-prototyping",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live"
-      ],
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026"
-      ]
-    }
-  },
-  {
-    "id": "a-smarter-way-to-evaluate-coding-ai-toloka",
-    "name": "a smarter way to evaluate coding AI (Toloka)",
-    "stage": "meta-analysis",
-    "subcategory": "blog",
-    "what": "Toloka blog proposing smarter evaluation fixes for SWE-bench limitations",
-    "type": "paper",
-    "tags": [
-      "swe-bench",
-      "evaluation-critique",
-      "benchmark-improvement"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "website": "https://toloka.ai/blog/fixing-swe-bench-a-smarter-way-to-evaluate-coding-ai/",
-    "related": {
-      "benchmarks": [
-        "devin-swebench-results",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "rust-swe-bench",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
-        "swe-bench-plus-plus",
-        "swe-bench-pro",
-        "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
-      ],
-      "variants": [
-        "2024-in-agents-ls-live-neurips-2024",
-        "8-benchmarks-shaping-ai-agents",
-        "8-benchmarks-shaping-the-next-generation-of-ai-agents",
-        "a-self-improving-coding-agent",
-        "a-review-of-openai-s-o1-and-how-we-evaluate-coding-agents",
-        "ai-benchmarks-are-broken-and-nobody-wants-to-admit-it",
-        "ai-coding-benchmarks-failingfast-io",
-        "ai-evals-are-becoming-the-new-compute-bottleneck",
-        "agent-evaluation-tools-compared-why-generic-benchmarks-fail-production-ai-2026",
-        "agent-evaluation-in-2026"
-      ]
-    }
-  },
-  {
-    "id": "code-llm-survey",
-    "name": "code LLM survey",
-    "stage": "meta-analysis",
-    "subcategory": "survey",
-    "what": "Survey of large language models for code understanding and generation",
-    "type": "paper",
-    "tags": [
-      "code-llm",
-      "survey",
-      "code-generation",
-      "code-understanding"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2311.07989",
-    "related": {
-      "benchmarks": [
-        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
-        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
-        "agentic-software-issue-resolution-with-large-language-models-a-survey",
-        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
-        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
-        "bigcodebench-benchmarking-code-generation-with-diverse-function-calls-and-complex-instructions",
-        "classeval-a-manually-crafted-benchmark-for-evaluating-llms-on-class-level-code-generation",
-        "classeval-pro-a-cross-domain-benchmark-for-class-level-code-generation",
-        "co-located-tests-better-ai-code-how-test-syntax-structure-affects-foundation-model-code-generation",
-        "coconut-structural-code-understanding-does-not-fall-out-of-a-tree",
-        "code-vision-evaluating-multimodal-llms-logic-understanding-and-code-generation-capabilities",
-        "codeagent-enhancing-code-generation-with-tool-integrated-agent-systems-for-real-world-repo-level-coding-challenges",
-        "codebenchgen-creating-scalable-execution-based-code-generation-benchmarks",
-        "codeflowbench-a-multi-turn-iterative-benchmark-for-complex-code-generation",
-        "codegeex-a-pre-trained-model-for-code-generation-with-multilingual-benchmarking-on-humaneval-x",
-        "codemixbench-evaluating-large-language-models-on-code-generation-with-code-mixed-prompts"
-      ],
-      "variants": [
-        "74-of-production-agents-still-rely-on-human-evaluation",
-        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
-        "a-survey-on-large-language-model-benchmarks",
-        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
-        "agent-benchmarks-for-enterprise",
-        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
-        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
-        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
-        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
-        "survey-on-evaluation-of-llm-based-agents"
-      ]
-    }
-  },
-  {
-    "id": "multi-layered-memory-architectures-for-llm-agents",
-    "name": "Multi-Layered Memory Architectures for LLM Agents",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Multi-layer memory for persona consistency and fact stability in long dialogue",
-    "type": "paper",
-    "paper": "https://arxiv.org/abs/2603.29194",
-    "tags": [
-      "memory-architecture",
-      "persona-consistency",
-      "long-term",
-      "agent"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "related": {
-      "benchmarks": [
-        "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
-        "a-comprehensive-benchmark-to-evaluate-agent-architectures-in-enterprise",
-        "a-production-derived-benchmark-for-evaluating-ai-coding-agents",
-        "abtest-behavior-driven-testing-for-ai-coding-agents",
-        "aegis-an-agent-based-framework-for-bug-reproduction-from-issue-descriptions",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
-        "agentarch",
-        "agentic-bug-reproduction-for-effective-automated-program-repair-at-google",
-        "agentic-software-issue-resolution-with-large-language-models-a-survey",
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
-        "agentless-demystifying-llm-based-software-engineering-agents",
-        "agentprocessbench",
-        "agentrewardbench",
-        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
-        "ai-agent-benchmark",
-        "ai-agent-benchmark-compendium",
-        "aicrypto-agent",
-        "amazon-introduces-swe-polybench-a-multilingual-benchmark-for-ai-coding-agents",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "what-makes-software-bugs-escape-testing-evidence-from-a-large-scale-empirical-study",
-    "name": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
-    "type": "paper",
-    "tags": [
-      "bug-escape",
-      "testing-gaps",
-      "empirical-study"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.26672v1",
-    "related": {
-      "benchmarks": [
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
-        "testing-with-ai-agents-an-empirical-study-of-test-generation-frequency-quality-and-coverage"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "agentic-ai-in-the-software-development-lifecycle-architecture-empirical-evidence-and-the-reshaping-of-software-engineeri",
-    "name": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
-    "stage": "meta-analysis",
-    "subcategory": "survey",
-    "what": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
-    "type": "paper",
-    "tags": [
-      "agentic-ai",
-      "survey",
-      "software-engineering",
-      "llm"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.26275",
-    "related": {
-      "benchmarks": [
-        "a-comprehensive-survey-on-benchmarks-and-solutions-in-software-engineering-of-llm-empowered-agentic-system",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
-        "agentic-software-issue-resolution-with-large-language-models-a-survey",
-        "agentless-demystifying-llm-based-software-engineering-agents",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
-        "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
-        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
-        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
-        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
-        "baxbench-can-llms-generate-correct-and-secure-backends",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
-        "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
-        "breakpoint-scalable-evaluation-of-system-level-reasoning-in-llm-code-agents"
-      ],
-      "variants": [
-        "74-of-production-agents-still-rely-on-human-evaluation",
-        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
-        "a-survey-on-large-language-model-benchmarks",
-        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
-        "agent-benchmarks-for-enterprise",
-        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
-        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
-        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
-        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
-        "survey-on-evaluation-of-llm-based-agents"
-      ]
-    }
-  },
-  {
-    "id": "the-semi-executable-stack-agentic-software-engineering-and-the-expanding-scope-of-se",
-    "name": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
-    "stage": "meta-analysis",
-    "subcategory": "survey",
-    "what": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
-    "type": "paper",
-    "tags": [
-      "agentic-se",
-      "llm-agents",
-      "software-engineering-scope"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.15468",
-    "related": {
-      "benchmarks": [
-        "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
-        "beyond-pip-install-evaluating-llm-agents-for-the-automated-installation-of-python-projects",
-        "continuous-benchmark-generation-for-evaluating-enterprise-scale-llm-agents",
-        "executable-code-actions-elicit-better-llm-agents",
-        "hwe-bench-benchmarking-llm-agents-on-real-world-hardware-bug-repair-tasks",
-        "locagent-graph-guided-llm-agents-for-code-localization",
-        "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
-        "sec-bench-automated-benchmarking-of-llm-agents-on-real-world-software-security-tasks"
-      ],
-      "variants": [
-        "74-of-production-agents-still-rely-on-human-evaluation",
-        "a-survey-of-code-review-benchmarks-and-evaluation-practices-in-pre-llm-and-llm-era",
-        "a-survey-on-large-language-model-benchmarks",
-        "ai-sqe-the-1st-international-workshop-on-ai-for-software-quality-evaluation",
-        "agent-benchmarks-for-enterprise",
-        "code-reasoning-for-software-engineering-tasks-a-survey-and-a-call-to-action",
-        "mapping-global-dynamics-of-benchmark-creation-and-saturation-in-artificial-intelligence",
-        "reproducible-explainable-and-effective-evaluations-of-agentic-ai-for-software-engineering",
-        "software-development-life-cycle-perspective-a-survey-of-benchmarks-for-code-large-language-models-and-agents",
-        "survey-on-evaluation-of-llm-based-agents"
-      ]
-    }
-  },
-  {
-    "id": "what-s-wrong-with-your-code-generated-by-large-language-models-an-extensive-study",
-    "name": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
-    "type": "paper",
-    "tags": [
-      "code-generation",
-      "llm",
-      "empirical-study"
-    ],
-    "added_date": "2026-04-30",
-    "last_verified": "2026-04-30",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2407.06153",
-    "related": {
-      "benchmarks": [
-        "a-closer-look-at-different-difficulty-levels-code-generation-abilities-of-chatgpt",
-        "a-large-scale-class-level-benchmark-dataset-for-code-generation-with-llms",
-        "agent-security-bench-asb-formalizing-and-benchmarking-attacks-and-defenses-in-llm-based-agents",
-        "agentless-demystifying-llm-based-software-engineering-agents",
-        "agents4plc-automating-closed-loop-plc-code-generation-and-verification-in-industrial-control-systems-using-llm-based-age",
-        "an-empirical-study-on-fine-tuning-large-language-models-of-code-for-automated-program-repair",
-        "an-interactive-benchmark-for-llm-agents-in-long-context-software-engineering",
-        "an-llm-based-agent-for-reliable-docker-environment-configuration",
-        "artifactsbench-bridging-the-visual-interactive-gap-in-llm-code-generation-evaluation",
-        "assertflip-reproducing-bugs-via-inversion-of-llm-generated-passing-tests",
-        "assessing-the-impact-of-requirement-ambiguity-on-llm-based-function-level-code-generation",
-        "automated-generation-of-issue-reproducing-tests-by-combining-llms-and-search-based-testing",
-        "automating-a-complete-software-test-process-using-llms-an-automotive-case-study",
-        "baxbench-can-llms-generate-correct-and-secure-backends",
-        "benchguard-who-guards-the-benchmarks-automated-auditing-of-llm-agent-benchmarks",
-        "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
-        "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
-        "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
-        "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
-    "id": "evaluating-agentic-ai-in-the-wild",
-    "name": "Evaluating Agentic AI in the Wild",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Failure modes, drift patterns, and production evaluation framework",
-    "type": "paper",
-    "tags": [
-      "production",
-      "failure-modes",
-      "drift",
-      "evaluation-framework"
-    ],
-    "paper": "https://arxiv.org/abs/2604.29400",
-    "added_date": "2026-05-06"
-  },
-  {
-    "id": "these-aren-t-the-reviews-you-re-looking-for",
-    "name": "These Aren't the Reviews You're Looking For",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Study how humans review AI-generated pull requests",
-    "type": "paper",
-    "tags": [
-      "code-review",
-      "human-study",
-      "pull-request",
-      "ai-generated"
-    ],
-    "paper": "https://arxiv.org/abs/2604.28800",
-    "added_date": "2026-05-06"
-  },
-  {
-    "id": "ai-generated-smells",
-    "name": "AI-Generated Smells",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Analysis of code and architecture smells in LLM/agent-driven development",
-    "type": "paper",
-    "tags": [
-      "code-smells",
-      "architecture",
-      "quality",
-      "agent-driven"
-    ],
-    "paper": "https://arxiv.org/abs/2604.28900",
-    "added_date": "2026-05-06"
-  },
-  {
-    "id": "social-bias-in-llm-generated-code",
-    "name": "Social Bias in LLM-Generated Code",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Benchmark and mitigation for social bias in LLM-generated code",
-    "type": "paper",
-    "tags": [
-      "bias",
-      "fairness",
-      "code-generation",
-      "mitigation"
-    ],
-    "paper": "https://arxiv.org/abs/2604.29900",
-    "added_date": "2026-05-06"
   }
 ]
