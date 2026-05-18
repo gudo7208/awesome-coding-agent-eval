@@ -27,9 +27,9 @@
     "survey": 15,
     "production": 13,
     "hybrid": 10,
-    "se-agent": 9,
     "human-eval": 9,
     "observability": 9,
+    "se-agent": 9,
     "feature-development": 8,
     "limitation": 7,
     "judge-tool": 7,
@@ -37,15 +37,15 @@
     "evaluation-framework": 3,
     "efficiency": 3,
     "web-development": 2,
+    "evaluation-theory": 1,
+    "agent-design": 1,
+    "efficiency-analysis": 1,
+    "benchmark-design": 1,
     "general-agent": 1,
     "research-agent": 1,
     "optimization": 1,
     "multilingual": 1,
     "multi-task": 1,
-    "evaluation-theory": 1,
-    "agent-design": 1,
-    "efficiency-analysis": 1,
-    "benchmark-design": 1,
     "benchmark-construction": 1
   },
   "by_type": {
@@ -108,11 +108,11 @@
       "count": 55
     },
     {
-      "tag": "evaluation",
+      "tag": "llm-judge",
       "count": 53
     },
     {
-      "tag": "llm-judge",
+      "tag": "evaluation",
       "count": 53
     },
     {
@@ -168,5 +168,5 @@
       "count": 24
     }
   ],
-  "last_updated": "2026-05-16"
+  "last_updated": "2026-05-18"
 }
