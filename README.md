@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-927-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-928-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -31,7 +31,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
 | Find the right benchmark (538) | → [② Benchmarks](#-top-30-benchmarks) |
 | Understand scoring methods (143) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (117) | → [④ Toolchain](#-evaluation-toolchain) |
+| Set up evaluation infrastructure (118) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
 | Learn about benchmark pitfalls (106) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 
@@ -299,7 +299,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (117 resources)</summary>
+<summary>④ Evaluation Toolchain (118 resources)</summary>
 
 ### Benchmark Construction
 
@@ -375,6 +375,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🐍 [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) — Python SDK for AI agent observability, tracing, monitoring and evaluation.
 - 🔧 🐍 [Observal](https://github.com/BlazeUp-AI/Observal) — Observal.
 - 🔧 🐍 [agentevals](https://github.com/agentevals-dev/agentevals) — Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way.
+- 🔧 🐹 [agenttrace](https://github.com/luoyuctl/agenttrace) — Replays and audits coding-agent JSONL sessions locally.
 - 🔧 [swe_bench_traces](https://github.com/codestoryai/swe_bench_traces) — Archives AI patch generation and evaluation traces on SWE-bench Lite.
 - 🔧 [Braintrust](https://braintrust.dev) — Braintrust.
 - 📝 [CodeTracer: Towards Traceable Agent States](https://arxiv.org/abs/2604.11641) — CodeTracer: Towards Traceable Agent States.

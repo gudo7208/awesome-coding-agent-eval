@@ -931,6 +931,29 @@
     ]
   },
   {
+    "id": "agenttrace",
+    "name": "agenttrace",
+    "stage": "toolchain",
+    "subcategory": "observability",
+    "what": "Replays and audits coding-agent JSONL sessions locally",
+    "type": "repo",
+    "repo": "https://github.com/luoyuctl/agenttrace",
+    "stars": 39,
+    "languages": [
+      "go"
+    ],
+    "tags": [
+      "observability",
+      "coding-agent",
+      "session-replay",
+      "jsonl",
+      "tui"
+    ],
+    "added_date": "2026-05-10",
+    "last_verified": "2026-05-10",
+    "status": "active"
+  },
+  {
     "id": "braintrust",
     "name": "Braintrust",
     "stage": "toolchain",

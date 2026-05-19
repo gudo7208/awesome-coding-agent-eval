@@ -1,11 +1,11 @@
 {
-  "total": 927,
+  "total": 928,
   "by_stage": {
     "benchmarks": 538,
     "leaderboards": 23,
     "meta-analysis": 106,
     "methodology": 143,
-    "toolchain": 117
+    "toolchain": 118
   },
   "by_subcategory": {
     "code-generation": 153,
@@ -27,9 +27,9 @@
     "survey": 15,
     "production": 13,
     "hybrid": 10,
+    "observability": 10,
     "se-agent": 9,
     "human-eval": 9,
-    "observability": 9,
     "feature-development": 8,
     "limitation": 7,
     "judge-tool": 7,
@@ -50,14 +50,14 @@
   },
   "by_type": {
     "paper": 728,
-    "repo": 82,
+    "repo": 83,
     "tool": 59,
     "paper+repo": 42,
     "blog": 11,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 927
+    "active": 928
   },
   "by_language": {
     "python": 144,
@@ -65,7 +65,7 @@
     "java": 20,
     "rust": 14,
     "javascript": 13,
-    "go": 11,
+    "go": 12,
     "html": 9,
     "c": 5,
     "css": 3,
@@ -168,5 +168,5 @@
       "count": 24
     }
   ],
-  "last_updated": "2026-05-16"
+  "last_updated": "2026-05-20"
 }
