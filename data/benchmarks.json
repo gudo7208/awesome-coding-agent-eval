@@ -296,7 +296,8 @@
         "defects4j-a-database-of-existing-faults-to-enable-controlled-testing-studies-for-java-programs",
         "dsbench-how-far-are-data-science-agents-from-becoming-data-science-experts"
       ]
-    }
+    },
+    "stars": 20
   },
   {
     "id": "repo",
@@ -540,7 +541,8 @@
         "nl2repo-bench-towards-long-horizon-repository-generation-evaluation",
         "joycode-agent"
       ]
-    }
+    },
+    "stars": 17
   },
   {
     "id": "a-benchmark-for-evaluating-repository-level-code-agents-with-intermediate-reasoning-on-feature-addition-task",
@@ -3912,7 +3914,7 @@
     "what": "aacr-bench",
     "type": "paper+repo",
     "repo": "https://github.com/alibaba/aacr-bench",
-    "stars": 150,
+    "stars": 155,
     "tags": [
       "benchmark",
       "code-review",
@@ -4396,7 +4398,7 @@
     "what": "ABC-Bench",
     "type": "repo",
     "repo": "https://github.com/OpenMOSS/ABC-Bench",
-    "stars": 29,
+    "stars": 31,
     "tags": [
       "benchmark",
       "agentic-coding",
@@ -4728,7 +4730,7 @@
     "what": "Agentic coding benchmark for local LLMs on daily software engineering tasks",
     "type": "repo",
     "repo": "https://github.com/tabupl/AdamBench",
-    "stars": 25,
+    "stars": 27,
     "tags": [
       "benchmark",
       "agentic-coding",
@@ -7050,7 +7052,7 @@
     "what": "Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning",
     "type": "repo",
     "repo": "https://github.com/philschmid/ai-agent-benchmark-compendium",
-    "stars": 134,
+    "stars": 147,
     "tags": [
       "benchmark-survey",
       "agent-evaluation",
@@ -7349,7 +7351,7 @@
     "what": "Benchmarks AI code generation across 13 programming languages",
     "type": "repo",
     "repo": "https://github.com/mame/ai-coding-lang-bench",
-    "stars": 151,
+    "stars": 157,
     "tags": [
       "benchmark",
       "multi-language",
@@ -7607,7 +7609,7 @@
     "what": "AICGSecEval",
     "type": "paper+repo",
     "repo": "https://github.com/Tencent/AICGSecEval",
-    "stars": 965,
+    "stars": 796,
     "tags": [
       "benchmark",
       "code-security",
@@ -7871,7 +7873,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/wangyu-ovo/aicrypto-agent",
-    "stars": 30,
+    "stars": 31,
     "languages": [
       "python"
     ],
@@ -7984,7 +7986,7 @@
     "what": "Benchmark for long-context retention and long-term memory in agent applications",
     "type": "paper+repo",
     "repo": "https://github.com/AMA-Bench/AMA-Bench",
-    "stars": 36,
+    "stars": 40,
     "tags": [
       "long-context",
       "memory",
@@ -9330,7 +9332,7 @@
     "what": "Benchmarks terminal-based coding agents with leaderboard and ablation results",
     "type": "repo",
     "repo": "https://github.com/heartyguy/Apex2-Terminal-Bench-Agent",
-    "stars": 66,
+    "stars": 65,
     "tags": [
       "terminal-bench",
       "agentic-coding",
@@ -9553,7 +9555,7 @@
     "what": "Evaluates agent tool-calling and planning across multi-app scenarios",
     "type": "paper+repo",
     "repo": "https://github.com/StonyBrookNLP/appworld",
-    "stars": 407,
+    "stars": 423,
     "tags": [
       "benchmark",
       "function-calling",
@@ -11178,7 +11180,7 @@
     "what": "Benchmarks generative agents on automated penetration testing scenarios",
     "type": "paper+repo",
     "repo": "https://github.com/lucagioacchini/auto-pen-bench",
-    "stars": 82,
+    "stars": 85,
     "tags": [
       "benchmark",
       "penetration-testing",
@@ -13226,7 +13228,7 @@
     "what": "Curated list of autonomous code agents, benchmarks, and research papers",
     "type": "repo",
     "repo": "https://github.com/EuniAI/awesome-code-agents",
-    "stars": 99,
+    "stars": 100,
     "tags": [
       "awesome-list",
       "code-agent",
@@ -14104,7 +14106,7 @@
     "what": "Evaluates AI agents on Microsoft Business Central AL codebase tasks",
     "type": "repo",
     "repo": "https://github.com/microsoft/BC-Bench",
-    "stars": 26,
+    "stars": 31,
     "tags": [
       "benchmark",
       "swe-bench-inspired",
@@ -17325,7 +17327,8 @@
         "multi-lingual-evaluation-of-code-generation-models",
         "codereviewer-pre-training-for-automating-code-review-activities"
       ]
-    }
+    },
+    "stars": 6980
   },
   {
     "id": "benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in-openclaw-and-codex-atbench-claw-and-atbench-codex",
@@ -18719,7 +18722,7 @@
     "what": "Benchmarks LLMs on complex function calls, tool use, and instruction following",
     "type": "paper+repo",
     "repo": "https://github.com/bigcode-project/bigcodebench",
-    "stars": 499,
+    "stars": 502,
     "tags": [
       "benchmark",
       "code-generation",
@@ -21136,7 +21139,7 @@
     "what": "CodeCrafters benchmark tool for evaluating coding agents on SE tasks",
     "type": "repo",
     "repo": "https://github.com/codecrafters-io/ccbench",
-    "stars": 29,
+    "stars": 30,
     "tags": [
       "coding-agent",
       "benchmark",
@@ -27471,7 +27474,7 @@
     "last_verified": "2026-04-29",
     "status": "active",
     "repo": "https://github.com/CodeClash-ai/CodeClash",
-    "stars": 147
+    "stars": 158
   },
   {
     "id": "codecriticbench-a-holistic-code-critique-benchmark-for-large-language-models",
@@ -28396,7 +28399,7 @@
     "what": "codefuse-evaluation",
     "type": "repo",
     "repo": "https://github.com/codefuse-ai/codefuse-evaluation",
-    "stars": 109,
+    "stars": 110,
     "tags": [
       "code-generation",
       "code-translation",
@@ -35651,7 +35654,7 @@
     "what": "CooperBench",
     "type": "repo",
     "repo": "https://github.com/cooperbench/CooperBench",
-    "stars": 11,
+    "stars": 14,
     "tags": [
       "benchmark",
       "multi-agent",
@@ -38943,7 +38946,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 4,
+    "stars": 5,
     "related": {
       "harness": [],
       "leaderboard": [],
@@ -39355,7 +39358,7 @@
     "what": "Benchmarks AI agents on real-world vulnerability analysis at scale",
     "type": "paper+repo",
     "repo": "https://github.com/sunblaze-ucb/cybergym",
-    "stars": 279,
+    "stars": 357,
     "tags": [
       "cybersecurity",
       "vulnerability-analysis",
@@ -40121,7 +40124,7 @@
     "what": "Benchmarks agent code generation on real-world data science tasks",
     "type": "paper+repo",
     "repo": "https://github.com/yiyihum/da-code",
-    "stars": 95,
+    "stars": 98,
     "tags": [
       "benchmark",
       "data-science",
@@ -43356,7 +43359,7 @@
     "what": "Cognition's published Devin evaluation results and methodology on SWE-bench",
     "type": "repo",
     "repo": "https://github.com/CognitionAI/devin-swebench-results",
-    "stars": 126,
+    "stars": 124,
     "tags": [
       "swe-bench",
       "devin",
@@ -53143,7 +53146,7 @@
     "what": "FeatureBench",
     "type": "paper+repo",
     "repo": "https://github.com/LiberCoders/FeatureBench",
-    "stars": 58,
+    "stars": 68,
     "tags": [
       "benchmark",
       "agentic-coding",
@@ -55019,7 +55022,7 @@
     "what": "Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks",
     "type": "repo",
     "repo": "https://github.com/Proximal-Labs/frontier-swe",
-    "stars": 93,
+    "stars": 121,
     "tags": [
       "benchmark",
       "long-horizon",
@@ -57209,7 +57212,8 @@
         "towards-generating-functionally-correct-code-edits-from-natural-language-issue-descriptions",
         "swingarena"
       ]
-    }
+    },
+    "stars": 3240
   },
   {
     "id": "gittaskbench",
@@ -57219,7 +57223,7 @@
     "what": "GitTaskBench",
     "type": "repo",
     "repo": "https://github.com/QuantaAlpha/GitTaskBench",
-    "stars": 252,
+    "stars": 255,
     "tags": [
       "benchmark",
       "repo-level",
@@ -58155,7 +58159,7 @@
     "what": "Evaluates LLM agents on autonomous penetration testing via CTF challenges",
     "type": "paper+repo",
     "repo": "https://github.com/aielte-research/HackSynth",
-    "stars": 303,
+    "stars": 310,
     "tags": [
       "penetration-testing",
       "ctf-benchmark",
@@ -65454,7 +65458,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/jd-opensource/joycode-agent",
-    "stars": 330,
+    "stars": 332,
     "languages": [
       "python"
     ],
@@ -67045,7 +67049,7 @@
     "what": "Leaderboard ranking LLM coding agents on end-to-end programming tasks",
     "type": "repo",
     "repo": "https://github.com/pinchbench/leaderboard",
-    "stars": 35,
+    "stars": 37,
     "tags": [
       "leaderboard",
       "coding-agent",
@@ -67573,7 +67577,7 @@
     "what": "legacy-bench",
     "type": "repo",
     "repo": "https://github.com/Factory-AI/legacy-bench",
-    "stars": 13,
+    "stars": 14,
     "tags": [
       "benchmark",
       "legacy-software",
@@ -68514,7 +68518,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/caixd-220529/LifelongAgentBench",
-    "stars": 88,
+    "stars": 89,
     "languages": [
       "python"
     ],
@@ -69170,7 +69174,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 854,
+    "stars": 872,
     "recommended": true
   },
   {
@@ -70340,7 +70344,7 @@
     "what": "Long-context interactive benchmark for LLM agents on multi-turn code tasks",
     "type": "paper+repo",
     "repo": "https://github.com/SalesforceAIResearch/LoCoBench-Agent",
-    "stars": 19,
+    "stars": 21,
     "tags": [
       "benchmark",
       "long-context",
@@ -72689,7 +72693,7 @@
     "what": "Evaluates agent resilience against malicious skill injection scenarios",
     "type": "repo",
     "repo": "https://github.com/protectskills/MaliciousAgentSkillsBench",
-    "stars": 39,
+    "stars": 51,
     "tags": [
       "benchmark",
       "security",
@@ -72948,7 +72952,7 @@
     "what": "MARBLE",
     "type": "paper+repo",
     "repo": "https://github.com/ulab-uiuc/MARBLE",
-    "stars": 251,
+    "stars": 257,
     "tags": [
       "multi-agent",
       "collaboration",
@@ -76009,7 +76013,7 @@
     "what": "Hierarchical benchmark for GUI agents across desktop, mobile, and web platforms",
     "type": "paper+repo",
     "repo": "https://github.com/open-compass/MMBench-GUI",
-    "stars": 106,
+    "stars": 110,
     "tags": [
       "gui-agent",
       "multi-platform",
@@ -77458,7 +77462,7 @@
     "what": "multi-swe-bench",
     "type": "paper+repo",
     "repo": "https://github.com/multi-swe-bench/multi-swe-bench",
-    "stars": 333,
+    "stars": 334,
     "tags": [
       "benchmark",
       "multilingual",
@@ -84331,7 +84335,8 @@
         "sweet-rl",
         "tracesafe-a-systematic-assessment-of-llm-guardrails-on-multi-step-tool-calling-trajectories"
       ]
-    }
+    },
+    "stars": 6241
   },
   {
     "id": "opencode-bench-vs-swe-bench-vs-terminal-bench",
@@ -90301,7 +90306,7 @@
     "what": "Benchmark for risky code execution and generation by code agents",
     "type": "paper+repo",
     "repo": "https://github.com/AI-secure/RedCode",
-    "stars": 75,
+    "stars": 81,
     "tags": [
       "security",
       "code-agent",
@@ -90882,7 +90887,7 @@
     "what": "Benchmarks agents on cross-file code refactoring tasks in real repositories",
     "type": "paper+repo",
     "repo": "https://github.com/microsoft/RefactorBench",
-    "stars": 23,
+    "stars": 26,
     "tags": [
       "refactoring",
       "benchmark",
@@ -94681,7 +94686,7 @@
     "what": "Evaluates agent issue-resolution ability on real Rust project GitHub issues",
     "type": "repo",
     "repo": "https://github.com/GhabiX/Rust-SWE-Bench",
-    "stars": 11,
+    "stars": 13,
     "tags": [
       "swe-bench",
       "rust",
@@ -95763,7 +95768,7 @@
     "what": "Benchmark for AI security audit agents on SCA and vulnerability detection tasks",
     "type": "repo",
     "repo": "https://github.com/scabench-org/scabench",
-    "stars": 110,
+    "stars": 113,
     "tags": [
       "benchmark",
       "security",
@@ -98429,7 +98434,7 @@
     "what": "Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks",
     "type": "repo",
     "repo": "https://github.com/pinchbench/skill",
-    "stars": 1079,
+    "stars": 1196,
     "tags": [
       "benchmark",
       "coding-agent",
@@ -101195,7 +101200,7 @@
     "what": "Benchmarks LLM code generation for Svelte 5 using HumanEval methodology",
     "type": "repo",
     "repo": "https://github.com/khromov/svelte-bench",
-    "stars": 168,
+    "stars": 174,
     "tags": [
       "benchmark",
       "code-generation",
@@ -102893,7 +102898,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 4819,
+    "stars": 5006,
     "recommended": true
   },
   {
@@ -103588,7 +103593,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 4819,
+    "stars": 5006,
     "recommended": true
   },
   {
@@ -104084,7 +104089,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 368,
+    "stars": 398,
     "recommended": true,
     "venue": "2025"
   },
@@ -104594,7 +104599,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 4819,
+    "stars": 5006,
     "recommended": true
   },
   {
@@ -105330,7 +105335,7 @@
     "what": "SWE-bench-Live",
     "type": "paper+repo",
     "repo": "https://github.com/microsoft/SWE-bench-Live",
-    "stars": 185,
+    "stars": 192,
     "tags": [
       "benchmark",
       "swe-bench",
@@ -105641,7 +105646,7 @@
     "what": "SWE-Bench-plus-plus",
     "type": "paper+repo",
     "repo": "https://github.com/TuringEnterprises/SWE-Bench-plus-plus",
-    "stars": 19,
+    "stars": 24,
     "tags": [
       "swe-bench",
       "benchmark-quality",
@@ -108421,7 +108426,7 @@
     "what": "SWE-PolyBench",
     "type": "paper+repo",
     "repo": "https://github.com/amazon-science/SWE-PolyBench",
-    "stars": 83,
+    "stars": 84,
     "tags": [
       "benchmark",
       "multi-language",
@@ -109869,7 +109874,7 @@
     "what": "Benchmarks decomposed SE agent skills like fault localization and code editing",
     "type": "paper+repo",
     "repo": "https://github.com/GeniusHTX/SWE-Skills-Bench",
-    "stars": 33,
+    "stars": 42,
     "tags": [
       "benchmark",
       "skill-decomposition",
@@ -110687,7 +110692,7 @@
     "what": "Benchmarks multi-turn collaborative reasoning for LLM agent training",
     "type": "paper+repo",
     "repo": "https://github.com/facebookresearch/sweet_rl",
-    "stars": 266,
+    "stars": 268,
     "tags": [
       "multi-turn",
       "collaborative-reasoning",
@@ -110744,7 +110749,7 @@
     "what": "Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+",
     "type": "paper+repo",
     "repo": "https://github.com/openai/SWELancer-Benchmark",
-    "stars": 1441,
+    "stars": 1440,
     "tags": [
       "benchmark",
       "real-world-tasks",
@@ -111171,7 +111176,8 @@
         "lifelongagentbench",
         "hyper-multi-step-the-truth-behind-difficult-long-context-tasks"
       ]
-    }
+    },
+    "stars": 14
   },
   {
     "id": "swt-bench",
@@ -111260,7 +111266,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 76,
+    "stars": 79,
     "recommended": true,
     "scale": 1983
   },
@@ -111668,7 +111674,8 @@
         "multi-lingual-evaluation-of-code-generation-models",
         "codereviewer-pre-training-for-automating-code-review-activities"
       ]
-    }
+    },
+    "stars": 7
   },
   {
     "id": "taco-topics-in-algorithmic-code-generation-dataset",
@@ -112342,7 +112349,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/Danau5tin/terminal-bench-rl",
-    "stars": 375,
+    "stars": 385,
     "languages": [
       "python"
     ],
@@ -116377,7 +116384,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/sunblaze-ucb/verina",
-    "stars": 61,
+    "stars": 63,
     "languages": [
       "lean"
     ],
@@ -119151,7 +119158,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/WordPress/wp-bench",
-    "stars": 51,
+    "stars": 55,
     "languages": [
       "python"
     ],
