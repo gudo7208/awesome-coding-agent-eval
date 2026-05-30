@@ -1,77 +1,77 @@
 {
-  "total": 905,
+  "total": 932,
   "by_stage": {
-    "benchmarks": 529,
+    "benchmarks": 548,
     "leaderboards": 23,
-    "meta-analysis": 104,
+    "meta-analysis": 110,
     "methodology": 137,
-    "toolchain": 112
+    "toolchain": 114
   },
   "by_subcategory": {
-    "code-generation": 153,
-    "end-to-end": 109,
+    "code-generation": 156,
+    "end-to-end": 117,
     "bug-fix": 69,
     "sandbox": 56,
-    "security": 49,
-    "llm-judge": 48,
-    "quality-study": 47,
-    "process-eval": 46,
-    "testing": 40,
-    "harness": 40,
-    "long-horizon": 35,
+    "quality-study": 51,
+    "security": 50,
+    "llm-judge": 49,
+    "process-eval": 45,
+    "testing": 42,
+    "harness": 41,
+    "long-horizon": 38,
     "blog": 35,
     "code-review": 25,
-    "execution-based": 24,
-    "large-codebase": 22,
+    "execution-based": 25,
+    "large-codebase": 24,
+    "survey": 16,
     "multi-agent": 15,
-    "survey": 15,
-    "production": 13,
-    "hybrid": 10,
+    "production": 14,
+    "observability": 10,
     "se-agent": 9,
+    "hybrid": 9,
     "human-eval": 9,
-    "observability": 9,
-    "feature-development": 8,
-    "limitation": 7,
+    "limitation": 8,
+    "feature-development": 7,
     "judge-tool": 7,
     "activity": 5
   },
   "by_type": {
-    "paper": 707,
+    "paper": 732,
     "repo": 82,
     "tool": 58,
-    "paper+repo": 42,
+    "paper+repo": 44,
     "blog": 11,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 905
+    "active": 932
   },
   "by_language": {
-    "python": 143,
-    "typescript": 20,
-    "java": 19,
+    "python": 153,
+    "typescript": 24,
+    "java": 20,
+    "javascript": 15,
     "rust": 14,
-    "javascript": 12,
-    "go": 11,
+    "go": 12,
     "html": 9,
-    "c": 5,
+    "c": 6,
     "css": 3,
     "c++": 3,
     "c#": 3,
     "jupyter notebook": 2,
     "cpp": 2,
     "structured text": 1,
-    "kotlin": 1,
     "ruby": 1,
+    "kotlin": 1,
     "lean": 1,
     "dockerfile": 1,
     "shell": 1
   },
   "by_eval_method": {
-    "execution-based": 191,
-    "llm-judge": 9,
-    "human-eval": 6,
-    "hybrid": 5
+    "execution-based": 209,
+    "hybrid": 11,
+    "llm-judge": 10,
+    "human-eval": 7
   },
   "top_tags": [
     {
@@ -80,31 +80,31 @@
     },
     {
       "tag": "code-generation",
-      "count": 172
+      "count": 175
     },
     {
       "tag": "swe-bench",
-      "count": 104
+      "count": 103
     },
     {
       "tag": "sandbox",
       "count": 62
     },
     {
-      "tag": "evaluation",
-      "count": 53
-    },
-    {
       "tag": "security",
-      "count": 53
+      "count": 54
     },
     {
       "tag": "llm-judge",
-      "count": 53
+      "count": 54
+    },
+    {
+      "tag": "evaluation",
+      "count": 52
     },
     {
       "tag": "code-review",
-      "count": 49
+      "count": 51
     },
     {
       "tag": "bug-fix",
@@ -112,48 +112,48 @@
     },
     {
       "tag": "execution-based",
-      "count": 44
+      "count": 45
     },
     {
       "tag": "agent-evaluation",
-      "count": 41
+      "count": 43
     },
     {
       "tag": "llm-evaluation",
-      "count": 41
+      "count": 43
+    },
+    {
+      "tag": "multi-agent",
+      "count": 39
     },
     {
       "tag": "llm",
       "count": 38
     },
     {
-      "tag": "multi-agent",
-      "count": 38
+      "tag": "long-horizon",
+      "count": 37
     },
     {
       "tag": "repository-level",
       "count": 36
     },
     {
-      "tag": "long-horizon",
-      "count": 34
-    },
-    {
       "tag": "end-to-end",
-      "count": 32
+      "count": 36
     },
     {
       "tag": "test-generation",
-      "count": 29
+      "count": 30
     },
     {
       "tag": "code-execution",
       "count": 28
     },
     {
-      "tag": "software-engineering",
-      "count": 24
+      "tag": "coding-agent",
+      "count": 27
     }
   ],
-  "last_updated": "2026-05-06"
+  "last_updated": "2026-05-29"
 }

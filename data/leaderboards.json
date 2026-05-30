@@ -99,7 +99,7 @@
     "name": "Augment leads on CCEval: Benchmarking code completion for continuous improvement",
     "stage": "leaderboard",
     "subcategory": "code-generation",
-    "what": "Augment leads on CCEval: Benchmarking code completion for continuous improvement",
+    "what": "Rank models on code completion benchmarks for continuous improvement",
     "type": "paper",
     "tags": [
       "code-completion",
@@ -125,7 +125,7 @@
     "name": "Best AI Models for Coding - Arena Leaderboard",
     "stage": "leaderboard",
     "subcategory": "code-generation",
-    "what": "Best AI Models for Coding - Arena Leaderboard",
+    "what": "Rank AI coding models via arena-style comparisons",
     "type": "paper",
     "tags": [
       "leaderboard",
@@ -252,7 +252,7 @@
     "name": "EvalPlus Leaderboard",
     "stage": "leaderboard",
     "subcategory": "code-generation",
-    "what": "EvalPlus Leaderboard",
+    "what": "Rank models on rigorous code generation benchmarks",
     "type": "leaderboard",
     "website": "https://evalplus.github.io/leaderboard.html",
     "tags": [
@@ -317,7 +317,7 @@
     "name": "LiveCodeBench Leaderboard",
     "stage": "leaderboard",
     "subcategory": "code-generation",
-    "what": "LiveCodeBench Leaderboard",
+    "what": "Rank models on live competitive programming challenges",
     "type": "leaderboard",
     "website": "https://livecodebench.github.io/leaderboard.html",
     "tags": [
@@ -359,7 +359,7 @@
     "name": "SWE-Bench Leaderboard March 2026",
     "stage": "leaderboard",
     "subcategory": "se-agent",
-    "what": "SWE-Bench Leaderboard March 2026",
+    "what": "Rank SE agents on SWE-bench issue resolution",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -609,7 +609,7 @@
     "name": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
     "stage": "leaderboard",
     "subcategory": "activity",
-    "what": "AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment",
+    "what": "Rank AI agents via continuous multi-signal evaluation in deployment",
     "type": "paper",
     "tags": [
       "continuous-eval",

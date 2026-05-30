@@ -55,7 +55,7 @@
     "name": "74% of Production Agents Still Rely on Human Evaluation",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "74% of Production Agents Still Rely on Human Evaluation",
+    "what": "Survey production agent evaluation practices and human reliance",
     "type": "paper",
     "tags": [
       "production",
@@ -211,7 +211,7 @@
     "name": "A Self-Improving Coding Agent",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "A Self-Improving Coding Agent",
+    "what": "Analyze self-improvement techniques for coding agents",
     "type": "paper",
     "tags": [
       "self-improving",
@@ -266,14 +266,15 @@
     "name": "A Survey of Code Review Benchmarks and Evaluation Practices in Pre-LLM and LLM Era",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "A Survey of Code Review Benchmarks and Evaluation Practices in Pre-LLM and LLM Era",
+    "what": "Comprehensive survey of 99 code review benchmark papers spanning 2015-2025",
     "type": "paper",
     "tags": [
       "code-review",
       "benchmark-survey",
       "evaluation-practices",
       "llm",
-      "systematic-review"
+      "systematic-review",
+      "survey"
     ],
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
@@ -314,7 +315,8 @@
         "survey-on-evaluation-of-llm-based-agents",
         "symflower-llm-agent-benchmarks-survey"
       ]
-    }
+    },
+    "venue": "2025"
   },
   {
     "id": "a-survey-on-large-language-model-benchmarks",
@@ -624,7 +626,7 @@
     "name": "AI-SQE: The 1st International Workshop on AI for Software Quality Evaluation",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "AI-SQE: The 1st International Workshop on AI for Software Quality Evaluation",
+    "what": "Survey AI applications for software quality evaluation",
     "type": "paper",
     "tags": [
       "workshop",
@@ -678,7 +680,7 @@
     "name": "AIDev: Large-Scale Empirical Study of 930K Agentic PRs",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "AIDev: Large-Scale Empirical Study of 930K Agentic PRs",
+    "what": "Study quality patterns across 930K agentic pull requests at scale",
     "type": "paper",
     "paper": "https://arxiv.org/html/2602.09185",
     "scale": 930000,
@@ -738,7 +740,7 @@
     "name": "Agent Benchmarks for Enterprise",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Agent Benchmarks for Enterprise",
+    "what": "Survey agent benchmark approaches for enterprise use cases",
     "type": "paper",
     "tags": [
       "enterprise",
@@ -775,7 +777,7 @@
     "name": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Agent Evaluation Tools Compared: Why Generic Benchmarks Fail Production AI (2026)",
+    "what": "Analyze why generic benchmarks fail for production AI agents",
     "type": "paper",
     "tags": [
       "agent-evaluation",
@@ -825,7 +827,7 @@
     "name": "Agent Evaluation in 2026",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Agent Evaluation in 2026",
+    "what": "Analyze the state of agent evaluation practices in 2026",
     "type": "paper",
     "tags": [
       "agent-evaluation",
@@ -858,7 +860,7 @@
     "name": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Agent Factory Recap: A Deep Dive into Agent Evaluation, Practical Tooling, and Multi-Agent Systems",
+    "what": "Analyze agent evaluation, tooling, and multi-agent system practices",
     "type": "paper",
     "tags": [
       "agent-evaluation",
@@ -998,7 +1000,7 @@
     "name": "Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks",
+    "what": "Assess benchmark quality for LLM software engineering evaluation",
     "type": "paper",
     "tags": [
       "benchmark-quality",
@@ -1197,7 +1199,7 @@
     "name": "CROWDSELECT",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "CROWDSELECT",
+    "what": "Study crowd-based selection methods for evaluation quality",
     "type": "paper+repo",
     "repo": "https://github.com/listentm/CROWDSELECT",
     "stars": 20,
@@ -1404,7 +1406,7 @@
     "name": "CodeAnt: Multi-Step Workflow Evaluation Guide",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "CodeAnt: Multi-Step Workflow Evaluation Guide",
+    "what": "Provide guidance on evaluating multi-step coding workflows",
     "type": "blog",
     "website": "https://www.codeant.ai/blogs/evaluate-llm-agentic-workflows",
     "tags": [
@@ -1502,7 +1504,7 @@
     "name": "Demystifying evals for AI agents",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Demystifying evals for AI agents",
+    "what": "Analyze evaluation practices and pitfalls for AI agents",
     "type": "paper",
     "tags": [
       "agent-eval",
@@ -1534,7 +1536,7 @@
     "name": "Devin's 2025 Performance Review: Learnings From 18 Months of Agents At Work",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Devin's 2025 Performance Review: Learnings From 18 Months of Agents At Work",
+    "what": "Analyze lessons from 18 months of deploying coding agents",
     "type": "paper",
     "tags": [
       "devin",
@@ -1589,7 +1591,7 @@
     "name": "Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents",
+    "what": "Study how agent rules and guardrails affect coding agent behavior",
     "type": "paper",
     "tags": [
       "agent-rules",
@@ -1644,7 +1646,7 @@
     "name": "Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions",
+    "what": "Study whether AI code review leads to actual code changes",
     "type": "paper",
     "tags": [
       "code-review",
@@ -1699,7 +1701,7 @@
     "name": "Engineering in the Age of AI: 2026 Benchmark Report",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Engineering in the Age of AI: 2026 Benchmark Report",
+    "what": "Benchmark AI engineering practices and adoption trends",
     "type": "paper",
     "tags": [
       "industry-report",
@@ -1742,7 +1744,7 @@
     "name": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
+    "what": "Study whether repository-level context files help coding agents",
     "type": "paper",
     "tags": [
       "agents-md",
@@ -1797,7 +1799,7 @@
     "name": "Evaluating AI agents: Real-world lessons from building agentic systems at Amazon",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Evaluating AI agents: Real-world lessons from building agentic systems at Amazon",
+    "what": "Analyze real-world lessons from evaluating agentic systems at scale",
     "type": "paper",
     "tags": [
       "ai-agent",
@@ -2029,7 +2031,7 @@
     "name": "Galileo: Agent Evaluation Framework",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Galileo: Agent Evaluation Framework",
+    "what": "Provide a framework for evaluating AI agent performance",
     "type": "blog",
     "website": "https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks",
     "tags": [
@@ -2105,66 +2107,11 @@
     }
   },
   {
-    "id": "how-do-ai-agents-spend-your-money-analyzing-and-predicting-token-consumption-in-agentic-coding-tasks-2",
-    "name": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
-    "stage": "meta-analysis",
-    "subcategory": "quality-study",
-    "what": "Analyzes token consumption patterns and cost prediction for AI coding agents",
-    "type": "paper",
-    "tags": [
-      "token-efficiency",
-      "cost-analysis",
-      "swe-bench",
-      "agentic-coding",
-      "resource-prediction"
-    ],
-    "added_date": "2026-04-29",
-    "last_verified": "2026-04-29",
-    "status": "active",
-    "paper": "https://arxiv.org/abs/2604.22750",
-    "related": {
-      "benchmarks": [
-        "devin-swebench-results",
-        "featurebench-benchmarking-agentic-coding-for-complex-feature-development",
-        "introducing-swe-bench-verified",
-        "investigating-test-overfitting-on-swe-bench",
-        "lita-light-agent-uncovers-the-agentic-coding-capabilities-of-llms",
-        "multi-swe-bench",
-        "multi-swe-bench-a-multilingual-benchmark-for-issue-resolving",
-        "opencode-bench-vs-swe-bench-vs-terminal-bench",
-        "opengame-open-agentic-coding-for-games",
-        "rust-swe-bench",
-        "scaling-test-time-compute-for-agentic-coding",
-        "swe-bench",
-        "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks",
-        "swe-bench-fork",
-        "swe-bench-github-io",
-        "swe-bench-goes-live",
-        "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
-        "swe-bench-lite-samples",
-        "swe-bench-live",
-        "swe-bench-multimodal"
-      ],
-      "variants": [
-        "ai-writes-we-analyze-the-chatgpt-python-code-saga",
-        "aidev-large-scale-empirical-study-of-930k-agentic-prs",
-        "are-solved-issues-in-swe-bench-really-solved-correctly-an-empirical-study",
-        "assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks",
-        "beyond-bug-fixes-an-empirical-investigation-of-post-merge-code-quality-issues-in-agent-generated-pull-requests",
-        "bias-in-the-loop-auditing-llm-as-a-judge-for-software-engineering",
-        "crowdselect",
-        "can-chatgpt-replace-stackoverflow-a-study-on-robustness-and-reliability-of-large-language-model-code-generation",
-        "code-review-agent-effectiveness-study",
-        "demystifying-memorization-in-llm-based-program-repair-via-a-general-hypothesis-testing-framework"
-      ]
-    }
-  },
-  {
     "id": "how-well-does-agent-development-reflect-real-world-work",
     "name": "How Well Does Agent Development Reflect Real-World Work?",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "How Well Does Agent Development Reflect Real-World Work?",
+    "what": "Study how well agent development tasks reflect real-world work",
     "type": "paper",
     "tags": [
       "meta-analysis",
@@ -2197,7 +2144,7 @@
     "name": "How we built a high-quality AI code review agent",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "How we built a high-quality AI code review agent",
+    "what": "Analyze practices for building high-quality AI code review agents",
     "type": "paper",
     "tags": [
       "code-review",
@@ -2250,7 +2197,7 @@
     "name": "Human-Agent versus Human Pull Requests: A Testing-Focused Characterization and Comparison",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Human-Agent versus Human Pull Requests: A Testing-Focused Characterization and Comparison",
+    "what": "Compare testing quality between human-agent and human pull requests",
     "type": "paper",
     "tags": [
       "pull-requests",
@@ -2303,7 +2250,7 @@
     "name": "Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+    "what": "Study self-improving machine approaches for coding agent development",
     "type": "paper",
     "tags": [
       "self-improving-agent",
@@ -2442,7 +2389,7 @@
     "name": "METR: SWE-bench Merge Rate Study",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "METR: SWE-bench Merge Rate Study",
+    "what": "Study merge rates of SWE-bench agent-generated patches",
     "type": "blog",
     "website": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
     "tags": [
@@ -2501,7 +2448,7 @@
     "name": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Mapping global dynamics of benchmark creation and saturation in artificial intelligence",
+    "what": "Survey global trends in AI benchmark creation and saturation",
     "type": "paper",
     "tags": [
       "benchmark-saturation",
@@ -2589,7 +2536,7 @@
     "name": "Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sensitivity in Requirement-Level Evaluation",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sensitivity in Requirement-Level Evaluation",
+    "what": "Analyze language and backbone sensitivity in agent-as-a-judge evaluation",
     "type": "paper",
     "tags": [
       "llm-judge",
@@ -2638,7 +2585,7 @@
     "name": "Neurosymbolic Repo-level Code Localization",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Neurosymbolic Repo-level Code Localization",
+    "what": "Study neurosymbolic approaches for repo-level code localization",
     "type": "paper",
     "tags": [
       "code-localization",
@@ -2802,7 +2749,7 @@
     "name": "OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed",
+    "what": "Analyze flawed test cases that undermined SWE-bench Verified reliability",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -2992,7 +2939,7 @@
     "name": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
+    "what": "Study how annotation errors undermine text-to-SQL benchmarks",
     "type": "paper",
     "tags": [
       "annotation-errors",
@@ -3029,7 +2976,7 @@
     "name": "Promises, Perils, and (Timely) Heuristics for Mining Coding Agent Activity",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Promises, Perils, and (Timely) Heuristics for Mining Coding Agent Activity",
+    "what": "Study heuristics and pitfalls for mining coding agent activity data",
     "type": "paper",
     "tags": [
       "msr",
@@ -3103,7 +3050,7 @@
     "name": "Quality Assessment of ChatGPT Generated Code and their Use by Developers",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Quality Assessment of ChatGPT Generated Code and their Use by Developers",
+    "what": "Assess quality of LLM-generated code and developer usage patterns",
     "type": "paper",
     "tags": [
       "code-quality",
@@ -3153,7 +3100,7 @@
     "name": "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models",
+    "what": "Measure data contamination in code generation benchmarks",
     "type": "paper",
     "tags": [
       "contamination",
@@ -3207,7 +3154,7 @@
     "name": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering",
+    "what": "Survey reproducible and explainable evaluation methods for SE agents",
     "type": "paper",
     "tags": [
       "reproducibility",
@@ -3278,7 +3225,7 @@
     "name": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
+    "what": "Study benchmark contamination effects using rephrased samples",
     "type": "paper",
     "tags": [
       "contamination",
@@ -3423,7 +3370,7 @@
     "name": "Rocks Coding, Not Development--A Human-Centric, Experimental Evaluation of LLM-Supported SE Tasks",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Rocks Coding, Not Development--A Human-Centric, Experimental Evaluation of LLM-Supported SE Tasks",
+    "what": "Study LLM support across SE tasks beyond isolated coding",
     "type": "paper",
     "tags": [
       "human-centric",
@@ -3474,7 +3421,7 @@
     "name": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "what": "Study enhanced test filtering to improve coding benchmark quality",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -3529,7 +3476,7 @@
     "name": "SWE-bench Score vs Production Capability Gap",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "SWE-bench Score vs Production Capability Gap",
+    "what": "Analyze the gap between benchmark scores and production capability",
     "type": "blog",
     "website": "https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap",
     "tags": [
@@ -3582,7 +3529,7 @@
     "name": "Software Development Life Cycle Perspective: A Survey of Benchmarks for Code Large Language Models and Agents",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Software Development Life Cycle Perspective: A Survey of Benchmarks for Code Large Language Models and Agents",
+    "what": "Survey code LLM benchmarks across the software development lifecycle",
     "type": "paper",
     "tags": [
       "survey",
@@ -3675,7 +3622,7 @@
     "name": "Survey on Evaluation of LLM-based Agents",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Survey on Evaluation of LLM-based Agents",
+    "what": "Survey evaluation methods and metrics for LLM-based agents",
     "type": "paper",
     "tags": [
       "survey",
@@ -3769,7 +3716,7 @@
     "name": "The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evaluation",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evaluation",
+    "what": "Analyze why SWE-bench Verified was retired as a benchmark",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -3823,7 +3770,7 @@
     "name": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding",
+    "what": "Survey the rise of autonomous coding agents in software engineering",
     "type": "paper",
     "tags": [
       "survey",
@@ -3878,7 +3825,7 @@
     "name": "Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM",
+    "what": "Study whether leaderboard rankings reflect true coding proficiency",
     "type": "paper",
     "tags": [
       "evoeval",
@@ -4055,7 +4002,7 @@
     "name": "What Is the SWE-Rebench Benchmark? How Decontaminated Tests Expose Chinese Model Weaknesses",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "What Is the SWE-Rebench Benchmark? How Decontaminated Tests Expose Chinese Model Weaknesses",
+    "what": "Analyze how decontaminated tests reveal model weaknesses",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -4110,7 +4057,7 @@
     "name": "What skills does SWE-bench Verified evaluate?",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "What skills does SWE-bench Verified evaluate?",
+    "what": "Analyze which skills SWE-bench Verified actually measures",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -4245,7 +4192,7 @@
     "name": "Why LLM Benchmarks Fail Your AI Agent (The 0.95^10 Problem)",
     "stage": "meta-analysis",
     "subcategory": "limitation",
-    "what": "Why LLM Benchmarks Fail Your AI Agent (The 0.95^10 Problem)",
+    "what": "Analyze why compounding error rates cause benchmark-to-production gaps",
     "type": "paper",
     "tags": [
       "compound-failure",
@@ -4327,7 +4274,7 @@
     "name": "Why Your Agent Passes Every Benchmark and Still Fails in Production",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Why Your Agent Passes Every Benchmark and Still Fails in Production",
+    "what": "Analyze why agents passing benchmarks still fail in production",
     "type": "paper",
     "tags": [
       "benchmark-gap",
@@ -4380,7 +4327,7 @@
     "name": "Your Agent Aced the Benchmark. Production Disagreed.",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Your Agent Aced the Benchmark. Production Disagreed.",
+    "what": "Analyze the disconnect between benchmark success and production failure",
     "type": "paper",
     "tags": [
       "benchmark-production-gap",
@@ -4420,7 +4367,7 @@
     "name": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap",
+    "what": "Recap SOTA coding benchmarks after SWE-bench and Code Clash",
     "type": "paper",
     "tags": [
       "swe-bench",
@@ -4634,7 +4581,7 @@
     "name": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study",
+    "what": "Study why software bugs escape testing via large-scale empirical evidence",
     "type": "paper",
     "tags": [
       "bug-escape",
@@ -4669,7 +4616,7 @@
     "name": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
+    "what": "Survey agentic AI architecture and impact on software development",
     "type": "paper",
     "tags": [
       "agentic-ai",
@@ -4723,7 +4670,7 @@
     "name": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
     "stage": "meta-analysis",
     "subcategory": "survey",
-    "what": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
+    "what": "Survey agentic software engineering and its expanding scope",
     "type": "paper",
     "tags": [
       "agentic-se",
@@ -4765,7 +4712,7 @@
     "name": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
     "stage": "meta-analysis",
     "subcategory": "quality-study",
-    "what": "What's Wrong with Your Code Generated by Large Language Models? An Extensive Study",
+    "what": "Study defects in LLM-generated code through extensive analysis",
     "type": "paper",
     "tags": [
       "code-generation",
@@ -4876,5 +4823,132 @@
     ],
     "paper": "https://arxiv.org/abs/2604.29900",
     "added_date": "2026-05-06"
+  },
+  {
+    "id": "physics-is-all-you-need-ai-coding-agent-supervision-case-study",
+    "name": "Physics Is All You Need? AI Coding Agent Supervision Case Study",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Quantify supervision needs for AI coding agents on scientific software",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.30353",
+    "tags": [
+      "coding-agent",
+      "human-supervision",
+      "scientific-software",
+      "case-study"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "radar-automating-low-risk-code-review-at-meta",
+    "name": "RADAR: Automating Low-Risk Code Review at Meta",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Study risk-calibrated AI code review automation at Meta scale",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.30208",
+    "tags": [
+      "code-review",
+      "risk-calibration",
+      "automation",
+      "production-scale"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "prompt-fragility-and-code-vulnerabilities-in-coding-llms",
+    "name": "Prompt Fragility and Code Vulnerabilities in Coding LLMs",
+    "stage": "meta-analysis",
+    "subcategory": "limitation",
+    "what": "Show minimal prompt perturbations introduce security flaws in LLM code",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.29737",
+    "tags": [
+      "code-security",
+      "prompt-perturbation",
+      "vulnerability",
+      "code-generation"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "how-coding-agents-fail-their-users",
+    "name": "How Coding Agents Fail Their Users",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Analyze 20K coding agent sessions to classify developer-agent misalignment",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.29442",
+    "tags": [
+      "coding-agent",
+      "misalignment",
+      "developer-experience",
+      "failure-analysis"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "harness-bench",
+    "name": "Harness-Bench",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Measure how harness design choices affect agent benchmark scores",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.27922",
+    "tags": [
+      "harness-effects",
+      "agent-evaluation",
+      "benchmark-validity",
+      "execution-layer"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "a-tertiary-review-of-llm-based-code-generating-tasks",
+    "name": "A Tertiary Review of LLM-Based Code Generating Tasks",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "Consolidate secondary evidence on LLM-based code generation tasks",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.25536",
+    "tags": [
+      "survey",
+      "code-generation",
+      "tertiary-review",
+      "literature-review"
+    ],
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
+  },
+  {
+    "id": "towards-evaluation-engineering",
+    "name": "Towards Evaluation Engineering",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Study 57 ML evaluation harnesses and classify 16K engineering issues",
+    "type": "paper",
+    "paper": "https://arxiv.org/abs/2605.24213",
+    "tags": [
+      "evaluation-harness",
+      "empirical-study",
+      "infrastructure",
+      "harness-engineering"
+    ],
+    "eval_method": "human-eval",
+    "added_date": "2026-05-29",
+    "last_verified": "2026-05-29",
+    "status": "active"
   }
 ]

@@ -23,17 +23,27 @@ Key optional fields: `paper` (arXiv URL), `repo` (GitHub URL), `stars`, `languag
 ## Commands
 
 ```bash
-# Validate data
+# Validate data (schema / ids / links)
 .venv/bin/python scripts/process/validate.py
 
-# Regenerate README + docs from data
+# Deep data-quality audit (dangling refs, dups, taxonomy drift, title-dump whats)
+.venv/bin/python scripts/process/audit.py
+
+# Fix dups / dangling refs / fields (dry-run; add --apply to write)
+.venv/bin/python scripts/process/merge_duplicates.py --ops /tmp/ops.json
+
+# Regenerate README + docs + llms.txt from data
 .venv/bin/python scripts/generate/generate_readme.py
 .venv/bin/python scripts/generate/generate_docs.py
 .venv/bin/python scripts/generate/generate_stats.py
+.venv/bin/python scripts/generate/generate_llms_txt.py
 
 # Run full collection pipeline (needs LLM_API_KEY env var)
 .venv/bin/python scripts/collect/run_all.py --dry-run
 ```
+
+For routine upkeep (collect new papers → audit & fix → regenerate), use the
+`/corpus-maintenance` skill (`.claude/skills/corpus-maintenance/`).
 
 ## Conventions
 

@@ -13,6 +13,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from taxonomy import VALID_SUBCATEGORIES
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 CANDIDATES = ROOT / "candidates"
@@ -23,18 +25,6 @@ STAGE_FILE_MAP = {
     "toolchain": "toolchain.json",
     "leaderboard": "leaderboards.json",
     "meta-analysis": "meta-analysis.json",
-}
-
-VALID_SUBCATEGORIES = {
-    "benchmark": {
-        "bug-fix", "end-to-end", "long-horizon", "large-codebase",
-        "code-review", "testing", "security", "production", "code-generation",
-        "multi-agent", "feature-development",
-    },
-    "methodology": {"llm-judge", "process-eval", "execution-based", "hybrid", "human-eval"},
-    "toolchain": {"harness", "sandbox", "observability", "judge-tool"},
-    "leaderboard": {"se-agent", "code-generation", "activity"},
-    "meta-analysis": {"limitation", "quality-study", "blog", "survey"},
 }
 
 

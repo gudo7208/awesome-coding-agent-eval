@@ -12,8 +12,9 @@ candidates/
 *.checkpoint.json
 ci_summary.md
 
-# Claude Code internals
-.claude/
+# Claude Code internals (keep project skills tracked)
+.claude/*
+!.claude/skills/
 
 # OS
 .DS_Store

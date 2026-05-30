@@ -33,6 +33,8 @@ KEYWORDS = [
     "vulnerability", "security", "code generation", "pull request",
 ]
 
+# NOTE: the subcategory vocabulary below is embedded in this prompt string and must
+# be kept in sync by hand with the canonical sets in process/taxonomy.py.
 SYSTEM_PROMPT = """You are an expert in AI Software Engineering Agent evaluation.
 
 Our awesome list is organized by evaluation workflow:
