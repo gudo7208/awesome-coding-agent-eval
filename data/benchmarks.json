@@ -118293,5 +118293,86 @@
     "added_date": "2026-05-29",
     "last_verified": "2026-05-29",
     "status": "active"
+  },
+  {
+    "id": "iso-bench",
+    "name": "ISO-Bench",
+    "stage": "benchmark",
+    "subcategory": "end-to-end",
+    "what": "Benchmark coding agents on real-world LLM inference optimization tasks",
+    "type": "paper",
+    "tags": [
+      "optimization",
+      "inference",
+      "vllm",
+      "sglang",
+      "performance"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2602.19594",
+    "eval_method": "hybrid",
+    "scale": 54,
+    "related": {
+      "variants": [
+        "featurebench-benchmarking-agentic-coding-for-complex-feature-development"
+      ]
+    }
+  },
+  {
+    "id": "maps-multilingual-agent-benchmark",
+    "name": "MAPS: Multilingual Benchmark for Agent Performance and Security",
+    "stage": "benchmark",
+    "subcategory": "end-to-end",
+    "what": "Evaluate agentic AI across 11 languages for performance and security",
+    "type": "paper",
+    "tags": [
+      "multilingual",
+      "security",
+      "agent-evaluation",
+      "cross-lingual"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2505.15935",
+    "eval_method": "execution-based",
+    "scale": 805,
+    "languages": [
+      "python",
+      "javascript",
+      "java"
+    ],
+    "related": {
+      "variants": [
+        "swe-bench"
+      ]
+    }
+  },
+  {
+    "id": "swe-prbench",
+    "name": "SWE-PRBench: Benchmarking AI Code Review Quality Against PR Feedback",
+    "stage": "benchmark",
+    "subcategory": "code-review",
+    "what": "Benchmark AI code review quality against 350 human-annotated pull requests",
+    "type": "paper",
+    "tags": [
+      "code-review",
+      "pull-request",
+      "attention-dilution",
+      "long-context"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.26130",
+    "eval_method": "llm-judge",
+    "scale": 350,
+    "related": {
+      "variants": [
+        "code-review-agent-benchmark"
+      ]
+    }
   }
 ]

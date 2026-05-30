@@ -5,7 +5,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 ## Contents
 
 - [Benchmark Limitations (8)](#limitation)
-- [Agent Output Quality Studies (51)](#quality-study)
+- [Agent Output Quality Studies (53)](#quality-study)
 - [Surveys (16)](#survey)
 - [Blogs & Practice Reports (35)](#blog)
 
@@ -30,6 +30,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 
 ### A–F
 
+- [Agyn: Multi-Agent System for Team-Based Autonomous SE](https://arxiv.org/abs/2602.01465) — Multi-agent team system resolving 72.2% of SWE-bench 500 tasks. 🤝
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99) — Analyzes quality and security of 1756 ChatGPT-generated Python code snippets. 🔒 🐍
 - [AI-Generated Smells](https://arxiv.org/abs/2604.28900) — Analysis of code and architecture smells in LLM/agent-driven development.
 - [AIDev: Large-Scale Empirical Study of 930K Agentic PRs](https://arxiv.org/html/2602.09185) — Study quality patterns across 930K agentic pull requests at scale. 📦
@@ -85,6 +86,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [These Aren't the Reviews You're Looking For](https://arxiv.org/abs/2604.28800) — Study how humans review AI-generated pull requests.
 - [Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM](https://arxiv.org/abs/2403.19114) — Study whether leaderboard rankings reflect true coding proficiency.
 - [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213) — Study 57 ML evaluation harnesses and classify 16K engineering issues.
+- [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786) — Empirical study of turn-control strategies reducing agent cost 24-68%.
 - [Understanding Software Engineering Agents Through the Lens of Traceability: An Empirical Study](https://arxiv.org/abs/2506.08311) — Empirical study of SWE agent decision workflows via traceability lens. 🔍
 - [UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](https://arxiv.org/abs/2506.09289) — Exposes weak SWE-Bench tests and proposes UTBoost for stricter agent evaluation.
 - [What Makes Software Bugs Escape Testing? Evidence from a Large-Scale Empirical Study](https://arxiv.org/abs/2604.26672v1) — Study why software bugs escape testing via large-scale empirical evidence.

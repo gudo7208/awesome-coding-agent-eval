@@ -5,7 +5,7 @@ Different scoring approaches, each with trade-offs.
 ## Contents
 
 - [LLM-as-Judge (49)](#llm-judge)
-- [Process Evaluation (45)](#process-eval)
+- [Process Evaluation (51)](#process-eval)
 - [Execution-based (25)](#execution-based)
 - [Hybrid (9)](#hybrid)
 - [Human Evaluation (9)](#human-eval)
@@ -89,6 +89,8 @@ Different scoring approaches, each with trade-offs.
 - [A Multi-Dimensional Framework for Evaluating Enterprise Agentic AI Systems](https://arxiv.org/html/2511.14136v1) — Assess enterprise agentic AI systems across multiple dimensions.
 - [A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression](https://arxiv.org/abs/2604.19572) — Evaluate terminal agents using observational context compression. 📅
 - [ACON](https://arxiv.org/abs/2510.00615) — Compresses observations and interaction histories to reduce agent memory usage. 📅
+- [AEMA: Verifiable Evaluation Framework for Agentic LLM Systems](https://arxiv.org/abs/2601.11903) — Process-aware multi-agent evaluation framework for trustworthy LLM systems. 🤝
+- [Agent Psychometrics: Task-Level Performance Prediction](https://arxiv.org/abs/2604.00594) — Predict task-level agent success using IRT with LLM-scaffold decomposition.
 - [AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation](https://arxiv.org/abs/2604.23581) — DAG-based step-level evaluation tracking error propagation in agentic workflows. 🔍 🤖
 - [AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking](https://arxiv.org/abs/2604.23581v1) — Evaluate agentic workflows at step level with error propagation tracking.
 - [Agents Explore but Agents Ignore: LLMs Lack Environmental Curiosity](https://arxiv.org/abs/2604.17609v1) — Study LLM agents' lack of environmental curiosity during exploration.
@@ -118,6 +120,7 @@ Different scoring approaches, each with trade-offs.
 
 ### M–R
 
+- [MASEval: Extending Multi-Agent Evaluation from Models to Systems](https://arxiv.org/abs/2603.08835) — Framework-agnostic evaluation treating entire multi-agent system as unit. 🤝
 - [Measuring the Unmeasurable: Markov Chain Reliability for LLM Agents](https://arxiv.org/abs/2604.24579) — Models agent traces as Markov chains for pass@k uncertainty quantification. 🔍
 - [Plausible but Wrong: A case study on Agentic Failures in Astrophysical Workflows](https://arxiv.org/abs/2604.25345) — Case study on agentic AI failures in scientific workflows across 18 tasks.
 - [Playing Psychic: Using Thought Trees to Predict Reasoning Models Accuracy on Coding Tasks](https://arxiv.org/abs/2604.16931) — Predicts reasoning model accuracy on coding tasks via thought tree structure. 🔍
@@ -125,6 +128,7 @@ Different scoring approaches, each with trade-offs.
 - [Process-Oriented Error Analysis](https://arxiv.org/abs/2503.12374) — Classifies and attributes process errors in software engineering agents. 🔍
 - [RAMP: Runtime Assessment for Production SE Agents](https://arxiv.org/abs/2605.27492) — Assess SE agent capabilities at runtime in production workflows. 🏭 📅
 - [Reasoning Through Execution (ORPS)](https://arxiv.org/abs/2412.15118) — Combines process and outcome supervision via execution for code gen.
+- [Rethinking SE Conventions for the Agentic Development Era](https://arxiv.org/abs/2604.07502) — Analyze how SE conventions should adapt for AI agent consumers.
 - [RSCB-MC](https://arxiv.org/abs/2604.27283) — Risk-sensitive contextual bandits for agent memory retrieval decisions.
 
 ### S–Z
@@ -136,7 +140,9 @@ Different scoring approaches, each with trade-offs.
 - [Test Case Generation from Bug Reports via Large Language Models: A Cognitive Layered Evaluation Framework](https://arxiv.org/abs/2510.05365) — Evaluate LLM test-case generation from bug reports via cognitive layers. 🔍
 - [The Complexity Trap](https://arxiv.org/abs/2508.21433) — Observation masking matches LLM summarization performance at half the cost.
 - [The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase](https://arxiv.org/abs/2603.25697) — Evaluate user-spec-driven development for self-evolving codebases.
+- [Tokenomics: Quantifying Where Tokens Are Used in Agentic SE](https://arxiv.org/abs/2601.14470) — Analyze token consumption patterns across SDLC stages in multi-agent SE. 🤝
 - [Turning the Tide: Repository-based Code Reflection](https://arxiv.org/abs/2507.09866) — Proposes repository-based code reflection to improve SE agent reasoning.
+- [What Makes a Good Terminal-Agent Benchmark Task](https://arxiv.org/abs/2604.28093) — Guidelines for adversarial, difficult, and legible benchmark task design.
 
 <a id="execution-based"></a>
 ## Execution-based

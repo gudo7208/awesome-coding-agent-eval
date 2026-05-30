@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-932-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-947-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -29,11 +29,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 |---|---|
 | Get started in 5 minutes | → [Getting Started Guide](docs/getting-started.md) |
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
-| Find the right benchmark (548) | → [② Benchmarks](#-top-30-benchmarks) |
-| Understand scoring methods (137) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (114) | → [④ Toolchain](#-evaluation-toolchain) |
+| Find the right benchmark (551) | → [② Benchmarks](#-top-30-benchmarks) |
+| Understand scoring methods (143) | → [③ Methodology](#-evaluation-methodology) |
+| Set up evaluation infrastructure (118) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
-| Learn about benchmark pitfalls (110) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
+| Learn about benchmark pitfalls (112) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 
 ## Table of Contents
 
@@ -96,7 +96,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | [SWE Atlas](https://scale.com/leaderboard/sweatlas-qna) ✅ | Benchmark suite for coding agents on QA, test writing, and refactoring tasks | python, go, c, typescript | - | execution-based | 2025 | - |
 | [SWE-EVO](https://arxiv.org/html/2512.18470v2) ✅ | Benchmarks multi-step software evolution with 48 tasks across 7 OSS projects | python | 48 | execution-based | 2025 | - |
 
-→ [See all 548 benchmarks](docs/2-benchmarks.md)
+→ [See all 551 benchmarks](docs/2-benchmarks.md)
 
 ## 📖 Must-Read by Category
 
@@ -113,7 +113,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 📐 Evaluation Methodology
 
 <details>
-<summary>③ Evaluation Methodology (137 resources)</summary>
+<summary>③ Evaluation Methodology (143 resources)</summary>
 
 ### Execution-based
 
@@ -270,6 +270,12 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase](https://arxiv.org/abs/2603.25697) — Evaluate user-spec-driven development for self-evolving codebases.
 - 📝 [Turning the Tide: Repository-based Code Reflection](https://arxiv.org/abs/2507.09866) — Proposes repository-based code reflection to improve SE agent reasoning.
 - 📝 [RAMP: Runtime Assessment for Production SE Agents](https://arxiv.org/abs/2605.27492) — Assess SE agent capabilities at runtime in production workflows.
+- 📝 [AEMA: Verifiable Evaluation Framework for Agentic LLM Systems](https://arxiv.org/abs/2601.11903) — Process-aware multi-agent evaluation framework for trustworthy LLM systems.
+- 📝 [Agent Psychometrics: Task-Level Performance Prediction](https://arxiv.org/abs/2604.00594) — Predict task-level agent success using IRT with LLM-scaffold decomposition.
+- 📝 [MASEval: Extending Multi-Agent Evaluation from Models to Systems](https://arxiv.org/abs/2603.08835) — Framework-agnostic evaluation treating entire multi-agent system as unit.
+- 📝 [Rethinking SE Conventions for the Agentic Development Era](https://arxiv.org/abs/2604.07502) — Analyze how SE conventions should adapt for AI agent consumers.
+- 📝 [Tokenomics: Quantifying Where Tokens Are Used in Agentic SE](https://arxiv.org/abs/2601.14470) — Analyze token consumption patterns across SDLC stages in multi-agent SE.
+- 📝 [What Makes a Good Terminal-Agent Benchmark Task](https://arxiv.org/abs/2604.28093) — Guidelines for adversarial, difficult, and legible benchmark task design.
 
 > See also: [LLM-as-Judge](#llm-judge), [Hybrid](#hybrid)
 
@@ -278,7 +284,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (114 resources)</summary>
+<summary>④ Evaluation Toolchain (118 resources)</summary>
 
 ### Evaluation Harness
 
@@ -323,6 +329,9 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [smolagents](https://github.com/huggingface/smolagents) — Hugging Face lightweight framework for building and running LLM-powered agents.
 - 📝 [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071) — Analyze architectural design decisions in AI agent harnesses.
 - 📝 [Meta-Engineering Harness](https://arxiv.org/abs/2605.25665) — Provide contract-driven adversarial verification harness for AI code.
+- 📝 [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586) — Reduce agent trajectory tokens 40-60% by removing useless/redundant info.
+- 📝 [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481) — Evaluation suite for multi-agent system testing and observability.
+- 📝 [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919) — Compress agent skill descriptions 48% and bodies 39% while improving quality.
 
 > See also: [Sandbox & Execution](#sandbox), [Execution-based](#execution-based)
 
@@ -335,6 +344,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🐍 [CodeFox-CLI](https://github.com/codefox-lab/CodeFox-CLI) — CLI tool for AI-powered code review of git diffs using local or cloud LLMs.
 - 📝 [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service) — Google Vertex AI agent evaluation service with trajectory analysis.
 - 📝 [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985) — Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions.
+- 📝 [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052) — Pre-publish security gate targeting 5 blind spots in AI-generated code.
 
 ### Observability
 
@@ -454,7 +464,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔬 Meta-Analysis & Pitfalls
 
 <details>
-<summary>⑥ Meta-Analysis & Pitfalls (110 resources)</summary>
+<summary>⑥ Meta-Analysis & Pitfalls (112 resources)</summary>
 
 ### Blogs & Practice Reports
 
@@ -558,6 +568,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [How Coding Agents Fail Their Users](https://arxiv.org/abs/2605.29442) — Analyze 20K coding agent sessions to classify developer-agent misalignment.
 - 📝 [Harness-Bench](https://arxiv.org/abs/2605.27922) — Measure how harness design choices affect agent benchmark scores.
 - 📝 [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213) — Study 57 ML evaluation harnesses and classify 16K engineering issues.
+- 📝 [Agyn: Multi-Agent System for Team-Based Autonomous SE](https://arxiv.org/abs/2602.01465) — Multi-agent team system resolving 72.2% of SWE-bench 500 tasks.
+- 📝 [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786) — Empirical study of turn-control strategies reducing agent cost 24-68%.
 
 ### Surveys
 

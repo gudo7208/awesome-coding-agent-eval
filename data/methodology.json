@@ -4307,5 +4307,143 @@
     "added_date": "2026-05-29",
     "last_verified": "2026-05-29",
     "status": "active"
+  },
+  {
+    "id": "aema-verifiable-evaluation-framework",
+    "name": "AEMA: Verifiable Evaluation Framework for Agentic LLM Systems",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Process-aware multi-agent evaluation framework for trustworthy LLM systems",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "verifiable",
+      "enterprise",
+      "evaluation-framework"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2601.11903",
+    "related": {
+      "variants": [
+        "maestro-multi-agent-evaluation-suite"
+      ]
+    }
+  },
+  {
+    "id": "agent-psychometrics-task-level-prediction",
+    "name": "Agent Psychometrics: Task-Level Performance Prediction",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Predict task-level agent success using IRT with LLM-scaffold decomposition",
+    "type": "paper",
+    "tags": [
+      "item-response-theory",
+      "performance-prediction",
+      "benchmark-calibration"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.00594",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation"
+      ]
+    }
+  },
+  {
+    "id": "maseval-multi-agent-evaluation",
+    "name": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Framework-agnostic evaluation treating entire multi-agent system as unit",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "framework-agnostic",
+      "system-evaluation"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.08835",
+    "related": {
+      "variants": [
+        "maestro-multi-agent-evaluation-suite",
+        "aema-verifiable-evaluation-framework"
+      ]
+    }
+  },
+  {
+    "id": "rethinking-se-conventions-agentic-era",
+    "name": "Rethinking SE Conventions for the Agentic Development Era",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Analyze how SE conventions should adapt for AI agent consumers",
+    "type": "paper",
+    "tags": [
+      "semantic-density",
+      "token-efficiency",
+      "agent-design",
+      "conventions"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.07502",
+    "related": {
+      "variants": [
+        "skillreducer-optimizing-agent-skills-token-efficiency"
+      ]
+    }
+  },
+  {
+    "id": "tokenomics-quantifying-token-usage-agentic-se",
+    "name": "Tokenomics: Quantifying Where Tokens Are Used in Agentic SE",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Analyze token consumption patterns across SDLC stages in multi-agent SE",
+    "type": "paper",
+    "tags": [
+      "token-efficiency",
+      "cost-analysis",
+      "multi-agent",
+      "sdlc"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2601.14470",
+    "related": {
+      "variants": [
+        "agentdiet-trajectory-reduction",
+        "turn-control-strategies-coding-agents"
+      ]
+    }
+  },
+  {
+    "id": "terminal-agent-benchmark-design-guideline",
+    "name": "What Makes a Good Terminal-Agent Benchmark Task",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Guidelines for adversarial, difficult, and legible benchmark task design",
+    "type": "paper",
+    "tags": [
+      "benchmark-design",
+      "adversarial",
+      "reward-hacking",
+      "task-authoring"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.28093",
+    "related": {
+      "variants": [
+        "a-benchmark-mutation-approach-for-realistic-agent-evaluation"
+      ]
+    }
   }
 ]

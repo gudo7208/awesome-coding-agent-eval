@@ -27,7 +27,10 @@
           "harness": { "type": "array", "items": { "type": "string" } },
           "leaderboard": { "type": "array", "items": { "type": "string" } },
           "meta_analysis": { "type": "array", "items": { "type": "string" } },
-          "variants": { "type": "array", "items": { "type": "string" } }
+          "variants": { "type": "array", "items": { "type": "string" } },
+          "benchmarks": { "type": "array", "items": { "type": "string" } },
+          "toolchain": { "type": "array", "items": { "type": "string" } },
+          "methodology": { "type": "array", "items": { "type": "string" } }
         }
       },
       "recommended": { "type": "boolean" },

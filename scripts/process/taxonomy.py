@@ -20,5 +20,10 @@ VALID_SUBCATEGORIES = {
 
 VALID_EVAL_METHODS = {"execution-based", "llm-judge", "hybrid", "human-eval"}
 
-# the four cross-reference buckets inside an entry's `related` object
-RELATED_KEYS = ("harness", "leaderboard", "meta_analysis", "variants")
+# cross-reference buckets inside an entry's `related` object.
+# Note: the data uses by-stage buckets (benchmarks/toolchain/methodology) in
+# addition to the four originally-schema'd ones — all are cleaned/redirected.
+RELATED_KEYS = (
+    "harness", "leaderboard", "meta_analysis", "variants",
+    "benchmarks", "toolchain", "methodology",
+)

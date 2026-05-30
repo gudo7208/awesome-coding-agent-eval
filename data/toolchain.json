@@ -57,7 +57,7 @@
         "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
         "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
         "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
         "beyond-output-correctness-benchmarking-and-evaluating-large-language-model-reasoning-in-coding-tasks",
@@ -191,7 +191,7 @@
         "joycode-agent",
         "locagent-graph-guided-llm-agents-for-code-localization",
         "multiagentbench-evaluating-the-collaboration-and-competition-of-llm-agents",
-        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation"
+        "prdbench"
       ]
     }
   },
@@ -254,7 +254,7 @@
         "da-code-agent-data-science-code-generation-benchmark-for-large-language-models",
         "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
         "joycode-agent",
-        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation",
+        "prdbench",
         "redcode-risky-code-execution-and-generation-benchmark-for-code-agents"
       ]
     }
@@ -320,7 +320,6 @@
         "nl2repo-bench-towards-long-horizon-repository-generation-evaluation",
         "odysseys-benchmarking-web-agents-on-realistic-long-horizon-tasks",
         "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
         "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
     }
@@ -516,7 +515,6 @@
         "plot2code-a-comprehensive-benchmark-for-evaluating-multi-modal-large-language-models-in-code-generation-from-scientific-",
         "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "web2code-a-large-scale-webpage-to-code-dataset-and-evaluation-framework-for-multimodal-llms",
         "webcompass-towards-multimodal-web-coding-evaluation-for-code-language-models"
       ]
@@ -560,7 +558,6 @@
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
@@ -649,7 +646,6 @@
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
@@ -699,7 +695,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -849,7 +844,7 @@
         "benchmarking-agentic-code-reasoning-at-the-repository-level",
         "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice"
+        "contextcrbench"
       ]
     }
   },
@@ -947,7 +942,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
         "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
@@ -1034,7 +1028,6 @@
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
@@ -1082,7 +1075,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro"
       ]
@@ -1125,7 +1117,6 @@
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
@@ -1343,7 +1334,7 @@
         "benchmarking-and-studying-the-llm-based-agent-system-in-end-to-end-software-development",
         "benchmarking-and-studying-the-llm-based-code-review",
         "benchmarking-coding-agents-in-long-horizon-software-evolution-scenarios",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "benchmarking-llms-for-unit-test-generation-from-real-world-functions",
         "beyond-correctness-benchmarking-multi-dimensional-code-generation-for-large-language-models",
         "beyond-output-correctness-benchmarking-and-evaluating-large-language-model-reasoning-in-coding-tasks",
@@ -1484,7 +1475,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -1560,7 +1550,6 @@
         "evaluation-of-llms-on-syntax-aware-code-fill-in-the-middle-tasks",
         "evolutionary-perspectives-on-the-evaluation-of-llm-based-ai-agents-a-comprehensive-survey",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
         "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
         "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
@@ -1681,7 +1670,6 @@
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "introducing-swe-bench-verified",
         "investigating-test-overfitting-on-swe-bench",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
@@ -2275,7 +2263,6 @@
         "harbor-automated-harness-optimization",
         "harnessing-large-language-models-for-curated-code-reviews",
         "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation",
-        "humanevo-an-evolution-aware-benchmark-for-more-realistic-evaluation-of-repository-level-code-generation-2",
         "is-your-code-generated-by-chatgpt-really-correct-rigorous-evaluation-of-large-language-models-for-code-generation",
         "leetcodedataset-a-temporal-dataset-for-robust-evaluation-and-efficient-training-of-code-llms",
         "llmseceval-a-dataset-of-natural-language-prompts-for-security-evaluations",
@@ -2371,7 +2358,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
         "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
@@ -2497,7 +2483,6 @@
         "patchtrack-a-comprehensive-analysis-of-chatgpt-s-influence-on-pull-request-outcomes",
         "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-project-development",
         "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
       ]
     }
@@ -2585,7 +2570,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus"
       ]
     }
@@ -2796,7 +2780,6 @@
         "swe-bench-lite-samples",
         "swe-bench-live",
         "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains",
         "swe-bench-plus-plus",
         "swe-bench-pro",
         "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
@@ -2899,7 +2882,7 @@
         "da-code-agent-data-science-code-generation-benchmark-for-large-language-models",
         "gittaskbench-a-benchmark-for-code-agents-solving-real-world-tasks-through-code-repository-leveraging",
         "joycode-agent",
-        "automatically-benchmarking-llm-code-agents-through-agent-driven-annotation-and-evaluation",
+        "prdbench",
         "redcode-risky-code-execution-and-generation-benchmark-for-code-agents",
         "skill"
       ]
@@ -3322,7 +3305,7 @@
         "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
@@ -3362,7 +3345,7 @@
         "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
@@ -3428,7 +3411,7 @@
         "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
@@ -3468,7 +3451,7 @@
         "agenticscr-an-autonomous-agentic-secure-code-review-for-immature-vulnerabilities-detection",
         "automating-code-review-activities-by-large-scale-pre-training",
         "benchmarking-and-studying-the-llm-based-code-review",
-        "benchmarking-llms-for-fine-grained-code-review-with-enriched-context-in-practice",
+        "contextcrbench",
         "code-review-agent-benchmark",
         "codeagent-autonomous-communicative-agents-for-code-review",
         "codereviewer-pre-training-for-automating-code-review-activities",
@@ -3621,7 +3604,6 @@
         "nl2repo-bench-towards-long-horizon-repository-generation-evaluation",
         "odysseys-benchmarking-web-agents-on-realistic-long-horizon-tasks",
         "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
         "stepwise-codex-bench-evaluating-complex-multi-function-comprehension-and-fine-grained-execution-reasoning",
         "swe-bench-pro-can-ai-agents-solve-long-horizon-software-engineering-tasks"
       ]
@@ -3789,5 +3771,100 @@
     "added_date": "2026-05-29",
     "last_verified": "2026-05-29",
     "status": "active"
+  },
+  {
+    "id": "agentdiet-trajectory-reduction",
+    "name": "AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction",
+    "stage": "toolchain",
+    "subcategory": "harness",
+    "what": "Reduce agent trajectory tokens 40-60% by removing useless/redundant info",
+    "type": "paper",
+    "tags": [
+      "trajectory-reduction",
+      "cost-optimization",
+      "token-efficiency",
+      "inference-time"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2509.23586",
+    "related": {
+      "methodology": [
+        "tokenomics-quantifying-token-usage-agentic-se",
+        "turn-control-strategies-coding-agents"
+      ]
+    }
+  },
+  {
+    "id": "maestro-multi-agent-evaluation-suite",
+    "name": "MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability",
+    "stage": "toolchain",
+    "subcategory": "harness",
+    "what": "Evaluation suite for multi-agent system testing and observability",
+    "type": "paper",
+    "tags": [
+      "multi-agent",
+      "testing",
+      "observability",
+      "reliability",
+      "traces"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2601.00481",
+    "related": {
+      "benchmarks": [
+        "agency-bench"
+      ],
+      "methodology": [
+        "maseval-multi-agent-evaluation"
+      ]
+    }
+  },
+  {
+    "id": "skillreducer-optimizing-agent-skills-token-efficiency",
+    "name": "SkillReducer: Optimizing LLM Agent Skills for Token Efficiency",
+    "stage": "toolchain",
+    "subcategory": "harness",
+    "what": "Compress agent skill descriptions 48% and bodies 39% while improving quality",
+    "type": "paper",
+    "tags": [
+      "skill-optimization",
+      "token-compression",
+      "less-is-more",
+      "context-window"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2603.29919",
+    "related": {
+      "benchmarks": [
+        "swe-skills-bench"
+      ],
+      "methodology": [
+        "rethinking-se-conventions-agentic-era"
+      ]
+    }
+  },
+  {
+    "id": "vibeguard-security-gate-ai-code",
+    "name": "VibeGuard: Security Gate Framework for AI-Generated Code",
+    "stage": "toolchain",
+    "subcategory": "judge-tool",
+    "what": "Pre-publish security gate targeting 5 blind spots in AI-generated code",
+    "type": "paper",
+    "tags": [
+      "security",
+      "vibe-coding",
+      "artifact-hygiene",
+      "supply-chain"
+    ],
+    "added_date": "2026-05-16",
+    "last_verified": "2026-05-16",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2604.01052"
   }
 ]

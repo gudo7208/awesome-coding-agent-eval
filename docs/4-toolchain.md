@@ -4,10 +4,10 @@ The tool stack you need to run an evaluation end-to-end.
 
 ## Contents
 
-- [Evaluation Harness (41)](#harness)
+- [Evaluation Harness (44)](#harness)
 - [Sandbox & Execution (56)](#sandbox)
 - [Observability (10)](#observability)
-- [LLM Judge Tools (7)](#judge-tool)
+- [LLM Judge Tools (8)](#judge-tool)
 
 <a id="harness"></a>
 ## Evaluation Harness
@@ -18,6 +18,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 - [agent-bench](https://github.com/spring-ai-community/agent-bench) ⭐26 — Benchmarks Java AI agents in isolated sandboxes with Spring AI integration. ☕
 - [agent-quality-inspect](https://github.com/SAP/agent-quality-inspect) ⭐75 — Provide quality inspection tooling for AI agent outputs.
+- [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586) — Reduce agent trajectory tokens 40-60% by removing useless/redundant info.
 - [AgentEval](https://github.com/AgentEvalHQ/AgentEval) ⭐86 — Provide a harness for evaluating AI agent task performance.
 - [aider-swe-bench](https://github.com/Aider-AI/aider-swe-bench) ⭐81 — Harness for running and evaluating Aider on SWE-Bench benchmark.
 - [aira-dojo](https://github.com/facebookresearch/aira-dojo) ⭐143 — AI research agent development and evaluation framework by Facebook Research.
@@ -44,6 +45,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 ### M–R
 
+- [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481) — Evaluation suite for multi-agent system testing and observability. 🤝
 - [Meta-Engineering Harness](https://arxiv.org/abs/2605.25665) — Provide contract-driven adversarial verification harness for AI code. 🏭
 - [OD-SWE-bench](https://github.com/OpenDevin/OD-SWE-bench) ⭐30 — Enhanced SWE-bench fork with evaluation harness for OpenDevin agents.
 - [OpenAI Evals](https://github.com/openai/evals) ⭐18318 — Provide a framework for evaluating LLM model outputs.
@@ -56,6 +58,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 - [SanityHarness](https://github.com/lemon07r/SanityHarness) ⭐220 — Provide a sanity-check harness for agent evaluation pipelines. 🌐
 - [sb-cli](https://github.com/SWE-bench/sb-cli) ⭐63 — Official SWE-bench CLI tool for running remote evaluation tasks.
+- [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919) — Compress agent skill descriptions 48% and bodies 39% while improving quality.
 - [smolagents](https://github.com/huggingface/smolagents) — Hugging Face lightweight framework for building and running LLM-powered agents. 🤝 🐍
 - [squeez](https://github.com/KRLabsOrg/squeez) ⭐11 — Compresses verbose tool outputs for coding agents via LoRA fine-tuning.
 - [SWE Agent](https://github.com/princeton-nlp/swe-agent) — Provide an agent harness for solving software engineering tasks.
@@ -164,6 +167,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service) — Google Vertex AI agent evaluation service with trajectory analysis. 🤖
 - [Promptfoo](https://github.com/promptfoo/promptfoo) ⭐20696 — Tests and evaluates LLM outputs with prompt comparison and auto-scoring.
 - [sage](https://github.com/usetig/sage) ⭐93 — LLM council that reviews and evaluates coding agent actions in real-time. 🤖
+- [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052) — Pre-publish security gate targeting 5 blind spots in AI-generated code. 🔒
 
 ---
 

@@ -392,8 +392,7 @@
         "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
         "swe-bench-lite-samples",
         "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains"
+        "swe-bench-multimodal"
       ]
     }
   },
@@ -556,8 +555,7 @@
         "swe-bench-java-a-github-issue-resolving-benchmark-for-java",
         "swe-bench-lite-samples",
         "swe-bench-live",
-        "swe-bench-multimodal",
-        "swe-bench-multimodal-do-ai-systems-generalize-to-visual-software-domains"
+        "swe-bench-multimodal"
       ]
     }
   },
@@ -657,7 +655,6 @@
         "projdevbench-benchmarking-ai-coding-agents-on-end-to-end-project-development",
         "r2e-turning-any-github-repository-into-a-programming-agent-environment",
         "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks",
-        "slopcodebench-benchmarking-how-coding-agents-degrade-over-long-horizon-iterative-tasks-2",
         "swe-bench-5g-benchmarking-ai-coding-agents-on-telecom-network-engineering-tasks"
       ]
     }

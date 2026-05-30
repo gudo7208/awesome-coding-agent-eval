@@ -1,8 +1,8 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 932 curated resources for evaluating AI coding agents.
+> 947 curated resources for evaluating AI coding agents.
 
-## Benchmarks & Datasets (548)
+## Benchmarks & Datasets (551)
 
 ### Bug Fix & Issue Resolution (69)
 
@@ -226,7 +226,7 @@
 - [Verus-SpecGym](https://arxiv.org/abs/2605.26457): Evaluate LLM agents on translating informal specs to formal Verus/Rust. Method: execution-based
 - [Do LLMs Favor Their Providers? Vertical Integration Bias in Code Generation](https://arxiv.org/abs/2605.28515): Measure provider ecosystem bias in LLM-generated code. Method: execution-based
 
-### Code Review (25)
+### Code Review (26)
 
 - [aacr-bench](https://github.com/alibaba/aacr-bench): Benchmark LLMs on automated code review tasks. Lang: python. Method: human-eval. Stars: 150
 - [AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context](https://arxiv.org/abs/2601.19494): Benchmarks automatic code review using holistic repo-level context from PRs. Method: execution-based
@@ -253,8 +253,9 @@
 - [Towards Automating Code Review Activities](https://arxiv.org/abs/2101.02518): Evaluate automation of code review activities
 - [Understanding Dominant Themes in Reviewing Agentic AI-authored Code](https://arxiv.org/abs/2601.19287): Analyzes 19,450 review comments on agent-authored PRs with 12-theme taxonomy
 - [We benchmarked 7 AI code review tools on large open-source projects](https://www.augmentcode.com/blog/we-benchmarked-7-ai-code-review-tools-on-real-world-prs-here-are-the-results): Benchmark AI code review tools on large open-source projects
+- [SWE-PRBench: Benchmarking AI Code Review Quality Against PR Feedback](https://arxiv.org/abs/2603.26130): Benchmark AI code review quality against 350 human-annotated pull requests. Method: llm-judge
 
-### End-to-End / Multi-Task (117)
+### End-to-End / Multi-Task (119)
 
 - [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) [recommended]: Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+. Method: execution-based. Stars: 1441
 - [skill](https://github.com/pinchbench/skill) [recommended]: Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks. Lang: python. Method: execution-based. Stars: 1079
@@ -373,6 +374,8 @@
 - [VISTA: Visual Spec-to-Web-App Benchmark](https://arxiv.org/abs/2605.26144): Evaluate end-to-end web-app generation from visual specifications. Method: hybrid
 - [SpecBench](https://arxiv.org/abs/2605.30314): Evaluate SWE agents on specification design and requirements reasoning. Method: llm-judge
 - [Converted, Not Equivalent: Benchmarking Codebase Conversion via Observational Equivalence](https://arxiv.org/abs/2605.29054): Benchmark codebase conversion with observational equivalence testing. Method: execution-based
+- [ISO-Bench](https://arxiv.org/abs/2602.19594): Benchmark coding agents on real-world LLM inference optimization tasks. Method: hybrid
+- [MAPS: Multilingual Benchmark for Agent Performance and Security](https://arxiv.org/abs/2505.15935): Evaluate agentic AI across 11 languages for performance and security. Lang: python, javascript, java. Method: execution-based
 
 ### Feature Development (7)
 
@@ -585,7 +588,7 @@
 - [GUITestScape](https://arxiv.org/abs/2605.29532): Evaluate agents on open-set exploratory GUI testing with display defects. Method: execution-based
 - [PR-Aware Automated Unit Test Generation](https://arxiv.org/abs/2605.25285): Evaluate test generation tools on pull-request-level test tasks. Method: execution-based
 
-## Evaluation Methodology (137)
+## Evaluation Methodology (143)
 
 ### Execution-based (25)
 
@@ -691,7 +694,7 @@
 - [Understanding the Limits of Automated Evaluation for Code Review Bots in Practice](https://arxiv.org/abs/2604.24525): Study on structural limits of automated evaluation for code review bots
 - [Vibe Checker: Aligning Code Evaluation with Human Preference](https://arxiv.org/abs/2510.07315): Align automated code evaluation with human preferences
 
-### Process Evaluation (45)
+### Process Evaluation (51)
 
 - [A Benchmark Mutation Approach for Realistic Agent Evaluation](https://arxiv.org/abs/2510.08996): Benchmark mutation approach generating realistic SE agent evaluation tasks
 - [A Computational Theory for Efficient Mini Agent Evaluation with Causal Guarantees](https://openreview.net/forum?id=dsjxCoa0CO): Computational theory for efficient mini agent evaluation with causal guarantees
@@ -738,10 +741,16 @@
 - [The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase](https://arxiv.org/abs/2603.25697): Evaluate user-spec-driven development for self-evolving codebases
 - [Turning the Tide: Repository-based Code Reflection](https://arxiv.org/abs/2507.09866): Proposes repository-based code reflection to improve SE agent reasoning
 - [RAMP: Runtime Assessment for Production SE Agents](https://arxiv.org/abs/2605.27492): Assess SE agent capabilities at runtime in production workflows. Method: execution-based
+- [AEMA: Verifiable Evaluation Framework for Agentic LLM Systems](https://arxiv.org/abs/2601.11903): Process-aware multi-agent evaluation framework for trustworthy LLM systems
+- [Agent Psychometrics: Task-Level Performance Prediction](https://arxiv.org/abs/2604.00594): Predict task-level agent success using IRT with LLM-scaffold decomposition
+- [MASEval: Extending Multi-Agent Evaluation from Models to Systems](https://arxiv.org/abs/2603.08835): Framework-agnostic evaluation treating entire multi-agent system as unit
+- [Rethinking SE Conventions for the Agentic Development Era](https://arxiv.org/abs/2604.07502): Analyze how SE conventions should adapt for AI agent consumers
+- [Tokenomics: Quantifying Where Tokens Are Used in Agentic SE](https://arxiv.org/abs/2601.14470): Analyze token consumption patterns across SDLC stages in multi-agent SE
+- [What Makes a Good Terminal-Agent Benchmark Task](https://arxiv.org/abs/2604.28093): Guidelines for adversarial, difficult, and legible benchmark task design
 
-## Evaluation Toolchain (114)
+## Evaluation Toolchain (118)
 
-### Evaluation Harness (41)
+### Evaluation Harness (44)
 
 - [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands): Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster. Stars: 72349
 - [OpenAI Evals](https://github.com/openai/evals): Provide a framework for evaluating LLM model outputs. Stars: 18318
@@ -784,8 +793,11 @@
 - [smolagents](https://github.com/huggingface/smolagents): Hugging Face lightweight framework for building and running LLM-powered agents
 - [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071): Analyze architectural design decisions in AI agent harnesses
 - [Meta-Engineering Harness](https://arxiv.org/abs/2605.25665): Provide contract-driven adversarial verification harness for AI code
+- [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586): Reduce agent trajectory tokens 40-60% by removing useless/redundant info
+- [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481): Evaluation suite for multi-agent system testing and observability
+- [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919): Compress agent skill descriptions 48% and bodies 39% while improving quality
 
-### LLM Judge Tools (7)
+### LLM Judge Tools (8)
 
 - [Promptfoo](https://github.com/promptfoo/promptfoo): Tests and evaluates LLM outputs with prompt comparison and auto-scoring. Stars: 20696
 - [sage](https://github.com/usetig/sage): LLM council that reviews and evaluates coding agent actions in real-time. Lang: typescript. Stars: 93
@@ -794,6 +806,7 @@
 - [CodeFox-CLI](https://github.com/codefox-lab/CodeFox-CLI): CLI tool for AI-powered code review of git diffs using local or cloud LLMs. Lang: python. Stars: 39
 - [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service): Google Vertex AI agent evaluation service with trajectory analysis
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985): Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions
+- [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): Pre-publish security gate targeting 5 blind spots in AI-generated code
 
 ### Observability (10)
 
@@ -901,7 +914,7 @@
 - [LLM Coding Leaderboard April 2026](https://www.datalearner.com/leaderboards/category/code): Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more
 - [Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents](https://openreview.net/forum?id=3x4SDbXbgl): Human-centric evaluation platform and leaderboard for computer-use agents
 
-## Meta-Analysis & Pitfalls (110)
+## Meta-Analysis & Pitfalls (112)
 
 ### Blogs & Practice Reports (35)
 
@@ -952,7 +965,7 @@
 - [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/): OpenAI drops SWE-bench Verified citing 59.4% test defects in failure cases
 - [Prompt Fragility and Code Vulnerabilities in Coding LLMs](https://arxiv.org/abs/2605.29737): Show minimal prompt perturbations introduce security flaws in LLM code
 
-### Agent Output Quality Studies (51)
+### Agent Output Quality Studies (53)
 
 - [CROWDSELECT](https://github.com/listentm/CROWDSELECT): Study crowd-based selection methods for evaluation quality. Lang: html. Stars: 20
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99): Analyzes quality and security of 1756 ChatGPT-generated Python code snippets
@@ -1005,6 +1018,8 @@
 - [How Coding Agents Fail Their Users](https://arxiv.org/abs/2605.29442): Analyze 20K coding agent sessions to classify developer-agent misalignment
 - [Harness-Bench](https://arxiv.org/abs/2605.27922): Measure how harness design choices affect agent benchmark scores
 - [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213): Study 57 ML evaluation harnesses and classify 16K engineering issues. Method: human-eval
+- [Agyn: Multi-Agent System for Team-Based Autonomous SE](https://arxiv.org/abs/2602.01465): Multi-agent team system resolving 72.2% of SWE-bench 500 tasks
+- [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786): Empirical study of turn-control strategies reducing agent cost 24-68%
 
 ### Surveys (16)
 

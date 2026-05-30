@@ -5,10 +5,10 @@ SE Agent benchmarks organized by task type.
 ## Contents
 
 - [Bug Fix & Issue Resolution (69)](#bug-fix)
-- [End-to-End / Multi-Task (117)](#end-to-end)
+- [End-to-End / Multi-Task (119)](#end-to-end)
 - [Long-Horizon / Evolution (38)](#long-horizon)
 - [Large Codebase / Multi-Repo (24)](#large-codebase)
-- [Code Review (25)](#code-review)
+- [Code Review (26)](#code-review)
 - [Testing & QA (42)](#testing)
 - [Security & Vulnerability (50)](#security)
 - [Production-Derived (14)](#production)
@@ -168,6 +168,7 @@ SE Agent benchmarks organized by task type.
 - [Immersion in the GitHub Universe: Scaling Coding Agents to Mastery](https://arxiv.org/abs/2602.09892) — Automated multi-agent workflow to generate large-scale SWE training/eval data. 🤝
 - [insights](https://github.com/logic-star-ai/insights) ⭐49 — Tracks autonomous coding agents on real open-source projects with leaderboards. 🏆
 - [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback](https://arxiv.org/abs/2306.14898) — Interactive coding benchmark modeling code tasks as RL with execution feedback.
+- [ISO-Bench](https://arxiv.org/abs/2602.19594) — Benchmark coding agents on real-world LLM inference optimization tasks.
 - [june-2025-coding-agent-report](https://github.com/The-Focus-AI/june-2025-coding-agent-report) ⭐40 — Benchmarks 15 coding agents on real-world development tasks across IDEs.
 - [leaderboard](https://github.com/pinchbench/leaderboard) ⭐35 — Leaderboard ranking LLM coding agents on end-to-end programming tasks. 🏆
 - [Lita: Light Agent Uncovers the Agentic Coding Capabilities of LLMs](https://arxiv.org/abs/2509.25873) — Minimal-scaffold agent to evaluate true agentic coding capabilities of LLMs.
@@ -175,6 +176,7 @@ SE Agent benchmarks organized by task type.
 
 ### M–R
 
+- [MAPS: Multilingual Benchmark for Agent Performance and Security](https://arxiv.org/abs/2505.15935) — Evaluate agentic AI across 11 languages for performance and security. 🌐 🔒
 - [MarketBench: Evaluating AI Agents as Market Participants](https://arxiv.org/abs/2604.23897) — Evaluate AI agents acting as market participants.
 - [MCP-Atlas](https://arxiv.org/abs/2602.00933) — Benchmark tool-use competency on 36 real MCP servers with 1000 tasks.
 - [ML-Bench: Evaluating LLMs for Machine Learning Tasks on Repository-Level Code](https://ml-bench.github.io/) — Evaluate LLMs on machine learning tasks using repository-level code.
@@ -347,6 +349,7 @@ SE Agent benchmarks organized by task type.
 - [Harnessing Large Language Models for Curated Code Reviews](https://arxiv.org/abs/2502.03425) — Benchmark for LLM-generated curated code review comments with quality filtering.
 - [PatchTrack: A Comprehensive Analysis of ChatGPT's Influence on Pull Request Outcomes](https://arxiv.org/abs/2505.07700) — Analyze ChatGPT's influence on pull request outcomes.
 - [RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian](https://arxiv.org/abs/2601.01129) — Evaluates LLM-based code review quality at scale in Atlassian production. 🏭
+- [SWE-PRBench: Benchmarking AI Code Review Quality Against PR Feedback](https://arxiv.org/abs/2603.26130) — Benchmark AI code review quality against 350 human-annotated pull requests.
 - [The Right Prompts for the Job: Repair Code-Review Defects with Large Language Model](https://arxiv.org/abs/2312.17485) — Benchmarks LLM prompt strategies for repairing code-review defects.
 - [Towards Automating Code Review Activities](https://arxiv.org/abs/2101.02518) — Evaluate automation of code review activities.
 - [Understanding Dominant Themes in Reviewing Agentic AI-authored Code](https://arxiv.org/abs/2601.19287) — Analyzes 19,450 review comments on agent-authored PRs with 12-theme taxonomy.
@@ -655,7 +658,7 @@ SE Agent benchmarks organized by task type.
 - [WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch](https://arxiv.org/abs/2505.03733) — Evaluate LLMs on generating interactive websites from scratch.
 - [When Prompt Under-Specification Improves Code Correctness: An Exploratory Study of Prompt Wording and Structure Effects on LLM-Based Code Generation](https://arxiv.org/abs/2604.24712) — Study of prompt wording/structure effects on LLM code generation correctness.
 - [wp-bench](https://github.com/WordPress/wp-bench) ⭐51 — Benchmark LLM code generation capabilities.
-- [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval](https://arxiv.org/abs/2303.03004) — Benchmark multilingual code understanding, generation, translation, and. 🌐
+- [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval](https://arxiv.org/abs/2303.03004) — Benchmark multilingual code understanding, generation, translation, retrieval. 🌐
 - [[data](https://github.com/ProsusAI/stack-eval) — Stack-Eval: benchmark for evaluating code generation from Stack Overflow data.
 
 <a id="feature-development"></a>

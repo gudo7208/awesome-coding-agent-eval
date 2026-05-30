@@ -1,26 +1,26 @@
 {
-  "total": 932,
+  "total": 947,
   "by_stage": {
-    "benchmarks": 548,
+    "benchmarks": 551,
     "leaderboards": 23,
-    "meta-analysis": 110,
-    "methodology": 137,
-    "toolchain": 114
+    "meta-analysis": 112,
+    "methodology": 143,
+    "toolchain": 118
   },
   "by_subcategory": {
     "code-generation": 156,
-    "end-to-end": 117,
+    "end-to-end": 119,
     "bug-fix": 69,
     "sandbox": 56,
-    "quality-study": 51,
+    "quality-study": 53,
+    "process-eval": 51,
     "security": 50,
     "llm-judge": 49,
-    "process-eval": 45,
+    "harness": 44,
     "testing": 42,
-    "harness": 41,
     "long-horizon": 38,
     "blog": 35,
-    "code-review": 25,
+    "code-review": 26,
     "execution-based": 25,
     "large-codebase": 24,
     "survey": 16,
@@ -31,12 +31,12 @@
     "hybrid": 9,
     "human-eval": 9,
     "limitation": 8,
+    "judge-tool": 8,
     "feature-development": 7,
-    "judge-tool": 7,
     "activity": 5
   },
   "by_type": {
-    "paper": 732,
+    "paper": 747,
     "repo": 82,
     "tool": 58,
     "paper+repo": 44,
@@ -44,13 +44,13 @@
     "leaderboard": 5
   },
   "by_status": {
-    "active": 932
+    "active": 947
   },
   "by_language": {
-    "python": 153,
+    "python": 154,
     "typescript": 24,
-    "java": 20,
-    "javascript": 15,
+    "java": 21,
+    "javascript": 16,
     "rust": 14,
     "go": 12,
     "html": 9,
@@ -68,9 +68,9 @@
     "shell": 1
   },
   "by_eval_method": {
-    "execution-based": 209,
-    "hybrid": 11,
-    "llm-judge": 10,
+    "execution-based": 210,
+    "hybrid": 12,
+    "llm-judge": 11,
     "human-eval": 7
   },
   "top_tags": [
@@ -92,7 +92,7 @@
     },
     {
       "tag": "security",
-      "count": 54
+      "count": 56
     },
     {
       "tag": "llm-judge",
@@ -104,7 +104,7 @@
     },
     {
       "tag": "code-review",
-      "count": 51
+      "count": 52
     },
     {
       "tag": "bug-fix",
@@ -116,15 +116,15 @@
     },
     {
       "tag": "agent-evaluation",
-      "count": 43
+      "count": 44
+    },
+    {
+      "tag": "multi-agent",
+      "count": 44
     },
     {
       "tag": "llm-evaluation",
       "count": 43
-    },
-    {
-      "tag": "multi-agent",
-      "count": 39
     },
     {
       "tag": "llm",
@@ -155,5 +155,5 @@
       "count": 27
     }
   ],
-  "last_updated": "2026-05-29"
+  "last_updated": "2026-05-30"
 }
