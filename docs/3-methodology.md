@@ -23,11 +23,11 @@ Different scoring approaches, each with trade-offs.
 - [AI-powered Code Review with LLMs: Early Results](https://arxiv.org/abs/2404.18496) — LLM-based AI agent for automated code review, detecting bugs and code smells. 🤖
 - [An LLM-as-Judge Metric for Bridging the Gap with Human Evaluation in SE Tasks](https://arxiv.org/abs/2505.20854) — LLM-as-Judge metric bridging gap with human evaluation for SE tasks. 🤖
 - [Auto-Arena: Automating LLM Evaluations with Agent Peer Battles and Committee Discussions](https://aclanthology.org/2025.acl-long.223/) — Automate LLM evaluation via agent peer battles and committee discussions. 🤖 🤝
-- [AutoReviewer](https://github.com/gvasilei/AutoReviewer) ⭐48 — LLM-based automatic code review tool using language models. 🤖
+- [AutoReviewer](https://github.com/gvasilei/AutoReviewer) ⭐49 — LLM-based automatic code review tool using language models. 🤖
 - [AXIOM: Benchmarking LLM-as-a-Judge for Code via Rule-Based Perturbation and Multisource Quality Calibration](https://arxiv.org/abs/2512.20159) — Benchmark LLM-as-judge for code via perturbation and quality calibration. 🤖
 - [Can GPT-4 Replicate Empirical Software Engineering Research?](https://arxiv.org/abs/2310.01727) — Evaluates GPT-4's ability to replicate empirical SE research studies. 🤖
 - [Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering](https://arxiv.org/abs/2502.06193) — Study whether LLMs can replace human evaluators in software engineering. 🤖
-- [code-agent-eval](https://github.com/amazon-science/code-agent-eval) ⭐10 — Evaluates agent-generated code patches using LLM critics without execution. 🤖
+- [code-agent-eval](https://github.com/amazon-science/code-agent-eval) ⭐11 — Evaluates agent-generated code patches using LLM critics without execution. 🤖
 - [CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation](https://arxiv.org/abs/2505.19502) — Measure functional alignment in code via reasoning-based metric. 🤖
 - [CodeJudge-Eval: Can Large Language Models be Good Judges in Code Understanding?](https://arxiv.org/abs/2408.10718) — Benchmark evaluating LLMs as judges of code correctness for code understanding. 🤖
 - [CodeJudgeBench](https://arxiv.org/abs/2507.10535) — Benchmarks LLM-as-Judge reliability on code tasks, revealing bias and limits. 🤖
