@@ -6,18 +6,20 @@
 
 ### Bug Fix & Issue Resolution (69)
 
-- [SWE-bench](https://github.com/swe-bench/SWE-bench) [recommended]: 2294 real GitHub issues testing agent patch generation for Python bug fixes. Lang: python. Method: execution-based. Stars: 4819
-- [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) [recommended]: Benchmark agents on multimodal software engineering tasks. Lang: python. Method: execution-based. Stars: 4819
-- [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) [recommended]: 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues. Lang: python. Method: execution-based. Stars: 4819
-- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) [recommended]: Benchmark multi-language issue resolution extending SWE-bench. Lang: python. Method: execution-based. Stars: 333
-- [joycode-agent](https://github.com/jd-opensource/joycode-agent) [recommended]: Repository-level repair agent built and evaluated on SWE-Bench. Lang: python. Method: execution-based. Stars: 330
-- [SWE-Bench-plus-plus](https://github.com/TuringEnterprises/SWE-Bench-plus-plus): Benchmark agents with strengthened tests on GitHub issue resolution. Lang: python. Method: execution-based. Stars: 19
+- [SWE-bench](https://github.com/swe-bench/SWE-bench) [recommended]: 2294 real GitHub issues testing agent patch generation for Python bug fixes. Lang: python. Method: execution-based. Stars: 5104
+- [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) [recommended]: Benchmark agents on multimodal software engineering tasks. Lang: python. Method: execution-based. Stars: 5104
+- [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) [recommended]: 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues. Lang: python. Method: execution-based. Stars: 5104
+- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) [recommended]: Benchmark multi-language issue resolution extending SWE-bench. Lang: python. Method: execution-based. Stars: 337
+- [joycode-agent](https://github.com/jd-opensource/joycode-agent) [recommended]: Repository-level repair agent built and evaluated on SWE-Bench. Lang: python. Method: execution-based. Stars: 335
+- [SWE-Bench-plus-plus](https://github.com/TuringEnterprises/SWE-Bench-plus-plus): Benchmark agents with strengthened tests on GitHub issue resolution. Lang: python. Method: execution-based. Stars: 25
+- [[repo](https://github.com/NEUIR/DebugEval): DebugEval: benchmark for evaluating LLM debugging capabilities. Stars: 18
 - [OmniGIRL](https://github.com/DeepSoftwareAnalytics/OmniGIRL): Benchmark automated issue resolution across multiple languages. Lang: python, javascript, typescript, go. Method: execution-based. Stars: 17
+- [Rust-SWE-Bench](https://github.com/GhabiX/Rust-SWE-Bench): Evaluates agent issue-resolution ability on real Rust project GitHub issues. Lang: python. Method: execution-based. Stars: 14
 - [swe-bench-lite-samples](https://github.com/ScalingIntelligence/swe-bench-lite-samples): Provide sample task instances from the SWE-bench Lite subset. Lang: jupyter notebook. Method: execution-based. Stars: 14
 - [SWE-MERA](https://github.com/MERA-Evaluation/repotest): Dynamic rolling SWE benchmark with fresh issues to prevent data contamination. Lang: python. Method: execution-based. Stars: 14
 - [SWE-Bench-Fork](https://github.com/SWE-Gym/SWE-Bench-Fork): SWE-Gym fork of SWE-Bench for evaluating agents on real GitHub issue fixes. Lang: python. Method: execution-based. Stars: 13
 - [swe-bench.github.io](https://github.com/SWE-bench/swe-bench.github.io): Provide official results website and leaderboard for SWE-bench. Lang: javascript. Method: execution-based. Stars: 12
-- [Rust-SWE-Bench](https://github.com/GhabiX/Rust-SWE-Bench): Evaluates agent issue-resolution ability on real Rust project GitHub issues. Lang: python. Method: execution-based. Stars: 11
+- [SYSUSELab/FeedbackEval](https://github.com/SYSUSELab/FeedbackEval): Benchmark for evaluating LLMs on feedback-driven code repair tasks. Stars: 7
 - [A Benchmark for Localizing Code and Non-Code Issues in Software Projects](https://arxiv.org/abs/2509.25242): Benchmarks issue localization across code and non-code files on 1100 issues. Method: execution-based
 - [A Real-World Benchmark for Evaluating Fine-Grained Issue Solving Capabilities of Large Language Models](https://arxiv.org/abs/2411.18019): Evaluate fine-grained issue solving capabilities of LLMs on real-world bugs. Method: execution-based
 - [AEGIS: An Agent-based Framework for Bug Reproduction from Issue Descriptions](https://www.semanticscholar.org/paper/89dccc903cbeddb8c09df35c5c5da7aeaf0bcd6f): Agent framework for automated bug reproduction from issue descriptions. Method: execution-based
@@ -56,7 +58,6 @@
 - [Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?](https://arxiv.org/abs/2604.17338): Evaluates whether models precisely debug or simply regenerate entire code
 - [QuixBugs: a multi-lingual program repair benchmark set based on the quixey challenge](https://www.semanticscholar.org/paper/7f1d443ab526240e2647e77e042434fc98249302): Benchmark multi-language program repair based on the Quixey challenge
 - [RepairBench: Leaderboard of Frontier Models for Program Repair](https://arxiv.org/abs/2409.18952): Rank frontier models on program repair performance
-- [[repo](https://github.com/NEUIR/DebugEval): DebugEval: benchmark for evaluating LLM debugging capabilities
 - [Reproducible Automated Program Repair Is Hard -- Experiences With the Defects4J Dataset](https://arxiv.org/abs/2604.26674v1): Reproducibility challenges in APR evaluation using Defects4J benchmark dataset
 - [Skywork-SWE](https://arxiv.org/html/2506.19290v1): Benchmark validating data scaling laws for SE agent bug-fix capability. Lang: python. Method: execution-based
 - [SpecRover: Code Intent Extraction via LLMs](https://arxiv.org/abs/2408.02232): Infers code intent via LLMs for specification-driven automated program repair
@@ -72,24 +73,25 @@
 - [SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](https://arxiv.org/abs/2505.20411): Evaluate SE agents with automated task collection and decontamination
 - [SWE-smith: Scaling Data for Software Engineering Agents](https://arxiv.org/abs/2504.21798): Scalable pipeline for synthesizing SWE training data with bug-fix benchmark
 - [SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs](https://arxiv.org/abs/2504.14757): Generate synthetic verifiable bug-fix data for LLM evaluation
-- [SYSUSELab/FeedbackEval](https://github.com/SYSUSELab/FeedbackEval): Benchmark for evaluating LLMs on feedback-driven code repair tasks
 - [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139): Training environment with 2,438 Python repo tasks and verifier for SE agents
 - [When Large Language Models Confront Repository-Level Automatic Program Repair: How Well They Done?](https://arxiv.org/abs/2403.00448): Evaluates LLMs on repository-level automated program repair tasks
 
 ### Code Generation (147)
 
-- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) [recommended]: Benchmark code generation with continuously updated problems. Lang: python, cpp, java. Method: execution-based. Stars: 854
-- [bigcodebench](https://github.com/bigcode-project/bigcodebench) [recommended]: Benchmarks LLMs on complex function calls, tool use, and instruction following. Lang: python. Method: execution-based. Stars: 499
-- [ML-Bench](https://github.com/gersteinlab/ML-Bench) [recommended]: Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos. Lang: python. Method: execution-based. Stars: 316
-- [eval-dev-quality](https://github.com/symflower/eval-dev-quality): Evaluates LLM code generation quality across multiple languages and tasks. Lang: go. Method: execution-based. Stars: 185
-- [svelte-bench](https://github.com/khromov/svelte-bench): Benchmarks LLM code generation for Svelte 5 using HumanEval methodology. Lang: typescript. Method: execution-based. Stars: 168
-- [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) [recommended]: Benchmarks AI code generation across 13 programming languages. Lang: ruby. Method: execution-based. Stars: 151
-- [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) [recommended]: Evaluate code generation and completion across multiple tasks. Lang: python. Method: execution-based. Stars: 109
-- [da-code](https://github.com/yiyihum/da-code): Benchmarks agent code generation on real-world data science tasks. Lang: python. Method: execution-based. Stars: 95
-- [verina](https://github.com/sunblaze-ucb/verina): Benchmark for verifiable code, specification, and proof generation evaluation. Lang: lean. Method: execution-based. Stars: 61
-- [nl2code-dataset](https://github.com/aixcoder-plugin/nl2code-dataset): Aix-bench: natural language to Java code synthesis evaluation benchmark dataset. Lang: java. Method: execution-based. Stars: 51
-- [wp-bench](https://github.com/WordPress/wp-bench): Benchmark LLM code generation capabilities. Lang: python. Method: execution-based. Stars: 51
+- [Github](https://github.com/openai/human-eval): HumanEval: OpenAI benchmark for evaluating code generation from docstrings. Stars: 3251
+- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) [recommended]: Benchmark code generation with continuously updated problems. Lang: python, cpp, java. Method: execution-based. Stars: 881
+- [bigcodebench](https://github.com/bigcode-project/bigcodebench) [recommended]: Benchmarks LLMs on complex function calls, tool use, and instruction following. Lang: python. Method: execution-based. Stars: 503
+- [ML-Bench](https://github.com/gersteinlab/ML-Bench) [recommended]: Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos. Lang: python. Method: execution-based. Stars: 315
+- [eval-dev-quality](https://github.com/symflower/eval-dev-quality): Evaluates LLM code generation quality across multiple languages and tasks. Lang: go. Method: execution-based. Stars: 186
+- [svelte-bench](https://github.com/khromov/svelte-bench): Benchmarks LLM code generation for Svelte 5 using HumanEval methodology. Lang: typescript. Method: execution-based. Stars: 178
+- [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) [recommended]: Benchmarks AI code generation across 13 programming languages. Lang: ruby. Method: execution-based. Stars: 157
+- [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) [recommended]: Evaluate code generation and completion across multiple tasks. Lang: python. Method: execution-based. Stars: 110
+- [da-code](https://github.com/yiyihum/da-code): Benchmarks agent code generation on real-world data science tasks. Lang: python. Method: execution-based. Stars: 98
+- [verina](https://github.com/sunblaze-ucb/verina): Benchmark for verifiable code, specification, and proof generation evaluation. Lang: lean. Method: execution-based. Stars: 68
+- [wp-bench](https://github.com/WordPress/wp-bench): Benchmark LLM code generation capabilities. Lang: python. Method: execution-based. Stars: 57
+- [nl2code-dataset](https://github.com/aixcoder-plugin/nl2code-dataset): Aix-bench: natural language to Java code synthesis evaluation benchmark dataset. Lang: java. Method: execution-based. Stars: 52
 - [sniffbench](https://github.com/AnswerLayer/sniffbench): Lightweight sniff-test benchmark for quick evaluation of coding agents. Lang: typescript. Method: execution-based. Stars: 27
+- [[data](https://github.com/ProsusAI/stack-eval): Stack-Eval: benchmark for evaluating code generation from Stack Overflow data. Stars: 20
 - [A Closer Look at Different Difficulty Levels Code Generation Abilities of ChatGPT](https://www.semanticscholar.org/paper/f1847504a4895a3d31c31e7464e5b34d9eda8ef8): Evaluates ChatGPT code generation across difficulty levels using benchmarks
 - [A Large-scale Class-level Benchmark Dataset for Code Generation with LLMs](https://arxiv.org/abs/2504.15564): Large-scale class-level benchmark dataset for evaluating LLM code generation. Method: execution-based
 - [Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents](https://arxiv.org/abs/2410.14209): Evaluate LLM agents on PLC code generation for industrial control systems. Lang: structured text. Method: execution-based
@@ -129,7 +131,6 @@
 - [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254): Benchmark for evaluating C-to-safe-Rust transpilation by AI agents. Lang: c, rust. Method: execution-based
 - [CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution](https://arxiv.org/abs/2401.03065): Benchmark testing LLM code reasoning, understanding, and execution capabilities. Lang: python. Method: execution-based
 - [DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models](https://arxiv.org/abs/2410.07331): Benchmark for evaluating LLM code generation in data science tasks. Lang: python. Method: execution-based
-- [[data](https://github.com/ProsusAI/stack-eval): Stack-Eval: benchmark for evaluating code generation from Stack Overflow data
 - [Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis](https://arxiv.org/abs/2604.24703): Detect and analyze defective task descriptions in LLM code generation
 - [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://arxiv.org/abs/2403.03163): Benchmark multimodal code generation for front-end engineering. Lang: html, css, javascript. Method: execution-based
 - [DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation](https://arxiv.org/abs/2506.06251): Benchmark for evaluating multimodal LLMs on front-end code generation tasks. Lang: html, css, javascript. Method: execution-based
@@ -154,7 +155,6 @@
 - [Exploring Language Model's Code Generation Ability with Auxiliary Functions](https://arxiv.org/abs/2403.10575): Benchmark evaluating LLM code generation with auxiliary/helper function usage
 - [FrontendBench: A Benchmark for Evaluating LLMs on Front-End Development via Automatic Evaluation](https://arxiv.org/abs/2506.13832): Benchmark for evaluating LLMs on front-end development with auto evaluation
 - [GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models](https://arxiv.org/abs/2411.05830): Benchmark testing LLM ability to generate code for specific library versions
-- [Github](https://github.com/openai/human-eval): HumanEval: OpenAI benchmark for evaluating code generation from docstrings
 - [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647): Benchmark measuring efficiency of LLM-generated code with rigorous evaluation
 - [HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation](https://arxiv.org/abs/2412.21199): HumanEval Pro & MBPP Pro benchmarks for self-invoking code generation by LLMs
 - [HumanEval-V: Benchmarking High-Level Visual Reasoning with Complex Diagrams in Coding Tasks](https://arxiv.org/abs/2410.12381): Benchmark visual reasoning with complex diagrams in coding tasks
@@ -228,7 +228,7 @@
 
 ### Code Review (26)
 
-- [aacr-bench](https://github.com/alibaba/aacr-bench): Benchmark LLMs on automated code review tasks. Lang: python. Method: human-eval. Stars: 150
+- [aacr-bench](https://github.com/alibaba/aacr-bench): Benchmark LLMs on automated code review tasks. Lang: python. Method: human-eval. Stars: 167
 - [AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context](https://arxiv.org/abs/2601.19494): Benchmarks automatic code review using holistic repo-level context from PRs. Method: execution-based
 - [AUGER: automatically generating review comments with pre-training models](https://arxiv.org/abs/2208.08014): Automated review comment generation using pre-training models
 - [Automatically Recommend Code Updates: Are We There Yet?](https://arxiv.org/abs/2209.07048): Evaluates CodeLM-based code update recommendation on real-world tasks
@@ -257,30 +257,31 @@
 
 ### End-to-End / Multi-Task (119)
 
-- [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) [recommended]: Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+. Method: execution-based. Stars: 1441
-- [skill](https://github.com/pinchbench/skill) [recommended]: Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks. Lang: python. Method: execution-based. Stars: 1079
-- [appworld](https://github.com/StonyBrookNLP/appworld) [recommended]: Evaluates agent tool-calling and planning across multi-app scenarios. Lang: python. Method: execution-based. Stars: 407
-- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) [recommended]: Evaluate agents on Git-based software engineering tasks. Lang: python. Method: execution-based. Stars: 252
-- [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) [recommended]: Evaluate agents on continuously updated real-world GitHub issues. Lang: python. Method: execution-based. Stars: 185
-- [CodeClash](https://github.com/CodeClash-ai/CodeClash): Evaluates autonomous agent planning and execution on open-ended coding tasks. Lang: python. Method: execution-based. Stars: 147
-- [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) [recommended]: Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning. Method: execution-based. Stars: 134
-- [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) [recommended]: Cognition's published Devin evaluation results and methodology on SWE-bench. Lang: python. Method: execution-based. Stars: 126
-- [MMBench-GUI](https://github.com/open-compass/MMBench-GUI): Hierarchical benchmark for GUI agents across desktop, mobile, and web platforms. Lang: python. Method: execution-based. Stars: 106
-- [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents): Curated list of autonomous code agents, benchmarks, and research papers. Lang: python. Method: execution-based. Stars: 99
+- [benchmarks](https://github.com/0xpayne/gpt-migrate#-benchmarks): GPT-Migrate benchmarks for automated codebase migration between frameworks. Stars: 6978
+- [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) [recommended]: Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+. Method: execution-based. Stars: 1439
+- [skill](https://github.com/pinchbench/skill) [recommended]: Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks. Lang: python. Method: execution-based. Stars: 1223
+- [appworld](https://github.com/StonyBrookNLP/appworld) [recommended]: Evaluates agent tool-calling and planning across multi-app scenarios. Lang: python. Method: execution-based. Stars: 438
+- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) [recommended]: Evaluate agents on Git-based software engineering tasks. Lang: python. Method: execution-based. Stars: 255
+- [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) [recommended]: Evaluate agents on continuously updated real-world GitHub issues. Lang: python. Method: execution-based. Stars: 194
+- [CodeClash](https://github.com/CodeClash-ai/CodeClash): Evaluates autonomous agent planning and execution on open-ended coding tasks. Lang: python. Method: execution-based. Stars: 164
+- [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) [recommended]: Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning. Method: execution-based. Stars: 159
+- [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) [recommended]: Cognition's published Devin evaluation results and methodology on SWE-bench. Lang: python. Method: execution-based. Stars: 124
+- [MMBench-GUI](https://github.com/open-compass/MMBench-GUI): Hierarchical benchmark for GUI agents across desktop, mobile, and web platforms. Lang: python. Method: execution-based. Stars: 111
+- [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents): Curated list of autonomous code agents, benchmarks, and research papers. Lang: python. Method: execution-based. Stars: 103
 - [RepoUnderstander](https://github.com/RepoUnderstander/RepoUnderstander): Assess agent comprehension of repository-level code and structure. Method: execution-based. Stars: 97
-- [SWE-PolyBench](https://github.com/amazon-science/SWE-PolyBench): Benchmark coding agents across multiple programming languages. Lang: python. Method: execution-based. Stars: 83
-- [Apex2-Terminal-Bench-Agent](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent): Benchmarks terminal-based coding agents with leaderboard and ablation results. Method: execution-based. Stars: 66
+- [SWE-PolyBench](https://github.com/amazon-science/SWE-PolyBench): Benchmark coding agents across multiple programming languages. Lang: python. Method: execution-based. Stars: 84
+- [Apex2-Terminal-Bench-Agent](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent): Benchmarks terminal-based coding agents with leaderboard and ablation results. Method: execution-based. Stars: 65
 - [EnConda-Bench](https://github.com/TencentYoutuResearch/EnConda-Bench): Benchmark end-to-end conda environment setup and management. Lang: python. Method: execution-based. Stars: 49
 - [insights](https://github.com/logic-star-ai/insights): Tracks autonomous coding agents on real open-source projects with leaderboards. Lang: typescript. Method: execution-based. Stars: 49
+- [SWE-Skills-Bench](https://github.com/GeniusHTX/SWE-Skills-Bench): Benchmarks decomposed SE agent skills like fault localization and code editing. Lang: python. Method: execution-based. Stars: 45
+- [leaderboard](https://github.com/pinchbench/leaderboard): Leaderboard ranking LLM coding agents on end-to-end programming tasks. Lang: typescript. Method: execution-based. Stars: 41
 - [june-2025-coding-agent-report](https://github.com/The-Focus-AI/june-2025-coding-agent-report): Benchmarks 15 coding agents on real-world development tasks across IDEs. Lang: typescript. Method: human-eval. Stars: 40
-- [leaderboard](https://github.com/pinchbench/leaderboard): Leaderboard ranking LLM coding agents on end-to-end programming tasks. Lang: typescript. Method: execution-based. Stars: 35
-- [SWE-Skills-Bench](https://github.com/GeniusHTX/SWE-Skills-Bench): Benchmarks decomposed SE agent skills like fault localization and code editing. Lang: python. Method: execution-based. Stars: 33
-- [ABC-Bench](https://github.com/OpenMOSS/ABC-Bench): Benchmark end-to-end coding agent capabilities. Method: execution-based. Stars: 29
-- [ccbench](https://github.com/codecrafters-io/ccbench): CodeCrafters benchmark tool for evaluating coding agents on SE tasks. Lang: rust. Method: execution-based. Stars: 29
-- [BC-Bench](https://github.com/microsoft/BC-Bench): Evaluates AI agents on Microsoft Business Central AL codebase tasks. Lang: jupyter notebook. Method: execution-based. Stars: 26
-- [AdamBench](https://github.com/tabupl/AdamBench): Agentic coding benchmark for local LLMs on daily software engineering tasks. Lang: typescript. Method: execution-based. Stars: 25
-- [ai-agent-benchmark](https://github.com/murataslan1/ai-agent-benchmark): Leaderboard comparing 80+ AI coding agents on SWE-Bench with pricing info. Method: execution-based. Stars: 24
-- [RefactorBench](https://github.com/microsoft/RefactorBench): Benchmarks agents on cross-file code refactoring tasks in real repositories. Lang: python. Method: execution-based. Stars: 23
+- [BC-Bench](https://github.com/microsoft/BC-Bench): Evaluates AI agents on Microsoft Business Central AL codebase tasks. Lang: jupyter notebook. Method: execution-based. Stars: 33
+- [ccbench](https://github.com/codecrafters-io/ccbench): CodeCrafters benchmark tool for evaluating coding agents on SE tasks. Lang: rust. Method: execution-based. Stars: 32
+- [ABC-Bench](https://github.com/OpenMOSS/ABC-Bench): Benchmark end-to-end coding agent capabilities. Method: execution-based. Stars: 31
+- [AdamBench](https://github.com/tabupl/AdamBench): Agentic coding benchmark for local LLMs on daily software engineering tasks. Lang: typescript. Method: execution-based. Stars: 28
+- [RefactorBench](https://github.com/microsoft/RefactorBench): Benchmarks agents on cross-file code refactoring tasks in real repositories. Lang: python. Method: execution-based. Stars: 27
+- [ai-agent-benchmark](https://github.com/murataslan1/ai-agent-benchmark): Leaderboard comparing 80+ AI coding agents on SWE-Bench with pricing info. Method: execution-based. Stars: 25
 - [eval-data](https://github.com/paradite/eval-data): LLM evaluation prompts and datasets for real-world coding and writing tasks. Lang: typescript. Method: llm-judge. Stars: 17
 - [Sea-benchmarks-public](https://github.com/Sea-Labs-ai/Sea-benchmarks-public): Benchmarks AI coding agents across multiple software engineering tasks. Lang: python. Method: execution-based. Stars: 17
 - [reading-list](https://github.com/SWE-bench/reading-list): SWE-bench curated reading list of papers on SE agent evaluation and benchmarks. Method: execution-based. Stars: 11
@@ -291,7 +292,6 @@
 - [AgentRewardBench](https://arxiv.org/abs/2504.08942): 1,302-trajectory benchmark for assessing LLM judges of web agent trajectories
 - [Automated Benchmark Generation for Repository-Level Coding Tasks](https://arxiv.org/abs/2503.07701): Automated pipeline for generating repo-level coding agent benchmarks at scale. Method: execution-based
 - [Benchmarking and Studying the LLM-based Agent System in End-to-End Software Development](https://arxiv.org/abs/2511.04064): Benchmark LLM-based agents in end-to-end software development. Method: execution-based
-- [benchmarks](https://github.com/0xpayne/gpt-migrate#-benchmarks): GPT-Migrate benchmarks for automated codebase migration between frameworks
 - [Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects](https://arxiv.org/abs/2412.06294): Evaluate LLM agents on automated Python project installation. Lang: python. Method: execution-based
 - [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/abs/2506.00172): Scalable benchmark for evaluating system-level reasoning in LLM code agents. Method: execution-based
 - [CATArena: Evaluating Evolutionary Capabilities of Code Agents via Iterative Tournaments](https://arxiv.org/abs/2510.26852): Evaluate code agent evolutionary capabilities via iterative tournaments. Method: execution-based
@@ -379,7 +379,7 @@
 
 ### Feature Development (7)
 
-- [FeatureBench](https://github.com/LiberCoders/FeatureBench): Benchmark agents on end-to-end feature development tasks. Lang: python. Method: execution-based. Stars: 58
+- [FeatureBench](https://github.com/LiberCoders/FeatureBench): Benchmark agents on end-to-end feature development tasks. Lang: python. Method: execution-based. Stars: 75
 - [A Benchmark for Evaluating Repository-Level Code Agents with Intermediate Reasoning on Feature Addition Task](https://arxiv.org/html/2603.26337): Evaluate repo-level code agents on feature addition with intermediate reasoning. Method: execution-based
 - [CodeAssistBench (Amazon Science)](https://www.amazon.science/code-and-datasets/codeassistbench): Evaluate LLMs on code assistance for feature development tasks. Method: execution-based
 - [CodeAssistBench (CAB): Dataset &amp; Benchmarking for Multi-turn Chat-Based Code Assistance](https://arxiv.org/abs/2507.10646): Multi-turn chat-based code assistance benchmark with real GitHub issues. Method: execution-based
@@ -389,7 +389,7 @@
 
 ### Large Codebase / Multi-Repo (24)
 
-- [legacy-bench](https://github.com/Factory-AI/legacy-bench): Benchmark agent performance on legacy codebase tasks. Lang: python. Method: execution-based. Stars: 13
+- [legacy-bench](https://github.com/Factory-AI/legacy-bench): Benchmark agent performance on legacy codebase tasks. Lang: python. Method: execution-based. Stars: 15
 - [Auto-SWE-Bench](https://openreview.net/forum?id=Gxw1EDSm9S): Generate multilingual repository-level coding benchmarks automatically. Lang: python, java, javascript. Method: execution-based
 - [Benchmarking Agentic Code Reasoning at the Repository Level](https://arxiv.org/html/2601.03731v1): Benchmark for repository-level code reasoning in agentic LLMs. Method: execution-based
 - [CodeScaleBench](https://sourcegraph.com/blog) [recommended]: Benchmark LLM performance on large-scale codebase tasks. Lang: python, go, typescript. Method: execution-based
@@ -416,14 +416,15 @@
 
 ### Long-Horizon / Evolution (38)
 
-- [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) [recommended]: Benchmark reinforcement learning agents on terminal tasks. Lang: python. Method: execution-based. Stars: 375
-- [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) [recommended]: Long-horizon SE task benchmark by Scale AI for multi-step complex engineering. Lang: python. Method: execution-based. Stars: 368
-- [frontier-swe](https://github.com/Proximal-Labs/frontier-swe): Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks. Lang: c. Method: execution-based. Stars: 93
-- [LifelongAgentBench](https://github.com/caixd-220529/LifelongAgentBench): Benchmark evaluating LLM agents as lifelong learners across tasks. Lang: python. Method: execution-based. Stars: 88
-- [goodai-ltm-benchmark](https://github.com/GoodAI/goodai-ltm-benchmark): Benchmark long-term memory capabilities of AI agents. Lang: html. Method: execution-based. Stars: 86
-- [AMA-Bench](https://github.com/AMA-Bench/AMA-Bench): Benchmark for long-context retention and long-term memory in agent applications. Lang: python. Method: execution-based. Stars: 36
-- [LoCoBench-Agent](https://github.com/SalesforceAIResearch/LoCoBench-Agent): Long-context interactive benchmark for LLM agents on multi-turn code tasks. Lang: python. Method: execution-based. Stars: 19
-- [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) [recommended]: Benchmark autonomous agents in 1M-token real-world contexts with user simulation. Lang: python. Method: execution-based
+- [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) [recommended]: Long-horizon SE task benchmark by Scale AI for multi-step complex engineering. Lang: python. Method: execution-based. Stars: 430
+- [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) [recommended]: Benchmark reinforcement learning agents on terminal tasks. Lang: python. Method: execution-based. Stars: 392
+- [frontier-swe](https://github.com/Proximal-Labs/frontier-swe): Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks. Lang: c. Method: execution-based. Stars: 127
+- [LifelongAgentBench](https://github.com/caixd-220529/LifelongAgentBench): Benchmark evaluating LLM agents as lifelong learners across tasks. Lang: python. Method: execution-based. Stars: 90
+- [goodai-ltm-benchmark](https://github.com/GoodAI/goodai-ltm-benchmark): Benchmark long-term memory capabilities of AI agents. Lang: html. Method: execution-based. Stars: 87
+- [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) [recommended]: Benchmark autonomous agents in 1M-token real-world contexts with user simulation. Lang: python. Method: execution-based. Stars: 86
+- [AMA-Bench](https://github.com/AMA-Bench/AMA-Bench): Benchmark for long-context retention and long-term memory in agent applications. Lang: python. Method: execution-based. Stars: 50
+- [LoCoBench-Agent](https://github.com/SalesforceAIResearch/LoCoBench-Agent): Long-context interactive benchmark for LLM agents on multi-turn code tasks. Lang: python. Method: execution-based. Stars: 21
+- [SwingArena](https://github.com/menik1126/Swing-Bench): Competitive arena for long-context GitHub issue solving with Elo ranking. Stars: 15
 - [ALE-Bench: Towards Automating Long-Horizon Algorithm Engineering](https://sakana.ai/ale-bench/): Benchmark for long-horizon algorithm engineering on hard optimization problems. Method: execution-based
 - [An Interactive Benchmark for LLM Agents in Long-Context Software Engineering](https://arxiv.org/abs/2511.13998): Interactive benchmark for LLM agents in long-context software engineering tasks. Method: execution-based
 - [Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios](https://arxiv.org/abs/2512.18470): Benchmark coding agents on long-horizon software evolution scenarios. Method: execution-based
@@ -450,24 +451,23 @@
 - [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941): Benchmarks AI agents on 1865 long-horizon enterprise tasks from 41 repos
 - [SWE-CI](https://arxiv.org/abs/2603.03823): Evaluate agent capabilities in maintaining codebases via continuous integration. Lang: python. Method: execution-based
 - [SWE-EVO](https://arxiv.org/html/2512.18470v2) [recommended]: Benchmarks multi-step software evolution with 48 tasks across 7 OSS projects. Lang: python. Method: execution-based
-- [SwingArena](https://github.com/menik1126/Swing-Bench): Competitive arena for long-context GitHub issue solving with Elo ranking
 - [ContextEcho](https://arxiv.org/abs/2605.24279): Measure persona drift in long agentic-coding sessions. Method: hybrid
 - [PushBench](https://arxiv.org/abs/2605.23574): Measure quantitative goal persistence in long-horizon coding agents. Method: execution-based
 - [LiteCoder-Terminal](https://arxiv.org/abs/2605.29559): Synthesize scalable terminal coding environments for agent training and eval. Method: execution-based
 
 ### Multi-Agent (15)
 
-- [sweet_rl](https://github.com/facebookresearch/sweet_rl) [recommended]: Benchmarks multi-turn collaborative reasoning for LLM agent training. Lang: python. Method: execution-based. Stars: 266
-- [MARBLE](https://github.com/ulab-uiuc/MARBLE) [recommended]: Benchmark multi-agent collaboration on software tasks. Lang: python. Method: execution-based. Stars: 251
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent): Open benchmark framework for evaluating multi-agent systems. Stars: 6337
+- [sweet_rl](https://github.com/facebookresearch/sweet_rl) [recommended]: Benchmarks multi-turn collaborative reasoning for LLM agent training. Lang: python. Method: execution-based. Stars: 268
+- [MARBLE](https://github.com/ulab-uiuc/MARBLE) [recommended]: Benchmark multi-agent collaboration on software tasks. Lang: python. Method: execution-based. Stars: 261
 - [MASArena](https://github.com/LINs-lab/MASArena): Benchmark multi-agent system performance in arena settings. Lang: python. Method: execution-based. Stars: 38
+- [CooperBench](https://github.com/cooperbench/CooperBench): Benchmark cooperative multi-agent coding collaboration. Lang: python. Method: execution-based. Stars: 14
 - [AgentArch](https://github.com/ServiceNow/AgentArch): Benchmark multi-agent architecture for software engineering tasks. Lang: python. Method: execution-based. Stars: 11
-- [CooperBench](https://github.com/cooperbench/CooperBench): Benchmark cooperative multi-agent coding collaboration. Lang: python. Method: execution-based. Stars: 11
 - [CADMAS-CTX: Contextual Capability Calibration for Multi-Agent Delegation](https://arxiv.org/abs/2604.17950v1): Evaluate contextual capability calibration for multi-agent delegation
 - [GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.24477): Benchmark graph-based anomaly monitoring in LLM multi-agent systems
 - [LLM-Based Multi-Agent Systems for Code Generation: A Multi-Vocal Literature Review](https://arxiv.org/abs/2604.16321): Survey LLM-based multi-agent systems for code generation
 - [MultiAgentBench ACL 2025](https://aclanthology.org/2025.acl-long.421): Benchmark multi-agent LLM collaboration and coordination
 - [MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents](https://arxiv.org/html/2503.01935): Evaluate collaboration and competition among LLM agents
-- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent): Open benchmark framework for evaluating multi-agent systems
 - [Paper - ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924): Evaluate communicative multi-agent collaboration for software development
 - [Paper - MetaGPT: Meta Programming for Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352): Multi-agent framework encoding SOPs for collaborative software development
 - [SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution](https://arxiv.org/abs/2507.23348): Evaluate competitive multi-agent debate for software issue resolution
@@ -492,16 +492,16 @@
 
 ### Security & Vulnerability (50)
 
-- [AICGSecEval](https://github.com/Tencent/AICGSecEval) [recommended]: Evaluate security of AI-generated code. Lang: python. Method: execution-based. Stars: 965
-- [HackSynth](https://github.com/aielte-research/HackSynth) [recommended]: Evaluates LLM agents on autonomous penetration testing via CTF challenges. Lang: python. Method: execution-based. Stars: 303
-- [cybergym](https://github.com/sunblaze-ucb/cybergym): Benchmarks AI agents on real-world vulnerability analysis at scale. Lang: python. Method: execution-based. Stars: 279
-- [scabench](https://github.com/scabench-org/scabench): Benchmark for AI security audit agents on SCA and vulnerability detection tasks. Lang: python. Method: execution-based. Stars: 110
-- [auto-pen-bench](https://github.com/lucagioacchini/auto-pen-bench): Benchmarks generative agents on automated penetration testing scenarios. Lang: python. Method: execution-based. Stars: 82
-- [RedCode](https://github.com/AI-secure/RedCode): Benchmark for risky code execution and generation by code agents. Lang: python. Method: execution-based. Stars: 75
-- [OS-Sentinel](https://github.com/OS-Copilot/OS-Sentinel): Benchmarks mobile GUI agent safety with hybrid validation for unsafe actions. Lang: python. Method: hybrid. Stars: 47
-- [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench): Evaluates agent resilience against malicious skill injection scenarios. Lang: python. Method: execution-based. Stars: 39
-- [aicrypto-agent](https://github.com/wangyu-ovo/aicrypto-agent): Benchmark evaluating LLM cryptography capabilities for AI SE agents. Lang: python. Method: execution-based. Stars: 30
-- [CVE-Bench](https://github.com/WhileBug/CVEBench): Evaluates agents on understanding and fixing real CVE vulnerabilities. Lang: python, c, cpp, java. Method: execution-based. Stars: 4
+- [AICGSecEval](https://github.com/Tencent/AICGSecEval) [recommended]: Evaluate security of AI-generated code. Lang: python. Method: execution-based. Stars: 643
+- [cybergym](https://github.com/sunblaze-ucb/cybergym): Benchmarks AI agents on real-world vulnerability analysis at scale. Lang: python. Method: execution-based. Stars: 397
+- [HackSynth](https://github.com/aielte-research/HackSynth) [recommended]: Evaluates LLM agents on autonomous penetration testing via CTF challenges. Lang: python. Method: execution-based. Stars: 310
+- [scabench](https://github.com/scabench-org/scabench): Benchmark for AI security audit agents on SCA and vulnerability detection tasks. Lang: python. Method: execution-based. Stars: 113
+- [auto-pen-bench](https://github.com/lucagioacchini/auto-pen-bench): Benchmarks generative agents on automated penetration testing scenarios. Lang: python. Method: execution-based. Stars: 86
+- [RedCode](https://github.com/AI-secure/RedCode): Benchmark for risky code execution and generation by code agents. Lang: python. Method: execution-based. Stars: 81
+- [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench): Evaluates agent resilience against malicious skill injection scenarios. Lang: python. Method: execution-based. Stars: 57
+- [OS-Sentinel](https://github.com/OS-Copilot/OS-Sentinel): Benchmarks mobile GUI agent safety with hybrid validation for unsafe actions. Lang: python. Method: hybrid. Stars: 48
+- [aicrypto-agent](https://github.com/wangyu-ovo/aicrypto-agent): Benchmark evaluating LLM cryptography capabilities for AI SE agents. Lang: python. Method: execution-based. Stars: 31
+- [CVE-Bench](https://github.com/WhileBug/CVEBench): Evaluates agents on understanding and fixing real CVE vulnerabilities. Lang: python, c, cpp, java. Method: execution-based. Stars: 5
 - [A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106): Repository-level benchmark evaluating security of AI-generated code. Method: execution-based
 - [A User-Centered Security Evaluation of Copilot](https://arxiv.org/abs/2308.06587): Evaluates security of GitHub Copilot-generated code via user-centered study. Method: human-eval
 - [Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](https://openreview.net/forum?id=V4y0CpX4hK): Formalizes and benchmarks attacks and defenses in LLM-based agents
@@ -545,7 +545,7 @@
 
 ### Testing & QA (42)
 
-- [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) [recommended]: Benchmark LLM-generated tests for real-world software projects. Lang: python. Method: execution-based. Stars: 76
+- [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) [recommended]: Benchmark LLM-generated tests for real-world software projects. Lang: python. Method: execution-based. Stars: 82
 - [UTBoost](https://github.com/CUHK-Shenzhen-SE/UTBoost): Augments SWE-Bench with auto-generated unit tests to mitigate false positives. Lang: python. Method: execution-based. Stars: 36
 - [A Review of Large Language Models for Automated Test Case Generation](https://www.semanticscholar.org/paper/49c7ba3b6babda46a449850eb14be0ca04f3bc6d): Review of LLM-based automated test case generation methods and effectiveness
 - [ABTest: Behavior-Driven Testing for AI Coding Agents](https://arxiv.org/html/2604.03362v1): Evaluate AI coding agents via behavior-driven testing. Method: execution-based
@@ -620,7 +620,7 @@
 
 ### Human Evaluation (9)
 
-- [vibe_hacking](https://github.com/tldrsec/vibe_hacking): Secure code review evaluation of LLMs and vibe coding IDEs. Stars: 41
+- [vibe_hacking](https://github.com/tldrsec/vibe_hacking): Secure code review evaluation of LLMs and vibe coding IDEs. Stars: 40
 - [A Study on Developer Behaviors for Validating and Repairing LLM-Generated Code Using Eye Tracking and IDE Actions](https://arxiv.org/abs/2405.16081): Eye tracking lab study on how developers validate and repair LLM-generated code
 - [Bridging HCI and AI Research for the Evaluation of Conversational SE Assistants](https://arxiv.org/abs/2502.07956): HCI+AI framework for human-centered evaluation of conversational SE assistants
 - [ChatGPT in Action: Analyzing Its Use in Software Development](https://www.semanticscholar.org/paper/6f8f35aea416b2542d55a638ad20497f38181384): Quantitative analysis of ChatGPT use in SE tasks using DevGPT dataset
@@ -645,8 +645,8 @@
 ### LLM-as-Judge (49)
 
 - [Agent-Eval-Refine](https://github.com/Berkeley-NLP/Agent-Eval-Refine): Uses LLM to evaluate agent trajectories and generate refinement feedback. Lang: python. Stars: 149
-- [AutoReviewer](https://github.com/gvasilei/AutoReviewer): LLM-based automatic code review tool using language models. Lang: typescript. Stars: 48
-- [code-agent-eval](https://github.com/amazon-science/code-agent-eval): Evaluates agent-generated code patches using LLM critics without execution. Stars: 10
+- [AutoReviewer](https://github.com/gvasilei/AutoReviewer): LLM-based automatic code review tool using language models. Lang: typescript. Stars: 49
+- [code-agent-eval](https://github.com/amazon-science/code-agent-eval): Evaluates agent-generated code patches using LLM critics without execution. Stars: 11
 - [A Survey on LLM-as-a-Judge](https://arxiv.org/abs/2411.15594): Surveys LLM-as-a-Judge scoring modes, biases, consistency, and applications
 - [Agent-as-a-Judge: Evaluate Agents with Agents](https://arxiv.org/abs/2410.10934): Uses agent judges for process-level evaluation of agentic system outputs
 - [AI-powered Code Review with LLMs: Early Results](https://arxiv.org/abs/2404.18496): LLM-based AI agent for automated code review, detecting bugs and code smells
@@ -752,45 +752,45 @@
 
 ### Evaluation Harness (44)
 
-- [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands): Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster. Stars: 72349
-- [OpenAI Evals](https://github.com/openai/evals): Provide a framework for evaluating LLM model outputs. Stars: 18318
-- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): General-purpose LLM evaluation framework supporting hundreds of benchmarks. Stars: 12369
-- [harbor](https://github.com/harbor-framework/harbor): Runs AI agent evals and RL environments with terminal-based benchmarking. Lang: python. Stars: 1699
-- [intellagent](https://github.com/plurai-ai/intellagent): Provide an intelligent evaluation harness for AI agents. Lang: python. Stars: 1182
-- [any-agent](https://github.com/mozilla-ai/any-agent): Unified interface to build agents across frameworks with tracing and scoring. Lang: python. Stars: 1156
-- [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): Evaluates code generation models on HumanEval, MBPP, and other benchmarks. Stars: 1040
-- [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent): Runs SWE-bench Verified evaluations with full pipeline for agent benchmarking. Stars: 870
-- [token-savior](https://github.com/Mibayy/token-savior): Provide token-efficient optimization for agent evaluation runs. Lang: python. Method: execution-based. Stars: 713
-- [Test-Agent](https://github.com/codefuse-ai/Test-Agent): LLM-powered software testing agent for industrial use cases. Lang: python. Stars: 688
-- [claw-eval](https://github.com/claw-eval/claw-eval): Provide an evaluation harness for coding LLM agents. Stars: 508
-- [upskill](https://github.com/huggingface/upskill): Generates and evaluates coding skills of agents like Claude Code and Codex. Lang: python. Stars: 503
-- [awslabs/agent-evaluation](https://github.com/awslabs/agent-evaluation): Provide an AWS framework for evaluating AI agent performance. Stars: 359
-- [bananalyzer](https://github.com/reworkd/bananalyzer): Evaluates web agents on standardized scraping and navigation test scenarios. Lang: python. Stars: 327
-- [SWE-bench Experiments](https://github.com/SWE-bench/experiments): Provide experiment tracking for SWE-bench evaluation runs. Stars: 262
-- [ts-bench](https://github.com/laiso/ts-bench): CLI benchmark tool for evaluating AI coding agents on TypeScript workloads. Lang: typescript. Stars: 230
-- [SanityHarness](https://github.com/lemon07r/SanityHarness): Provide a sanity-check harness for agent evaluation pipelines. Lang: go. Stars: 220
-- [aira-dojo](https://github.com/facebookresearch/aira-dojo): AI research agent development and evaluation framework by Facebook Research. Lang: python. Stars: 143
-- [collaborative-gym](https://github.com/SALT-NLP/collaborative-gym): Framework for building and evaluating human-AI collaborative agents. Lang: python. Stars: 128
-- [evals](https://github.com/strands-agents/evals): Evaluation framework for AI agents and LLM apps with automated agentic testing. Lang: python. Stars: 115
-- [AgentEval](https://github.com/AgentEvalHQ/AgentEval): Provide a harness for evaluating AI agent task performance. Lang: c#. Stars: 86
-- [aider-swe-bench](https://github.com/Aider-AI/aider-swe-bench): Harness for running and evaluating Aider on SWE-Bench benchmark. Lang: python. Stars: 81
+- [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands): Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster. Stars: 76192
+- [smolagents](https://github.com/huggingface/smolagents): Hugging Face lightweight framework for building and running LLM-powered agents. Stars: 27748
+- [SWE Agent](https://github.com/princeton-nlp/swe-agent): Provide an agent harness for solving software engineering tasks. Stars: 19448
+- [OpenAI Evals](https://github.com/openai/evals): Provide a framework for evaluating LLM model outputs. Stars: 18628
+- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): General-purpose LLM evaluation framework supporting hundreds of benchmarks. Stars: 12863
+- [harbor](https://github.com/harbor-framework/harbor): Runs AI agent evals and RL environments with terminal-based benchmarking. Lang: python. Stars: 2335
+- [intellagent](https://github.com/plurai-ai/intellagent): Provide an intelligent evaluation harness for AI agents. Lang: python. Stars: 1232
+- [any-agent](https://github.com/mozilla-ai/any-agent): Unified interface to build agents across frameworks with tracing and scoring. Lang: python. Stars: 1175
+- [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): Evaluates code generation models on HumanEval, MBPP, and other benchmarks. Stars: 1048
+- [token-savior](https://github.com/Mibayy/token-savior): Provide token-efficient optimization for agent evaluation runs. Lang: python. Method: execution-based. Stars: 965
+- [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent): Runs SWE-bench Verified evaluations with full pipeline for agent benchmarking. Stars: 873
+- [Test-Agent](https://github.com/codefuse-ai/Test-Agent): LLM-powered software testing agent for industrial use cases. Lang: python. Stars: 698
+- [upskill](https://github.com/huggingface/upskill): Generates and evaluates coding skills of agents like Claude Code and Codex. Lang: python. Stars: 674
+- [claw-eval](https://github.com/claw-eval/claw-eval): Provide an evaluation harness for coding LLM agents. Stars: 645
+- [awslabs/agent-evaluation](https://github.com/awslabs/agent-evaluation): Provide an AWS framework for evaluating AI agent performance. Stars: 365
+- [bananalyzer](https://github.com/reworkd/bananalyzer): Evaluates web agents on standardized scraping and navigation test scenarios. Lang: python. Stars: 328
+- [SWE-bench Experiments](https://github.com/SWE-bench/experiments): Provide experiment tracking for SWE-bench evaluation runs. Stars: 268
+- [ts-bench](https://github.com/laiso/ts-bench): CLI benchmark tool for evaluating AI coding agents on TypeScript workloads. Lang: typescript. Stars: 235
+- [SanityHarness](https://github.com/lemon07r/SanityHarness): Provide a sanity-check harness for agent evaluation pipelines. Lang: go. Stars: 226
+- [aira-dojo](https://github.com/facebookresearch/aira-dojo): AI research agent development and evaluation framework by Facebook Research. Lang: python. Stars: 150
+- [collaborative-gym](https://github.com/SALT-NLP/collaborative-gym): Framework for building and evaluating human-AI collaborative agents. Lang: python. Stars: 138
+- [evals](https://github.com/strands-agents/evals): Evaluation framework for AI agents and LLM apps with automated agentic testing. Lang: python. Stars: 134
+- [AgentEval](https://github.com/AgentEvalHQ/AgentEval): Provide a harness for evaluating AI agent task performance. Lang: c#. Stars: 116
+- [aider-swe-bench](https://github.com/Aider-AI/aider-swe-bench): Harness for running and evaluating Aider on SWE-Bench benchmark. Lang: python. Stars: 84
 - [agent-quality-inspect](https://github.com/SAP/agent-quality-inspect): Provide quality inspection tooling for AI agent outputs. Lang: python. Stars: 75
-- [CATArena](https://github.com/AGI-Eval-Official/CATArena): Tournament platform for code agents via iterative competitive peer learning. Lang: python. Stars: 64
-- [sb-cli](https://github.com/SWE-bench/sb-cli): Official SWE-bench CLI tool for running remote evaluation tasks. Lang: python. Stars: 63
-- [refact-bench](https://github.com/smallcloudai/refact-bench): Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker. Lang: dockerfile. Stars: 62
+- [sb-cli](https://github.com/SWE-bench/sb-cli): Official SWE-bench CLI tool for running remote evaluation tasks. Lang: python. Stars: 70
+- [CATArena](https://github.com/AGI-Eval-Official/CATArena): Tournament platform for code agents via iterative competitive peer learning. Lang: python. Stars: 66
+- [refact-bench](https://github.com/smallcloudai/refact-bench): Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker. Lang: dockerfile. Stars: 63
+- [evalmonkey](https://github.com/Corbell-AI/evalmonkey): CLI eval harness for AI coding agents with benchmark and chaos fault injection. Lang: python. Stars: 38
 - [OD-SWE-bench](https://github.com/OpenDevin/OD-SWE-bench): Enhanced SWE-bench fork with evaluation harness for OpenDevin agents. Lang: python. Stars: 30
 - [agent-bench](https://github.com/spring-ai-community/agent-bench): Benchmarks Java AI agents in isolated sandboxes with Spring AI integration. Lang: java. Stars: 26
-- [evalmonkey](https://github.com/Corbell-AI/evalmonkey): CLI eval harness for AI coding agents with benchmark and chaos fault injection. Lang: python. Stars: 21
-- [pr-arena](https://github.com/neulab/pr-arena): Platform for pairwise PR generation and human comparison to rank coding agents. Lang: python. Stars: 16
-- [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness): Provide a harness for long-duration coding agent evaluations. Lang: python. Stars: 15
-- [squeez](https://github.com/KRLabsOrg/squeez): Compresses verbose tool outputs for coding agents via LoRA fine-tuning. Lang: python. Stars: 11
+- [pr-arena](https://github.com/neulab/pr-arena): Platform for pairwise PR generation and human comparison to rank coding agents. Lang: python. Stars: 17
+- [squeez](https://github.com/KRLabsOrg/squeez): Compresses verbose tool outputs for coding agents via LoRA fine-tuning. Lang: python. Stars: 17
+- [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness): Provide a harness for long-duration coding agent evaluations. Lang: python. Stars: 17
 - [Build reliable AI agents with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/): AWS blog on evaluating AI agents using Amazon Bedrock AgentCore Evaluations
 - [How to Build a Coding Agent Benchmark with Claude's Agent SDK](https://lirantal.com/blog/how-to-build-a-coding-agent-benchmark-with-claudes-agent-sdk): Tutorial on building a coding agent benchmark harness with Claude Agent SDK
 - [OpenDevin: An Open Platform for AI Software Developers as Generalist Agents](https://www.semanticscholar.org/paper/be27ef5a9068d9e2be1ab97b7c3de7168c472972): Open platform for building and evaluating AI software engineering agents
-- [SWE Agent](https://github.com/princeton-nlp/swe-agent): Provide an agent harness for solving software engineering tasks
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793): Agent-computer interface framework for LM agents to resolve GitHub issues
 - [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](https://arxiv.org/abs/2412.10133): LLM agent that auto-configures and executes test suites for arbitrary projects
-- [smolagents](https://github.com/huggingface/smolagents): Hugging Face lightweight framework for building and running LLM-powered agents
 - [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071): Analyze architectural design decisions in AI agent harnesses
 - [Meta-Engineering Harness](https://arxiv.org/abs/2605.25665): Provide contract-driven adversarial verification harness for AI code
 - [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586): Reduce agent trajectory tokens 40-60% by removing useless/redundant info
@@ -799,77 +799,77 @@
 
 ### LLM Judge Tools (8)
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo): Tests and evaluates LLM outputs with prompt comparison and auto-scoring. Stars: 20696
-- [sage](https://github.com/usetig/sage): LLM council that reviews and evaluates coding agent actions in real-time. Lang: typescript. Stars: 93
-- [diffdeck](https://github.com/KnockOutEZ/diffdeck): Provide diff-based comparison tooling for judging code changes. Lang: go. Stars: 47
+- [Promptfoo](https://github.com/promptfoo/promptfoo): Tests and evaluates LLM outputs with prompt comparison and auto-scoring. Stars: 21991
+- [sage](https://github.com/usetig/sage): LLM council that reviews and evaluates coding agent actions in real-time. Lang: typescript. Stars: 96
+- [diffdeck](https://github.com/KnockOutEZ/diffdeck): Provide diff-based comparison tooling for judging code changes. Lang: go. Stars: 48
 - [augre](https://github.com/twitchax/augre): LLM-powered local diff code review tool using CodeLlama or OpenAI. Lang: rust. Stars: 41
-- [CodeFox-CLI](https://github.com/codefox-lab/CodeFox-CLI): CLI tool for AI-powered code review of git diffs using local or cloud LLMs. Lang: python. Stars: 39
+- [CodeFox-CLI](https://github.com/codefox-lab/CodeFox-CLI): CLI tool for AI-powered code review of git diffs using local or cloud LLMs. Lang: python. Stars: 40
 - [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service): Google Vertex AI agent evaluation service with trajectory analysis
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985): Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions
 - [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): Pre-publish security gate targeting 5 blind spots in AI-generated code
 
 ### Observability (10)
 
-- [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM observability platform with tracing, spans, and scoring. Stars: 26319
-- [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Python SDK for AI agent observability, tracing, monitoring and evaluation. Lang: python. Stars: 16146
-- [Observal](https://github.com/BlazeUp-AI/Observal): Provide observability tooling for AI agent evaluation. Lang: python. Stars: 797
-- [agentevals](https://github.com/agentevals-dev/agentevals): Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way. Lang: python. Stars: 118
+- [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM observability platform with tracing, spans, and scoring. Stars: 28651
+- [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Python SDK for AI agent observability, tracing, monitoring and evaluation. Lang: python. Stars: 16170
+- [Observal](https://github.com/BlazeUp-AI/Observal): Provide observability tooling for AI agent evaluation. Lang: python. Stars: 2039
+- [RepoAgent](https://github.com/OpenBMB/RepoAgent): LLM-powered framework for automated repository documentation generation. Stars: 982
+- [agentevals](https://github.com/agentevals-dev/agentevals): Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way. Lang: python. Stars: 135
 - [swe_bench_traces](https://github.com/codestoryai/swe_bench_traces): Archives AI patch generation and evaluation traces on SWE-bench Lite. Stars: 10
 - [Braintrust](https://braintrust.dev): Provide eval, logging, and observability for LLM applications
 - [CodeTracer: Towards Traceable Agent States](https://arxiv.org/abs/2604.11641): Provide tracing and observability for coding agent states
-- [RepoAgent](https://github.com/OpenBMB/RepoAgent): LLM-powered framework for automated repository documentation generation
 - [Systematic debugging for AI agents: Introducing the AgentRx framework](https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/): AgentRx framework for systematic debugging of AI agent failure trajectories
 - [TrajAudit](https://arxiv.org/abs/2605.26563): Diagnose failure modes in coding agent execution trajectories
 
 ### Sandbox & Execution (56)
 
-- [cua](https://github.com/trycua/cua): Sandbox infra for computer-use agents with macOS/Linux/Windows VMs and SDK. Lang: html. Stars: 15010
-- [E2B](https://github.com/e2b-dev/E2B): Sandbox for secure AI agent code execution with Firecracker microVMs. Stars: 11983
-- [OpenSandbox](https://github.com/alibaba/OpenSandbox): Provide an open-source sandbox for secure code execution. Lang: python. Stars: 10354
-- [microsandbox](https://github.com/superradcompany/microsandbox): Provide lightweight micro-sandboxes for secure code execution. Lang: rust. Stars: 5877
-- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox): Sandbox for secure AI agent code execution with instant concurrent containers. Lang: rust. Stars: 4653
-- [sandbox](https://github.com/agent-infra/sandbox): Provide a general-purpose sandbox for isolated code execution. Lang: python. Stars: 4474
-- [judge0](https://github.com/judge0/judge0): Open-source sandboxed code execution system supporting 60+ languages. Lang: html. Stars: 4139
-- [zeroboot](https://github.com/zerobootdev/zeroboot): Provide zero-setup sandbox bootstrapping for code evaluation. Lang: rust. Stars: 2253
-- [nono](https://github.com/always-further/nono): Zero-config AI agent sandbox with capability-model-based multiplexed isolation. Lang: rust. Stars: 2158
-- [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes-based sandbox runtime for isolated stateful AI agent workloads. Lang: go. Stars: 1973
-- [boxlite](https://github.com/boxlite-ai/boxlite): Embeddable sandbox for AI agents with snapshots, state and hardware isolation. Lang: rust. Stars: 1868
-- [vibekit](https://github.com/superagent-ai/vibekit): Provide a toolkit for building sandboxed coding environments. Lang: typescript. Stars: 1774
-- [agent-safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents with scoped read/write filesystem access. Lang: shell. Stars: 1662
-- [sandbox-agent](https://github.com/rivet-dev/sandbox-agent): Run coding agents in sandboxed environments with HTTP control for evaluation. Lang: typescript. Stars: 1336
-- [wuying-agentbay-sdk](https://github.com/agentbay-ai/wuying-agentbay-sdk): Cloud sandbox environment SDK built for AI agents. Lang: python. Stars: 1116
-- [gondolin](https://github.com/earendil-works/gondolin): Experimental agent sandbox using Linux microVMs with TypeScript control plane. Lang: typescript. Stars: 1025
-- [sandbox-sdk](https://github.com/cloudflare/sandbox-sdk): SDK for running sandboxed code environments on Cloudflare's edge network. Lang: typescript. Stars: 1000
-- [vibe](https://github.com/lynaghk/vibe): Provide a sandbox environment for code execution and testing. Lang: rust. Stars: 883
-- [secure-exec](https://github.com/rivet-dev/secure-exec): Provide secure execution sandboxes for untrusted code. Lang: javascript. Stars: 851
-- [coderunner](https://github.com/instavm/coderunner): Local isolated sandbox for AI agents to run code safely in containers. Lang: python. Stars: 820
-- [arrakis](https://github.com/abshkbh/arrakis): Provide sandboxed execution environments for code evaluation. Lang: go. Stars: 804
-- [artifact-fs](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver for lazy-mounting large git repos in agent sandboxes. Lang: go. Stars: 744
-- [SWE-ReX](https://github.com/SWE-agent/SWE-ReX): Provide remote execution sandboxes for SWE-bench evaluation. Lang: python. Stars: 485
-- [SmolVM](https://github.com/CelestoAI/SmolVM): Lightweight open-source VM sandbox for AI agent code execution and browser use. Lang: python. Stars: 468
-- [pctx](https://github.com/portofcontext/pctx): Execution layer running agentic tool calls in secure sandboxes for AI workflows. Lang: rust. Stars: 248
-- [openhands-aci](https://github.com/All-Hands-AI/openhands-aci): Defines standard interface layer for agent-computer interaction in OpenHands. Stars: 127
+- [cua](https://github.com/trycua/cua): Sandbox infra for computer-use agents with macOS/Linux/Windows VMs and SDK. Lang: html. Stars: 17746
+- [E2B](https://github.com/e2b-dev/E2B): Sandbox for secure AI agent code execution with Firecracker microVMs. Stars: 12507
+- [OpenSandbox](https://github.com/alibaba/OpenSandbox): Provide an open-source sandbox for secure code execution. Lang: python. Stars: 11392
+- [microsandbox](https://github.com/superradcompany/microsandbox): Provide lightweight micro-sandboxes for secure code execution. Lang: rust. Stars: 6451
+- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox): Sandbox for secure AI agent code execution with instant concurrent containers. Lang: rust. Stars: 6211
+- [sandbox](https://github.com/agent-infra/sandbox): Provide a general-purpose sandbox for isolated code execution. Lang: python. Stars: 4921
+- [judge0](https://github.com/judge0/judge0): Open-source sandboxed code execution system supporting 60+ languages. Lang: html. Stars: 4222
+- [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes-based sandbox runtime for isolated stateful AI agent workloads. Lang: go. Stars: 2789
+- [nono](https://github.com/always-further/nono): Zero-config AI agent sandbox with capability-model-based multiplexed isolation. Lang: rust. Stars: 2600
+- [zeroboot](https://github.com/zerobootdev/zeroboot): Provide zero-setup sandbox bootstrapping for code evaluation. Lang: rust. Stars: 2359
+- [boxlite](https://github.com/boxlite-ai/boxlite): Embeddable sandbox for AI agents with snapshots, state and hardware isolation. Lang: rust. Stars: 2113
+- [agent-safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents with scoped read/write filesystem access. Lang: shell. Stars: 1844
+- [vibekit](https://github.com/superagent-ai/vibekit): Provide a toolkit for building sandboxed coding environments. Lang: typescript. Stars: 1791
+- [sandbox-agent](https://github.com/rivet-dev/sandbox-agent): Run coding agents in sandboxed environments with HTTP control for evaluation. Lang: typescript. Stars: 1422
+- [gondolin](https://github.com/earendil-works/gondolin): Experimental agent sandbox using Linux microVMs with TypeScript control plane. Lang: typescript. Stars: 1356
+- [wuying-agentbay-sdk](https://github.com/agentbay-ai/wuying-agentbay-sdk): Cloud sandbox environment SDK built for AI agents. Lang: python. Stars: 1131
+- [sandbox-sdk](https://github.com/cloudflare/sandbox-sdk): SDK for running sandboxed code environments on Cloudflare's edge network. Lang: typescript. Stars: 1036
+- [vibe](https://github.com/lynaghk/vibe): Provide a sandbox environment for code execution and testing. Lang: rust. Stars: 924
+- [artifact-fs](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver for lazy-mounting large git repos in agent sandboxes. Lang: go. Stars: 920
+- [secure-exec](https://github.com/rivet-dev/secure-exec): Provide secure execution sandboxes for untrusted code. Lang: javascript. Stars: 893
+- [coderunner](https://github.com/instavm/coderunner): Local isolated sandbox for AI agents to run code safely in containers. Lang: python. Stars: 836
+- [arrakis](https://github.com/abshkbh/arrakis): Provide sandboxed execution environments for code evaluation. Lang: go. Stars: 816
+- [SmolVM](https://github.com/CelestoAI/SmolVM): Lightweight open-source VM sandbox for AI agent code execution and browser use. Lang: python. Stars: 584
+- [SWE-ReX](https://github.com/SWE-agent/SWE-ReX): Provide remote execution sandboxes for SWE-bench evaluation. Lang: python. Stars: 520
+- [AgentRun](https://github.com/Jonathan-Adly/AgentRun): Python library for running AI-generated code safely in Docker sandboxes. Stars: 371
+- [pctx](https://github.com/portofcontext/pctx): Execution layer running agentic tool calls in secure sandboxes for AI workflows. Lang: rust. Stars: 262
+- [openhands-aci](https://github.com/All-Hands-AI/openhands-aci): Defines standard interface layer for agent-computer interaction in OpenHands. Stars: 128
 - [SWE-bench-docker](https://github.com/aorwall/SWE-bench-docker): Dockerized sandbox for running SWE-bench evaluations in isolated containers. Lang: python. Stars: 105
-- [the-agent-sandbox-taxonomy](https://github.com/kajogo777/the-agent-sandbox-taxonomy): Taxonomy and scoring framework for AI agent sandboxes with 7 defense layers. Lang: go. Stars: 62
-- [ai-code-sandbox](https://github.com/typper-io/ai-code-sandbox): Docker-based secure Python sandbox for isolated AI/LLM-generated code execution. Lang: python. Stars: 61
-- [agentbox](https://github.com/Michaelliv/agentbox): Sandboxed code execution environment for AI agents. Lang: python. Stars: 43
-- [godbox](https://github.com/quantumsheep/godbox): Secure sandboxing system for executing untrusted code in evaluation pipelines. Lang: rust. Stars: 28
+- [the-agent-sandbox-taxonomy](https://github.com/kajogo777/the-agent-sandbox-taxonomy): Taxonomy and scoring framework for AI agent sandboxes with 7 defense layers. Lang: go. Stars: 78
+- [ai-code-sandbox](https://github.com/typper-io/ai-code-sandbox): Docker-based secure Python sandbox for isolated AI/LLM-generated code execution. Lang: python. Stars: 62
+- [agentbox](https://github.com/Michaelliv/agentbox): Sandboxed code execution environment for AI agents. Lang: python. Stars: 47
+- [exec-sandbox](https://github.com/dualeai/exec-sandbox): Provide a sandboxed environment for secure code execution. Lang: python. Stars: 30
+- [godbox](https://github.com/quantumsheep/godbox): Secure sandboxing system for executing untrusted code in evaluation pipelines. Lang: rust. Stars: 29
 - [MultiModal-Jupyter-Sandbox](https://github.com/ChenShawn/MultiModal-Jupyter-Sandbox): Provide a multimodal Jupyter sandbox for code execution. Lang: python. Stars: 24
+- [python-sandbox](https://github.com/onyx-dot-app/python-sandbox): Secure lightweight Python code execution sandbox for LLM/AI agents. Lang: python. Stars: 24
 - [Code-Runner-Sandbox](https://github.com/shouldnotappearcalm/Code-Runner-Sandbox): Multi-language code execution sandbox (Python/Java/C/Go) for model evaluation. Lang: python. Stars: 23
 - [awesome-agent-sandboxes](https://github.com/arjan/awesome-agent-sandboxes): Curated list of code execution sandbox solutions for AI/LLM agents. Stars: 23
-- [diy-sample-sandbox-cloud-run](https://github.com/GoogleCloudPlatform/diy-sample-sandbox-cloud-run): Experimental on-demand code execution sandbox built on Google Cloud Run. Lang: python. Stars: 22
+- [diy-sample-sandbox-cloud-run](https://github.com/GoogleCloudPlatform/diy-sample-sandbox-cloud-run): Experimental on-demand code execution sandbox built on Google Cloud Run. Lang: python. Stars: 23
 - [sandboxed-jupyter-code-exec](https://github.com/anukriti-ranjan/sandboxed-jupyter-code-exec): FastAPI sandboxed Python code execution environment using Jupyter kernels. Lang: python. Stars: 22
-- [exec-sandbox](https://github.com/dualeai/exec-sandbox): Provide a sandboxed environment for secure code execution. Lang: python. Stars: 21
-- [python-sandbox](https://github.com/onyx-dot-app/python-sandbox): Secure lightweight Python code execution sandbox for LLM/AI agents. Lang: python. Stars: 18
+- [SWE-bench Harness](https://github.com/epoch-research/SWE-bench): Containerized runtime environments for SWE-bench task evaluation via Docker. Lang: python. Stars: 18
+- [AgentKernelArena](https://github.com/AMD-AGI/AgentKernelArena): Isolated sandbox for side-by-side benchmarking of SE agents on kernel tasks. Lang: python. Stars: 17
 - [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox): Provide cloud-based code sandboxes via SkyPilot infrastructure. Lang: python. Stars: 17
-- [SWE-bench Harness](https://github.com/epoch-research/SWE-bench): Containerized runtime environments for SWE-bench task evaluation via Docker. Lang: python. Stars: 16
+- [sandboxer](https://github.com/ammmir/sandboxer): Forkable code execution sandbox server for LLMs and agents. Lang: python. Stars: 17
 - [nix-sandbox-mcp](https://github.com/secbear/nix-sandbox-mcp): Nix and bubblewrap sandboxed code execution via MCP for LLM agents. Lang: rust. Stars: 16
-- [sandboxer](https://github.com/ammmir/sandboxer): Forkable code execution sandbox server for LLMs and agents. Lang: python. Stars: 15
+- [mithril](https://github.com/radimsem/mithril): Trustless MCP server with sandboxed execution tools for AI coding agents. Lang: rust. Stars: 16
 - [moatless-testbeds](https://github.com/aorwall/moatless-testbeds): Provide pre-built testbed environments for SWE-bench evaluation. Lang: python. Stars: 14
-- [AgentKernelArena](https://github.com/AMD-AGI/AgentKernelArena): Isolated sandbox for side-by-side benchmarking of SE agents on kernel tasks. Lang: python. Stars: 13
 - [boxed](https://github.com/akshayaggarwal99/boxed): Sandboxed code execution engine for AI agents via Docker, Firecracker, and Wasm. Lang: go. Stars: 13
-- [mithril](https://github.com/radimsem/mithril): Trustless MCP server with sandboxed execution tools for AI coding agents. Lang: rust. Stars: 11
-- [AgentRun](https://github.com/Jonathan-Adly/AgentRun): Python library for running AI-generated code safely in Docker sandboxes
 - [Daytona](https://daytona.io): Dev environment platform with persistent state and checkpoints for agent tasks
 - [MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering](https://arxiv.org/abs/2601.22859): Provide scalable polyglot environment construction for SE evaluation
 - [Modal](https://modal.com): Provide serverless cloud compute for sandboxed code execution
@@ -884,7 +884,7 @@
 
 ### Activity (5)
 
-- [claude-agent-leaderboard](https://github.com/kubony/claude-agent-leaderboard): Leaderboard tracking agent/skill execution contributions in Claude Code. Lang: python. Stars: 12
+- [claude-agent-leaderboard](https://github.com/kubony/claude-agent-leaderboard): Leaderboard tracking agent/skill execution contributions in Claude Code. Lang: python. Stars: 13
 - [showdown](https://github.com/verseles/showdown): Aggregates LLM rankings across multiple benchmarks with open community data. Lang: html. Stars: 11
 - [Coding AI Leaderboard](https://www.star-history.com/coding-ai-leaderboard): Tracks real-world activity of AI coding bots on GitHub (PRs, merge rates)
 - [AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment](https://arxiv.org/abs/2604.24038v1): Rank AI agents via continuous multi-signal evaluation in deployment
@@ -904,8 +904,8 @@
 
 ### SE Agent (9)
 
-- [Chronos](https://github.com/Kodezi/Chronos): Debugging-first LM claiming SOTA on SWE-bench Lite with 80.33% resolve rate. Lang: java. Stars: 4946
-- [multi-agent-coding-system](https://github.com/Danau5tin/multi-agent-coding-system): Multi-agent coding system reaching #13 on TerminalBench leaderboard. Lang: python. Stars: 1370
+- [Chronos](https://github.com/Kodezi/Chronos): Debugging-first LM claiming SOTA on SWE-bench Lite with 80.33% resolve rate. Lang: java. Stars: 4942
+- [multi-agent-coding-system](https://github.com/Danau5tin/multi-agent-coding-system): Multi-agent coding system reaching #13 on TerminalBench leaderboard. Lang: python. Stars: 1374
 - [Auggie tops SWE-Bench Pro](https://www.augmentcode.com/blog/auggie-tops-swe-bench-pro): Auggie agent achieves top score of 51.80% on SWE-bench Pro leaderboard
 - [SWE-Bench Leaderboard March 2026](https://www.marc0.dev/en/leaderboard): Rank SE agents on SWE-bench issue resolution
 - [SWE-bench Leaderboard](https://www.swebench.com): Tracks SE agent resolve rates on 500 human-validated GitHub issues

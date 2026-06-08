@@ -65,31 +65,31 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 
 | Benchmark | What | Lang | Scale | Method | Year | ⭐ |
 |---|---|---|---|---|---|---|
-| [SWE-bench](https://github.com/swe-bench/SWE-bench) ✅ | 2294 real GitHub issues testing agent patch generation for Python bug fixes | python | 2294 | execution-based | 2023 | 4819 |
-| [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) ✅ | Benchmark agents on multimodal software engineering tasks | python | - | execution-based | 2024 | 4819 |
-| [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) ✅ | 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues | python | 500 | execution-based | 2023 | 4819 |
-| [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) ✅ | Benchmark code generation with continuously updated problems | python, cpp, java | - | execution-based | 2024 | 854 |
-| [bigcodebench](https://github.com/bigcode-project/bigcodebench) ✅ | Benchmarks LLMs on complex function calls, tool use, and instruction following | python | 1140 | execution-based | 2024 | 499 |
-| [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) ✅ | Benchmark reinforcement learning agents on terminal tasks | python | - | execution-based | 2025 | 375 |
-| [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) ✅ | Long-horizon SE task benchmark by Scale AI for multi-step complex engineering | python | - | execution-based | 2025 | 368 |
-| [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) ✅ | Benchmark multi-language issue resolution extending SWE-bench | python | - | execution-based | 2025 | 333 |
-| [joycode-agent](https://github.com/jd-opensource/joycode-agent) ✅ | Repository-level repair agent built and evaluated on SWE-Bench | python | 300 | execution-based | 2025 | 330 |
-| [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) ✅ | Evaluate agents on continuously updated real-world GitHub issues | python | - | execution-based | 2025 | 185 |
-| [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) ✅ | Benchmarks AI code generation across 13 programming languages | ruby | - | execution-based | 2026 | 151 |
-| [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) ✅ | Cognition's published Devin evaluation results and methodology on SWE-bench | python | 570 | execution-based | 2024 | 126 |
-| [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) ✅ | Evaluate code generation and completion across multiple tasks | python | - | execution-based | 2023 | 109 |
-| [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) ✅ | Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+ | - | 1400 | execution-based | 2025 | 1441 |
-| [skill](https://github.com/pinchbench/skill) ✅ | Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks | python | - | execution-based | 2026 | 1079 |
-| [AICGSecEval](https://github.com/Tencent/AICGSecEval) ✅ | Evaluate security of AI-generated code | python | - | execution-based | 2025 | 965 |
-| [appworld](https://github.com/StonyBrookNLP/appworld) ✅ | Evaluates agent tool-calling and planning across multi-app scenarios | python | - | execution-based | 2024 | 407 |
-| [ML-Bench](https://github.com/gersteinlab/ML-Bench) ✅ | Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos | python | 10000 | execution-based | 2023 | 316 |
-| [HackSynth](https://github.com/aielte-research/HackSynth) ✅ | Evaluates LLM agents on autonomous penetration testing via CTF challenges | python | - | execution-based | 2024 | 303 |
-| [sweet_rl](https://github.com/facebookresearch/sweet_rl) ✅ | Benchmarks multi-turn collaborative reasoning for LLM agent training | python | - | execution-based | 2025 | 266 |
-| [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) ✅ | Evaluate agents on Git-based software engineering tasks | python | - | execution-based | 2025 | 252 |
-| [MARBLE](https://github.com/ulab-uiuc/MARBLE) ✅ | Benchmark multi-agent collaboration on software tasks | python | - | execution-based | 2025 | 251 |
-| [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) ✅ | Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning | - | 50 | execution-based | 2025 | 134 |
-| [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) ✅ | Benchmark LLM-generated tests for real-world software projects | python | 1983 | execution-based | 2024 | 76 |
-| [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) ✅ | Benchmark autonomous agents in 1M-token real-world contexts with user simulation | python | - | execution-based | 2026 | - |
+| [SWE-bench](https://github.com/swe-bench/SWE-bench) ✅ | 2294 real GitHub issues testing agent patch generation for Python bug fixes | python | 2294 | execution-based | 2023 | 5104 |
+| [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) ✅ | Benchmark agents on multimodal software engineering tasks | python | - | execution-based | 2024 | 5104 |
+| [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) ✅ | 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues | python | 500 | execution-based | 2023 | 5104 |
+| [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) ✅ | Benchmark code generation with continuously updated problems | python, cpp, java | - | execution-based | 2024 | 881 |
+| [bigcodebench](https://github.com/bigcode-project/bigcodebench) ✅ | Benchmarks LLMs on complex function calls, tool use, and instruction following | python | 1140 | execution-based | 2024 | 503 |
+| [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) ✅ | Long-horizon SE task benchmark by Scale AI for multi-step complex engineering | python | - | execution-based | 2025 | 430 |
+| [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) ✅ | Benchmark reinforcement learning agents on terminal tasks | python | - | execution-based | 2025 | 392 |
+| [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) ✅ | Benchmark multi-language issue resolution extending SWE-bench | python | - | execution-based | 2025 | 337 |
+| [joycode-agent](https://github.com/jd-opensource/joycode-agent) ✅ | Repository-level repair agent built and evaluated on SWE-Bench | python | 300 | execution-based | 2025 | 335 |
+| [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) ✅ | Evaluate agents on continuously updated real-world GitHub issues | python | - | execution-based | 2025 | 194 |
+| [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) ✅ | Benchmarks AI code generation across 13 programming languages | ruby | - | execution-based | 2026 | 157 |
+| [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) ✅ | Cognition's published Devin evaluation results and methodology on SWE-bench | python | 570 | execution-based | 2024 | 124 |
+| [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) ✅ | Evaluate code generation and completion across multiple tasks | python | - | execution-based | 2023 | 110 |
+| [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) ✅ | Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+ | - | 1400 | execution-based | 2025 | 1439 |
+| [skill](https://github.com/pinchbench/skill) ✅ | Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks | python | - | execution-based | 2026 | 1223 |
+| [AICGSecEval](https://github.com/Tencent/AICGSecEval) ✅ | Evaluate security of AI-generated code | python | - | execution-based | 2025 | 643 |
+| [appworld](https://github.com/StonyBrookNLP/appworld) ✅ | Evaluates agent tool-calling and planning across multi-app scenarios | python | - | execution-based | 2024 | 438 |
+| [ML-Bench](https://github.com/gersteinlab/ML-Bench) ✅ | Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos | python | 10000 | execution-based | 2023 | 315 |
+| [HackSynth](https://github.com/aielte-research/HackSynth) ✅ | Evaluates LLM agents on autonomous penetration testing via CTF challenges | python | - | execution-based | 2024 | 310 |
+| [sweet_rl](https://github.com/facebookresearch/sweet_rl) ✅ | Benchmarks multi-turn collaborative reasoning for LLM agent training | python | - | execution-based | 2025 | 268 |
+| [MARBLE](https://github.com/ulab-uiuc/MARBLE) ✅ | Benchmark multi-agent collaboration on software tasks | python | - | execution-based | 2025 | 261 |
+| [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) ✅ | Evaluate agents on Git-based software engineering tasks | python | - | execution-based | 2025 | 255 |
+| [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) ✅ | Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning | - | 50 | execution-based | 2025 | 159 |
+| [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) ✅ | Benchmark autonomous agents in 1M-token real-world contexts with user simulation | python | - | execution-based | 2026 | 86 |
+| [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) ✅ | Benchmark LLM-generated tests for real-world software projects | python | 1983 | execution-based | 2024 | 82 |
 | [CodeScaleBench](https://sourcegraph.com/blog) ✅ | Benchmark LLM performance on large-scale codebase tasks | python, go, typescript | - | execution-based | - | - |
 | [MCP-Atlas](https://scale.com/leaderboard/mcp_atlas) ✅ | Benchmark tool-use competency on 36 real MCP servers with 1000 tasks | python, typescript | - | execution-based | 2025 | - |
 | [OmniCode](https://arxiv.org/html/2602.02262v2) ✅ | Benchmark software development agents on end-to-end tasks | python, javascript, java | - | execution-based | 2026 | - |
@@ -107,7 +107,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Bug Fix & Issue Resolution | [SWE-bench](https://github.com/swe-bench/SWE-bench) | 2294 real GitHub issues testing agent patch generation for Python bug fixes |
 | End-to-End / Multi-Task | [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) | Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+ |
 | Security & Vulnerability | [AICGSecEval](https://github.com/Tencent/AICGSecEval) | Evaluate security of AI-generated code |
-| Long-Horizon / Evolution | [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) | Benchmark reinforcement learning agents on terminal tasks |
+| Long-Horizon / Evolution | [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) | Long-horizon SE task benchmark by Scale AI for multi-step complex engineering |
 | Testing & QA | [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) | Benchmark LLM-generated tests for real-world software projects |
 
 ## 📐 Evaluation Methodology
@@ -289,17 +289,19 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ### Evaluation Harness
 
 - 🔧 [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands) — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
+- 📝 [smolagents](https://github.com/huggingface/smolagents) — Hugging Face lightweight framework for building and running LLM-powered agents.
+- 📝 [SWE Agent](https://github.com/princeton-nlp/swe-agent) — Provide an agent harness for solving software engineering tasks.
 - 🔧 [OpenAI Evals](https://github.com/openai/evals) — Provide a framework for evaluating LLM model outputs.
 - 🔧 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — General-purpose LLM evaluation framework supporting hundreds of benchmarks.
 - 🔧 🐍 [harbor](https://github.com/harbor-framework/harbor) — Runs AI agent evals and RL environments with terminal-based benchmarking.
 - 🔧 🐍 [intellagent](https://github.com/plurai-ai/intellagent) — Provide an intelligent evaluation harness for AI agents.
 - 🔧 🐍 [any-agent](https://github.com/mozilla-ai/any-agent) — Unified interface to build agents across frameworks with tracing and scoring.
 - 🔧 [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness) — Evaluates code generation models on HumanEval, MBPP, and other benchmarks.
-- 🔧 [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent) — Runs SWE-bench Verified evaluations with full pipeline for agent benchmarking.
 - 🔧 🐍 [token-savior](https://github.com/Mibayy/token-savior) — Provide token-efficient optimization for agent evaluation runs.
+- 🔧 [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent) — Runs SWE-bench Verified evaluations with full pipeline for agent benchmarking.
 - 🔧 🐍 [Test-Agent](https://github.com/codefuse-ai/Test-Agent) — LLM-powered software testing agent for industrial use cases.
-- 🔧 [claw-eval](https://github.com/claw-eval/claw-eval) — Provide an evaluation harness for coding LLM agents.
 - 🔧 🐍 [upskill](https://github.com/huggingface/upskill) — Generates and evaluates coding skills of agents like Claude Code and Codex.
+- 🔧 [claw-eval](https://github.com/claw-eval/claw-eval) — Provide an evaluation harness for coding LLM agents.
 - 🔧 [awslabs/agent-evaluation](https://github.com/awslabs/agent-evaluation) — Provide an AWS framework for evaluating AI agent performance.
 - 🔧 🐍 [bananalyzer](https://github.com/reworkd/bananalyzer) — Evaluates web agents on standardized scraping and navigation test scenarios.
 - 🔧 [SWE-bench Experiments](https://github.com/SWE-bench/experiments) — Provide experiment tracking for SWE-bench evaluation runs.
@@ -311,22 +313,20 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🟣 [AgentEval](https://github.com/AgentEvalHQ/AgentEval) — Provide a harness for evaluating AI agent task performance.
 - 🔧 🐍 [aider-swe-bench](https://github.com/Aider-AI/aider-swe-bench) — Harness for running and evaluating Aider on SWE-Bench benchmark.
 - 🔧 🐍 [agent-quality-inspect](https://github.com/SAP/agent-quality-inspect) — Provide quality inspection tooling for AI agent outputs.
-- 🔧 🐍 [CATArena](https://github.com/AGI-Eval-Official/CATArena) — Tournament platform for code agents via iterative competitive peer learning.
 - 🔧 🐍 [sb-cli](https://github.com/SWE-bench/sb-cli) — Official SWE-bench CLI tool for running remote evaluation tasks.
+- 🔧 🐍 [CATArena](https://github.com/AGI-Eval-Official/CATArena) — Tournament platform for code agents via iterative competitive peer learning.
 - 🔧 [refact-bench](https://github.com/smallcloudai/refact-bench) — Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker.
+- 🔧 🐍 [evalmonkey](https://github.com/Corbell-AI/evalmonkey) — CLI eval harness for AI coding agents with benchmark and chaos fault injection.
 - 🔧 🐍 [OD-SWE-bench](https://github.com/OpenDevin/OD-SWE-bench) — Enhanced SWE-bench fork with evaluation harness for OpenDevin agents.
 - 🔧 ☕ [agent-bench](https://github.com/spring-ai-community/agent-bench) — Benchmarks Java AI agents in isolated sandboxes with Spring AI integration.
-- 🔧 🐍 [evalmonkey](https://github.com/Corbell-AI/evalmonkey) — CLI eval harness for AI coding agents with benchmark and chaos fault injection.
 - 🔧 🐍 [pr-arena](https://github.com/neulab/pr-arena) — Platform for pairwise PR generation and human comparison to rank coding agents.
-- 🔧 🐍 [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness) — Provide a harness for long-duration coding agent evaluations.
 - 🔧 🐍 [squeez](https://github.com/KRLabsOrg/squeez) — Compresses verbose tool outputs for coding agents via LoRA fine-tuning.
+- 🔧 🐍 [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness) — Provide a harness for long-duration coding agent evaluations.
 - 📝 [Build reliable AI agents with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/) — AWS blog on evaluating AI agents using Amazon Bedrock AgentCore Evaluations.
 - 📝 [How to Build a Coding Agent Benchmark with Claude's Agent SDK](https://lirantal.com/blog/how-to-build-a-coding-agent-benchmark-with-claudes-agent-sdk) — Tutorial on building a coding agent benchmark harness with Claude Agent SDK.
 - 📝 [OpenDevin: An Open Platform for AI Software Developers as Generalist Agents](https://www.semanticscholar.org/paper/be27ef5a9068d9e2be1ab97b7c3de7168c472972) — Open platform for building and evaluating AI software engineering agents.
-- 📝 [SWE Agent](https://github.com/princeton-nlp/swe-agent) — Provide an agent harness for solving software engineering tasks.
 - 📝 [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) — Agent-computer interface framework for LM agents to resolve GitHub issues.
 - 📝 [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](https://arxiv.org/abs/2412.10133) — LLM agent that auto-configures and executes test suites for arbitrary projects.
-- 📝 [smolagents](https://github.com/huggingface/smolagents) — Hugging Face lightweight framework for building and running LLM-powered agents.
 - 📝 [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071) — Analyze architectural design decisions in AI agent harnesses.
 - 📝 [Meta-Engineering Harness](https://arxiv.org/abs/2605.25665) — Provide contract-driven adversarial verification harness for AI code.
 - 📝 [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586) — Reduce agent trajectory tokens 40-60% by removing useless/redundant info.
@@ -351,11 +351,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability platform with tracing, spans, and scoring.
 - 🔧 🐍 [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) — Python SDK for AI agent observability, tracing, monitoring and evaluation.
 - 🔧 🐍 [Observal](https://github.com/BlazeUp-AI/Observal) — Provide observability tooling for AI agent evaluation.
+- 📝 [RepoAgent](https://github.com/OpenBMB/RepoAgent) — LLM-powered framework for automated repository documentation generation.
 - 🔧 🐍 [agentevals](https://github.com/agentevals-dev/agentevals) — Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way.
 - 🔧 [swe_bench_traces](https://github.com/codestoryai/swe_bench_traces) — Archives AI patch generation and evaluation traces on SWE-bench Lite.
 - 🔧 [Braintrust](https://braintrust.dev) — Provide eval, logging, and observability for LLM applications.
 - 📝 [CodeTracer: Towards Traceable Agent States](https://arxiv.org/abs/2604.11641) — Provide tracing and observability for coding agent states.
-- 📝 [RepoAgent](https://github.com/OpenBMB/RepoAgent) — LLM-powered framework for automated repository documentation generation.
 - 📝 [Systematic debugging for AI agents: Introducing the AgentRx framework](https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/) — AgentRx framework for systematic debugging of AI agent failure trajectories.
 - 📝 [TrajAudit](https://arxiv.org/abs/2605.26563) — Diagnose failure modes in coding agent execution trajectories.
 
@@ -368,46 +368,46 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🦀 [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — Sandbox for secure AI agent code execution with instant concurrent containers.
 - 🔧 🐍 [sandbox](https://github.com/agent-infra/sandbox) — Provide a general-purpose sandbox for isolated code execution.
 - 🔧 [judge0](https://github.com/judge0/judge0) — Open-source sandboxed code execution system supporting 60+ languages.
-- 🔧 🦀 [zeroboot](https://github.com/zerobootdev/zeroboot) — Provide zero-setup sandbox bootstrapping for code evaluation.
-- 🔧 🦀 [nono](https://github.com/always-further/nono) — Zero-config AI agent sandbox with capability-model-based multiplexed isolation.
 - 🔧 🐹 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) — Kubernetes-based sandbox runtime for isolated stateful AI agent workloads.
+- 🔧 🦀 [nono](https://github.com/always-further/nono) — Zero-config AI agent sandbox with capability-model-based multiplexed isolation.
+- 🔧 🦀 [zeroboot](https://github.com/zerobootdev/zeroboot) — Provide zero-setup sandbox bootstrapping for code evaluation.
 - 🔧 🦀 [boxlite](https://github.com/boxlite-ai/boxlite) — Embeddable sandbox for AI agents with snapshots, state and hardware isolation.
-- 🔧 🔷 [vibekit](https://github.com/superagent-ai/vibekit) — Provide a toolkit for building sandboxed coding environments.
 - 🔧 [agent-safehouse](https://github.com/eugene1g/agent-safehouse) — Sandbox for local AI agents with scoped read/write filesystem access.
+- 🔧 🔷 [vibekit](https://github.com/superagent-ai/vibekit) — Provide a toolkit for building sandboxed coding environments.
 - 🔧 🔷 [sandbox-agent](https://github.com/rivet-dev/sandbox-agent) — Run coding agents in sandboxed environments with HTTP control for evaluation.
-- 🔧 🐍 [wuying-agentbay-sdk](https://github.com/agentbay-ai/wuying-agentbay-sdk) — Cloud sandbox environment SDK built for AI agents.
 - 🔧 🔷 [gondolin](https://github.com/earendil-works/gondolin) — Experimental agent sandbox using Linux microVMs with TypeScript control plane.
+- 🔧 🐍 [wuying-agentbay-sdk](https://github.com/agentbay-ai/wuying-agentbay-sdk) — Cloud sandbox environment SDK built for AI agents.
 - 🔧 🔷 [sandbox-sdk](https://github.com/cloudflare/sandbox-sdk) — SDK for running sandboxed code environments on Cloudflare's edge network.
 - 🔧 🦀 [vibe](https://github.com/lynaghk/vibe) — Provide a sandbox environment for code execution and testing.
+- 🔧 🐹 [artifact-fs](https://github.com/cloudflare/artifact-fs) — FUSE filesystem driver for lazy-mounting large git repos in agent sandboxes.
 - 🔧 🟨 [secure-exec](https://github.com/rivet-dev/secure-exec) — Provide secure execution sandboxes for untrusted code.
 - 🔧 🐍 [coderunner](https://github.com/instavm/coderunner) — Local isolated sandbox for AI agents to run code safely in containers.
 - 🔧 🐹 [arrakis](https://github.com/abshkbh/arrakis) — Provide sandboxed execution environments for code evaluation.
-- 🔧 🐹 [artifact-fs](https://github.com/cloudflare/artifact-fs) — FUSE filesystem driver for lazy-mounting large git repos in agent sandboxes.
-- 🔧 🐍 [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) — Provide remote execution sandboxes for SWE-bench evaluation.
 - 🔧 🐍 [SmolVM](https://github.com/CelestoAI/SmolVM) — Lightweight open-source VM sandbox for AI agent code execution and browser use.
+- 🔧 🐍 [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) — Provide remote execution sandboxes for SWE-bench evaluation.
+- 📝 [AgentRun](https://github.com/Jonathan-Adly/AgentRun) — Python library for running AI-generated code safely in Docker sandboxes.
 - 🔧 🦀 [pctx](https://github.com/portofcontext/pctx) — Execution layer running agentic tool calls in secure sandboxes for AI workflows.
 - 🔧 [openhands-aci](https://github.com/All-Hands-AI/openhands-aci) — Defines standard interface layer for agent-computer interaction in OpenHands.
 - 🔧 🐍 [SWE-bench-docker](https://github.com/aorwall/SWE-bench-docker) — Dockerized sandbox for running SWE-bench evaluations in isolated containers.
 - 🔧 🐹 [the-agent-sandbox-taxonomy](https://github.com/kajogo777/the-agent-sandbox-taxonomy) — Taxonomy and scoring framework for AI agent sandboxes with 7 defense layers.
 - 🔧 🐍 [ai-code-sandbox](https://github.com/typper-io/ai-code-sandbox) — Docker-based secure Python sandbox for isolated AI/LLM-generated code execution.
 - 🔧 🐍 [agentbox](https://github.com/Michaelliv/agentbox) — Sandboxed code execution environment for AI agents.
+- 🔧 🐍 [exec-sandbox](https://github.com/dualeai/exec-sandbox) — Provide a sandboxed environment for secure code execution.
 - 🔧 🦀 [godbox](https://github.com/quantumsheep/godbox) — Secure sandboxing system for executing untrusted code in evaluation pipelines.
 - 🔧 🐍 [MultiModal-Jupyter-Sandbox](https://github.com/ChenShawn/MultiModal-Jupyter-Sandbox) — Provide a multimodal Jupyter sandbox for code execution.
+- 🔧 🐍 [python-sandbox](https://github.com/onyx-dot-app/python-sandbox) — Secure lightweight Python code execution sandbox for LLM/AI agents.
 - 🔧 🐍 [Code-Runner-Sandbox](https://github.com/shouldnotappearcalm/Code-Runner-Sandbox) — Multi-language code execution sandbox (Python/Java/C/Go) for model evaluation.
 - 🔧 [awesome-agent-sandboxes](https://github.com/arjan/awesome-agent-sandboxes) — Curated list of code execution sandbox solutions for AI/LLM agents.
 - 🔧 🐍 [diy-sample-sandbox-cloud-run](https://github.com/GoogleCloudPlatform/diy-sample-sandbox-cloud-run) — Experimental on-demand code execution sandbox built on Google Cloud Run.
 - 🔧 🐍 [sandboxed-jupyter-code-exec](https://github.com/anukriti-ranjan/sandboxed-jupyter-code-exec) — FastAPI sandboxed Python code execution environment using Jupyter kernels.
-- 🔧 🐍 [exec-sandbox](https://github.com/dualeai/exec-sandbox) — Provide a sandboxed environment for secure code execution.
-- 🔧 🐍 [python-sandbox](https://github.com/onyx-dot-app/python-sandbox) — Secure lightweight Python code execution sandbox for LLM/AI agents.
-- 🔧 🐍 [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox) — Provide cloud-based code sandboxes via SkyPilot infrastructure.
 - 🔧 🐍 [SWE-bench Harness](https://github.com/epoch-research/SWE-bench) — Containerized runtime environments for SWE-bench task evaluation via Docker.
-- 🔧 🦀 [nix-sandbox-mcp](https://github.com/secbear/nix-sandbox-mcp) — Nix and bubblewrap sandboxed code execution via MCP for LLM agents.
-- 🔧 🐍 [sandboxer](https://github.com/ammmir/sandboxer) — Forkable code execution sandbox server for LLMs and agents.
-- 🔧 🐍 [moatless-testbeds](https://github.com/aorwall/moatless-testbeds) — Provide pre-built testbed environments for SWE-bench evaluation.
 - 🔧 🐍 [AgentKernelArena](https://github.com/AMD-AGI/AgentKernelArena) — Isolated sandbox for side-by-side benchmarking of SE agents on kernel tasks.
-- 🔧 🐹 [boxed](https://github.com/akshayaggarwal99/boxed) — Sandboxed code execution engine for AI agents via Docker, Firecracker, and Wasm.
+- 🔧 🐍 [skypilot-code-sandbox](https://github.com/alex000kim/skypilot-code-sandbox) — Provide cloud-based code sandboxes via SkyPilot infrastructure.
+- 🔧 🐍 [sandboxer](https://github.com/ammmir/sandboxer) — Forkable code execution sandbox server for LLMs and agents.
+- 🔧 🦀 [nix-sandbox-mcp](https://github.com/secbear/nix-sandbox-mcp) — Nix and bubblewrap sandboxed code execution via MCP for LLM agents.
 - 🔧 🦀 [mithril](https://github.com/radimsem/mithril) — Trustless MCP server with sandboxed execution tools for AI coding agents.
-- 📝 [AgentRun](https://github.com/Jonathan-Adly/AgentRun) — Python library for running AI-generated code safely in Docker sandboxes.
+- 🔧 🐍 [moatless-testbeds](https://github.com/aorwall/moatless-testbeds) — Provide pre-built testbed environments for SWE-bench evaluation.
+- 🔧 🐹 [boxed](https://github.com/akshayaggarwal99/boxed) — Sandboxed code execution engine for AI agents via Docker, Firecracker, and Wasm.
 - 🔧 [Daytona](https://daytona.io) — Dev environment platform with persistent state and checkpoints for agent tasks.
 - 📝 [MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering](https://arxiv.org/abs/2601.22859) — Provide scalable polyglot environment construction for SE evaluation.
 - 🔧 [Modal](https://modal.com) — Provide serverless cloud compute for sandboxed code execution.
