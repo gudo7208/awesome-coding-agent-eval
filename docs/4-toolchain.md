@@ -6,7 +6,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 - [Evaluation Harness (44)](#harness)
 - [Sandbox & Execution (56)](#sandbox)
-- [Observability (10)](#observability)
+- [Observability (11)](#observability)
 - [LLM Judge Tools (8)](#judge-tool)
 
 <a id="harness"></a>
@@ -147,6 +147,7 @@ The tool stack you need to run an evaluation end-to-end.
 ## Observability
 
 - [agentevals](https://github.com/agentevals-dev/agentevals) ⭐118 — Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way.
+- [ax](https://github.com/Necmttn/ax) ⭐32 — Provides local observability for coding-agent sessions and costs.
 - [Braintrust](https://braintrust.dev) — Provide eval, logging, and observability for LLM applications.
 - [CodeTracer: Towards Traceable Agent States](https://arxiv.org/abs/2604.11641) — Provide tracing and observability for coding agent states.
 - [Langfuse](https://github.com/langfuse/langfuse) ⭐26319 — Open-source LLM observability platform with tracing, spans, and scoring.
