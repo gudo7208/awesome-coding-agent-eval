@@ -1,6 +1,6 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 947 curated resources for evaluating AI coding agents.
+> 948 curated resources for evaluating AI coding agents.
 
 ## Benchmarks & Datasets (551)
 
@@ -748,7 +748,7 @@
 - [Tokenomics: Quantifying Where Tokens Are Used in Agentic SE](https://arxiv.org/abs/2601.14470): Analyze token consumption patterns across SDLC stages in multi-agent SE
 - [What Makes a Good Terminal-Agent Benchmark Task](https://arxiv.org/abs/2604.28093): Guidelines for adversarial, difficult, and legible benchmark task design
 
-## Evaluation Toolchain (118)
+## Evaluation Toolchain (119)
 
 ### Evaluation Harness (44)
 
@@ -808,12 +808,13 @@
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985): Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions
 - [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): Pre-publish security gate targeting 5 blind spots in AI-generated code
 
-### Observability (10)
+### Observability (11)
 
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM observability platform with tracing, spans, and scoring. Stars: 26319
 - [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Python SDK for AI agent observability, tracing, monitoring and evaluation. Lang: python. Stars: 16146
 - [Observal](https://github.com/BlazeUp-AI/Observal): Provide observability tooling for AI agent evaluation. Lang: python. Stars: 797
 - [agentevals](https://github.com/agentevals-dev/agentevals): Evaluates AI agents via OpenTelemetry traces in a framework-agnostic way. Lang: python. Stars: 118
+- [ax](https://github.com/Necmttn/ax): Provides local observability for coding-agent sessions and costs. Lang: typescript. Stars: 32
 - [swe_bench_traces](https://github.com/codestoryai/swe_bench_traces): Archives AI patch generation and evaluation traces on SWE-bench Lite. Stars: 10
 - [Braintrust](https://braintrust.dev): Provide eval, logging, and observability for LLM applications
 - [CodeTracer: Towards Traceable Agent States](https://arxiv.org/abs/2604.11641): Provide tracing and observability for coding agent states

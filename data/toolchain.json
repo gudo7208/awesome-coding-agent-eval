@@ -106,6 +106,29 @@
     }
   },
   {
+    "id": "ax",
+    "name": "ax",
+    "stage": "toolchain",
+    "subcategory": "observability",
+    "what": "Provides local observability for coding-agent sessions and costs",
+    "type": "repo",
+    "repo": "https://github.com/Necmttn/ax",
+    "stars": 32,
+    "tags": [
+      "observability",
+      "telemetry",
+      "coding-agent",
+      "cost-analysis",
+      "opentelemetry"
+    ],
+    "added_date": "2026-06-20",
+    "last_verified": "2026-06-20",
+    "status": "active",
+    "languages": [
+      "typescript"
+    ]
+  },
+  {
     "id": "braintrust",
     "name": "Braintrust",
     "stage": "toolchain",
