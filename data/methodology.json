@@ -1098,7 +1098,7 @@
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
-    "stars": 10,
+    "stars": 11,
     "related": {
       "variants": [
         "a-survey-on-llm-as-a-judge",
@@ -4246,7 +4246,7 @@
     "last_verified": "2026-04-30",
     "status": "active",
     "repo": "https://github.com/tldrsec/vibe_hacking",
-    "stars": 41,
+    "stars": 40,
     "related": {
       "variants": [
         "bridging-hci-and-ai-research-for-the-evaluation-of-conversational-se-assistants",

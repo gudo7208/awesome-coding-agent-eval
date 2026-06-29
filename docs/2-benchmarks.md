@@ -56,7 +56,7 @@ SE Agent benchmarks organized by task type.
 - [HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks](https://arxiv.org/abs/2604.14709) — Benchmark LLM agents on real-world hardware bug repair.
 - [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004) — Refine tests and patches adversarially for reliable issue resolution. 🤝
 - [Introducing SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/) — Provide human-verified subset of SWE-bench for reliable evaluation.
-- [joycode-agent](https://github.com/jd-opensource/joycode-agent) ⭐330 — Repository-level repair agent built and evaluated on SWE-Bench.
+- [joycode-agent](https://github.com/jd-opensource/joycode-agent) ⭐337 — Repository-level repair agent built and evaluated on SWE-Bench.
 - [Large Language Models of Code Fail at Completing Code with Potential Bugs](https://arxiv.org/abs/2306.03438) — Benchmark for code completion degradation when context contains potential bugs.
 - [Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement](https://arxiv.org/abs/2411.00622) — Dev-process-centric open LLM for automated software repair on SWE-bench.
 - [LocAgent: Graph-Guided LLM Agents for Code Localization](https://arxiv.org/abs/2503.09089) — Evaluate graph-guided LLM agents for bug localization in code.
@@ -64,30 +64,30 @@ SE Agent benchmarks organized by task type.
 ### M–R
 
 - [MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](https://arxiv.org/abs/2506.13824) — Benchmark for code debugging across multi-library scenarios.
-- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) ⭐333 — Benchmark multi-language issue resolution extending SWE-bench. 🌐
+- [multi-swe-bench](https://github.com/multi-swe-bench/multi-swe-bench) ⭐343 — Benchmark multi-language issue resolution extending SWE-bench. 🌐
 - [OmniGIRL](https://github.com/DeepSoftwareAnalytics/OmniGIRL) ⭐17 — Benchmark automated issue resolution across multiple languages. 🌐
 - [OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution](https://arxiv.org/abs/2505.04606) — Multilingual and multimodal benchmark for evaluating GitHub issue resolution. 🌐
 - [Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?](https://arxiv.org/abs/2604.17338) — Evaluates whether models precisely debug or simply regenerate entire code.
 - [QuixBugs: a multi-lingual program repair benchmark set based on the quixey challenge](https://www.semanticscholar.org/paper/7f1d443ab526240e2647e77e042434fc98249302) — Benchmark multi-language program repair based on the Quixey challenge. 🌐
 - [RepairBench: Leaderboard of Frontier Models for Program Repair](https://arxiv.org/abs/2409.18952) — Rank frontier models on program repair performance. 🏆
 - [Reproducible Automated Program Repair Is Hard -- Experiences With the Defects4J Dataset](https://arxiv.org/abs/2604.26674v1) — Reproducibility challenges in APR evaluation using Defects4J benchmark dataset.
-- [Rust-SWE-Bench](https://github.com/GhabiX/Rust-SWE-Bench) ⭐11 — Evaluates agent issue-resolution ability on real Rust project GitHub issues. 🦀
+- [Rust-SWE-Bench](https://github.com/GhabiX/Rust-SWE-Bench) ⭐14 — Evaluates agent issue-resolution ability on real Rust project GitHub issues. 🦀
 
 ### S–Z
 
 - [Skywork-SWE](https://arxiv.org/html/2506.19290v1) — Benchmark validating data scaling laws for SE agent bug-fix capability. 🐍
 - [SpecRover: Code Intent Extraction via LLMs](https://arxiv.org/abs/2408.02232) — Infers code intent via LLMs for specification-driven automated program repair.
 - [SWE-ABS: Adversarial Benchmark Strengthening Exposes Inflated Success Rates on Test-based Benchmark](https://arxiv.org/abs/2603.00520) — Study adversarial test strengthening to expose inflated success rates.
-- [SWE-bench](https://github.com/swe-bench/SWE-bench) ⭐4819 — 2294 real GitHub issues testing agent patch generation for Python bug fixes. 🐍
+- [SWE-bench](https://github.com/swe-bench/SWE-bench) ⭐5283 — 2294 real GitHub issues testing agent patch generation for Python bug fixes. 🐍
 - [SWE-Bench 5G: Benchmarking AI Coding Agents on Telecom Network Engineering Tasks](https://arxiv.org/abs/2604.26278) — Benchmark AI coding agents on telecom network engineering tasks.
 - [SWE-bench Goes Live!](https://arxiv.org/abs/2505.23419) — Continuously updated SWE-bench variant improving repo coverage and scalability.
-- [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) ⭐4819 — Benchmark agents on multimodal software engineering tasks.
-- [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) ⭐4819 — 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues. 🐍
+- [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) ⭐5283 — Benchmark agents on multimodal software engineering tasks.
+- [SWE-bench Verified](https://github.com/swe-bench/SWE-bench) ⭐5283 — 500 human-verified subset of SWE-bench filtering ambiguous or erroneous issues. 🐍
 - [SWE-Bench-Fork](https://github.com/SWE-Gym/SWE-Bench-Fork) ⭐13 — SWE-Gym fork of SWE-Bench for evaluating agents on real GitHub issue fixes.
 - [SWE-bench-java: A GitHub Issue Resolving Benchmark for Java](https://arxiv.org/abs/2408.14354) — Extends SWE-bench to Java with real GitHub issue resolving tasks. ☕
 - [swe-bench-lite-samples](https://github.com/ScalingIntelligence/swe-bench-lite-samples) ⭐14 — Provide sample task instances from the SWE-bench Lite subset.
-- [SWE-Bench-plus-plus](https://github.com/TuringEnterprises/SWE-Bench-plus-plus) ⭐19 — Benchmark agents with strengthened tests on GitHub issue resolution.
-- [swe-bench.github.io](https://github.com/SWE-bench/swe-bench.github.io) ⭐12 — Provide official results website and leaderboard for SWE-bench. 🏆
+- [SWE-Bench-plus-plus](https://github.com/TuringEnterprises/SWE-Bench-plus-plus) ⭐25 — Benchmark agents with strengthened tests on GitHub issue resolution.
+- [swe-bench.github.io](https://github.com/SWE-bench/swe-bench.github.io) ⭐14 — Provide official results website and leaderboard for SWE-bench. 🏆
 - [SWE-Dev: Building Software Engineering Agents with Training and Inference Scaling](https://arxiv.org/abs/2506.07636) — Provides 17K+ training instances and test cases for SWE agents with scaling.
 - [SWE-Exp: Experience-Driven Software Issue Resolution](https://arxiv.org/abs/2507.23361) — Evaluate experience-driven approaches to software issue resolution.
 - [SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution](https://arxiv.org/abs/2501.05040) — Trains open-source LLMs to resolve GitHub issues on SWE-bench tasks.
@@ -97,10 +97,10 @@ SE Agent benchmarks organized by task type.
 - [SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](https://arxiv.org/abs/2505.20411) — Evaluate SE agents with automated task collection and decontamination.
 - [SWE-smith: Scaling Data for Software Engineering Agents](https://arxiv.org/abs/2504.21798) — Scalable pipeline for synthesizing SWE training data with bug-fix benchmark.
 - [SWE-Synth: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs](https://arxiv.org/abs/2504.14757) — Generate synthetic verifiable bug-fix data for LLM evaluation.
-- [SYSUSELab/FeedbackEval](https://github.com/SYSUSELab/FeedbackEval) — Benchmark for evaluating LLMs on feedback-driven code repair tasks.
+- [SYSUSELab/FeedbackEval](https://github.com/SYSUSELab/FeedbackEval) ⭐7 — Benchmark for evaluating LLMs on feedback-driven code repair tasks.
 - [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139) — Training environment with 2,438 Python repo tasks and verifier for SE agents.
 - [When Large Language Models Confront Repository-Level Automatic Program Repair: How Well They Done?](https://arxiv.org/abs/2403.00448) — Evaluates LLMs on repository-level automated program repair tasks.
-- [[repo](https://github.com/NEUIR/DebugEval) — DebugEval: benchmark for evaluating LLM debugging capabilities.
+- [[repo](https://github.com/NEUIR/DebugEval) ⭐18 — DebugEval: benchmark for evaluating LLM debugging capabilities.
 
 <a id="end-to-end"></a>
 ## End-to-End / Multi-Task
@@ -111,36 +111,36 @@ SE Agent benchmarks organized by task type.
 
 - [A Comprehensive Benchmark to Evaluate Agent Architectures in Enterprise](https://arxiv.org/html/2509.10769v1) — Benchmark evaluating agent architectures for enterprise multi-step workflows.
 - [A Comprehensive Survey on Benchmarks and Solutions in Software Engineering of LLM-Empowered Agentic System](https://arxiv.org/abs/2510.09721) — Survey benchmarks and solutions for LLM-based agentic software engineering. 📋
-- [ABC-Bench](https://github.com/OpenMOSS/ABC-Bench) ⭐29 — Benchmark end-to-end coding agent capabilities.
-- [AdamBench](https://github.com/tabupl/AdamBench) ⭐25 — Agentic coding benchmark for local LLMs on daily software engineering tasks.
+- [ABC-Bench](https://github.com/OpenMOSS/ABC-Bench) ⭐33 — Benchmark end-to-end coding agent capabilities.
+- [AdamBench](https://github.com/tabupl/AdamBench) ⭐28 — Agentic coding benchmark for local LLMs on daily software engineering tasks.
 - [Agentic Software Issue Resolution with Large Language Models: A Survey](https://arxiv.org/abs/2512.22256) — Surveys LLM-based agents for automated software issue resolution. 📋
 - [AgentProcessBench](https://arxiv.org/abs/2603.14465) — 1,000 trajectories with 8,509 human labels for step-level tool-use quality.
 - [AgentRewardBench](https://arxiv.org/abs/2504.08942) — 1,302-trajectory benchmark for assessing LLM judges of web agent trajectories. 🤖
-- [ai-agent-benchmark](https://github.com/murataslan1/ai-agent-benchmark) ⭐24 — Leaderboard comparing 80+ AI coding agents on SWE-Bench with pricing info. 🏆
-- [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) ⭐134 — Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning.
-- [Apex2-Terminal-Bench-Agent](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent) ⭐66 — Benchmarks terminal-based coding agents with leaderboard and ablation results. 🏆
-- [appworld](https://github.com/StonyBrookNLP/appworld) ⭐407 — Evaluates agent tool-calling and planning across multi-app scenarios.
+- [ai-agent-benchmark](https://github.com/murataslan1/ai-agent-benchmark) ⭐26 — Leaderboard comparing 80+ AI coding agents on SWE-Bench with pricing info. 🏆
+- [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) ⭐164 — Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning.
+- [Apex2-Terminal-Bench-Agent](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent) ⭐65 — Benchmarks terminal-based coding agents with leaderboard and ablation results. 🏆
+- [appworld](https://github.com/StonyBrookNLP/appworld) ⭐445 — Evaluates agent tool-calling and planning across multi-app scenarios.
 - [Automated Benchmark Generation for Repository-Level Coding Tasks](https://arxiv.org/abs/2503.07701) — Automated pipeline for generating repo-level coding agent benchmarks at scale.
-- [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) ⭐99 — Curated list of autonomous code agents, benchmarks, and research papers. 📋
-- [BC-Bench](https://github.com/microsoft/BC-Bench) ⭐26 — Evaluates AI agents on Microsoft Business Central AL codebase tasks.
+- [awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) ⭐108 — Curated list of autonomous code agents, benchmarks, and research papers. 📋
+- [BC-Bench](https://github.com/microsoft/BC-Bench) ⭐49 — Evaluates AI agents on Microsoft Business Central AL codebase tasks.
 - [Benchmarking and Studying the LLM-based Agent System in End-to-End Software Development](https://arxiv.org/abs/2511.04064) — Benchmark LLM-based agents in end-to-end software development.
-- [benchmarks](https://github.com/0xpayne/gpt-migrate#-benchmarks) — GPT-Migrate benchmarks for automated codebase migration between frameworks.
+- [benchmarks](https://github.com/0xpayne/gpt-migrate#-benchmarks) ⭐6982 — GPT-Migrate benchmarks for automated codebase migration between frameworks.
 - [Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects](https://arxiv.org/abs/2412.06294) — Evaluate LLM agents on automated Python project installation. 🐍
 - [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/abs/2506.00172) — Scalable benchmark for evaluating system-level reasoning in LLM code agents.
 - [CATArena: Evaluating Evolutionary Capabilities of Code Agents via Iterative Tournaments](https://arxiv.org/abs/2510.26852) — Evaluate code agent evolutionary capabilities via iterative tournaments.
-- [ccbench](https://github.com/codecrafters-io/ccbench) ⭐29 — CodeCrafters benchmark tool for evaluating coding agents on SE tasks. 🦀
+- [ccbench](https://github.com/codecrafters-io/ccbench) ⭐36 — CodeCrafters benchmark tool for evaluating coding agents on SE tasks. 🦀
 - [Chasing the Public Score: User Pressure and Evaluation Exploitation in Coding Agent Workflows](https://arxiv.org/abs/2604.20200) — Study evaluation exploitation and user pressure in coding agent workflows.
 - [Claw-Eval-Live](https://arxiv.org/abs/2604.29300) — Live agent benchmark for evolving real-world workflows. 🌍
 - [ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces](https://arxiv.org/abs/2604.05172) — Evaluate capability and safety of LLM agents in simulated workspaces.
 - [CocoaBench: Evaluating Unified Digital Agents in the Wild](https://arxiv.org/abs/2604.11201) — Evaluate unified digital agents on real-world end-to-end tasks. 📅
-- [CodeClash](https://github.com/CodeClash-ai/CodeClash) ⭐147 — Evaluates autonomous agent planning and execution on open-ended coding tasks.
+- [CodeClash](https://github.com/CodeClash-ai/CodeClash) ⭐175 — Evaluates autonomous agent planning and execution on open-ended coding tasks.
 - [CODEMENV: Benchmarking Large Language Models on Code Migration](https://arxiv.org/abs/2506.00894) — Benchmark for evaluating LLMs on code migration tasks across environments.
 - [Converted, Not Equivalent: Benchmarking Codebase Conversion via Observational Equivalence](https://arxiv.org/abs/2605.29054) — Benchmark codebase conversion with observational equivalence testing.
 - [CoreCodeBench: A Configurable Multi-Scenario Repository-Level Benchmark](https://arxiv.org/abs/2507.05281) — Configurable multi-scenario repository-level benchmark for code agents.
 - [Credit-Budgeted ICPC-Style Coding: When Agents Must Pay for Every Decision](https://arxiv.org/abs/2604.10182) — Evaluates coding agents on ICPC-style problems with credit-budgeted decisions.
 - [Cursor debuts CursorBench-3 to evaluate coding agents](https://www.testingcatalog.com/cursor-debuts-cursorbench-3-to-evaluate-coding-agents/) — CursorBench-3: Cursor's benchmark evaluating coding agents on complex dev tasks.
 - [DataSciBench: An LLM Agent Benchmark for Data Science](https://arxiv.org/abs/2502.13897) — Benchmark evaluating LLM agents on data science tasks end-to-end.
-- [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) ⭐126 — Cognition's published Devin evaluation results and methodology on SWE-bench.
+- [devin-swebench-results](https://github.com/CognitionAI/devin-swebench-results) ⭐124 — Cognition's published Devin evaluation results and methodology on SWE-bench.
 - [DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle](https://arxiv.org/abs/2601.20882) — Benchmark AI agents across the software DevOps cycle. 📅
 - [DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703) — Benchmark evaluating data science agents on realistic DS tasks.
 - [EnConda-Bench](https://github.com/TencentYoutuResearch/EnConda-Bench) ⭐49 — Benchmark end-to-end conda environment setup and management.
@@ -158,7 +158,7 @@ SE Agent benchmarks organized by task type.
 ### G–L
 
 - [GAIA-v2-LILT: Multilingual Adaptation of Agent Benchmark beyond Translation](https://arxiv.org/abs/2604.24929) — Evaluate multilingual agent capabilities beyond simple translation. 🌐
-- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) ⭐252 — Evaluate agents on Git-based software engineering tasks.
+- [GitTaskBench](https://github.com/QuantaAlpha/GitTaskBench) ⭐255 — Evaluate agents on Git-based software engineering tasks.
 - [GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging](https://arxiv.org/abs/2508.18993) — Benchmark for code agents solving real-world tasks using code repositories.
 - [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) — GLM-5 model evaluated on agentic SE benchmarks like SWE-bench and DevBench.
 - [HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408) — Evaluate whether agents know when to ask humans for help.
@@ -170,7 +170,7 @@ SE Agent benchmarks organized by task type.
 - [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback](https://arxiv.org/abs/2306.14898) — Interactive coding benchmark modeling code tasks as RL with execution feedback.
 - [ISO-Bench](https://arxiv.org/abs/2602.19594) — Benchmark coding agents on real-world LLM inference optimization tasks.
 - [june-2025-coding-agent-report](https://github.com/The-Focus-AI/june-2025-coding-agent-report) ⭐40 — Benchmarks 15 coding agents on real-world development tasks across IDEs.
-- [leaderboard](https://github.com/pinchbench/leaderboard) ⭐35 — Leaderboard ranking LLM coding agents on end-to-end programming tasks. 🏆
+- [leaderboard](https://github.com/pinchbench/leaderboard) ⭐41 — Leaderboard ranking LLM coding agents on end-to-end programming tasks. 🏆
 - [Lita: Light Agent Uncovers the Agentic Coding Capabilities of LLMs](https://arxiv.org/abs/2509.25873) — Minimal-scaffold agent to evaluate true agentic coding capabilities of LLMs.
 - [LiveFMBench](https://arxiv.org/abs/2604.29800) — Evaluate agentic workflows in specification generation tasks.
 
@@ -182,7 +182,7 @@ SE Agent benchmarks organized by task type.
 - [ML-Bench: Evaluating LLMs for Machine Learning Tasks on Repository-Level Code](https://ml-bench.github.io/) — Evaluate LLMs on machine learning tasks using repository-level code.
 - [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://openreview.net/forum?id=6s5uXNWGIh) — 75 Kaggle ML engineering tasks benchmark for evaluating ML agents.
 - [MLR-Bench](https://arxiv.org/abs/2505.19955) — Evaluate AI agents on open-ended machine learning research tasks. 🤖
-- [MMBench-GUI](https://github.com/open-compass/MMBench-GUI) ⭐106 — Hierarchical benchmark for GUI agents across desktop, mobile, and web platforms.
+- [MMBench-GUI](https://github.com/open-compass/MMBench-GUI) ⭐113 — Hierarchical benchmark for GUI agents across desktop, mobile, and web platforms.
 - [Multi-Docker-Eval: A `Shovel of the Gold Rush' Benchmark on Automatic Environment Building for Software Engineering](https://arxiv.org/abs/2512.06915) — Benchmark for automated environment setup with 40 real repos across 9 languages. 🌐
 - [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) — Multilingual issue-resolving benchmark across 7 languages with 1632 instances. 🌐
 - [OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language Environment Simulation](https://arxiv.org/abs/2604.10866) — Evaluate AI agents on real-world professional tasks via simulated environments.
@@ -197,35 +197,35 @@ SE Agent benchmarks organized by task type.
 - [Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents](https://arxiv.org/abs/2510.25694) — Evaluate agent trajectories for environment configuration tasks. 🔍
 - [Programming with Pixels: Can Computer-Use Agents do Software Engineering?](https://arxiv.org/abs/2502.18525) — Evaluate computer-use agents on software engineering via screen pixels.
 - [ProjDevBench: Benchmarking AI Coding Agents on End-to-End Project Development](https://arxiv.org/html/2602.01655v1) — Benchmark AI coding agents on end-to-end project development.
-- [reading-list](https://github.com/SWE-bench/reading-list) ⭐11 — SWE-bench curated reading list of papers on SE agent evaluation and benchmarks. 📋
-- [RefactorBench](https://github.com/microsoft/RefactorBench) ⭐23 — Benchmarks agents on cross-file code refactoring tasks in real repositories.
+- [reading-list](https://github.com/SWE-bench/reading-list) ⭐15 — SWE-bench curated reading list of papers on SE agent evaluation and benchmarks. 📋
+- [RefactorBench](https://github.com/microsoft/RefactorBench) ⭐28 — Benchmarks agents on cross-file code refactoring tasks in real repositories.
 - [RepoForge: Training a SOTA Fast-thinking SWE Agent with an End-to-End Data Curation Pipeline Synergizing SFT and RL at Scale](https://arxiv.org/abs/2508.01550) — End-to-end pipeline generating, evaluating, and training SWE agents at scale.
-- [RepoUnderstander](https://github.com/RepoUnderstander/RepoUnderstander) ⭐97 — Assess agent comprehension of repository-level code and structure.
+- [RepoUnderstander](https://github.com/RepoUnderstander/RepoUnderstander) ⭐98 — Assess agent comprehension of repository-level code and structure.
 
 ### S–Z
 
 - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://openreview.net/forum?id=6z4YKr0GK6) — Assess language agents on data-driven scientific discovery tasks.
 - [Sea-benchmarks-public](https://github.com/Sea-Labs-ai/Sea-benchmarks-public) ⭐17 — Benchmarks AI coding agents across multiple software engineering tasks.
 - [SERA: Soft-Verified Efficient Repository Agents](https://arxiv.org/abs/2601.20789) — Benchmark efficient repository agents using soft verification methods.
-- [skill](https://github.com/pinchbench/skill) ⭐1079 — Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks.
+- [skill](https://github.com/pinchbench/skill) ⭐1256 — Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks.
 - [SpecBench](https://arxiv.org/abs/2605.30314) — Evaluate SWE agents on specification design and requirements reasoning.
 - [Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763) — Benchmark evaluating LMs on real-world enterprise text-to-SQL workflows. 🌍
 - [SWE Atlas](https://arxiv.org/abs/2605.08366) — Benchmark suite for coding agents on QA, test writing, and refactoring tasks.
 - [SWE-AGI: Benchmarking Specification-Driven Software Construction with MoonBit in the Era of Autonomous Agents](https://arxiv.org/abs/2602.09447) — Benchmarks LLM agents building production-grade software from specs in MoonBit.
 - [SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context](https://arxiv.org/abs/2604.11716v1) — Manage dynamic reasoning context efficiently for SE agents.
-- [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) ⭐185 — Evaluate agents on continuously updated real-world GitHub issues. ✅
+- [SWE-bench-Live](https://github.com/microsoft/SWE-bench-Live) ⭐202 — Evaluate agents on continuously updated real-world GitHub issues. ✅
 - [SWE-Compass](https://arxiv.org/html/2511.05459) — Unified benchmark integrating heterogeneous SE tasks for cross-task evaluation.
 - [SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent](https://arxiv.org/abs/2604.26102) — Benchmark code editing strategies for efficient SE agents.
 - [SWE-Effi](https://arxiv.org/abs/2509.09853) — Metrics balancing solution accuracy vs resource cost for SWE agent evaluation.
 - [SWE-Hub: A Unified Production System for Scalable, Executable Software Engineering Tasks](https://arxiv.org/abs/2603.00575) — Provide unified infrastructure for scalable executable SE evaluation. 🌐 📅
 - [SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115) — Benchmarks LLMs on 1400+ real Upwork freelance tasks worth $1M total. 🌍
-- [SWE-PolyBench](https://github.com/amazon-science/SWE-PolyBench) ⭐83 — Benchmark coding agents across multiple programming languages. 🌐
+- [SWE-PolyBench](https://github.com/amazon-science/SWE-PolyBench) ⭐85 — Benchmark coding agents across multiple programming languages. 🌐
 - [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) — Evaluate coding agents on multi-language repository-level tasks. 🌐
 - [SWE-Sharp-Bench: A Reproducible Benchmark for C# Software Engineering Tasks](https://arxiv.org/abs/2511.02352) — Benchmark coding agents on C# software engineering tasks.
-- [SWE-Skills-Bench](https://github.com/GeniusHTX/SWE-Skills-Bench) ⭐33 — Benchmarks decomposed SE agent skills like fault localization and code editing.
+- [SWE-Skills-Bench](https://github.com/GeniusHTX/SWE-Skills-Bench) ⭐53 — Benchmarks decomposed SE agent skills like fault localization and code editing.
 - [SWE-Universe: Scale Real-World Verifiable Environments to Millions](https://arxiv.org/abs/2602.02361) — Scale real-world verifiable SE environments to millions of instances.
 - [SWE-WebDevBench](https://arxiv.org/abs/2605.04637) — Evaluate vibe coding platforms as virtual software agencies on web development.
-- [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) ⭐1441 — Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+.
+- [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) ⭐1438 — Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+.
 - [TDFlow: Agentic Workflows for Test Driven Development](https://arxiv.org/abs/2510.23761) — Test-driven multi-agent workflow for repo-level SE, evaluated on SWE-bench. 🤝
 - [TermiGen: High-Fidelity Environment and Robust Trajectory Synthesis for Terminal Agents](https://arxiv.org/abs/2602.07274) — Generate high-fidelity environments and trajectories for terminal agents.
 - [Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute](https://arxiv.org/abs/2503.23803) — TTC scaling for open-source SE agents evaluated on SWE-bench.
@@ -245,9 +245,9 @@ SE Agent benchmarks organized by task type.
 
 ### A–F
 
-- [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) — Benchmark autonomous agents in 1M-token real-world contexts with user simulation. 🌍
+- [AgencyBench](https://github.com/GAIR-NLP/AgencyBench) ⭐88 — Benchmark autonomous agents in 1M-token real-world contexts with user simulation. 🌍
 - [ALE-Bench: Towards Automating Long-Horizon Algorithm Engineering](https://sakana.ai/ale-bench/) — Benchmark for long-horizon algorithm engineering on hard optimization problems. 📅
-- [AMA-Bench](https://github.com/AMA-Bench/AMA-Bench) ⭐36 — Benchmark for long-context retention and long-term memory in agent applications. 📅
+- [AMA-Bench](https://github.com/AMA-Bench/AMA-Bench) ⭐55 — Benchmark for long-context retention and long-term memory in agent applications. 📅
 - [An Interactive Benchmark for LLM Agents in Long-Context Software Engineering](https://arxiv.org/abs/2511.13998) — Interactive benchmark for LLM agents in long-context software engineering tasks.
 - [Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios](https://arxiv.org/abs/2512.18470) — Benchmark coding agents on long-horizon software evolution scenarios. 📅
 - [Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/html/2509.16941v1) — Evaluate AI agents on long-horizon software engineering tasks. 📅
@@ -257,17 +257,17 @@ SE Agent benchmarks organized by task type.
 - [ContextEcho](https://arxiv.org/abs/2605.24279) — Measure persona drift in long agentic-coding sessions.
 - [Conversations Beneath the Code](https://arxiv.org/abs/2604.28455) — Triadic data (spec, discussion, code) for long-horizon SE agents. 📅
 - [EvoClaw: Evaluating AI Agents on Continuous Software Evolution](https://arxiv.org/abs/2603.13428) — Evaluate AI agents on continuous software evolution tasks. 📅
-- [frontier-swe](https://github.com/Proximal-Labs/frontier-swe) ⭐93 — Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks. 📅
+- [frontier-swe](https://github.com/Proximal-Labs/frontier-swe) ⭐166 — Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks. 📅
 
 ### G–L
 
-- [goodai-ltm-benchmark](https://github.com/GoodAI/goodai-ltm-benchmark) ⭐86 — Benchmark long-term memory capabilities of AI agents.
+- [goodai-ltm-benchmark](https://github.com/GoodAI/goodai-ltm-benchmark) ⭐87 — Benchmark long-term memory capabilities of AI agents.
 - [HARBOR: Automated Harness Optimization](https://arxiv.org/abs/2604.20938) — Benchmark automated optimization of evaluation harnesses.
 - [Hyper-multi-step: The Truth Behind Difficult Long-context Tasks](https://openreview.net/forum?id=LRPzo4jixx) — Benchmark performance on difficult multi-step long-context tasks.
-- [LifelongAgentBench](https://github.com/caixd-220529/LifelongAgentBench) ⭐88 — Benchmark evaluating LLM agents as lifelong learners across tasks. 📅
+- [LifelongAgentBench](https://github.com/caixd-220529/LifelongAgentBench) ⭐93 — Benchmark evaluating LLM agents as lifelong learners across tasks. 📅
 - [LiteCoder-Terminal](https://arxiv.org/abs/2605.29559) — Synthesize scalable terminal coding environments for agent training and eval. 📅
 - [LOCA-bench](https://arxiv.org/abs/2602.07962) — Evaluates agent performance degradation under dynamically growing context.
-- [LoCoBench-Agent](https://github.com/SalesforceAIResearch/LoCoBench-Agent) ⭐19 — Long-context interactive benchmark for LLM agents on multi-turn code tasks.
+- [LoCoBench-Agent](https://github.com/SalesforceAIResearch/LoCoBench-Agent) ⭐23 — Long-context interactive benchmark for LLM agents on multi-turn code tasks.
 - [LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces](https://arxiv.org/abs/2602.14337) — Benchmark long-horizon agentic programming in CLI environments. 📅
 - [LongMemEval](https://arxiv.org/abs/2410.10813) — Benchmarks long-term memory recall in chat assistants across sessions.
 
@@ -286,12 +286,12 @@ SE Agent benchmarks organized by task type.
 - [Scaling Test-Time Compute for Agentic Coding](https://arxiv.org/abs/2604.16529v1) — Test-time compute scaling for long-horizon agentic coding tasks. 📅
 - [SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents](https://arxiv.org/abs/2604.17308) — Benchmark lifelong skill discovery and evolution for autonomous agents.
 - [SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks](https://arxiv.org/abs/2603.24755) — Benchmark coding agent degradation over long-horizon iterative tasks. 📅
-- [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) ⭐368 — Long-horizon SE task benchmark by Scale AI for multi-step complex engineering. 📅 🐍
+- [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) ⭐456 — Long-horizon SE task benchmark by Scale AI for multi-step complex engineering. 📅 🐍
 - [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) — Benchmarks AI agents on 1865 long-horizon enterprise tasks from 41 repos. 📅
 - [SWE-CI](https://arxiv.org/abs/2603.03823) — Evaluate agent capabilities in maintaining codebases via continuous integration. 🌍 📅
 - [SWE-EVO](https://arxiv.org/html/2512.18470v2) — Benchmarks multi-step software evolution with 48 tasks across 7 OSS projects. 📅 🐍
-- [SwingArena](https://github.com/menik1126/Swing-Bench) — Competitive arena for long-context GitHub issue solving with Elo ranking. 🏆
-- [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) ⭐375 — Benchmark reinforcement learning agents on terminal tasks. 📅
+- [SwingArena](https://github.com/menik1126/Swing-Bench) ⭐15 — Competitive arena for long-context GitHub issue solving with Elo ranking. 🏆
+- [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) ⭐394 — Benchmark reinforcement learning agents on terminal tasks. 📅
 
 <a id="large-codebase"></a>
 ## Large Codebase / Multi-Repo
@@ -308,7 +308,7 @@ SE Agent benchmarks organized by task type.
 - [CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion](https://arxiv.org/abs/2310.11248) — Cross-file code completion benchmark across multiple languages. 🌐
 - [DeepCodeBench: Real-World Codebase Understanding by Q&A Benchmarking](https://www.qodo.ai/blog/deepcodebench-real-world-codebase-understanding-by-qa-benchmarking/) — Q&A benchmark for real-world enterprise codebase understanding.
 - [How to Understand Whole Software Repository?](https://www.semanticscholar.org/paper/19b825e139a54b543e7d8380ab0a1f9a7a29eaa2) — Benchmarks AI comprehension of whole software repositories via repo-level tasks.
-- [legacy-bench](https://github.com/Factory-AI/legacy-bench) ⭐13 — Benchmark agent performance on legacy codebase tasks.
+- [legacy-bench](https://github.com/Factory-AI/legacy-bench) ⭐17 — Benchmark agent performance on legacy codebase tasks.
 - [LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614) — Benchmark for LLMs handling long-context complex software engineering tasks.
 - [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897) — Evaluate coding LLMs at 1M-token context windows.
 - [LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding](https://arxiv.org/abs/2503.04359) — Benchmark for evaluating LLMs on long code understanding with long contexts.
@@ -328,7 +328,7 @@ SE Agent benchmarks organized by task type.
 
 *Measures quality of review comments and suggestions. Emerging area with high practical value.*
 
-- [aacr-bench](https://github.com/alibaba/aacr-bench) ⭐150 — Benchmark LLMs on automated code review tasks. 🌐
+- [aacr-bench](https://github.com/alibaba/aacr-bench) ⭐181 — Benchmark LLMs on automated code review tasks. 🌐
 - [AACR-Bench: Evaluating Automatic Code Review with Holistic Repository-Level Context](https://arxiv.org/abs/2601.19494) — Benchmarks automatic code review using holistic repo-level context from PRs. 🌐
 - [AUGER: automatically generating review comments with pre-training models](https://arxiv.org/abs/2208.08014) — Automated review comment generation using pre-training models.
 - [Automatically Recommend Code Updates: Are We There Yet?](https://arxiv.org/abs/2209.07048) — Evaluates CodeLM-based code update recommendation on real-world tasks.
@@ -404,7 +404,7 @@ SE Agent benchmarks organized by task type.
 
 - [Software Testing With Large Language Models: Survey, Landscape, and Vision](https://arxiv.org/abs/2307.07221) — Survey of LLMs applied to software testing tasks, landscape and vision. 📋
 - [SWE-Tester: Training Open-Source LLMs for Issue Reproduction in Real-World Repositories](https://arxiv.org/abs/2601.13713) — Trains open-source LLMs to generate issue-reproducing tests from bug reports.
-- [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) ⭐76 — Benchmark LLM-generated tests for real-world software projects. 🐍
+- [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) ⭐84 — Benchmark LLM-generated tests for real-world software projects. 🐍
 - [TAM-Eval: Evaluating LLMs for Automated Unit Test Maintenance](https://arxiv.org/abs/2601.18241) — Evaluate LLMs on automated unit test maintenance tasks.
 - [TestDecision: Sequential Test Suite Generation via Greedy Optimization and Reinforcement Learning](https://arxiv.org/abs/2604.01799) — Generate test suites via greedy optimization and reinforcement learning.
 - [TESTEVAL: Benchmarking Large Language Models for Test Case Generation](https://arxiv.org/abs/2406.04531) — Benchmark LLMs on test case generation.
@@ -425,19 +425,19 @@ SE Agent benchmarks organized by task type.
 - [A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106) — Repository-level benchmark evaluating security of AI-generated code. 🔒
 - [Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](https://openreview.net/forum?id=V4y0CpX4hK) — Formalizes and benchmarks attacks and defenses in LLM-based agents. 🔒
 - [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection](https://arxiv.org/abs/2601.19138) — Benchmarks agentic secure code review for pre-commit vulnerability detection. 🔒
-- [AICGSecEval](https://github.com/Tencent/AICGSecEval) ⭐965 — Evaluate security of AI-generated code.
-- [aicrypto-agent](https://github.com/wangyu-ovo/aicrypto-agent) ⭐30 — Benchmark evaluating LLM cryptography capabilities for AI SE agents. 🔒
+- [AICGSecEval](https://github.com/Tencent/AICGSecEval) ⭐643 — Evaluate security of AI-generated code.
+- [aicrypto-agent](https://github.com/wangyu-ovo/aicrypto-agent) ⭐35 — Benchmark evaluating LLM cryptography capabilities for AI SE agents. 🔒
 - [Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions](https://arxiv.org/abs/2108.09293) — Evaluates security vulnerabilities in GitHub Copilot's auto-generated code. 🔒
 - [Assessing the Security of GitHub Copilot's Generated Code - A Targeted Replication Study](https://arxiv.org/abs/2311.11177) — Assess security of GitHub Copilot's generated code via replication study. 🔒
-- [auto-pen-bench](https://github.com/lucagioacchini/auto-pen-bench) ⭐82 — Benchmarks generative agents on automated penetration testing scenarios. 🔒
+- [auto-pen-bench](https://github.com/lucagioacchini/auto-pen-bench) ⭐87 — Benchmarks generative agents on automated penetration testing scenarios. 🔒
 - [AutoBaxBuilder: Bootstrapping Code Security Benchmarking](https://arxiv.org/abs/2512.21132) — Bootstraps code security benchmarks to evaluate LLM-generated code safety. 🔒
 - [Benchmarks for Trajectory Safety Evaluation and Diagnosis in OpenClaw and Codex: ATBench-Claw and ATBench-CodeX](https://arxiv.org/abs/2604.14858) — Evaluate trajectory safety of coding agents in OpenClaw and Codex.
 - [BinMetric: A Comprehensive Binary Analysis Benchmark for Large Language Models](https://arxiv.org/abs/2505.07360) — Benchmark LLMs on comprehensive binary analysis tasks. 🔒
 - [Constrained Decoding for Secure Code Generation](https://arxiv.org/abs/2405.00218) — Evaluate constrained decoding methods for secure code generation. 🔒
 - [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239) — Comprehensive bilingual LLM benchmark for cybersecurity tasks evaluation. 🔒
-- [CVE-Bench](https://github.com/WhileBug/CVEBench) ⭐4 — Evaluates agents on understanding and fixing real CVE vulnerabilities. 🔒 🌐
+- [CVE-Bench](https://github.com/WhileBug/CVEBench) ⭐5 — Evaluates agents on understanding and fixing real CVE vulnerabilities. 🔒 🌐
 - [CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](https://arxiv.org/abs/2503.17332) — Benchmarks AI agents on exploiting real-world CVE web vulnerabilities. 🔒 🌍
-- [cybergym](https://github.com/sunblaze-ucb/cybergym) ⭐279 — Benchmarks AI agents on real-world vulnerability analysis at scale.
+- [cybergym](https://github.com/sunblaze-ucb/cybergym) ⭐466 — Benchmarks AI agents on real-world vulnerability analysis at scale.
 - [CyberGym: Evaluating AI Agents'Real-World Cybersecurity Capabilities at Scale](https://arxiv.org/abs/2506.02548) — Evaluate AI agents on real-world cybersecurity tasks at scale. 🔒 📦
 - [CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models](https://arxiv.org/abs/2408.01605) — Benchmark suite evaluating cybersecurity risks and capabilities in LLMs. 🔒
 - [Dynamic Cyber Ranges](https://arxiv.org/abs/2604.24184) — Provide dynamic cyber range environments for security evaluation.
@@ -445,7 +445,7 @@ SE Agent benchmarks organized by task type.
 
 ### G–L
 
-- [HackSynth](https://github.com/aielte-research/HackSynth) ⭐303 — Evaluates LLM agents on autonomous penetration testing via CTF challenges.
+- [HackSynth](https://github.com/aielte-research/HackSynth) ⭐310 — Evaluates LLM agents on autonomous penetration testing via CTF challenges.
 - [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) — LLM-assisted static analysis approach for detecting security vulnerabilities. 🔒
 - [Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks](https://arxiv.org/abs/2512.03262) — Benchmark security vulnerabilities in agent-generated code. 🔒
 - [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/abs/2506.20170) — Benchmark for evaluating LLMs on JavaScript deobfuscation tasks. 🟨 🔒
@@ -457,14 +457,14 @@ SE Agent benchmarks organized by task type.
 
 ### M–R
 
-- [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench) ⭐39 — Evaluates agent resilience against malicious skill injection scenarios. 🔒
+- [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench) ⭐66 — Evaluates agent resilience against malicious skill injection scenarios. 🔒
 - [MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?](https://arxiv.org/abs/2507.19598) — Multi-turn adversarial coding prompt benchmark evaluating LLM robustness. 🔒
 - [MOSAIC-Bench](https://arxiv.org/abs/2604.28901) — Measure compositional vulnerability induction in coding agents. 🔒
 - [Multitask-Based Evaluation of Open-Source LLM on Software Vulnerability](https://arxiv.org/abs/2404.02056) — Multi-task evaluation of LLMs on software vulnerability using Big-Vul dataset. 🔒
-- [OS-Sentinel](https://github.com/OS-Copilot/OS-Sentinel) ⭐47 — Benchmarks mobile GUI agent safety with hybrid validation for unsafe actions.
+- [OS-Sentinel](https://github.com/OS-Copilot/OS-Sentinel) ⭐49 — Benchmarks mobile GUI agent safety with hybrid validation for unsafe actions.
 - [PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782) — Benchmarks LLM-driven automated penetration testing on real targets. 🔒
 - [RealVuln: Benchmarking Rule-Based, General-Purpose LLM, and Security-Specialized Scanners on Real-World Code](https://arxiv.org/abs/2604.13764) — Benchmarks 15 vulnerability scanners on 26 Python repos with 796 annotations. 🐍
-- [RedCode](https://github.com/AI-secure/RedCode) ⭐75 — Benchmark for risky code execution and generation by code agents. 🔒
+- [RedCode](https://github.com/AI-secure/RedCode) ⭐82 — Benchmark for risky code execution and generation by code agents. 🔒
 - [RedCode: Risky Code Execution and Generation Benchmark for Code Agents](https://arxiv.org/abs/2411.07781) — Benchmark risky code execution and generation safety for code agents. 🔒
 - [RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code](https://arxiv.org/abs/2409.15154) — Benchmark evaluating LLM resistance to generating malicious code. 🔒
 - [Running in CIRCLE? A Simple Benchmark for LLM Code Interpreter Security](https://arxiv.org/abs/2507.19399) — Benchmark for evaluating security of LLM code interpreter environments. 🔒
@@ -472,7 +472,7 @@ SE Agent benchmarks organized by task type.
 ### S–Z
 
 - [SafeGenBench: A Benchmark Framework for Security Vulnerability Detection in LLM-Generated Code](https://arxiv.org/abs/2506.05692) — Benchmark for detecting security vulnerabilities in LLM-generated code. 🔒
-- [scabench](https://github.com/scabench-org/scabench) ⭐110 — Benchmark for AI security audit agents on SCA and vulnerability detection tasks. 🔒
+- [scabench](https://github.com/scabench-org/scabench) ⭐114 — Benchmark for AI security audit agents on SCA and vulnerability detection tasks. 🔒
 - [SCHEME: Coordinated Sabotage and Monitoring in Multi-Agent Systems](https://arxiv.org/abs/2605.29178) — Benchmark coordinated sabotage detection in multi-agent coding. 🤝 🔒
 - [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://arxiv.org/abs/2506.11791) — Benchmark of LLM agents on real-world software security tasks. 🔒 🌍
 - [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787) — Multi-dimensional benchmarking dataset for evaluating LLMs in cybersecurity. 🔒
@@ -507,7 +507,7 @@ SE Agent benchmarks organized by task type.
 - [A Closer Look at Different Difficulty Levels Code Generation Abilities of ChatGPT](https://www.semanticscholar.org/paper/f1847504a4895a3d31c31e7464e5b34d9eda8ef8) — Evaluates ChatGPT code generation across difficulty levels using benchmarks.
 - [A Large-scale Class-level Benchmark Dataset for Code Generation with LLMs](https://arxiv.org/abs/2504.15564) — Large-scale class-level benchmark dataset for evaluating LLM code generation.
 - [Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents](https://arxiv.org/abs/2410.14209) — Evaluate LLM agents on PLC code generation for industrial control systems.
-- [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) ⭐151 — Benchmarks AI code generation across 13 programming languages. 🌐
+- [ai-coding-lang-bench](https://github.com/mame/ai-coding-lang-bench) ⭐162 — Benchmarks AI code generation across 13 programming languages. 🌐
 - [An Empirical Evaluation of GitHub Copilot's Code Suggestions](https://www.semanticscholar.org/paper/cdfe9580f63070f311151444f9df32818cc858bf) — Evaluate GitHub Copilot's code suggestion quality empirically.
 - [ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation](https://arxiv.org/abs/2507.04952) — Evaluate LLM code generation on visual and interactive artifacts.
 - [Assessing the Impact of Requirement Ambiguity on LLM-based Function-Level Code Generation](https://arxiv.org/abs/2604.21505) — Assess impact of requirement ambiguity on LLM function-level code generation.
@@ -515,7 +515,7 @@ SE Agent benchmarks organized by task type.
 - [BaxBench: Can LLMs Generate Correct and Secure Backends?](https://arxiv.org/abs/2502.11844) — Evaluates LLM ability to generate correct and secure backend modules. 🔒
 - [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) — Benchmark multi-dimensional code generation beyond correctness.
 - [Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks](https://arxiv.org/abs/2604.12379) — Benchmarks LLM reasoning quality across code generation and summarization tasks. 🔍
-- [bigcodebench](https://github.com/bigcode-project/bigcodebench) ⭐499 — Benchmarks LLMs on complex function calls, tool use, and instruction following.
+- [bigcodebench](https://github.com/bigcode-project/bigcodebench) ⭐511 — Benchmarks LLMs on complex function calls, tool use, and instruction following.
 - [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) — Benchmarks code generation with diverse function calls and complex instructions.
 - [CATCODER: Repository-Level Code Generation with Relevant Code and Type Context](https://arxiv.org/abs/2406.03283) — Evaluates repo-level code generation with integrated contextual information.
 - [CETBench: A Novel Dataset constructed via Transformations over Programs for Benchmarking LLMs for Code-Equivalence Checking](https://arxiv.org/abs/2506.04019) — Benchmark LLMs on code equivalence checking via program transformations.
@@ -529,7 +529,7 @@ SE Agent benchmarks organized by task type.
 - [CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/abs/2401.07339) — Repo-level code generation benchmark for tool-integrated agent systems.
 - [CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks](https://arxiv.org/abs/2404.00566) — Framework for automatically creating execution-based code generation benchmarks.
 - [CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation](https://arxiv.org/abs/2504.21751) — Multi-turn iterative benchmark for evaluating complex code generation tasks.
-- [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) ⭐109 — Evaluate code generation and completion across multiple tasks.
+- [codefuse-evaluation](https://github.com/codefuse-ai/codefuse-evaluation) ⭐111 — Evaluate code generation and completion across multiple tasks.
 - [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X](https://arxiv.org/abs/2303.17568) — HumanEval-X multilingual benchmark for code generation evaluation. 🌐
 - [CodeMixBench: Evaluating Large Language Models on Code Generation with Code-Mixed Prompts](https://arxiv.org/abs/2505.05063) — Evaluate LLMs on code generation from code-mixed prompts. 🌐
 - [CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding &amp; Reasoning Capabilities of CodeLLMs](https://arxiv.org/abs/2410.01999) — Multi-task benchmark evaluating code understanding capabilities of code LLMs.
@@ -546,7 +546,7 @@ SE Agent benchmarks organized by task type.
 - [CrossCodeEval: Multilingual Repository-Level Code Completion Benchmark](https://crosscodeeval.github.io/) — Benchmark multilingual repository-level code completion. 🌐
 - [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254) — Benchmark for evaluating C-to-safe-Rust transpilation by AI agents. 🦀
 - [CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution](https://arxiv.org/abs/2401.03065) — Benchmark testing LLM code reasoning, understanding, and execution capabilities.
-- [da-code](https://github.com/yiyihum/da-code) ⭐95 — Benchmarks agent code generation on real-world data science tasks.
+- [da-code](https://github.com/yiyihum/da-code) ⭐99 — Benchmarks agent code generation on real-world data science tasks.
 - [DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models](https://arxiv.org/abs/2410.07331) — Benchmark for evaluating LLM code generation in data science tasks.
 - [Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis](https://arxiv.org/abs/2604.24703) — Detect and analyze defective task descriptions in LLM code generation.
 - [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://arxiv.org/abs/2403.03163) — Benchmark multimodal code generation for front-end engineering.
@@ -564,7 +564,7 @@ SE Agent benchmarks organized by task type.
 - [EffiBench: Benchmarking the Efficiency of Automatically Generated Code](https://arxiv.org/abs/2402.02037) — Benchmark evaluating efficiency of LLM-generated code beyond correctness.
 - [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667) — Benchmark comparing human and LLM performance on competitive programming tasks.
 - [Escalating LLM-based Code Translation Benchmarking into the Class-level Era](https://arxiv.org/abs/2411.06145) — Benchmark LLM-based code translation at the class level.
-- [eval-dev-quality](https://github.com/symflower/eval-dev-quality) ⭐185 — Evaluates LLM code generation quality across multiple languages and tasks. 🌐
+- [eval-dev-quality](https://github.com/symflower/eval-dev-quality) ⭐186 — Evaluates LLM code generation quality across multiple languages and tasks. 🌐
 - [Evaluating Language Models for Efficient Code Generation](https://arxiv.org/abs/2408.06450) — Benchmark evaluating LLMs on generating efficient code beyond correctness.
 - [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374) — Evaluates LLM code generation correctness via pass@k on HumanEval benchmark.
 - [Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks](https://arxiv.org/abs/2403.04814) — Syntax-aware fill-in-the-middle benchmark for LLMs across multiple languages.
@@ -577,7 +577,7 @@ SE Agent benchmarks organized by task type.
 ### G–L
 
 - [GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models](https://arxiv.org/abs/2411.05830) — Benchmark testing LLM ability to generate code for specific library versions.
-- [Github](https://github.com/openai/human-eval) — HumanEval: OpenAI benchmark for evaluating code generation from docstrings. 🐍
+- [Github](https://github.com/openai/human-eval) ⭐3276 — HumanEval: OpenAI benchmark for evaluating code generation from docstrings. 🐍
 - [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647) — Benchmark measuring efficiency of LLM-generated code with rigorous evaluation.
 - [HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation](https://arxiv.org/abs/2412.21199) — HumanEval Pro & MBPP Pro benchmarks for self-invoking code generation by LLMs.
 - [HumanEval-V: Benchmarking High-Level Visual Reasoning with Complex Diagrams in Coding Tasks](https://arxiv.org/abs/2410.12381) — Benchmark visual reasoning with complex diagrams in coding tasks.
@@ -593,7 +593,7 @@ SE Agent benchmarks organized by task type.
 - [LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs](https://arxiv.org/abs/2504.14655) — Temporal LeetCode dataset for evaluating and training code LLMs.
 - [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478) — Benchmark for generating code targeting specific library versions.
 - [LiCoEval: Evaluating LLMs on License Compliance in Code Generation](https://arxiv.org/abs/2408.02487) — Evaluate LLM license compliance in generated code.
-- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) ⭐854 — Benchmark code generation with continuously updated problems.
+- [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) ⭐894 — Benchmark code generation with continuously updated problems.
 - [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion](https://arxiv.org/abs/2406.09834) — Evaluates LLM code completion for deprecated API usage during library evolution.
 
 ### M–R
@@ -604,13 +604,13 @@ SE Agent benchmarks organized by task type.
 - [Measuring Coding Challenge Competence With APPS](https://arxiv.org/abs/2105.09938) — APPS benchmark for measuring code generation on coding challenges.
 - [Measuring The Impact Of Programming Language Distribution](https://arxiv.org/abs/2302.01973) — Measure how programming language distribution affects code generation. 🌐
 - [Mercury: A Code Efficiency Benchmark for Code Large Language Models](https://arxiv.org/abs/2402.07844) — Benchmark code efficiency of large language models.
-- [ML-Bench](https://github.com/gersteinlab/ML-Bench) ⭐316 — Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos.
+- [ML-Bench](https://github.com/gersteinlab/ML-Bench) ⭐315 — Evaluates LLM/agent ML task completion on 10K+ samples across 18 GitHub repos.
 - [MMCode: Benchmarking Multimodal Large Language Models for Code Generation with Visually Rich Programming Problems](https://arxiv.org/abs/2404.09486) — Benchmark for code generation from visually rich problems using multimodal LLMs.
 - [Multi-lingual Evaluation of Code Generation Models](https://arxiv.org/abs/2210.14868) — Evaluate code generation models across multiple programming languages. 🌐
 - [Multilingual Multimodal Software Developer for Code Generation](https://arxiv.org/abs/2507.08719) — Multilingual multimodal benchmark for evaluating code generation agents. 🌐
 - [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation](https://arxiv.org/abs/2208.08227) — Benchmark neural code generation with scalable multi-language evaluation. 🌐
 - [Natural Language to Code Generation in Interactive Data Science Notebooks](https://arxiv.org/abs/2212.09248) — ARCADE: 1078 NL-to-code benchmark for pandas tasks in Jupyter notebooks.
-- [nl2code-dataset](https://github.com/aixcoder-plugin/nl2code-dataset) ⭐51 — Aix-bench: natural language to Java code synthesis evaluation benchmark dataset. ☕
+- [nl2code-dataset](https://github.com/aixcoder-plugin/nl2code-dataset) ⭐52 — Aix-bench: natural language to Java code synthesis evaluation benchmark dataset. ☕
 - [No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT](https://arxiv.org/abs/2308.04838) — Assess the quality of code generated by ChatGPT. 🔒
 - [NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness](https://arxiv.org/abs/2401.15963) — Evaluate code LMs on non-functional requirements beyond correctness. 🔒
 - [OJBench: A Competition Level Code Benchmark For Large Language Models](https://arxiv.org/abs/2506.16395) — Competition-level code generation benchmark for LLMs from online judges.
@@ -639,7 +639,7 @@ SE Agent benchmarks organized by task type.
 - [STEPWISE-CODEX-Bench: Evaluating Complex Multi-Function Comprehension and Fine-Grained Execution Reasoning](https://arxiv.org/abs/2508.05193) — Benchmark for multi-function comprehension and fine-grained execution reasoning.
 - [StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code](https://arxiv.org/abs/2306.04556) — Benchmark of student-written prompts evaluating LLM code generation ability.
 - [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code](https://arxiv.org/abs/2505.14597) — Benchmark evaluating LLM sensitivity to code details for code generation.
-- [svelte-bench](https://github.com/khromov/svelte-bench) ⭐168 — Benchmarks LLM code generation for Svelte 5 using HumanEval methodology.
+- [svelte-bench](https://github.com/khromov/svelte-bench) ⭐181 — Benchmarks LLM code generation for Svelte 5 using HumanEval methodology.
 - [SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities](https://arxiv.org/abs/2404.13710) — Benchmark for evaluating LLM capabilities in editing SVG code.
 - [Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency](https://arxiv.org/abs/2505.23471) — Synthesizes performance constraints to evaluate and improve code efficiency.
 - [TACO: Topics in Algorithmic COde generation dataset](https://arxiv.org/abs/2312.14852) — Benchmark LLMs on algorithmic code generation across diverse topics.
@@ -648,7 +648,7 @@ SE Agent benchmarks organized by task type.
 - [TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation](https://arxiv.org/abs/2508.11468) — Benchmark for evaluating execution efficiency of LLM-based code translation.
 - [Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?](https://arxiv.org/abs/2410.09812) — Assess LLM potential in code translation across languages. 🌐
 - [VerilogEval Evaluating Large Language Models for Verilog Code Generation](https://arxiv.org/abs/2309.07544) — Evaluate LLMs on Verilog code generation.
-- [verina](https://github.com/sunblaze-ucb/verina) ⭐61 — Benchmark for verifiable code, specification, and proof generation evaluation.
+- [verina](https://github.com/sunblaze-ucb/verina) ⭐72 — Benchmark for verifiable code, specification, and proof generation evaluation.
 - [VERINA: Benchmarking Verifiable Code Generation](https://arxiv.org/abs/2505.23135) — Benchmark for evaluating verifiable code generation with formal specifications.
 - [VersiCode: Towards Version-controllable Code Generation](https://arxiv.org/abs/2406.07411) — Benchmark for generating code targeting specific library/API versions.
 - [Verus-SpecGym](https://arxiv.org/abs/2605.26457) — Evaluate LLM agents on translating informal specs to formal Verus/Rust. 🦀
@@ -657,9 +657,9 @@ SE Agent benchmarks organized by task type.
 - [WebCode: Search Evals for Coding Agents](https://exa.ai/blog/webcode) — WebCode: benchmark evaluating coding agents on web search capabilities.
 - [WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch](https://arxiv.org/abs/2505.03733) — Evaluate LLMs on generating interactive websites from scratch.
 - [When Prompt Under-Specification Improves Code Correctness: An Exploratory Study of Prompt Wording and Structure Effects on LLM-Based Code Generation](https://arxiv.org/abs/2604.24712) — Study of prompt wording/structure effects on LLM code generation correctness.
-- [wp-bench](https://github.com/WordPress/wp-bench) ⭐51 — Benchmark LLM code generation capabilities.
+- [wp-bench](https://github.com/WordPress/wp-bench) ⭐60 — Benchmark LLM code generation capabilities.
 - [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval](https://arxiv.org/abs/2303.03004) — Benchmark multilingual code understanding, generation, translation, retrieval. 🌐
-- [[data](https://github.com/ProsusAI/stack-eval) — Stack-Eval: benchmark for evaluating code generation from Stack Overflow data.
+- [[data](https://github.com/ProsusAI/stack-eval) ⭐20 — Stack-Eval: benchmark for evaluating code generation from Stack Overflow data.
 
 <a id="feature-development"></a>
 ## Feature Development
@@ -668,27 +668,27 @@ SE Agent benchmarks organized by task type.
 - [CodeAssistBench (Amazon Science)](https://www.amazon.science/code-and-datasets/codeassistbench) — Evaluate LLMs on code assistance for feature development tasks. 🤝
 - [CodeAssistBench (CAB): Dataset &amp; Benchmarking for Multi-turn Chat-Based Code Assistance](https://arxiv.org/abs/2507.10646) — Multi-turn chat-based code assistance benchmark with real GitHub issues.
 - [FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](https://arxiv.org/abs/2503.06680) — Benchmark for repo-level feature implementation from 83 GitHub repos' PRs.
-- [FeatureBench](https://github.com/LiberCoders/FeatureBench) ⭐58 — Benchmark agents on end-to-end feature development tasks.
+- [FeatureBench](https://github.com/LiberCoders/FeatureBench) ⭐77 — Benchmark agents on end-to-end feature development tasks.
 - [FeatureBench: Benchmarking Agentic Coding for Complex Feature Development](https://arxiv.org/abs/2602.10975) — Benchmarks agentic coding on complex multi-PR feature development tasks. 📅
 - [NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition](https://arxiv.org/abs/2507.18130) — Evaluate natural language-driven feature addition in codebases.
 
 <a id="multi-agent"></a>
 ## Multi-Agent
 
-- [AgentArch](https://github.com/ServiceNow/AgentArch) ⭐11 — Benchmark multi-agent architecture for software engineering tasks.
+- [AgentArch](https://github.com/ServiceNow/AgentArch) ⭐12 — Benchmark multi-agent architecture for software engineering tasks.
 - [CADMAS-CTX: Contextual Capability Calibration for Multi-Agent Delegation](https://arxiv.org/abs/2604.17950v1) — Evaluate contextual capability calibration for multi-agent delegation. 🤝
-- [CooperBench](https://github.com/cooperbench/CooperBench) ⭐11 — Benchmark cooperative multi-agent coding collaboration. 🤝
+- [CooperBench](https://github.com/cooperbench/CooperBench) ⭐15 — Benchmark cooperative multi-agent coding collaboration. 🤝
 - [GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.24477) — Benchmark graph-based anomaly monitoring in LLM multi-agent systems. 🤝 🔒
 - [LLM-Based Multi-Agent Systems for Code Generation: A Multi-Vocal Literature Review](https://arxiv.org/abs/2604.16321) — Survey LLM-based multi-agent systems for code generation. 🤝
-- [MARBLE](https://github.com/ulab-uiuc/MARBLE) ⭐251 — Benchmark multi-agent collaboration on software tasks. 🤝
+- [MARBLE](https://github.com/ulab-uiuc/MARBLE) ⭐274 — Benchmark multi-agent collaboration on software tasks. 🤝
 - [MASArena](https://github.com/LINs-lab/MASArena) ⭐38 — Benchmark multi-agent system performance in arena settings. 🤝
 - [MultiAgentBench ACL 2025](https://aclanthology.org/2025.acl-long.421) — Benchmark multi-agent LLM collaboration and coordination. 🤝
 - [MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents](https://arxiv.org/html/2503.01935) — Evaluate collaboration and competition among LLM agents. 🤝
-- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) — Open benchmark framework for evaluating multi-agent systems. 🤝
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) ⭐6455 — Open benchmark framework for evaluating multi-agent systems. 🤝
 - [Paper - ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) — Evaluate communicative multi-agent collaboration for software development. 🤝
 - [Paper - MetaGPT: Meta Programming for Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) — Multi-agent framework encoding SOPs for collaborative software development. 🤝
 - [SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution](https://arxiv.org/abs/2507.23348) — Evaluate competitive multi-agent debate for software issue resolution. 🤝
-- [sweet_rl](https://github.com/facebookresearch/sweet_rl) ⭐266 — Benchmarks multi-turn collaborative reasoning for LLM agent training.
+- [sweet_rl](https://github.com/facebookresearch/sweet_rl) ⭐269 — Benchmarks multi-turn collaborative reasoning for LLM agent training.
 - [TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories](https://arxiv.org/abs/2604.07223) — Assess LLM guardrails on multi-step tool-calling trajectories.
 
 ---
