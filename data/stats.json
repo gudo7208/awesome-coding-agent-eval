@@ -27,9 +27,9 @@
     "multi-agent": 15,
     "production": 14,
     "observability": 10,
-    "se-agent": 9,
     "hybrid": 9,
     "human-eval": 9,
+    "se-agent": 9,
     "limitation": 8,
     "judge-tool": 8,
     "feature-development": 7,
@@ -155,5 +155,5 @@
       "count": 27
     }
   ],
-  "last_updated": "2026-05-30"
+  "last_updated": "2026-07-13"
 }
