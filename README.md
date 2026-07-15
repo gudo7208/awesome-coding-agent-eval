@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-947-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-948-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -33,7 +33,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Understand scoring methods (143) | → [③ Methodology](#-evaluation-methodology) |
 | Set up evaluation infrastructure (118) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
-| Learn about benchmark pitfalls (112) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
+| Learn about benchmark pitfalls (113) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 
 ## Table of Contents
 
@@ -464,7 +464,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔬 Meta-Analysis & Pitfalls
 
 <details>
-<summary>⑥ Meta-Analysis & Pitfalls (112 resources)</summary>
+<summary>⑥ Meta-Analysis & Pitfalls (113 resources)</summary>
 
 ### Blogs & Practice Reports
 
@@ -570,6 +570,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213) — Study 57 ML evaluation harnesses and classify 16K engineering issues.
 - 📝 [Agyn: Multi-Agent System for Team-Based Autonomous SE](https://arxiv.org/abs/2602.01465) — Multi-agent team system resolving 72.2% of SWE-bench 500 tasks.
 - 📝 [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786) — Empirical study of turn-control strategies reducing agent cost 24-68%.
+- 🌐 [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark) — Compares coding-agent turns, tokens, and verifier pass rates over 348 runs.
 
 ### Surveys
 

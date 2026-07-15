@@ -4972,5 +4972,24 @@
         "tokenomics-quantifying-token-usage-agentic-se"
       ]
     }
+  },
+  {
+    "id": "tura-long-horizon-coding-agent-benchmark",
+    "name": "Tura Long-Horizon Coding Agent Benchmark",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Compares coding-agent turns, tokens, and verifier pass rates over 348 runs",
+    "type": "blog",
+    "website": "https://turaai.net/benchmark",
+    "tags": [
+      "coding-agent",
+      "long-horizon",
+      "token-efficiency",
+      "turn-efficiency",
+      "verification"
+    ],
+    "added_date": "2026-07-15",
+    "last_verified": "2026-07-15",
+    "status": "active"
   }
 ]
