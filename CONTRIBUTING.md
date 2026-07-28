@@ -73,6 +73,24 @@ Examples:
 - `Measures code review quality on real-world pull requests`
 - `Provides sandbox execution environment for SE agent benchmarks`
 
+**Optional `rubric` metadata:**
+
+Use this object only when rubrics are a substantive part of the resource, not merely because an LLM grader accepts a prompt.
+
+```json
+"rubric": {
+  "role": "construction-method",
+  "scope": "task-specific",
+  "target": "artifact",
+  "construction": "model-generated",
+  "grading": "model-based",
+  "form": "checklist",
+  "calibration": "execution-agreement"
+}
+```
+
+Valid values are defined in `data/schema.json`. A rubric entry must make the criteria, evidence, decision rules, or aggregation inspectable. General LLM-as-Judge resources without explicit rubric design or validation should remain under their existing stage and omit this object.
+
 ### Step 4 — Valid subcategory values
 
 **benchmark:**
@@ -101,7 +119,10 @@ All checks must pass before submitting.
 ### Step 6 — Regenerate docs
 
 ```bash
+python scripts/generate/generate_stats.py
+python scripts/generate/generate_docs.py
 python scripts/generate/generate_readme.py
+python scripts/generate/generate_llms_txt.py
 ```
 
 > **Do not manually edit `README.md` or any file under `docs/`.** These are auto-generated from the JSON data. Manual edits will be overwritten.

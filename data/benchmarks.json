@@ -83594,14 +83594,26 @@
     "name": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
     "stage": "benchmark",
     "subcategory": "end-to-end",
-    "what": "Benchmark evaluating AI agents on replicating AI research papers from scratch",
+    "what": "Evaluates research replications with author-reviewed hierarchical rubrics",
     "type": "paper",
     "tags": [
       "research-replication",
       "icml",
       "openai",
-      "agent-benchmark"
+      "agent-benchmark",
+      "hierarchical-rubric",
+      "judge-eval",
+      "partial-credit"
     ],
+    "rubric": {
+      "role": "benchmark-application",
+      "scope": "task-specific",
+      "target": "artifact",
+      "construction": "expert-authored",
+      "grading": "hybrid",
+      "form": "hierarchical",
+      "calibration": "judge-benchmark"
+    },
     "added_date": "2026-04-30",
     "last_verified": "2026-04-30",
     "status": "active",
@@ -118374,5 +118386,82 @@
         "code-review-agent-benchmark"
       ]
     }
+  },
+  {
+    "id": "roadmapbench",
+    "name": "RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades",
+    "stage": "benchmark",
+    "subcategory": "long-horizon",
+    "what": "Evaluate long-horizon version upgrades across real repositories",
+    "type": "paper",
+    "tags": [
+      "long-horizon",
+      "version-upgrade",
+      "repository-level",
+      "multi-language"
+    ],
+    "scale": 115,
+    "eval_method": "execution-based",
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2605.15846"
+  },
+  {
+    "id": "socsci-repro-bench",
+    "name": "SocSci-Repro-Bench: AI Coding Agents Can Reproduce Social Science Findings",
+    "stage": "benchmark",
+    "subcategory": "end-to-end",
+    "what": "Evaluate coding agents reproducing validated social-science findings",
+    "type": "paper",
+    "tags": [
+      "research-replication",
+      "coding-agent",
+      "reproducibility",
+      "social-science"
+    ],
+    "scale": 221,
+    "eval_method": "execution-based",
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2606.11447"
+  },
+  {
+    "id": "issue-trojan-bench",
+    "name": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+    "stage": "benchmark",
+    "subcategory": "security",
+    "what": "Benchmark coding agents against malicious issue-request attacks",
+    "type": "paper",
+    "tags": [
+      "security",
+      "malicious-issue",
+      "prompt-injection",
+      "coding-agent"
+    ],
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2607.20759"
+  },
+  {
+    "id": "icae-bench",
+    "name": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
+    "stage": "benchmark",
+    "subcategory": "feature-development",
+    "what": "Evaluate coding agents as interactive builders from fuzzy requirements",
+    "type": "paper",
+    "tags": [
+      "interactive-development",
+      "project-building",
+      "requirements-clarification",
+      "user-simulation"
+    ],
+    "eval_method": "hybrid",
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2607.21217"
   }
 ]

@@ -180,16 +180,25 @@ def load_existing_urls():
         for item in json.loads(f.read_text()):
             for key in ("paper", "repo", "website"):
                 if item.get(key):
-                    urls.add(item[key].rstrip("/").lower())
+                    urls.add(normalize_resource_url(item[key]))
     return urls
+
+
+def normalize_resource_url(url):
+    """Normalize versioned arXiv links so corpus deduplication is stable."""
+    normalized = url.rstrip("/").lower()
+    if "arxiv.org/" in normalized:
+        normalized = re.sub(r"v\d+$", "", normalized)
+    return normalized
 
 
 def deduplicate(candidates, existing_urls):
     print(f"\n=== Step 2: Deduplicate ===")
+    normalized_existing = {normalize_resource_url(url) for url in existing_urls}
     new = []
     for c in candidates:
-        url = c["link"].rstrip("/").lower()
-        if url not in existing_urls:
+        url = normalize_resource_url(c["link"])
+        if url not in normalized_existing:
             new.append(c)
     print(f"  After dedup: {len(new)} (removed {len(candidates) - len(new)} existing)")
     return new

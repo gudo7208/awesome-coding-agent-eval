@@ -1,5 +1,24 @@
 # Changelog
 
+## Unreleased (2026-07-27)
+
+### Corpus Refresh and Maintenance
+
+- Fast-forwarded the local baseline to the 947-resource remote corpus while preserving the in-progress rubric work
+- Added nine verified resources from recent papers and open community contributions: four benchmarks, one methodology, two observability tools, and two meta-analysis resources
+- Fixed daily collection deduplication so versioned arXiv URLs match unversioned corpus entries
+- Disabled the failing daily collection and weekly star schedules while retaining manual workflow dispatch
+- Regenerated all derived outputs for 960 total resources and refreshed the agent-facing counts and recent-date query
+- Investigated the scheduled workflows: daily collection is blocked by a missing `LLM_API_KEY`, while weekly star branches are pushed but PR creation is disabled for GitHub Actions
+
+### Rubrics Research and Cross-Stage Index
+
+- Added a Chinese research report on rubric design, generation, calibration, reliability, and use in coding-agent evaluation
+- Added four SE-agent-relevant resources: Agentic Rubrics, AdaRubric, RuVerBench, and the experiment-reproduction rubric meta-evaluation
+- Added optional structured `rubric` metadata and a generated cross-stage Rubrics view
+- Added rubric role and target statistics plus agent-facing query recipes
+- Regenerated README, docs, statistics, and both LLM indexes; collection and validation workflows now include the LLM exports
+
 ## v1.0.0 (2026-05-01)
 
 ### Production-Ready Release

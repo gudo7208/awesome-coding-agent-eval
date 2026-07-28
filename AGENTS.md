@@ -1,6 +1,6 @@
 # For AI Agents
 
-This file helps AI agents efficiently query 900 SE agent evaluation resources. All data is structured JSON — no scraping needed.
+This file helps AI agents efficiently query 960 SE agent evaluation resources. All data is structured JSON — no scraping needed.
 
 ## Quick Access
 
@@ -16,11 +16,11 @@ This file helps AI agents efficiently query 900 SE agent evaluation resources. A
 
 | File | Stage | Count |
 |---|---|---|
-| data/benchmarks.json | Benchmarks & Datasets | 530 |
-| data/methodology.json | Evaluation Methodology | 133 |
-| data/toolchain.json | Toolchain (harness, sandbox, observability) | 113 |
-| data/leaderboards.json | Leaderboards | 24 |
-| data/meta-analysis.json | Meta-Analysis & Pitfalls | 100 |
+| data/benchmarks.json | Benchmarks & Datasets | 555 |
+| data/methodology.json | Evaluation Methodology | 146 |
+| data/toolchain.json | Toolchain (harness, sandbox, observability) | 120 |
+| data/leaderboards.json | Leaderboards | 23 |
+| data/meta-analysis.json | Meta-Analysis & Pitfalls | 116 |
 
 ## Schema
 
@@ -36,6 +36,7 @@ Key optional fields:
 - `venue` — conference/journal (e.g. "ICLR 2026")
 - `recommended` — boolean, editorially curated top picks
 - `related` — cross-references: `{harness: [], leaderboard: [], meta_analysis: [], variants: []}`
+- `rubric` — cross-stage rubric classification: role, scope, target, construction, grading, form, calibration
 
 ### Subcategory Values
 - benchmark: bug-fix, end-to-end, long-horizon, large-codebase, code-review, testing, security, production, code-generation, multi-agent, feature-development
@@ -62,10 +63,16 @@ jq '.[] | select(.languages | length > 1) | {name, languages, what}' data/benchm
 jq '.[] | select(.related.leaderboard | length > 0) | {name, leaderboard: .related.leaderboard}' data/benchmarks.json
 
 # Recently added (last 30 days)
-jq '.[] | select(.added_date >= "2026-04-01") | {name, what, subcategory}' data/benchmarks.json
+jq '.[] | select(.added_date >= "2026-06-27") | {name, what, subcategory}' data/benchmarks.json
 
 # Full evaluation stack for a benchmark
 jq '.[] | select(.id == "swe-bench") | {name, eval_method, scale, related}' data/benchmarks.json
+
+# Rubric resources across all stages
+jq '.[] | select(.rubric) | {name, stage, rubric}' data/*.json
+
+# Task-specific rubrics for final artifacts
+jq '.[] | select(.rubric.scope == "task-specific" and .rubric.target == "artifact") | {name, rubric}' data/*.json
 
 # Cross-stage: find harness for a benchmark
 HARNESS=$(jq -r '.[] | select(.id == "swe-bench") | .related.harness[]' data/benchmarks.json)
@@ -126,6 +133,12 @@ stack = get_eval_stack("swe-bench")
 2. `execution-based` = deterministic, needs test suite
 3. `llm-judge` = flexible, needs calibration
 4. `hybrid` = combines both
+
+### "How should I design or audit a rubric?"
+1. Read `docs/7-rubrics.md` for the cross-stage classified index
+2. Read `research/rubrics-agent-evaluation-2026-07-20.md` for design and reliability guidance
+3. Query `data/*.json` by the structured `rubric` object
+4. Prefer execution gates plus calibrated criterion-level grading for coding agents
 
 ### "What are the known problems with benchmark X?"
 1. Find benchmark in `data/benchmarks.json`

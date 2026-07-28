@@ -1,8 +1,6 @@
 name: Weekly Star Update
 
 on:
-  schedule:
-    - cron: '23 1 * * 1'  # Monday 01:23 UTC
   workflow_dispatch:
 
 permissions:

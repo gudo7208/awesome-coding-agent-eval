@@ -1497,14 +1497,25 @@
     "name": "Demystifying evals for AI agents",
     "stage": "meta-analysis",
     "subcategory": "blog",
-    "what": "Analyze evaluation practices and pitfalls for AI agents",
+    "what": "Explains outcome-first agent evals with calibrated rubric graders",
     "type": "paper",
     "tags": [
       "agent-eval",
       "evaluation-strategy",
       "anthropic",
-      "best-practices"
+      "best-practices",
+      "rubric-eval",
+      "grader-calibration"
     ],
+    "rubric": {
+      "role": "practice-guide",
+      "scope": "domain-specific",
+      "target": "both",
+      "construction": "expert-authored",
+      "grading": "hybrid",
+      "form": "analytic",
+      "calibration": "human-agreement"
+    },
     "added_date": "2026-04-30",
     "last_verified": "2026-04-30",
     "status": "active",
@@ -4972,5 +4983,109 @@
         "tokenomics-quantifying-token-usage-agentic-se"
       ]
     }
+  },
+  {
+    "id": "ruverbench-reliably-verify-rubrics-in-agentic-scenarios",
+    "name": "Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Measures rubric-verification reliability on research and coding agents",
+    "type": "paper+repo",
+    "tags": [
+      "rubric-eval",
+      "rubric-reliability",
+      "llm-judge",
+      "agentic-coding",
+      "human-annotations",
+      "majority-voting"
+    ],
+    "scale": 2458,
+    "rubric": {
+      "role": "meta-evaluation",
+      "scope": "task-specific",
+      "target": "artifact",
+      "construction": "hybrid",
+      "grading": "model-based",
+      "form": "checklist",
+      "calibration": "human-agreement"
+    },
+    "limitations": [
+      "Recent preprint results require independent replication",
+      "Covers deep research and agentic coding rather than the full SE lifecycle"
+    ],
+    "added_date": "2026-07-20",
+    "last_verified": "2026-07-20",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2606.29920",
+    "repo": "https://github.com/THU-KEG/RuVerBench"
+  },
+  {
+    "id": "can-llms-write-reliable-rubrics-for-experiment-reproduction",
+    "name": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Audits generated rubrics for research-agent experiment reproduction",
+    "type": "paper",
+    "tags": [
+      "rubric-eval",
+      "rubric-generation",
+      "rubric-reliability",
+      "research-agent",
+      "paperbench",
+      "meta-evaluation"
+    ],
+    "rubric": {
+      "role": "meta-evaluation",
+      "scope": "task-specific",
+      "target": "artifact",
+      "construction": "model-generated",
+      "grading": "model-based",
+      "form": "checklist",
+      "calibration": "judge-benchmark"
+    },
+    "limitations": [
+      "Evaluates paper-reproduction rubrics rather than general coding tasks",
+      "Recent preprint results require independent replication"
+    ],
+    "added_date": "2026-07-20",
+    "last_verified": "2026-07-20",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2607.12835"
+  },
+  {
+    "id": "coding-benchmarks-misaligned-agentic-se",
+    "name": "Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering",
+    "stage": "meta-analysis",
+    "subcategory": "limitation",
+    "what": "Analyze why coding benchmarks misattribute end-to-end system quality",
+    "type": "paper",
+    "tags": [
+      "benchmark-validity",
+      "harness-confounding",
+      "reference-solution",
+      "component-evaluation"
+    ],
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2606.17799"
+  },
+  {
+    "id": "tura-long-horizon-coding-agent-benchmark",
+    "name": "Tura Long-Horizon Coding Agent Benchmark",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Compare coding-agent turns, tokens, and verifier pass rates over 348 runs",
+    "type": "blog",
+    "tags": [
+      "long-horizon",
+      "coding-agent",
+      "token-usage",
+      "verifier-pass-rate"
+    ],
+    "added_date": "2026-07-15",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "website": "https://turaai.net/benchmark"
   }
 ]

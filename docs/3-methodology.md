@@ -5,7 +5,7 @@ Different scoring approaches, each with trade-offs.
 ## Contents
 
 - [LLM-as-Judge (49)](#llm-judge)
-- [Process Evaluation (51)](#process-eval)
+- [Process Evaluation (54)](#process-eval)
 - [Execution-based (25)](#execution-based)
 - [Hybrid (9)](#hybrid)
 - [Human Evaluation (9)](#human-eval)
@@ -89,16 +89,19 @@ Different scoring approaches, each with trade-offs.
 - [A Multi-Dimensional Framework for Evaluating Enterprise Agentic AI Systems](https://arxiv.org/html/2511.14136v1) — Assess enterprise agentic AI systems across multiple dimensions.
 - [A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression](https://arxiv.org/abs/2604.19572) — Evaluate terminal agents using observational context compression. 📅
 - [ACON](https://arxiv.org/abs/2510.00615) — Compresses observations and interaction histories to reduce agent memory usage. 📅
+- [AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning](https://github.com/alphadl/AdaRubrics) — Generates task-adaptive dimensions for step-level agent evaluation.
 - [AEMA: Verifiable Evaluation Framework for Agentic LLM Systems](https://arxiv.org/abs/2601.11903) — Process-aware multi-agent evaluation framework for trustworthy LLM systems. 🤝
 - [Agent Psychometrics: Task-Level Performance Prediction](https://arxiv.org/abs/2604.00594) — Predict task-level agent success using IRT with LLM-scaffold decomposition.
 - [AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation](https://arxiv.org/abs/2604.23581) — DAG-based step-level evaluation tracking error propagation in agentic workflows. 🔍 🤖
 - [AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking](https://arxiv.org/abs/2604.23581v1) — Evaluate agentic workflows at step level with error propagation tracking.
+- [Agentic Rubrics as Contextual Verifiers for SWE Agents](https://arxiv.org/abs/2601.04171) — Generates repository-grounded checklists to verify SWE-agent patches.
 - [Agents Explore but Agents Ignore: LLMs Lack Environmental Curiosity](https://arxiv.org/abs/2604.17609v1) — Study LLM agents' lack of environmental curiosity during exploration.
 - [AI agent evaluation: A practical framework for testing multi-step agents](https://www.braintrust.dev/articles/ai-agent-evaluation-framework) — Provide a practical framework for testing multi-step AI agents.
 - [AlphaEval: Evaluating Agents in Production](https://arxiv.org/abs/2604.12162) — Framework for evaluating AI agents in production with implicit constraints. 🔍 🌍
 - [Automatic Failure Attribution and Critical Step Prediction Method for Multi-Agent Systems Based on Causal Inference](https://arxiv.org/abs/2509.08682) — Attributes failures and predicts critical steps in multi-agent systems. 🤝
 - [Beyond Accuracy: Evaluating Source Code Capabilities in Large Language Models for Software Engineering](https://www.semanticscholar.org/paper/208217bedf590ae49bcc0cb6f779271e644b8a01) — Evaluate LLM source code capabilities beyond accuracy for SE tasks.
 - [CodeCircuit: Toward Inferring LLM-Generated Code Correctness via Attribution Graphs](https://arxiv.org/abs/2602.07080) — Infers LLM-generated code correctness via attribution graphs without execution. 🔍
+- [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134) — Gate scientific-paper replications on recorded evidence and validation.
 - [Does RL Expand the Capability Boundary of LLM Agents? A PASS@(k,T) Analysis](https://arxiv.org/abs/2604.14877) — Analyze whether RL expands LLM agent capability via pass@(k,T) metric. 🔍
 - [Don't Let AI Agents YOLO Your Files: Shifting Information and Control to Filesystems for Agent Safety and Autonomy](https://arxiv.org/abs/2604.13536) — Study filesystem-level controls for AI agent safety and autonomy.
 - [Effective Strategies for Asynchronous Software Engineering Agents](https://arxiv.org/html/2603.21489v1) — Evaluates coordination strategies for asynchronous multi-agent SE workflows. 🤝
@@ -135,7 +138,7 @@ Different scoring approaches, each with trade-offs.
 
 - [Self-Abstraction from Grounded Experience for Plan-Guided Policy Refinement](https://arxiv.org/abs/2511.05931) — Refine agent policies via self-abstraction from grounded experience.
 - [Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability‑Adaptive Reward Shaping](https://openreview.net/forum?id=LZZENDlZt9) — Evaluate generative processes with intrinsic signals and adaptive rewards. 🔍 🤖
-- [SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling](https://arxiv.org/abs/2604.14820) — Optimize long-horizon SWE agents via process reward and test-time scaling. 📅
+- [SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling](https://arxiv.org/abs/2604.14820) — Scores intermediate SWE-agent steps with rubric-based process rewards. 📅
 - [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615v1) — TDD governance framework for multi-agent code generation via prompt engineering. 🤝
 - [Test Case Generation from Bug Reports via Large Language Models: A Cognitive Layered Evaluation Framework](https://arxiv.org/abs/2510.05365) — Evaluate LLM test-case generation from bug reports via cognitive layers. 🔍
 - [The Complexity Trap](https://arxiv.org/abs/2508.21433) — Observation masking matches LLM summarization performance at half the cost.

@@ -1,8 +1,8 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 947 curated resources for evaluating AI coding agents.
+> 960 curated resources for evaluating AI coding agents.
 
-## Benchmarks & Datasets (551)
+## Benchmarks & Datasets (555)
 
 ### Bug Fix & Issue Resolution (69)
 
@@ -255,7 +255,7 @@
 - [We benchmarked 7 AI code review tools on large open-source projects](https://www.augmentcode.com/blog/we-benchmarked-7-ai-code-review-tools-on-real-world-prs-here-are-the-results): Benchmark AI code review tools on large open-source projects
 - [SWE-PRBench: Benchmarking AI Code Review Quality Against PR Feedback](https://arxiv.org/abs/2603.26130): Benchmark AI code review quality against 350 human-annotated pull requests. Method: llm-judge
 
-### End-to-End / Multi-Task (119)
+### End-to-End / Multi-Task (120)
 
 - [SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) [recommended]: Benchmarks LLMs on 1400+ real freelance software engineering tasks worth $1M+. Method: execution-based. Stars: 1441
 - [skill](https://github.com/pinchbench/skill) [recommended]: Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks. Lang: python. Method: execution-based. Stars: 1079
@@ -340,7 +340,7 @@
 - [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394): Benchmark for evaluating AI coding agents on full game development tasks
 - [OS-SPEAR: A Toolkit for the Safety, Performance,Efficiency, and Robustness Analysis of OS Agents](https://arxiv.org/abs/2604.24348): Analyze safety, performance, efficiency, and robustness of OS agents
 - [OSS-Bench: Benchmark Generator for Coding LLMs](https://arxiv.org/abs/2505.12331): Generates benchmarks for evaluating coding LLMs from open-source repositories
-- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://openai.com/index/paperbench/): Benchmark evaluating AI agents on replicating AI research papers from scratch
+- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://openai.com/index/paperbench/): Evaluates research replications with author-reviewed hierarchical rubrics
 - [PRDBench](https://arxiv.org/abs/2510.24358): Benchmark agents on 50 real-world projects with PRD requirements. Lang: python. Method: hybrid
 - [Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents](https://arxiv.org/abs/2510.25694): Evaluate agent trajectories for environment configuration tasks
 - [Programming with Pixels: Can Computer-Use Agents do Software Engineering?](https://arxiv.org/abs/2502.18525): Evaluate computer-use agents on software engineering via screen pixels
@@ -376,8 +376,9 @@
 - [Converted, Not Equivalent: Benchmarking Codebase Conversion via Observational Equivalence](https://arxiv.org/abs/2605.29054): Benchmark codebase conversion with observational equivalence testing. Method: execution-based
 - [ISO-Bench](https://arxiv.org/abs/2602.19594): Benchmark coding agents on real-world LLM inference optimization tasks. Method: hybrid
 - [MAPS: Multilingual Benchmark for Agent Performance and Security](https://arxiv.org/abs/2505.15935): Evaluate agentic AI across 11 languages for performance and security. Lang: python, javascript, java. Method: execution-based
+- [SocSci-Repro-Bench: AI Coding Agents Can Reproduce Social Science Findings](https://arxiv.org/abs/2606.11447): Evaluate coding agents reproducing validated social-science findings. Method: execution-based
 
-### Feature Development (7)
+### Feature Development (8)
 
 - [FeatureBench](https://github.com/LiberCoders/FeatureBench): Benchmark agents on end-to-end feature development tasks. Lang: python. Method: execution-based. Stars: 58
 - [A Benchmark for Evaluating Repository-Level Code Agents with Intermediate Reasoning on Feature Addition Task](https://arxiv.org/html/2603.26337): Evaluate repo-level code agents on feature addition with intermediate reasoning. Method: execution-based
@@ -386,6 +387,7 @@
 - [FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](https://arxiv.org/abs/2503.06680): Benchmark for repo-level feature implementation from 83 GitHub repos' PRs
 - [FeatureBench: Benchmarking Agentic Coding for Complex Feature Development](https://arxiv.org/abs/2602.10975): Benchmarks agentic coding on complex multi-PR feature development tasks
 - [NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition](https://arxiv.org/abs/2507.18130): Evaluate natural language-driven feature addition in codebases
+- [ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders](https://arxiv.org/abs/2607.21217): Evaluate coding agents as interactive builders from fuzzy requirements. Method: hybrid
 
 ### Large Codebase / Multi-Repo (24)
 
@@ -414,7 +416,7 @@
 - [Code-QA-Bench](https://arxiv.org/abs/2605.29277): Benchmark repo-level code understanding separating reasoning from memorization. Method: execution-based
 - [RepoMirage](https://arxiv.org/abs/2605.26177): Probe repository context reasoning in code agents via perturbations. Method: execution-based
 
-### Long-Horizon / Evolution (38)
+### Long-Horizon / Evolution (39)
 
 - [terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) [recommended]: Benchmark reinforcement learning agents on terminal tasks. Lang: python. Method: execution-based. Stars: 375
 - [SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os) [recommended]: Long-horizon SE task benchmark by Scale AI for multi-step complex engineering. Lang: python. Method: execution-based. Stars: 368
@@ -454,6 +456,7 @@
 - [ContextEcho](https://arxiv.org/abs/2605.24279): Measure persona drift in long agentic-coding sessions. Method: hybrid
 - [PushBench](https://arxiv.org/abs/2605.23574): Measure quantitative goal persistence in long-horizon coding agents. Method: execution-based
 - [LiteCoder-Terminal](https://arxiv.org/abs/2605.29559): Synthesize scalable terminal coding environments for agent training and eval. Method: execution-based
+- [RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades](https://arxiv.org/abs/2605.15846): Evaluate long-horizon version upgrades across real repositories. Method: execution-based
 
 ### Multi-Agent (15)
 
@@ -490,7 +493,7 @@
 - [SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?](https://arxiv.org/abs/2507.12415): Benchmark for code performance optimization on real-world repos
 - [LogDx-CI](https://arxiv.org/abs/2605.28876): Benchmark log reduction tools for LLM CI failure diagnosis. Method: hybrid
 
-### Security & Vulnerability (50)
+### Security & Vulnerability (51)
 
 - [AICGSecEval](https://github.com/Tencent/AICGSecEval) [recommended]: Evaluate security of AI-generated code. Lang: python. Method: execution-based. Stars: 965
 - [HackSynth](https://github.com/aielte-research/HackSynth) [recommended]: Evaluates LLM agents on autonomous penetration testing via CTF challenges. Lang: python. Method: execution-based. Stars: 303
@@ -542,6 +545,7 @@
 - [Towards Agentic Investigation of Security Alerts](https://arxiv.org/abs/2604.25846): Evaluate agentic investigation of security alerts
 - [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395): Evaluate vulnerability assessment, detection, explanation, and remediation
 - [SCHEME: Coordinated Sabotage and Monitoring in Multi-Agent Systems](https://arxiv.org/abs/2605.29178): Benchmark coordinated sabotage detection in multi-agent coding. Method: execution-based
+- [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](https://arxiv.org/abs/2607.20759): Benchmark coding agents against malicious issue-request attacks
 
 ### Testing & QA (42)
 
@@ -588,7 +592,7 @@
 - [GUITestScape](https://arxiv.org/abs/2605.29532): Evaluate agents on open-set exploratory GUI testing with display defects. Method: execution-based
 - [PR-Aware Automated Unit Test Generation](https://arxiv.org/abs/2605.25285): Evaluate test generation tools on pull-request-level test tasks. Method: execution-based
 
-## Evaluation Methodology (143)
+## Evaluation Methodology (146)
 
 ### Execution-based (25)
 
@@ -694,7 +698,7 @@
 - [Understanding the Limits of Automated Evaluation for Code Review Bots in Practice](https://arxiv.org/abs/2604.24525): Study on structural limits of automated evaluation for code review bots
 - [Vibe Checker: Aligning Code Evaluation with Human Preference](https://arxiv.org/abs/2510.07315): Align automated code evaluation with human preferences
 
-### Process Evaluation (51)
+### Process Evaluation (54)
 
 - [A Benchmark Mutation Approach for Realistic Agent Evaluation](https://arxiv.org/abs/2510.08996): Benchmark mutation approach generating realistic SE agent evaluation tasks
 - [A Computational Theory for Efficient Mini Agent Evaluation with Causal Guarantees](https://openreview.net/forum?id=dsjxCoa0CO): Computational theory for efficient mini agent evaluation with causal guarantees
@@ -734,7 +738,7 @@
 - [RSCB-MC](https://arxiv.org/abs/2604.27283): Risk-sensitive contextual bandits for agent memory retrieval decisions. Lang: python
 - [Self-Abstraction from Grounded Experience for Plan-Guided Policy Refinement](https://arxiv.org/abs/2511.05931): Refine agent policies via self-abstraction from grounded experience
 - [Smarter Not Harder: Generative Process Evaluation with Intrinsic-Signal Driving and Ability‑Adaptive Reward Shaping](https://openreview.net/forum?id=LZZENDlZt9): Evaluate generative processes with intrinsic signals and adaptive rewards
-- [SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling](https://arxiv.org/abs/2604.14820): Optimize long-horizon SWE agents via process reward and test-time scaling
+- [SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling](https://arxiv.org/abs/2604.14820): Scores intermediate SWE-agent steps with rubric-based process rewards
 - [TDD Governance for Multi-Agent Code Generation via Prompt Engineering](https://arxiv.org/abs/2604.26615v1): TDD governance framework for multi-agent code generation via prompt engineering
 - [Test Case Generation from Bug Reports via Large Language Models: A Cognitive Layered Evaluation Framework](https://arxiv.org/abs/2510.05365): Evaluate LLM test-case generation from bug reports via cognitive layers
 - [The Complexity Trap](https://arxiv.org/abs/2508.21433): Observation masking matches LLM summarization performance at half the cost
@@ -747,8 +751,11 @@
 - [Rethinking SE Conventions for the Agentic Development Era](https://arxiv.org/abs/2604.07502): Analyze how SE conventions should adapt for AI agent consumers
 - [Tokenomics: Quantifying Where Tokens Are Used in Agentic SE](https://arxiv.org/abs/2601.14470): Analyze token consumption patterns across SDLC stages in multi-agent SE
 - [What Makes a Good Terminal-Agent Benchmark Task](https://arxiv.org/abs/2604.28093): Guidelines for adversarial, difficult, and legible benchmark task design
+- [Agentic Rubrics as Contextual Verifiers for SWE Agents](https://arxiv.org/abs/2601.04171): Generates repository-grounded checklists to verify SWE-agent patches
+- [AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning](https://github.com/alphadl/AdaRubrics): Generates task-adaptive dimensions for step-level agent evaluation
+- [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134): Gate scientific-paper replications on recorded evidence and validation. Method: execution-based
 
-## Evaluation Toolchain (118)
+## Evaluation Toolchain (120)
 
 ### Evaluation Harness (44)
 
@@ -808,7 +815,7 @@
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985): Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions
 - [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): Pre-publish security gate targeting 5 blind spots in AI-generated code
 
-### Observability (10)
+### Observability (12)
 
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM observability platform with tracing, spans, and scoring. Stars: 26319
 - [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Python SDK for AI agent observability, tracing, monitoring and evaluation. Lang: python. Stars: 16146
@@ -820,6 +827,8 @@
 - [RepoAgent](https://github.com/OpenBMB/RepoAgent): LLM-powered framework for automated repository documentation generation
 - [Systematic debugging for AI agents: Introducing the AgentRx framework](https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/): AgentRx framework for systematic debugging of AI agent failure trajectories
 - [TrajAudit](https://arxiv.org/abs/2605.26563): Diagnose failure modes in coding agent execution trajectories
+- [agenttrace](https://github.com/luoyuctl/agenttrace): Replay and audit coding-agent JSONL sessions locally
+- [ax](https://github.com/Necmttn/ax): Provide local observability for coding-agent sessions and costs
 
 ### Sandbox & Execution (56)
 
@@ -914,7 +923,7 @@
 - [LLM Coding Leaderboard April 2026](https://www.datalearner.com/leaderboards/category/code): Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more
 - [Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents](https://openreview.net/forum?id=3x4SDbXbgl): Human-centric evaluation platform and leaderboard for computer-use agents
 
-## Meta-Analysis & Pitfalls (112)
+## Meta-Analysis & Pitfalls (116)
 
 ### Blogs & Practice Reports (35)
 
@@ -932,7 +941,7 @@
 - [Agentic coding evals — AI PM Wiki](https://genaipm.com/wiki/concepts/agentic-coding-evals): AI PM Wiki overview of core concepts for evaluating agentic coding systems
 - [Benchmarking Multi-Agent AI: Insights & Practical Use](https://galileo.ai/blog/benchmarks-multi-agent-ai): Blog overview of evaluation frameworks for multi-agent AI systems
 - [CodeAnt: Multi-Step Workflow Evaluation Guide](https://www.codeant.ai/blogs/evaluate-llm-agentic-workflows): Provide guidance on evaluating multi-step coding workflows
-- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents): Analyze evaluation practices and pitfalls for AI agents
+- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents): Explains outcome-first agent evals with calibrated rubric graders
 - [Devin's 2025 Performance Review: Learnings From 18 Months of Agents At Work](https://cognition.ai/blog/devin-annual-performance-review-2025): Analyze lessons from 18 months of deploying coding agents
 - [Engineering in the Age of AI: 2026 Benchmark Report](https://www.cortex.io/post/ai-is-making-engineering-faster-but-not-better-state-of-ai-benchmark-2026): Benchmark AI engineering practices and adoption trends
 - [Evaluating AI agents: Real-world lessons from building agentic systems at Amazon](https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/): Analyze real-world lessons from evaluating agentic systems at scale
@@ -954,7 +963,7 @@
 - [[State of Code Evals] After SWE-bench, Code Clash & SOTA Coding Benchmarks recap](https://www.latent.space/p/state-of-code-evals-after-swe-bench): Recap SOTA coding benchmarks after SWE-bench and Code Clash
 - [a smarter way to evaluate coding AI (Toloka)](https://toloka.ai/blog/fixing-swe-bench-a-smarter-way-to-evaluate-coding-ai/): Toloka blog proposing smarter evaluation fixes for SWE-bench limitations
 
-### Benchmark Limitations (8)
+### Benchmark Limitations (9)
 
 - [Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine](https://arxiv.org/abs/2510.21614): Study self-improving machine approaches for coding agent development
 - [Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sensitivity in Requirement-Level Evaluation](https://arxiv.org/abs/2604.04532): Analyze language and backbone sensitivity in agent-as-a-judge evaluation
@@ -964,8 +973,9 @@
 - [Why LLM Benchmarks Fail Your AI Agent (The 0.95^10 Problem)](https://www.bestaifor.com/blog/the-agentic-ai-failure-stack-benchmarks-hallucinations-and-the-0-95-10-problem): Analyze why compounding error rates cause benchmark-to-production gaps
 - [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/): OpenAI drops SWE-bench Verified citing 59.4% test defects in failure cases
 - [Prompt Fragility and Code Vulnerabilities in Coding LLMs](https://arxiv.org/abs/2605.29737): Show minimal prompt perturbations introduce security flaws in LLM code
+- [Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering](https://arxiv.org/abs/2606.17799): Analyze why coding benchmarks misattribute end-to-end system quality
 
-### Agent Output Quality Studies (53)
+### Agent Output Quality Studies (56)
 
 - [CROWDSELECT](https://github.com/listentm/CROWDSELECT): Study crowd-based selection methods for evaluation quality. Lang: html. Stars: 20
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99): Analyzes quality and security of 1756 ChatGPT-generated Python code snippets
@@ -1020,6 +1030,9 @@
 - [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213): Study 57 ML evaluation harnesses and classify 16K engineering issues. Method: human-eval
 - [Agyn: Multi-Agent System for Team-Based Autonomous SE](https://arxiv.org/abs/2602.01465): Multi-agent team system resolving 72.2% of SWE-bench 500 tasks
 - [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786): Empirical study of turn-control strategies reducing agent cost 24-68%
+- [Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?](https://github.com/THU-KEG/RuVerBench): Measures rubric-verification reliability on research and coding agents
+- [Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction](https://arxiv.org/abs/2607.12835): Audits generated rubrics for research-agent experiment reproduction
+- [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark): Compare coding-agent turns, tokens, and verifier pass rates over 348 runs
 
 ### Surveys (16)
 

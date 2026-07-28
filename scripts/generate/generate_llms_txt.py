@@ -113,6 +113,8 @@ def generate_llms_txt(all_data):
     lines.append("- [Getting Started](docs/getting-started.md): 5-minute guide to choosing and running your first evaluation")
     lines.append("- [Evaluation Dimensions](docs/1-dimensions.md): Framework for what to measure")
     lines.append("- [Coverage Landscape](docs/landscape.md): Visual map of benchmark coverage and gaps")
+    lines.append("- [Rubrics for Agent Evaluation](docs/7-rubrics.md): Cross-stage rubric methods, applications, and reliability studies")
+    lines.append("- [Rubrics Research Report](research/rubrics-agent-evaluation-2026-07-20.md): Taxonomy, evidence review, and design guidance")
     lines.append("")
 
     lines.append("## For Agents")

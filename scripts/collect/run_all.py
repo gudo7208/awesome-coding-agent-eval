@@ -11,7 +11,7 @@ Steps:
   7. classify_candidates  [skipped with --dry-run or --skip-llm]
   8. merge_classified     [skipped with --dry-run]
   9. validate
-  10. generate (stats + docs + readme)
+  10. generate (stats + docs + readme + llms exports)
 
 Flags:
   --dry-run     Run steps 1-6 only (no LLM, no merge, no generate)
@@ -46,6 +46,7 @@ GENERATE_SCRIPTS = [
     ROOT / "scripts/generate/generate_stats.py",
     ROOT / "scripts/generate/generate_docs.py",
     ROOT / "scripts/generate/generate_readme.py",
+    ROOT / "scripts/generate/generate_llms_txt.py",
 ]
 
 

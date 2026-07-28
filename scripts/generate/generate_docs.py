@@ -194,6 +194,60 @@ def generate_page(items, title, intro, ordered_subs=None):
     return "\n".join(lines)
 
 
+def generate_rubrics_page(items):
+    """Render the cross-stage Rubrics view from structured rubric metadata."""
+    lines = [
+        "# ⑦ Rubrics for Agent Evaluation",
+        "",
+        "Rubrics are measurement specifications: they define criteria, admissible evidence, decision rules, and aggregation. "
+        "They are independent of the grader that executes them, so a rubric may be applied by code, a model, a human, or a hybrid pipeline.",
+        "",
+        "> For research findings and design guidance, see [the Rubrics research report](../research/rubrics-agent-evaluation-2026-07-20.md).",
+        "",
+        "## Classification",
+        "",
+        "| Field | Question | Values |",
+        "|---|---|---|",
+        "| Role | How does the resource use rubrics? | benchmark application, construction method, grading method, meta-evaluation, practice guide |",
+        "| Scope | How reusable is the rubric? | general, domain-specific, task-specific |",
+        "| Target | What evidence is graded? | artifact, trajectory, both |",
+        "| Construction | Who creates the criteria? | expert-authored, model-generated, hybrid |",
+        "| Grading | Who applies the criteria? | deterministic, model-based, human, hybrid |",
+        "| Form | How are criteria structured? | analytic, checklist, hierarchical, holistic |",
+        "| Calibration | What reference validates grading? | human agreement, judge benchmark, execution agreement, not reported |",
+        "",
+        "## Curated Resources",
+        "",
+        "| Resource | Stage | Role | Scope | Target | Construction | Grading | Form | Calibration |",
+        "|---|---|---|---|---|---|---|---|---|",
+    ]
+    for item in sorted(items, key=lambda value: (value["rubric"]["role"], value["name"].lower())):
+        rubric = item["rubric"]
+        name = item["name"]
+        link = get_link(item)
+        if link:
+            name = f"[{name}]({link})"
+        lines.append(
+            f"| {name} | {item['stage']} | {rubric['role']} | {rubric['scope']} | "
+            f"{rubric['target']} | {rubric['construction']} | {rubric['grading']} | "
+            f"{rubric['form']} | {rubric.get('calibration', 'not-reported')} |"
+        )
+    lines += [
+        "",
+        "## Query the Data",
+        "",
+        "```bash",
+        "jq '.[] | select(.rubric)' data/*.json",
+        "```",
+        "",
+        "---",
+        "",
+        "[← Back to README](../README.md)",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 DIMENSIONS_EN = """\
 # ① Evaluation Dimensions
 
@@ -336,6 +390,16 @@ def generate():
     )
     (DOCS / "6-meta-analysis.md").write_text(text)
     print(f"Generated docs/6-meta-analysis.md ({len(meta)} items)")
+
+    rubric_items = [
+        item
+        for collection in (benchmarks, methodology, toolchain, leaderboards, meta)
+        for item in collection
+        if item.get("rubric")
+    ]
+    text = generate_rubrics_page(rubric_items)
+    (DOCS / "7-rubrics.md").write_text(text)
+    print(f"Generated docs/7-rubrics.md ({len(rubric_items)} items)")
 
 
 if __name__ == "__main__":

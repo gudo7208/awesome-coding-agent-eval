@@ -4,8 +4,8 @@ Research on benchmark quality itself — know the traps before you trust the sco
 
 ## Contents
 
-- [Benchmark Limitations (8)](#limitation)
-- [Agent Output Quality Studies (53)](#quality-study)
+- [Benchmark Limitations (9)](#limitation)
+- [Agent Output Quality Studies (56)](#quality-study)
 - [Surveys (16)](#survey)
 - [Blogs & Practice Reports (35)](#blog)
 
@@ -17,6 +17,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine](https://arxiv.org/abs/2510.21614) — Study self-improving machine approaches for coding agent development.
 - [Multilingual Prompt Localization for Agent-as-a-Judge: Language and Backbone Sensitivity in Requirement-Level Evaluation](https://arxiv.org/abs/2604.04532) — Analyze language and backbone sensitivity in agent-as-a-judge evaluation. 🤖 🌐
 - [OpenAI Abandons SWE-bench Verified After Finding 59% of Failed Tests Were Flawed](https://blockchain.news/news/openai-abandons-swe-bench-verified-contamination-flawed-tests) — Analyze flawed test cases that undermined SWE-bench Verified reliability.
+- [Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering](https://arxiv.org/abs/2606.17799) — Analyze why coding benchmarks misattribute end-to-end system quality.
 - [Prompt Fragility and Code Vulnerabilities in Coding LLMs](https://arxiv.org/abs/2605.29737) — Show minimal prompt perturbations introduce security flaws in LLM code. 🔒
 - [SWE-bench Score vs Production Capability Gap](https://tianpan.co/blog/2026-04-09-agentic-coding-production-swebench-gap) — Analyze the gap between benchmark scores and production capability.
 - [What skills does SWE-bench Verified evaluate?](https://epoch.ai/blog/what-skills-does-swe-bench-verified-evaluate) — Analyze which skills SWE-bench Verified actually measures.
@@ -39,6 +40,8 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues in Agent-Generated Pull Requests](https://arxiv.org/abs/2601.20109) — Analyzes post-merge code quality issues in 1210 AI agent-generated bug-fix PRs.
 - [Bias in the Loop: Auditing LLM-as-a-Judge for Software Engineering](https://arxiv.org/abs/2604.16790) — Audits LLM-as-a-judge reliability and biases in software engineering evaluation. 🤖
 - [Can ChatGPT replace StackOverflow? A Study on Robustness and Reliability of Large Language Model Code Generation](https://arxiv.org/abs/2308.10335) — Study on robustness and reliability of LLM code generation vs Stack Overflow.
+- [Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?](https://github.com/THU-KEG/RuVerBench) — Measures rubric-verification reliability on research and coding agents. 🤖
+- [Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction](https://arxiv.org/abs/2607.12835) — Audits generated rubrics for research-agent experiment reproduction.
 - [Code Review Agent Effectiveness Study](https://arxiv.org/html/2603.11078v1) — Empirical study on AI code review signal-to-noise ratio and developer adoption.
 - [CROWDSELECT](https://github.com/listentm/CROWDSELECT) ⭐20 — Study crowd-based selection methods for evaluation quality.
 - [Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis Testing Framework](https://www.semanticscholar.org/paper/160460f3954fd8a606a40bc666ac4968f7919eb5) — Tests whether LLM-based program repair reflects memorization or true reasoning.
@@ -86,6 +89,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [These Aren't the Reviews You're Looking For](https://arxiv.org/abs/2604.28800) — Study how humans review AI-generated pull requests.
 - [Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM](https://arxiv.org/abs/2403.19114) — Study whether leaderboard rankings reflect true coding proficiency.
 - [Towards Evaluation Engineering](https://arxiv.org/abs/2605.24213) — Study 57 ML evaluation harnesses and classify 16K engineering issues.
+- [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark) — Compare coding-agent turns, tokens, and verifier pass rates over 348 runs. 📅
 - [Turn-Control Strategies for Efficient Coding Agents](https://arxiv.org/abs/2510.16786) — Empirical study of turn-control strategies reducing agent cost 24-68%.
 - [Understanding Software Engineering Agents Through the Lens of Traceability: An Empirical Study](https://arxiv.org/abs/2506.08311) — Empirical study of SWE agent decision workflows via traceability lens. 🔍
 - [UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](https://arxiv.org/abs/2506.09289) — Exposes weak SWE-Bench tests and proposes UTBoost for stricter agent evaluation.
@@ -132,7 +136,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [AI evals are becoming the new compute bottleneck](https://huggingface.co/blog/evaleval/eval-costs-bottleneck) — HuggingFace blog on AI eval costs becoming the new compute bottleneck.
 - [Benchmarking Multi-Agent AI: Insights & Practical Use](https://galileo.ai/blog/benchmarks-multi-agent-ai) — Blog overview of evaluation frameworks for multi-agent AI systems. 🤝
 - [CodeAnt: Multi-Step Workflow Evaluation Guide](https://www.codeant.ai/blogs/evaluate-llm-agentic-workflows) — Provide guidance on evaluating multi-step coding workflows.
-- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) — Analyze evaluation practices and pitfalls for AI agents.
+- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) — Explains outcome-first agent evals with calibrated rubric graders.
 - [Devin's 2025 Performance Review: Learnings From 18 Months of Agents At Work](https://cognition.ai/blog/devin-annual-performance-review-2025) — Analyze lessons from 18 months of deploying coding agents. 🌍
 - [Engineering in the Age of AI: 2026 Benchmark Report](https://www.cortex.io/post/ai-is-making-engineering-faster-but-not-better-state-of-ai-benchmark-2026) — Benchmark AI engineering practices and adoption trends.
 - [Evaluating AI agents: Real-world lessons from building agentic systems at Amazon](https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/) — Analyze real-world lessons from evaluating agentic systems at scale. 🏭

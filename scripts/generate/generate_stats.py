@@ -38,6 +38,10 @@ def generate():
     all_methods = [i.get("eval_method") for i in items if i.get("eval_method")]
     by_eval_method = Counter(all_methods)
 
+    rubric_items = [i for i in items if i.get("rubric")]
+    by_rubric_role = Counter(i["rubric"]["role"] for i in rubric_items)
+    by_rubric_target = Counter(i["rubric"]["target"] for i in rubric_items)
+
     all_tags = []
     for i in items:
         all_tags.extend(i.get("tags", []))
@@ -51,6 +55,8 @@ def generate():
         "by_status": dict(by_status.most_common()),
         "by_language": dict(by_language.most_common()),
         "by_eval_method": dict(by_eval_method.most_common()),
+        "by_rubric_role": dict(by_rubric_role.most_common()),
+        "by_rubric_target": dict(by_rubric_target.most_common()),
         "top_tags": [{"tag": t, "count": c} for t, c in top_tags],
         "last_updated": date.today().isoformat(),
     }

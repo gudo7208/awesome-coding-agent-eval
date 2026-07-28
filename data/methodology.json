@@ -330,6 +330,15 @@
       "intermediate-feedback",
       "agentic-systems"
     ],
+    "rubric": {
+      "role": "grading-method",
+      "scope": "task-specific",
+      "target": "both",
+      "construction": "expert-authored",
+      "grading": "model-based",
+      "form": "hierarchical",
+      "calibration": "human-agreement"
+    },
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
@@ -3901,7 +3910,7 @@
     "name": "SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling",
     "stage": "methodology",
     "subcategory": "process-eval",
-    "what": "Optimize long-horizon SWE agents via process reward and test-time scaling",
+    "what": "Scores intermediate SWE-agent steps with rubric-based process rewards",
     "type": "paper",
     "tags": [
       "process-reward-model",
@@ -3910,6 +3919,15 @@
       "rubric-eval",
       "swe-bench"
     ],
+    "rubric": {
+      "role": "grading-method",
+      "scope": "task-specific",
+      "target": "trajectory",
+      "construction": "model-generated",
+      "grading": "model-based",
+      "form": "analytic",
+      "calibration": "not-reported"
+    },
     "added_date": "2026-04-29",
     "last_verified": "2026-04-29",
     "status": "active",
@@ -4445,5 +4463,92 @@
         "a-benchmark-mutation-approach-for-realistic-agent-evaluation"
       ]
     }
+  },
+  {
+    "id": "agentic-rubrics-as-contextual-verifiers-for-swe-agents",
+    "name": "Agentic Rubrics as Contextual Verifiers for SWE Agents",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Generates repository-grounded checklists to verify SWE-agent patches",
+    "type": "paper",
+    "tags": [
+      "rubric-eval",
+      "swe-agent",
+      "repository-grounding",
+      "checklist-eval",
+      "execution-free-verifier",
+      "test-time-scaling"
+    ],
+    "rubric": {
+      "role": "construction-method",
+      "scope": "task-specific",
+      "target": "artifact",
+      "construction": "model-generated",
+      "grading": "model-based",
+      "form": "checklist",
+      "calibration": "execution-agreement"
+    },
+    "limitations": [
+      "Execution-free rubric scores supplement but do not replace functional tests",
+      "Rubric quality depends on the repository exploration model"
+    ],
+    "added_date": "2026-07-20",
+    "last_verified": "2026-07-20",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2601.04171"
+  },
+  {
+    "id": "adarubric-task-adaptive-rubrics-for-reliable-llm-agent-evaluation",
+    "name": "AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Generates task-adaptive dimensions for step-level agent evaluation",
+    "type": "paper+repo",
+    "tags": [
+      "rubric-eval",
+      "rubric-generation",
+      "task-adaptive",
+      "trajectory-evaluation",
+      "human-alignment",
+      "swe-bench"
+    ],
+    "rubric": {
+      "role": "construction-method",
+      "scope": "task-specific",
+      "target": "trajectory",
+      "construction": "model-generated",
+      "grading": "model-based",
+      "form": "analytic",
+      "calibration": "human-agreement"
+    },
+    "limitations": [
+      "SWE-bench is a zero-shot transfer evaluation rather than the primary domain",
+      "Adaptive generation adds model cost and another source of variance"
+    ],
+    "added_date": "2026-07-20",
+    "last_verified": "2026-07-20",
+    "status": "active",
+    "venue": "ACL 2026 KnowFM",
+    "paper": "https://arxiv.org/abs/2603.21362",
+    "repo": "https://github.com/alphadl/AdaRubrics"
+  },
+  {
+    "id": "paper-replication-workflow",
+    "name": "Coding-agents can replicate scientific machine learning papers",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Gate scientific-paper replications on recorded evidence and validation",
+    "type": "paper",
+    "tags": [
+      "research-replication",
+      "evidence-gating",
+      "provenance",
+      "coding-agent"
+    ],
+    "eval_method": "execution-based",
+    "added_date": "2026-07-27",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2607.02134"
   }
 ]

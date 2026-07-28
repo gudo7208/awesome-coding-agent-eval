@@ -263,6 +263,7 @@ def generate():
         f"| Set up evaluation infrastructure ({counts.get('toolchain', 0)}) | → [④ Toolchain](#-evaluation-toolchain) |",
         f"| See agent rankings ({counts.get('leaderboards', 0)}) | → [⑤ Leaderboards](#-leaderboards) |",
         f"| Learn about benchmark pitfalls ({counts.get('meta-analysis', 0)}) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |",
+        "| Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |",
         "",
     ]
 
@@ -277,6 +278,7 @@ def generate():
         "- [④ Evaluation Toolchain](#-evaluation-toolchain)",
         "- [⑤ Leaderboards](#-leaderboards)",
         "- [⑥ Meta-Analysis & Pitfalls](#-meta-analysis--pitfalls)",
+        "- [⑦ Rubrics for Agent Evaluation](docs/7-rubrics.md)",
         "- [Related Resources](#-related-resources)",
         "- [For AI Agents](#-for-ai-agents)",
         "- [Contributing](#contributing)",
@@ -382,6 +384,7 @@ def generate():
         "| Structured index | [llms.txt](llms.txt) | Discovering what's available |",
         "| Query interface | [AGENTS.md](AGENTS.md) | jq/Python query recipes |",
         "| Raw JSON | `data/*.json` | Programmatic filtering |",
+        "| Rubrics view | [docs/7-rubrics.md](docs/7-rubrics.md) | Cross-stage rubric classification |",
         "| Claude Code | [CLAUDE.md](CLAUDE.md) | Working in this repo |",
         "",
     ]

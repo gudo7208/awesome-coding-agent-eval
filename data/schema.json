@@ -19,6 +19,26 @@
       "scale": { "type": "integer", "minimum": 0 },
       "eval_method": { "type": "string" },
       "granularity": { "type": "string" },
+      "rubric": {
+        "type": "object",
+        "required": ["role", "scope", "target", "construction", "grading", "form"],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": ["benchmark-application", "construction-method", "grading-method", "meta-evaluation", "practice-guide"]
+          },
+          "scope": { "type": "string", "enum": ["general", "domain-specific", "task-specific"] },
+          "target": { "type": "string", "enum": ["artifact", "trajectory", "both"] },
+          "construction": { "type": "string", "enum": ["expert-authored", "model-generated", "hybrid"] },
+          "grading": { "type": "string", "enum": ["deterministic", "model-based", "human", "hybrid"] },
+          "form": { "type": "string", "enum": ["analytic", "checklist", "hierarchical", "holistic"] },
+          "calibration": {
+            "type": "string",
+            "enum": ["human-agreement", "judge-benchmark", "execution-agreement", "not-reported"]
+          }
+        },
+        "additionalProperties": false
+      },
       "limitations": { "type": "array", "items": { "type": "string" } },
       "tags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
       "related": {

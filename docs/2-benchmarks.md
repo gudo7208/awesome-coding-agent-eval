@@ -5,15 +5,15 @@ SE Agent benchmarks organized by task type.
 ## Contents
 
 - [Bug Fix & Issue Resolution (69)](#bug-fix)
-- [End-to-End / Multi-Task (119)](#end-to-end)
-- [Long-Horizon / Evolution (38)](#long-horizon)
+- [End-to-End / Multi-Task (120)](#end-to-end)
+- [Long-Horizon / Evolution (39)](#long-horizon)
 - [Large Codebase / Multi-Repo (24)](#large-codebase)
 - [Code Review (26)](#code-review)
 - [Testing & QA (42)](#testing)
-- [Security & Vulnerability (50)](#security)
+- [Security & Vulnerability (51)](#security)
 - [Production-Derived (14)](#production)
 - [Code Generation (147)](#code-generation)
-- [Feature Development (7)](#feature-development)
+- [Feature Development (8)](#feature-development)
 - [Multi-Agent (15)](#multi-agent)
 
 <a id="bug-fix"></a>
@@ -192,7 +192,7 @@ SE Agent benchmarks organized by task type.
 - [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394) — Benchmark for evaluating AI coding agents on full game development tasks.
 - [OS-SPEAR: A Toolkit for the Safety, Performance,Efficiency, and Robustness Analysis of OS Agents](https://arxiv.org/abs/2604.24348) — Analyze safety, performance, efficiency, and robustness of OS agents.
 - [OSS-Bench: Benchmark Generator for Coding LLMs](https://arxiv.org/abs/2505.12331) — Generates benchmarks for evaluating coding LLMs from open-source repositories.
-- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://openai.com/index/paperbench/) — Benchmark evaluating AI agents on replicating AI research papers from scratch.
+- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://openai.com/index/paperbench/) — Evaluates research replications with author-reviewed hierarchical rubrics.
 - [PRDBench](https://arxiv.org/abs/2510.24358) — Benchmark agents on 50 real-world projects with PRD requirements. 🌍
 - [Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents](https://arxiv.org/abs/2510.25694) — Evaluate agent trajectories for environment configuration tasks. 🔍
 - [Programming with Pixels: Can Computer-Use Agents do Software Engineering?](https://arxiv.org/abs/2502.18525) — Evaluate computer-use agents on software engineering via screen pixels.
@@ -208,6 +208,7 @@ SE Agent benchmarks organized by task type.
 - [Sea-benchmarks-public](https://github.com/Sea-Labs-ai/Sea-benchmarks-public) ⭐17 — Benchmarks AI coding agents across multiple software engineering tasks.
 - [SERA: Soft-Verified Efficient Repository Agents](https://arxiv.org/abs/2601.20789) — Benchmark efficient repository agents using soft verification methods.
 - [skill](https://github.com/pinchbench/skill) ⭐1079 — Benchmark by Kilo.ai for end-to-end evaluation of LLM coding agents on SE tasks.
+- [SocSci-Repro-Bench: AI Coding Agents Can Reproduce Social Science Findings](https://arxiv.org/abs/2606.11447) — Evaluate coding agents reproducing validated social-science findings.
 - [SpecBench](https://arxiv.org/abs/2605.30314) — Evaluate SWE agents on specification design and requirements reasoning.
 - [Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763) — Benchmark evaluating LMs on real-world enterprise text-to-SQL workflows. 🌍
 - [SWE Atlas](https://arxiv.org/abs/2605.08366) — Benchmark suite for coding agents on QA, test writing, and refactoring tasks.
@@ -280,6 +281,7 @@ SE Agent benchmarks organized by task type.
 - [NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents](https://arxiv.org/abs/2512.12730) — Evaluate coding agents on long-horizon repository generation. 📅
 - [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](https://arxiv.org/abs/2604.24964) — Web agent benchmark for realistic long-horizon, multi-site browsing tasks. 📅
 - [PushBench](https://arxiv.org/abs/2605.23574) — Measure quantitative goal persistence in long-horizon coding agents. 📅
+- [RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades](https://arxiv.org/abs/2605.15846) — Evaluate long-horizon version upgrades across real repositories. 📅 🌐
 
 ### S–Z
 
@@ -448,6 +450,7 @@ SE Agent benchmarks organized by task type.
 - [HackSynth](https://github.com/aielte-research/HackSynth) ⭐303 — Evaluates LLM agents on autonomous penetration testing via CTF challenges.
 - [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) — LLM-assisted static analysis approach for detecting security vulnerabilities. 🔒
 - [Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks](https://arxiv.org/abs/2512.03262) — Benchmark security vulnerabilities in agent-generated code. 🔒
+- [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](https://arxiv.org/abs/2607.20759) — Benchmark coding agents against malicious issue-request attacks. 🔒
 - [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/abs/2506.20170) — Benchmark for evaluating LLMs on JavaScript deobfuscation tasks. 🟨 🔒
 - [Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers](https://arxiv.org/abs/2403.15600) — Compare security vulnerabilities in LLM-generated vs StackOverflow code. 🔒
 - [Large Language Models for Code: Security Hardening and Adversarial Testing](https://arxiv.org/abs/2302.05319) — Evaluate LLMs on code security hardening and adversarial testing. 🔒
@@ -670,6 +673,7 @@ SE Agent benchmarks organized by task type.
 - [FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](https://arxiv.org/abs/2503.06680) — Benchmark for repo-level feature implementation from 83 GitHub repos' PRs.
 - [FeatureBench](https://github.com/LiberCoders/FeatureBench) ⭐58 — Benchmark agents on end-to-end feature development tasks.
 - [FeatureBench: Benchmarking Agentic Coding for Complex Feature Development](https://arxiv.org/abs/2602.10975) — Benchmarks agentic coding on complex multi-PR feature development tasks. 📅
+- [ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders](https://arxiv.org/abs/2607.21217) — Evaluate coding agents as interactive builders from fuzzy requirements.
 - [NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition](https://arxiv.org/abs/2507.18130) — Evaluate natural language-driven feature addition in codebases.
 
 <a id="multi-agent"></a>

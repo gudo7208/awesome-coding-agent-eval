@@ -3866,5 +3866,41 @@
     "last_verified": "2026-05-16",
     "status": "active",
     "paper": "https://arxiv.org/abs/2604.01052"
+  },
+  {
+    "id": "agenttrace",
+    "name": "agenttrace",
+    "stage": "toolchain",
+    "subcategory": "observability",
+    "what": "Replay and audit coding-agent JSONL sessions locally",
+    "type": "repo",
+    "tags": [
+      "observability",
+      "session-replay",
+      "jsonl",
+      "coding-agent"
+    ],
+    "added_date": "2026-05-19",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "repo": "https://github.com/luoyuctl/agenttrace"
+  },
+  {
+    "id": "ax-agent-observability",
+    "name": "ax",
+    "stage": "toolchain",
+    "subcategory": "observability",
+    "what": "Provide local observability for coding-agent sessions and costs",
+    "type": "repo",
+    "tags": [
+      "observability",
+      "session-analysis",
+      "cost-tracking",
+      "coding-agent"
+    ],
+    "added_date": "2026-06-20",
+    "last_verified": "2026-07-27",
+    "status": "active",
+    "repo": "https://github.com/Necmttn/ax"
   }
 ]
