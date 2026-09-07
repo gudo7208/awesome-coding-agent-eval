@@ -1,6 +1,15 @@
 # Changelog
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-07)
+
+### Weekly Evaluation Refresh
+
+- Added SWE-Gate's released execution benchmark for review-constraint compliance
+- Added trajectory-aware subset evaluation and commit-first judge reliability research
+- Added CATJudge's runnable code-driven web-app testing toolchain
+- Added three studies of late requirements, benchmark task demands, and coding-harness architecture
+- Deferred unreleased benchmark assets and excluded general-agent work without a direct software-engineering evaluation target
+- Regenerated derived documentation and statistics for 967 total resources
 
 ### Corpus Refresh and Maintenance
 

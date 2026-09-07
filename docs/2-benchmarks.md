@@ -4,7 +4,7 @@ SE Agent benchmarks organized by task type.
 
 ## Contents
 
-- [Bug Fix & Issue Resolution (69)](#bug-fix)
+- [Bug Fix & Issue Resolution (70)](#bug-fix)
 - [End-to-End / Multi-Task (120)](#end-to-end)
 - [Long-Horizon / Evolution (39)](#long-horizon)
 - [Large Codebase / Multi-Repo (24)](#large-codebase)
@@ -91,6 +91,7 @@ SE Agent benchmarks organized by task type.
 - [SWE-Dev: Building Software Engineering Agents with Training and Inference Scaling](https://arxiv.org/abs/2506.07636) — Provides 17K+ training instances and test cases for SWE agents with scaling.
 - [SWE-Exp: Experience-Driven Software Issue Resolution](https://arxiv.org/abs/2507.23361) — Evaluate experience-driven approaches to software issue resolution.
 - [SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution](https://arxiv.org/abs/2501.05040) — Trains open-source LLMs to resolve GitHub issues on SWE-bench tasks.
+- [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](https://github.com/DeepSoftwareAnalytics/SWE-Gate) — Evaluate functional correctness and review-constraint compliance.
 - [SWE-MERA](https://github.com/MERA-Evaluation/repotest) ⭐14 — Dynamic rolling SWE benchmark with fresh issues to prevent data contamination.
 - [SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks](https://arxiv.org/abs/2507.11059) — Evaluate LLMs on SE tasks with dynamically updated benchmarks.
 - [SWE-Mirror: Scaling Issue-Resolving Datasets by Mirroring Issues Across Repositories](https://arxiv.org/abs/2509.08724) — Scales issue-resolving datasets by mirroring issues across repo environments.

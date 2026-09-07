@@ -3902,5 +3902,25 @@
     "last_verified": "2026-07-27",
     "status": "active",
     "repo": "https://github.com/Necmttn/ax"
+  },
+  {
+    "id": "catjudge",
+    "name": "CATJudge",
+    "stage": "toolchain",
+    "subcategory": "judge-tool",
+    "what": "Explore web apps with browser tools and grade discovered bugs",
+    "type": "paper+repo",
+    "tags": [
+      "coding-agent",
+      "web-development",
+      "software-testing",
+      "playwright"
+    ],
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "venue": "EMNLP 2026",
+    "paper": "https://arxiv.org/abs/2609.00081",
+    "repo": "https://github.com/SleepyWithoutCoffee/CATJudge"
   }
 ]
