@@ -1,21 +1,21 @@
 {
-  "total": 960,
+  "total": 967,
   "by_stage": {
-    "benchmarks": 555,
+    "benchmarks": 556,
     "leaderboards": 23,
-    "meta-analysis": 116,
-    "methodology": 146,
-    "toolchain": 120
+    "meta-analysis": 119,
+    "methodology": 148,
+    "toolchain": 121
   },
   "by_subcategory": {
     "code-generation": 156,
     "end-to-end": 120,
-    "bug-fix": 69,
-    "quality-study": 56,
+    "bug-fix": 70,
+    "quality-study": 58,
     "sandbox": 56,
-    "process-eval": 54,
+    "process-eval": 55,
     "security": 51,
-    "llm-judge": 49,
+    "llm-judge": 50,
     "harness": 44,
     "testing": 42,
     "long-horizon": 39,
@@ -23,28 +23,28 @@
     "code-review": 26,
     "execution-based": 25,
     "large-codebase": 24,
-    "survey": 16,
+    "survey": 17,
     "multi-agent": 15,
     "production": 14,
     "observability": 12,
-    "se-agent": 9,
     "hybrid": 9,
     "human-eval": 9,
+    "judge-tool": 9,
     "limitation": 9,
+    "se-agent": 9,
     "feature-development": 8,
-    "judge-tool": 8,
     "activity": 5
   },
   "by_type": {
-    "paper": 755,
+    "paper": 759,
     "repo": 84,
     "tool": 58,
-    "paper+repo": 46,
+    "paper+repo": 49,
     "blog": 12,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 960
+    "active": 967
   },
   "by_language": {
     "python": 154,
@@ -55,30 +55,30 @@
     "go": 12,
     "html": 9,
     "c": 6,
+    "c#": 3,
     "css": 3,
     "c++": 3,
-    "c#": 3,
     "jupyter notebook": 2,
     "cpp": 2,
+    "dockerfile": 1,
+    "shell": 1,
     "structured text": 1,
     "ruby": 1,
     "kotlin": 1,
-    "lean": 1,
-    "dockerfile": 1,
-    "shell": 1
+    "lean": 1
   },
   "by_eval_method": {
-    "execution-based": 213,
-    "hybrid": 13,
-    "llm-judge": 11,
+    "execution-based": 214,
+    "hybrid": 14,
+    "llm-judge": 12,
     "human-eval": 7
   },
   "by_rubric_role": {
     "grading-method": 2,
     "construction-method": 2,
     "meta-evaluation": 2,
-    "benchmark-application": 1,
-    "practice-guide": 1
+    "practice-guide": 1,
+    "benchmark-application": 1
   },
   "by_rubric_target": {
     "artifact": 4,
@@ -108,7 +108,7 @@
     },
     {
       "tag": "llm-judge",
-      "count": 55
+      "count": 56
     },
     {
       "tag": "evaluation",
@@ -143,20 +143,20 @@
       "count": 39
     },
     {
+      "tag": "coding-agent",
+      "count": 39
+    },
+    {
+      "tag": "repository-level",
+      "count": 38
+    },
+    {
       "tag": "llm",
       "count": 38
     },
     {
-      "tag": "repository-level",
-      "count": 37
-    },
-    {
       "tag": "end-to-end",
       "count": 36
-    },
-    {
-      "tag": "coding-agent",
-      "count": 33
     },
     {
       "tag": "test-generation",
@@ -167,5 +167,5 @@
       "count": 28
     }
   ],
-  "last_updated": "2026-07-27"
+  "last_updated": "2026-09-07"
 }

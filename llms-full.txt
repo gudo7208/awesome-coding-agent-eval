@@ -1,10 +1,10 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 960 curated resources for evaluating AI coding agents.
+> 967 curated resources for evaluating AI coding agents.
 
-## Benchmarks & Datasets (555)
+## Benchmarks & Datasets (556)
 
-### Bug Fix & Issue Resolution (69)
+### Bug Fix & Issue Resolution (70)
 
 - [SWE-bench](https://github.com/swe-bench/SWE-bench) [recommended]: 2294 real GitHub issues testing agent patch generation for Python bug fixes. Lang: python. Method: execution-based. Stars: 4819
 - [SWE-bench Multimodal](https://github.com/swe-bench/SWE-bench) [recommended]: Benchmark agents on multimodal software engineering tasks. Lang: python. Method: execution-based. Stars: 4819
@@ -75,6 +75,7 @@
 - [SYSUSELab/FeedbackEval](https://github.com/SYSUSELab/FeedbackEval): Benchmark for evaluating LLMs on feedback-driven code repair tasks
 - [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139): Training environment with 2,438 Python repo tasks and verifier for SE agents
 - [When Large Language Models Confront Repository-Level Automatic Program Repair: How Well They Done?](https://arxiv.org/abs/2403.00448): Evaluates LLMs on repository-level automated program repair tasks
+- [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](https://github.com/DeepSoftwareAnalytics/SWE-Gate): Evaluate functional correctness and review-constraint compliance. Method: execution-based
 
 ### Code Generation (147)
 
@@ -592,7 +593,7 @@
 - [GUITestScape](https://arxiv.org/abs/2605.29532): Evaluate agents on open-set exploratory GUI testing with display defects. Method: execution-based
 - [PR-Aware Automated Unit Test Generation](https://arxiv.org/abs/2605.25285): Evaluate test generation tools on pull-request-level test tasks. Method: execution-based
 
-## Evaluation Methodology (146)
+## Evaluation Methodology (148)
 
 ### Execution-based (25)
 
@@ -646,7 +647,7 @@
 - [Scoring Verifiers: Evaluating Synthetic Verification in Code and Reasoning](https://arxiv.org/abs/2502.13820): Evaluates synthetic verifiers on code and reasoning using scoring benchmarks
 - [Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis Agents](https://arxiv.org/abs/2310.08837): ICAA combining AI models with static analysis tools for intelligent code review
 
-### LLM-as-Judge (49)
+### LLM-as-Judge (50)
 
 - [Agent-Eval-Refine](https://github.com/Berkeley-NLP/Agent-Eval-Refine): Uses LLM to evaluate agent trajectories and generate refinement feedback. Lang: python. Stars: 149
 - [AutoReviewer](https://github.com/gvasilei/AutoReviewer): LLM-based automatic code review tool using language models. Lang: typescript. Stars: 48
@@ -697,8 +698,9 @@
 - [Themis](https://arxiv.org/abs/2604.29500): Robust multilingual code reward models for multi-criteria scoring. Lang: python, java, javascript
 - [Understanding the Limits of Automated Evaluation for Code Review Bots in Practice](https://arxiv.org/abs/2604.24525): Study on structural limits of automated evaluation for code review bots
 - [Vibe Checker: Aligning Code Evaluation with Human Preference](https://arxiv.org/abs/2510.07315): Align automated code evaluation with human preferences
+- [Commit-first LLM judging inherits the judge's own errors](https://arxiv.org/abs/2609.00088): Audit commit-first LLM judges for task-solution error inheritance. Method: llm-judge
 
-### Process Evaluation (54)
+### Process Evaluation (55)
 
 - [A Benchmark Mutation Approach for Realistic Agent Evaluation](https://arxiv.org/abs/2510.08996): Benchmark mutation approach generating realistic SE agent evaluation tasks
 - [A Computational Theory for Efficient Mini Agent Evaluation with Causal Guarantees](https://openreview.net/forum?id=dsjxCoa0CO): Computational theory for efficient mini agent evaluation with causal guarantees
@@ -754,8 +756,9 @@
 - [Agentic Rubrics as Contextual Verifiers for SWE Agents](https://arxiv.org/abs/2601.04171): Generates repository-grounded checklists to verify SWE-agent patches
 - [AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning](https://github.com/alphadl/AdaRubrics): Generates task-adaptive dimensions for step-level agent evaluation
 - [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134): Gate scientific-paper replications on recorded evidence and validation. Method: execution-based
+- [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](https://github.com/DeepSoftwareAnalytics/PTA-IRT): Recover benchmark scores using process-aware calibration subsets. Method: hybrid
 
-## Evaluation Toolchain (120)
+## Evaluation Toolchain (121)
 
 ### Evaluation Harness (44)
 
@@ -804,7 +807,7 @@
 - [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481): Evaluation suite for multi-agent system testing and observability
 - [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919): Compress agent skill descriptions 48% and bodies 39% while improving quality
 
-### LLM Judge Tools (8)
+### LLM Judge Tools (9)
 
 - [Promptfoo](https://github.com/promptfoo/promptfoo): Tests and evaluates LLM outputs with prompt comparison and auto-scoring. Stars: 20696
 - [sage](https://github.com/usetig/sage): LLM council that reviews and evaluates coding agent actions in real-time. Lang: typescript. Stars: 93
@@ -814,6 +817,7 @@
 - [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service): Google Vertex AI agent evaluation service with trajectory analysis
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985): Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions
 - [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): Pre-publish security gate targeting 5 blind spots in AI-generated code
+- [CATJudge](https://github.com/SleepyWithoutCoffee/CATJudge): Explore web apps with browser tools and grade discovered bugs
 
 ### Observability (12)
 
@@ -923,7 +927,7 @@
 - [LLM Coding Leaderboard April 2026](https://www.datalearner.com/leaderboards/category/code): Aggregated LLM coding leaderboard covering SWE-bench, LiveCodeBench and more
 - [Computer Agent Arena: Toward Human-Centric Evaluation and Analysis of Computer-Use Agents](https://openreview.net/forum?id=3x4SDbXbgl): Human-centric evaluation platform and leaderboard for computer-use agents
 
-## Meta-Analysis & Pitfalls (116)
+## Meta-Analysis & Pitfalls (119)
 
 ### Blogs & Practice Reports (35)
 
@@ -975,7 +979,7 @@
 - [Prompt Fragility and Code Vulnerabilities in Coding LLMs](https://arxiv.org/abs/2605.29737): Show minimal prompt perturbations introduce security flaws in LLM code
 - [Position: Coding Benchmarks Are Misaligned with Agentic Software Engineering](https://arxiv.org/abs/2606.17799): Analyze why coding benchmarks misattribute end-to-end system quality
 
-### Agent Output Quality Studies (56)
+### Agent Output Quality Studies (58)
 
 - [CROWDSELECT](https://github.com/listentm/CROWDSELECT): Study crowd-based selection methods for evaluation quality. Lang: html. Stars: 20
 - [AI Writes, We Analyze: The ChatGPT Python Code Saga](https://www.semanticscholar.org/paper/60a25d8a5d004b6369c84d73e89c04edcfabfa99): Analyzes quality and security of 1756 ChatGPT-generated Python code snippets
@@ -1033,8 +1037,10 @@
 - [Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?](https://github.com/THU-KEG/RuVerBench): Measures rubric-verification reliability on research and coding agents
 - [Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction](https://arxiv.org/abs/2607.12835): Audits generated rubrics for research-agent experiment reproduction
 - [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark): Compare coding-agent turns, tokens, and verifier pass rates over 348 runs
+- [Requirements After the First Edit: Mining Late Requirement Emergence and Rework in Real-World Coding-Agent Sessions](https://arxiv.org/abs/2609.03028): Measure code invalidation after late requirements in agent sessions
+- [What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal](https://arxiv.org/abs/2609.01271): Profile benchmark task demands and agent behavior beyond labels
 
-### Surveys (16)
+### Surveys (17)
 
 - [74% of Production Agents Still Rely on Human Evaluation](https://www.chanl.ai/blog/production-eval-gap-survey): Survey production agent evaluation practices and human reliance
 - [A Survey of Code Review Benchmarks and Evaluation Practices in Pre-LLM and LLM Era](https://arxiv.org/abs/2602.13377): Comprehensive survey of 99 code review benchmark papers spanning 2015-2025
@@ -1052,3 +1058,4 @@
 - [Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering](https://arxiv.org/abs/2604.26275): Survey agentic AI architecture and impact on software development
 - [The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE](https://arxiv.org/abs/2604.15468): Survey agentic software engineering and its expanding scope
 - [A Tertiary Review of LLM-Based Code Generating Tasks](https://arxiv.org/abs/2605.25536): Consolidate secondary evidence on LLM-based code generation tasks
+- [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006): Compare architecture and evolution across production coding harnesses

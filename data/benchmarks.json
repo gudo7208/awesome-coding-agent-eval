@@ -118463,5 +118463,26 @@
     "last_verified": "2026-07-27",
     "status": "active",
     "paper": "https://arxiv.org/abs/2607.21217"
+  },
+  {
+    "id": "swe-gate",
+    "name": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+    "stage": "benchmark",
+    "subcategory": "bug-fix",
+    "what": "Evaluate functional correctness and review-constraint compliance",
+    "type": "paper+repo",
+    "tags": [
+      "coding-agent",
+      "repository-level",
+      "review-constraints",
+      "functional-tests"
+    ],
+    "scale": 303,
+    "eval_method": "execution-based",
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.04167",
+    "repo": "https://github.com/DeepSoftwareAnalytics/SWE-Gate"
   }
 ]

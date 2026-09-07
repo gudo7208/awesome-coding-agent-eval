@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-960-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-967-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -29,11 +29,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 |---|---|
 | Get started in 5 minutes | → [Getting Started Guide](docs/getting-started.md) |
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
-| Find the right benchmark (555) | → [② Benchmarks](#-top-30-benchmarks) |
-| Understand scoring methods (146) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (120) | → [④ Toolchain](#-evaluation-toolchain) |
+| Find the right benchmark (556) | → [② Benchmarks](#-top-30-benchmarks) |
+| Understand scoring methods (148) | → [③ Methodology](#-evaluation-methodology) |
+| Set up evaluation infrastructure (121) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
-| Learn about benchmark pitfalls (116) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
+| Learn about benchmark pitfalls (119) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 | Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |
 
 ## Table of Contents
@@ -52,6 +52,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 
 ## 🔥 Recently Added
 
+- [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](https://github.com/DeepSoftwareAnalytics/SWE-Gate) — Evaluate functional correctness and review-constraint compliance
 - [RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades](https://arxiv.org/abs/2605.15846) — Evaluate long-horizon version upgrades across real repositories
 - [SocSci-Repro-Bench: AI Coding Agents Can Reproduce Social Science Findings](https://arxiv.org/abs/2606.11447) — Evaluate coding agents reproducing validated social-science findings
 - [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](https://arxiv.org/abs/2607.20759) — Benchmark coding agents against malicious issue-request attacks
@@ -59,7 +60,6 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - [GUITestScape](https://arxiv.org/abs/2605.29532) — Evaluate agents on open-set exploratory GUI testing with display defects
 - [Code-QA-Bench](https://arxiv.org/abs/2605.29277) — Benchmark repo-level code understanding separating reasoning from memorization
 - [Cookie-Bench](https://arxiv.org/abs/2605.30000) — Evaluate LLM-generated interactive web apps via reference-free interaction
-- [LogDx-CI](https://arxiv.org/abs/2605.28876) — Benchmark log reduction tools for LLM CI failure diagnosis
 
 ---
 
@@ -98,7 +98,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | [SWE Atlas](https://scale.com/leaderboard/sweatlas-qna) ✅ | Benchmark suite for coding agents on QA, test writing, and refactoring tasks | python, go, c, typescript | - | execution-based | 2025 | - |
 | [SWE-EVO](https://arxiv.org/html/2512.18470v2) ✅ | Benchmarks multi-step software evolution with 48 tasks across 7 OSS projects | python | 48 | execution-based | 2025 | - |
 
-→ [See all 555 benchmarks](docs/2-benchmarks.md)
+→ [See all 556 benchmarks](docs/2-benchmarks.md)
 
 ## 📖 Must-Read by Category
 
@@ -115,7 +115,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 📐 Evaluation Methodology
 
 <details>
-<summary>③ Evaluation Methodology (146 resources)</summary>
+<summary>③ Evaluation Methodology (148 resources)</summary>
 
 ### Execution-based
 
@@ -222,6 +222,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 🐍 [Themis](https://arxiv.org/abs/2604.29500) — Robust multilingual code reward models for multi-criteria scoring.
 - 📝 [Understanding the Limits of Automated Evaluation for Code Review Bots in Practice](https://arxiv.org/abs/2604.24525) `2025` — Study on structural limits of automated evaluation for code review bots.
 - 📝 [Vibe Checker: Aligning Code Evaluation with Human Preference](https://arxiv.org/abs/2510.07315) — Align automated code evaluation with human preferences.
+- 📝 [Commit-first LLM judging inherits the judge's own errors](https://arxiv.org/abs/2609.00088) — Audit commit-first LLM judges for task-solution error inheritance.
 
 > See also: [Process Evaluation](#process-eval), [Execution-based](#execution-based)
 
@@ -281,6 +282,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Agentic Rubrics as Contextual Verifiers for SWE Agents](https://arxiv.org/abs/2601.04171) — Generates repository-grounded checklists to verify SWE-agent patches.
 - 📝 [AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning](https://github.com/alphadl/AdaRubrics) `ACL 2026 KnowFM` — Generates task-adaptive dimensions for step-level agent evaluation.
 - 📝 [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134) — Gate scientific-paper replications on recorded evidence and validation.
+- 📝 [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](https://github.com/DeepSoftwareAnalytics/PTA-IRT) — Recover benchmark scores using process-aware calibration subsets.
 
 > See also: [LLM-as-Judge](#llm-judge), [Hybrid](#hybrid)
 
@@ -289,7 +291,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (120 resources)</summary>
+<summary>④ Evaluation Toolchain (121 resources)</summary>
 
 ### Evaluation Harness
 
@@ -350,6 +352,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service) — Google Vertex AI agent evaluation service with trajectory analysis.
 - 📝 [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985) — Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions.
 - 📝 [VibeGuard: Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052) — Pre-publish security gate targeting 5 blind spots in AI-generated code.
+- 📝 [CATJudge](https://github.com/SleepyWithoutCoffee/CATJudge) `EMNLP 2026` — Explore web apps with browser tools and grade discovered bugs.
 
 ### Observability
 
@@ -471,7 +474,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔬 Meta-Analysis & Pitfalls
 
 <details>
-<summary>⑥ Meta-Analysis & Pitfalls (116 resources)</summary>
+<summary>⑥ Meta-Analysis & Pitfalls (119 resources)</summary>
 
 ### Blogs & Practice Reports
 
@@ -581,6 +584,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?](https://github.com/THU-KEG/RuVerBench) — Measures rubric-verification reliability on research and coding agents.
 - 📝 [Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction](https://arxiv.org/abs/2607.12835) — Audits generated rubrics for research-agent experiment reproduction.
 - 🌐 [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark) — Compare coding-agent turns, tokens, and verifier pass rates over 348 runs.
+- 📝 [Requirements After the First Edit: Mining Late Requirement Emergence and Rework in Real-World Coding-Agent Sessions](https://arxiv.org/abs/2609.03028) — Measure code invalidation after late requirements in agent sessions.
+- 📝 [What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal](https://arxiv.org/abs/2609.01271) — Profile benchmark task demands and agent behavior beyond labels.
 
 ### Surveys
 
@@ -600,6 +605,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering](https://arxiv.org/abs/2604.26275) — Survey agentic AI architecture and impact on software development.
 - 📝 [The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE](https://arxiv.org/abs/2604.15468) — Survey agentic software engineering and its expanding scope.
 - 📝 [A Tertiary Review of LLM-Based Code Generating Tasks](https://arxiv.org/abs/2605.25536) — Consolidate secondary evidence on LLM-based code generation tasks.
+- 📝 [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006) — Compare architecture and evolution across production coding harnesses.
 
 </details>
 

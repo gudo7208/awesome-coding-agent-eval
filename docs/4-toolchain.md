@@ -7,7 +7,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [Evaluation Harness (44)](#harness)
 - [Sandbox & Execution (56)](#sandbox)
 - [Observability (12)](#observability)
-- [LLM Judge Tools (8)](#judge-tool)
+- [LLM Judge Tools (9)](#judge-tool)
 
 <a id="harness"></a>
 ## Evaluation Harness
@@ -164,6 +164,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 - [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985) — Black-box LLM safety/security eval platform with 40+ tests across 8 dimensions. 🔒
 - [augre](https://github.com/twitchax/augre) ⭐41 — LLM-powered local diff code review tool using CodeLlama or OpenAI. 🤖
+- [CATJudge](https://github.com/SleepyWithoutCoffee/CATJudge) — Explore web apps with browser tools and grade discovered bugs.
 - [CodeFox-CLI](https://github.com/codefox-lab/CodeFox-CLI) ⭐39 — CLI tool for AI-powered code review of git diffs using local or cloud LLMs. 🤖
 - [diffdeck](https://github.com/KnockOutEZ/diffdeck) ⭐47 — Provide diff-based comparison tooling for judging code changes.
 - [Evaluate your AI agents with Vertex Gen AI evaluation service](https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service) — Google Vertex AI agent evaluation service with trajectory analysis. 🤖

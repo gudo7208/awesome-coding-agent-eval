@@ -5087,5 +5087,61 @@
     "last_verified": "2026-07-27",
     "status": "active",
     "website": "https://turaai.net/benchmark"
+  },
+  {
+    "id": "requirements-after-the-first-edit",
+    "name": "Requirements After the First Edit: Mining Late Requirement Emergence and Rework in Real-World Coding-Agent Sessions",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Measure code invalidation after late requirements in agent sessions",
+    "type": "paper",
+    "tags": [
+      "coding-agent",
+      "requirements-engineering",
+      "session-analysis",
+      "rework"
+    ],
+    "scale": 3553,
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.03028"
+  },
+  {
+    "id": "agentic-se-benchmark-snc-profiling",
+    "name": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Profile benchmark task demands and agent behavior beyond labels",
+    "type": "paper",
+    "tags": [
+      "benchmark-validity",
+      "task-demand",
+      "trajectory-analysis",
+      "coding-agent"
+    ],
+    "scale": 14922,
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.01271"
+  },
+  {
+    "id": "harness-engineering-source-code-study",
+    "name": "Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems",
+    "stage": "meta-analysis",
+    "subcategory": "survey",
+    "what": "Compare architecture and evolution across production coding harnesses",
+    "type": "paper",
+    "tags": [
+      "coding-agent",
+      "agent-harness",
+      "source-code-study",
+      "architecture"
+    ],
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.00006"
   }
 ]

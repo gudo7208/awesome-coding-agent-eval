@@ -4,8 +4,8 @@ Different scoring approaches, each with trade-offs.
 
 ## Contents
 
-- [LLM-as-Judge (49)](#llm-judge)
-- [Process Evaluation (54)](#process-eval)
+- [LLM-as-Judge (50)](#llm-judge)
+- [Process Evaluation (55)](#process-eval)
 - [Execution-based (25)](#execution-based)
 - [Hybrid (9)](#hybrid)
 - [Human Evaluation (9)](#human-eval)
@@ -33,6 +33,7 @@ Different scoring approaches, each with trade-offs.
 - [CodeJudgeBench](https://arxiv.org/abs/2507.10535) — Benchmarks LLM-as-Judge reliability on code tasks, revealing bias and limits. 🤖
 - [CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences](https://arxiv.org/abs/2403.09032) — LLM-as-a-Judge dataset for aligning code LLMs with user preferences. 🤖
 - [Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code](https://arxiv.org/abs/2409.19715) — Evaluate and improve natural language feedback on erroneous code.
+- [Commit-first LLM judging inherits the judge's own errors](https://arxiv.org/abs/2609.00088) — Audit commit-first LLM judges for task-solution error inheritance. 🤖
 - [Comparing Developer and LLM Biases in Code Evaluation](https://arxiv.org/abs/2603.24586) — Compares developer and LLM biases in code evaluation using TRACE framework. 🤖
 - [Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers](https://arxiv.org/abs/2604.25891) — Study how interventions can hide emergent misalignment behind triggers.
 - [Correlating Automated and Human Evaluation of Code Documentation Generation Quality](https://www.semanticscholar.org/paper/3f673691509b430a3c57040928008b9949508987) — Correlates automated metrics vs human eval for code documentation generation. 👤
@@ -105,6 +106,7 @@ Different scoring approaches, each with trade-offs.
 - [Does RL Expand the Capability Boundary of LLM Agents? A PASS@(k,T) Analysis](https://arxiv.org/abs/2604.14877) — Analyze whether RL expands LLM agent capability via pass@(k,T) metric. 🔍
 - [Don't Let AI Agents YOLO Your Files: Shifting Information and Control to Filesystems for Agent Safety and Autonomy](https://arxiv.org/abs/2604.13536) — Study filesystem-level controls for AI agent safety and autonomy.
 - [Effective Strategies for Asynchronous Software Engineering Agents](https://arxiv.org/html/2603.21489v1) — Evaluates coordination strategies for asynchronous multi-agent SE workflows. 🤝
+- [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](https://github.com/DeepSoftwareAnalytics/PTA-IRT) — Recover benchmark scores using process-aware calibration subsets.
 - [Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents](https://arxiv.org/abs/2604.26274) — Enforce benign agent trajectories via behavioral firewall.
 - [Evaluating Plan Compliance in Autonomous Programming Agents](https://arxiv.org/abs/2604.12147v2) — Assess plan compliance in autonomous programming agents.
 - [Evaluating whether AI models would sabotage AI safety research](https://arxiv.org/abs/2604.24618) — Assess whether AI models would sabotage AI safety research.

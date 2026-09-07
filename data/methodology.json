@@ -4550,5 +4550,44 @@
     "last_verified": "2026-07-27",
     "status": "active",
     "paper": "https://arxiv.org/abs/2607.02134"
+  },
+  {
+    "id": "pta-irt-trajectory-aware-evaluation",
+    "name": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+    "stage": "methodology",
+    "subcategory": "process-eval",
+    "what": "Recover benchmark scores using process-aware calibration subsets",
+    "type": "paper+repo",
+    "tags": [
+      "coding-agent",
+      "trajectory-evaluation",
+      "item-response-theory",
+      "efficient-evaluation"
+    ],
+    "eval_method": "hybrid",
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.01603",
+    "repo": "https://github.com/DeepSoftwareAnalytics/PTA-IRT"
+  },
+  {
+    "id": "commit-first-llm-judging-errors",
+    "name": "Commit-first LLM judging inherits the judge's own errors",
+    "stage": "methodology",
+    "subcategory": "llm-judge",
+    "what": "Audit commit-first LLM judges for task-solution error inheritance",
+    "type": "paper",
+    "tags": [
+      "llm-judge",
+      "judge-reliability",
+      "held-out-tests",
+      "adversarial-evaluation"
+    ],
+    "eval_method": "llm-judge",
+    "added_date": "2026-09-07",
+    "last_verified": "2026-09-07",
+    "status": "active",
+    "paper": "https://arxiv.org/abs/2609.00088"
   }
 ]
