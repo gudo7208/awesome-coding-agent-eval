@@ -8,11 +8,11 @@ Source of truth is `data/*.json` (5 files). README.md and docs/ are auto-generat
 
 | File | Content | Count |
 |---|---|---|
-| data/benchmarks.json | Benchmarks & Datasets | 530 |
-| data/methodology.json | Evaluation Methodology | 133 |
-| data/toolchain.json | Toolchain (harness, sandbox) | 113 |
-| data/leaderboards.json | Leaderboards | 24 |
-| data/meta-analysis.json | Meta-Analysis & Pitfalls | 100 |
+| data/benchmarks.json | Benchmarks & Datasets | 562 |
+| data/methodology.json | Evaluation Methodology | 148 |
+| data/toolchain.json | Toolchain (harness, sandbox) | 121 |
+| data/leaderboards.json | Leaderboards | 23 |
+| data/meta-analysis.json | Meta-Analysis & Pitfalls | 121 |
 
 ## Schema
 

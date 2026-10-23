@@ -5,7 +5,7 @@ Research on benchmark quality itself — know the traps before you trust the sco
 ## Contents
 
 - [Benchmark Limitations (9)](#limitation)
-- [Agent Output Quality Studies (58)](#quality-study)
+- [Agent Output Quality Studies (60)](#quality-study)
 - [Surveys (17)](#survey)
 - [Blogs & Practice Reports (35)](#blog)
 
@@ -57,8 +57,10 @@ Research on benchmark quality itself — know the traps before you trust the sco
 - [Harness-Bench](https://arxiv.org/abs/2605.27922) — Measure how harness design choices affect agent benchmark scores.
 - [How AI Coding Agents Modify Code: A Large-Scale Study of GitHub Pull Requests](https://arxiv.org/abs/2601.17581) — Analyzes 24K merged GitHub PRs comparing AI agent vs human code change patterns. 📦
 - [How Coding Agents Fail Their Users](https://arxiv.org/abs/2605.29442) — Analyze 20K coding agent sessions to classify developer-agent misalignment.
+- [How Do Coding Agents Optimize Software and Report Performance Validation? A Large-Scale Empirical Study of Open-Source Pull Requests](https://arxiv.org/abs/2610.03969) — Audits performance-validation evidence in agent and human pull requests.
 - [How Well Does Agent Development Reflect Real-World Work?](https://arxiv.org/abs/2603.01203) — Study how well agent development tasks reflect real-world work.
 - [Human-Agent versus Human Pull Requests: A Testing-Focused Characterization and Comparison](https://arxiv.org/abs/2601.21194) — Compare testing quality between human-agent and human pull requests.
+- [Identical Runs, Different Results: Benchmarking AI Coding Agents on Open-Weight Models](https://github.com/earino/identical-runs-different-results) — Analyzes run variance, compliance, cost, and generalization for coding agents.
 - [Is Your Automated Software Engineer Trustworthy?](https://arxiv.org/abs/2506.17812) — Examines trustworthiness of coding agents and confidence calibration gaps.
 
 ### M–R

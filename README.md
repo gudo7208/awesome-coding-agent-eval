@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-967-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-975-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -29,11 +29,11 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 |---|---|
 | Get started in 5 minutes | → [Getting Started Guide](docs/getting-started.md) |
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
-| Find the right benchmark (556) | → [② Benchmarks](#-top-30-benchmarks) |
+| Find the right benchmark (562) | → [② Benchmarks](#-top-30-benchmarks) |
 | Understand scoring methods (148) | → [③ Methodology](#-evaluation-methodology) |
 | Set up evaluation infrastructure (121) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
-| Learn about benchmark pitfalls (119) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
+| Learn about benchmark pitfalls (121) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 | Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |
 
 ## Table of Contents
@@ -52,14 +52,14 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 
 ## 🔥 Recently Added
 
+- [AgentSWE: Can Coding Agents Build the Agent You Actually Want?](https://github.com/VectorSpaceLab/AgentSWE) `arXiv 2026` — Evaluates agent creation, editing, and optimization on held-out requirements
+- [SpecGuardBench: Can Coding Agents Construct Reliable Validation Harnesses from Natural Language Specifications?](https://arxiv.org/abs/2610.16870) `arXiv 2026` — Evaluates specification-faithful validation harnesses on repository tasks
+- [VulContextBench: A Benchmark for Security Context Retrieval in Coding Agents](https://arxiv.org/abs/2609.32601) `arXiv 2026` — Measures retrieved and cited code evidence for vulnerability analysis
+- [TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications](https://arxiv.org/abs/2610.13065) `arXiv 2026` — Measures application test-suite strength with requirement-derived mutants
+- [Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents](https://arxiv.org/abs/2610.20344) `arXiv 2026` — Evaluates generated coding-agent harnesses with deterministic mock-model tests
+- [Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents](https://arxiv.org/abs/2610.06193) `arXiv 2026` — Audits repository-policy compliance in agent workflows and final patches
 - [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](https://github.com/DeepSoftwareAnalytics/SWE-Gate) — Evaluate functional correctness and review-constraint compliance
 - [RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades](https://arxiv.org/abs/2605.15846) — Evaluate long-horizon version upgrades across real repositories
-- [SocSci-Repro-Bench: AI Coding Agents Can Reproduce Social Science Findings](https://arxiv.org/abs/2606.11447) — Evaluate coding agents reproducing validated social-science findings
-- [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](https://arxiv.org/abs/2607.20759) — Benchmark coding agents against malicious issue-request attacks
-- [ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders](https://arxiv.org/abs/2607.21217) — Evaluate coding agents as interactive builders from fuzzy requirements
-- [GUITestScape](https://arxiv.org/abs/2605.29532) — Evaluate agents on open-set exploratory GUI testing with display defects
-- [Code-QA-Bench](https://arxiv.org/abs/2605.29277) — Benchmark repo-level code understanding separating reasoning from memorization
-- [Cookie-Bench](https://arxiv.org/abs/2605.30000) — Evaluate LLM-generated interactive web apps via reference-free interaction
 
 ---
 
@@ -98,7 +98,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | [SWE Atlas](https://scale.com/leaderboard/sweatlas-qna) ✅ | Benchmark suite for coding agents on QA, test writing, and refactoring tasks | python, go, c, typescript | - | execution-based | 2025 | - |
 | [SWE-EVO](https://arxiv.org/html/2512.18470v2) ✅ | Benchmarks multi-step software evolution with 48 tasks across 7 OSS projects | python | 48 | execution-based | 2025 | - |
 
-→ [See all 556 benchmarks](docs/2-benchmarks.md)
+→ [See all 562 benchmarks](docs/2-benchmarks.md)
 
 ## 📖 Must-Read by Category
 
@@ -474,7 +474,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔬 Meta-Analysis & Pitfalls
 
 <details>
-<summary>⑥ Meta-Analysis & Pitfalls (119 resources)</summary>
+<summary>⑥ Meta-Analysis & Pitfalls (121 resources)</summary>
 
 ### Blogs & Practice Reports
 
@@ -586,6 +586,8 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🌐 [Tura Long-Horizon Coding Agent Benchmark](https://turaai.net/benchmark) — Compare coding-agent turns, tokens, and verifier pass rates over 348 runs.
 - 📝 [Requirements After the First Edit: Mining Late Requirement Emergence and Rework in Real-World Coding-Agent Sessions](https://arxiv.org/abs/2609.03028) — Measure code invalidation after late requirements in agent sessions.
 - 📝 [What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal](https://arxiv.org/abs/2609.01271) — Profile benchmark task demands and agent behavior beyond labels.
+- 📝 [Identical Runs, Different Results: Benchmarking AI Coding Agents on Open-Weight Models](https://github.com/earino/identical-runs-different-results) `arXiv 2026` — Analyzes run variance, compliance, cost, and generalization for coding agents.
+- 📝 [How Do Coding Agents Optimize Software and Report Performance Validation? A Large-Scale Empirical Study of Open-Source Pull Requests](https://arxiv.org/abs/2610.03969) `arXiv 2026` — Audits performance-validation evidence in agent and human pull requests.
 
 ### Surveys
 
