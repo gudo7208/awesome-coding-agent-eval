@@ -1,11 +1,11 @@
 {
-  "total": 975,
+  "total": 976,
   "by_stage": {
     "benchmarks": 562,
     "leaderboards": 23,
     "meta-analysis": 121,
     "methodology": 148,
-    "toolchain": 121
+    "toolchain": 122
   },
   "by_subcategory": {
     "code-generation": 156,
@@ -16,8 +16,8 @@
     "process-eval": 55,
     "security": 52,
     "llm-judge": 50,
+    "harness": 45,
     "testing": 44,
-    "harness": 44,
     "long-horizon": 40,
     "blog": 35,
     "code-review": 26,
@@ -37,21 +37,21 @@
   },
   "by_type": {
     "paper": 765,
-    "repo": 84,
+    "repo": 85,
     "tool": 58,
     "paper+repo": 51,
     "blog": 12,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 975
+    "active": 976
   },
   "by_language": {
     "python": 154,
     "typescript": 24,
     "java": 21,
     "javascript": 16,
-    "rust": 14,
+    "rust": 15,
     "go": 12,
     "html": 9,
     "c": 6,

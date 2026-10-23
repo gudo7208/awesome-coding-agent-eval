@@ -1,6 +1,6 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 975 curated resources for evaluating AI coding agents.
+> 976 curated resources for evaluating AI coding agents.
 
 ## Benchmarks & Datasets (562)
 
@@ -764,9 +764,9 @@
 - [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134): Gate scientific-paper replications on recorded evidence and validation. Method: execution-based
 - [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](https://github.com/DeepSoftwareAnalytics/PTA-IRT): Recover benchmark scores using process-aware calibration subsets. Method: hybrid
 
-## Evaluation Toolchain (121)
+## Evaluation Toolchain (122)
 
-### Evaluation Harness (44)
+### Evaluation Harness (45)
 
 - [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands): Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster. Stars: 72349
 - [OpenAI Evals](https://github.com/openai/evals): Provide a framework for evaluating LLM model outputs. Stars: 18318
@@ -812,6 +812,7 @@
 - [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586): Reduce agent trajectory tokens 40-60% by removing useless/redundant info
 - [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481): Evaluation suite for multi-agent system testing and observability
 - [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919): Compress agent skill descriptions 48% and bodies 39% while improving quality
+- [rust-norion](https://github.com/yanghao1143/rust-norion): Provides fixture scoring and validation evidence for Rust coding tasks. Lang: rust
 
 ### LLM Judge Tools (9)
 

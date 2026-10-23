@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-975-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-976-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -31,7 +31,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
 | Find the right benchmark (562) | → [② Benchmarks](#-top-30-benchmarks) |
 | Understand scoring methods (148) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (121) | → [④ Toolchain](#-evaluation-toolchain) |
+| Set up evaluation infrastructure (122) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
 | Learn about benchmark pitfalls (121) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 | Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |
@@ -291,7 +291,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (121 resources)</summary>
+<summary>④ Evaluation Toolchain (122 resources)</summary>
 
 ### Evaluation Harness
 
@@ -339,6 +339,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📝 [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586) — Reduce agent trajectory tokens 40-60% by removing useless/redundant info.
 - 📝 [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/abs/2601.00481) — Evaluation suite for multi-agent system testing and observability.
 - 📝 [SkillReducer: Optimizing LLM Agent Skills for Token Efficiency](https://arxiv.org/abs/2603.29919) — Compress agent skill descriptions 48% and bodies 39% while improving quality.
+- 🔧 🦀 [rust-norion](https://github.com/yanghao1143/rust-norion) — Provides fixture scoring and validation evidence for Rust coding tasks.
 
 > See also: [Sandbox & Execution](#sandbox), [Execution-based](#execution-based)
 
