@@ -10,7 +10,7 @@ Source of truth is `data/*.json` (5 files). README.md and docs/ are auto-generat
 |---|---|---|
 | data/benchmarks.json | Benchmarks & Datasets | 562 |
 | data/methodology.json | Evaluation Methodology | 148 |
-| data/toolchain.json | Toolchain (harness, sandbox) | 121 |
+| data/toolchain.json | Toolchain (harness, sandbox) | 122 |
 | data/leaderboards.json | Leaderboards | 23 |
 | data/meta-analysis.json | Meta-Analysis & Pitfalls | 121 |
 

@@ -3922,5 +3922,26 @@
     "venue": "EMNLP 2026",
     "paper": "https://arxiv.org/abs/2609.00081",
     "repo": "https://github.com/SleepyWithoutCoffee/CATJudge"
+  },
+  {
+    "id": "rust-norion",
+    "name": "rust-norion",
+    "stage": "toolchain",
+    "subcategory": "harness",
+    "what": "Provides fixture scoring and validation evidence for Rust coding tasks",
+    "type": "repo",
+    "repo": "https://github.com/yanghao1143/rust-norion",
+    "tags": [
+      "coding-evaluation",
+      "rust",
+      "evaluation-harness",
+      "validation-evidence"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active"
   }
 ]

@@ -4,7 +4,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 ## Contents
 
-- [Evaluation Harness (44)](#harness)
+- [Evaluation Harness (45)](#harness)
 - [Sandbox & Execution (56)](#sandbox)
 - [Observability (12)](#observability)
 - [LLM Judge Tools (9)](#judge-tool)
@@ -53,6 +53,7 @@ The tool stack you need to run an evaluation end-to-end.
 - [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands) ⭐72349 — Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster.
 - [pr-arena](https://github.com/neulab/pr-arena) ⭐16 — Platform for pairwise PR generation and human comparison to rank coding agents.
 - [refact-bench](https://github.com/smallcloudai/refact-bench) ⭐62 — Benchmark harness evaluating AI coding assistants on SWE-Bench tasks via Docker.
+- [rust-norion](https://github.com/yanghao1143/rust-norion) — Provides fixture scoring and validation evidence for Rust coding tasks. 🦀
 
 ### S–Z
 
