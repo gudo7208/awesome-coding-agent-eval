@@ -1,6 +1,6 @@
 # For AI Agents
 
-This file helps AI agents efficiently query 960 SE agent evaluation resources. All data is structured JSON — no scraping needed.
+This file helps AI agents efficiently query 975 SE agent evaluation resources. All data is structured JSON — no scraping needed.
 
 ## Quick Access
 
@@ -16,11 +16,11 @@ This file helps AI agents efficiently query 960 SE agent evaluation resources. A
 
 | File | Stage | Count |
 |---|---|---|
-| data/benchmarks.json | Benchmarks & Datasets | 555 |
-| data/methodology.json | Evaluation Methodology | 146 |
-| data/toolchain.json | Toolchain (harness, sandbox, observability) | 120 |
+| data/benchmarks.json | Benchmarks & Datasets | 562 |
+| data/methodology.json | Evaluation Methodology | 148 |
+| data/toolchain.json | Toolchain (harness, sandbox, observability) | 121 |
 | data/leaderboards.json | Leaderboards | 23 |
-| data/meta-analysis.json | Meta-Analysis & Pitfalls | 116 |
+| data/meta-analysis.json | Meta-Analysis & Pitfalls | 121 |
 
 ## Schema
 

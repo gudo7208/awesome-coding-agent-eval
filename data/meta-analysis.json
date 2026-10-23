@@ -5143,5 +5143,47 @@
     "last_verified": "2026-09-07",
     "status": "active",
     "paper": "https://arxiv.org/abs/2609.00006"
+  },
+  {
+    "id": "identical-runs-different-results",
+    "name": "Identical Runs, Different Results: Benchmarking AI Coding Agents on Open-Weight Models",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Analyzes run variance, compliance, cost, and generalization for coding agents",
+    "type": "paper+repo",
+    "tags": [
+      "replication",
+      "variance",
+      "cost",
+      "compliance"
+    ],
+    "paper": "https://arxiv.org/abs/2609.33812",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "repo": "https://github.com/earino/identical-runs-different-results",
+    "limitations": [
+      "Intensive replication studies one machine-learning optimization task; do not generalize its variance estimates to every coding task."
+    ]
+  },
+  {
+    "id": "agent-performance-validation-study",
+    "name": "How Do Coding Agents Optimize Software and Report Performance Validation? A Large-Scale Empirical Study of Open-Source Pull Requests",
+    "stage": "meta-analysis",
+    "subcategory": "quality-study",
+    "what": "Audits performance-validation evidence in agent and human pull requests",
+    "type": "paper",
+    "tags": [
+      "performance",
+      "validation",
+      "pull-requests",
+      "empirical-study"
+    ],
+    "paper": "https://arxiv.org/abs/2610.03969",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active"
   }
 ]

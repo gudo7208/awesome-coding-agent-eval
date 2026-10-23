@@ -118484,5 +118484,134 @@
     "status": "active",
     "paper": "https://arxiv.org/abs/2609.04167",
     "repo": "https://github.com/DeepSoftwareAnalytics/SWE-Gate"
+  },
+  {
+    "id": "agentswe",
+    "name": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+    "stage": "benchmark",
+    "subcategory": "end-to-end",
+    "what": "Evaluates agent creation, editing, and optimization on held-out requirements",
+    "type": "paper+repo",
+    "tags": [
+      "agent-development",
+      "requirements",
+      "held-out-evaluation"
+    ],
+    "paper": "https://arxiv.org/abs/2610.13361",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "hybrid",
+    "scale": 25,
+    "repo": "https://github.com/VectorSpaceLab/AgentSWE"
+  },
+  {
+    "id": "specguardbench",
+    "name": "SpecGuardBench: Can Coding Agents Construct Reliable Validation Harnesses from Natural Language Specifications?",
+    "stage": "benchmark",
+    "subcategory": "testing",
+    "what": "Evaluates specification-faithful validation harnesses on repository tasks",
+    "type": "paper",
+    "tags": [
+      "test-generation",
+      "specifications",
+      "validation-harness",
+      "false-rejection"
+    ],
+    "paper": "https://arxiv.org/abs/2610.16870",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "execution-based",
+    "scale": 291,
+    "limitations": [
+      "Harness construction receives a reference implementation as well as the specification and repository context."
+    ]
+  },
+  {
+    "id": "vulcontextbench",
+    "name": "VulContextBench: A Benchmark for Security Context Retrieval in Coding Agents",
+    "stage": "benchmark",
+    "subcategory": "security",
+    "what": "Measures retrieved and cited code evidence for vulnerability analysis",
+    "type": "paper",
+    "tags": [
+      "context-retrieval",
+      "security",
+      "evidence",
+      "process-evaluation"
+    ],
+    "paper": "https://arxiv.org/abs/2609.32601",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "execution-based",
+    "scale": 111
+  },
+  {
+    "id": "testsuitebench",
+    "name": "TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications",
+    "stage": "benchmark",
+    "subcategory": "testing",
+    "what": "Measures application test-suite strength with requirement-derived mutants",
+    "type": "paper",
+    "tags": [
+      "test-generation",
+      "mutation-testing",
+      "specifications"
+    ],
+    "paper": "https://arxiv.org/abs/2610.13065",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "execution-based",
+    "scale": 165
+  },
+  {
+    "id": "doc2harness",
+    "name": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+    "stage": "benchmark",
+    "subcategory": "long-horizon",
+    "what": "Evaluates generated coding-agent harnesses with deterministic mock-model tests",
+    "type": "paper",
+    "tags": [
+      "harness-engineering",
+      "deterministic-evaluation",
+      "long-horizon"
+    ],
+    "paper": "https://arxiv.org/abs/2610.20344",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "execution-based",
+    "limitations": [
+      "328 reported test cases are acceptance checks, not 328 independent harness-building tasks."
+    ]
+  },
+  {
+    "id": "swe-cc",
+    "name": "Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents",
+    "stage": "benchmark",
+    "subcategory": "production",
+    "what": "Audits repository-policy compliance in agent workflows and final patches",
+    "type": "paper",
+    "tags": [
+      "repository-policy",
+      "compliance",
+      "trajectory",
+      "deterministic-evaluation"
+    ],
+    "paper": "https://arxiv.org/abs/2610.06193",
+    "venue": "arXiv 2026",
+    "added_date": "2026-10-23",
+    "last_verified": "2026-10-23",
+    "status": "active",
+    "eval_method": "execution-based",
+    "scale": 500
   }
 ]

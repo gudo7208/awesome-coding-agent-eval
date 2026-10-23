@@ -5,13 +5,13 @@ SE Agent benchmarks organized by task type.
 ## Contents
 
 - [Bug Fix & Issue Resolution (70)](#bug-fix)
-- [End-to-End / Multi-Task (120)](#end-to-end)
-- [Long-Horizon / Evolution (39)](#long-horizon)
+- [End-to-End / Multi-Task (121)](#end-to-end)
+- [Long-Horizon / Evolution (40)](#long-horizon)
 - [Large Codebase / Multi-Repo (24)](#large-codebase)
 - [Code Review (26)](#code-review)
-- [Testing & QA (42)](#testing)
-- [Security & Vulnerability (51)](#security)
-- [Production-Derived (14)](#production)
+- [Testing & QA (44)](#testing)
+- [Security & Vulnerability (52)](#security)
+- [Production-Derived (15)](#production)
 - [Code Generation (147)](#code-generation)
 - [Feature Development (8)](#feature-development)
 - [Multi-Agent (15)](#multi-agent)
@@ -117,6 +117,7 @@ SE Agent benchmarks organized by task type.
 - [Agentic Software Issue Resolution with Large Language Models: A Survey](https://arxiv.org/abs/2512.22256) — Surveys LLM-based agents for automated software issue resolution. 📋
 - [AgentProcessBench](https://arxiv.org/abs/2603.14465) — 1,000 trajectories with 8,509 human labels for step-level tool-use quality.
 - [AgentRewardBench](https://arxiv.org/abs/2504.08942) — 1,302-trajectory benchmark for assessing LLM judges of web agent trajectories. 🤖
+- [AgentSWE: Can Coding Agents Build the Agent You Actually Want?](https://github.com/VectorSpaceLab/AgentSWE) — Evaluates agent creation, editing, and optimization on held-out requirements.
 - [ai-agent-benchmark](https://github.com/murataslan1/ai-agent-benchmark) ⭐24 — Leaderboard comparing 80+ AI coding agents on SWE-Bench with pricing info. 🏆
 - [ai-agent-benchmark-compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) ⭐134 — Curated index of 50+ AI agent benchmarks across coding, tool-use, and reasoning.
 - [Apex2-Terminal-Bench-Agent](https://github.com/heartyguy/Apex2-Terminal-Bench-Agent) ⭐66 — Benchmarks terminal-based coding agents with leaderboard and ablation results. 🏆
@@ -258,6 +259,7 @@ SE Agent benchmarks organized by task type.
 - [ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents](https://arxiv.org/abs/2604.23781) — Living-world benchmark for multi-turn, multi-day, multimodal coworker agents. 📅
 - [ContextEcho](https://arxiv.org/abs/2605.24279) — Measure persona drift in long agentic-coding sessions.
 - [Conversations Beneath the Code](https://arxiv.org/abs/2604.28455) — Triadic data (spec, discussion, code) for long-horizon SE agents. 📅
+- [Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents](https://arxiv.org/abs/2610.20344) — Evaluates generated coding-agent harnesses with deterministic mock-model tests. 📅
 - [EvoClaw: Evaluating AI Agents on Continuous Software Evolution](https://arxiv.org/abs/2603.13428) — Evaluate AI agents on continuous software evolution tasks. 📅
 - [frontier-swe](https://github.com/Proximal-Labs/frontier-swe) ⭐93 — Benchmarks coding agents on long-horizon impl, perf engineering, and ML tasks. 📅
 
@@ -406,6 +408,7 @@ SE Agent benchmarks organized by task type.
 ### S–Z
 
 - [Software Testing With Large Language Models: Survey, Landscape, and Vision](https://arxiv.org/abs/2307.07221) — Survey of LLMs applied to software testing tasks, landscape and vision. 📋
+- [SpecGuardBench: Can Coding Agents Construct Reliable Validation Harnesses from Natural Language Specifications?](https://arxiv.org/abs/2610.16870) — Evaluates specification-faithful validation harnesses on repository tasks.
 - [SWE-Tester: Training Open-Source LLMs for Issue Reproduction in Real-World Repositories](https://arxiv.org/abs/2601.13713) — Trains open-source LLMs to generate issue-reproducing tests from bug reports.
 - [SWT-Bench](https://github.com/logic-star-ai/SWT-Bench) ⭐76 — Benchmark LLM-generated tests for real-world software projects. 🐍
 - [TAM-Eval: Evaluating LLMs for Automated Unit Test Maintenance](https://arxiv.org/abs/2601.18241) — Evaluate LLMs on automated unit test maintenance tasks.
@@ -414,6 +417,7 @@ SE Agent benchmarks organized by task type.
 - [TestExplora: Benchmarking LLMs for Proactive Bug Discovery via Repository-Level Test Generation](https://arxiv.org/abs/2602.10471) — Benchmark for LLMs on proactive bug discovery via repo-level test generation.
 - [TestGenEval: A Real World Unit Test Generation and Test Completion Benchmark](https://arxiv.org/abs/2410.00752) — Benchmark real-world unit test generation and completion. 🌍
 - [Testing with AI Agents: An Empirical Study of Test Generation Frequency, Quality, and Coverage](https://arxiv.org/abs/2603.13724) — Study AI agent test generation frequency, quality, and coverage.
+- [TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications](https://arxiv.org/abs/2610.13065) — Measures application test-suite strength with requirement-derived mutants.
 - [UTBoost](https://github.com/CUHK-Shenzhen-SE/UTBoost) ⭐36 — Augments SWE-Bench with auto-generated unit tests to mitigate false positives.
 - [When Old Meets New: Evaluating the Impact of Regression Tests on SWE Issue Resolution](https://arxiv.org/abs/2510.18270) — Evaluate the impact of regression tests on SWE issue resolution.
 
@@ -484,6 +488,7 @@ SE Agent benchmarks organized by task type.
 - [SecurityEval dataset: mining vulnerability examples to evaluate machine learning-based code generation techniques](https://www.semanticscholar.org/paper/71280dba5bda65c162f9deaffed7d3d20692ca0a) — Evaluates ML code generation security using real-world vulnerability samples. 🔒
 - [Towards Agentic Investigation of Security Alerts](https://arxiv.org/abs/2604.25846) — Evaluate agentic investigation of security alerts. 🔒
 - [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395) — Evaluate vulnerability assessment, detection, explanation, and remediation. 🔒 👤
+- [VulContextBench: A Benchmark for Security Context Retrieval in Coding Agents](https://arxiv.org/abs/2609.32601) — Measures retrieved and cited code evidence for vulnerability analysis. 🔒
 
 <a id="production"></a>
 ## Production-Derived
@@ -492,6 +497,7 @@ SE Agent benchmarks organized by task type.
 - [AutoMat](https://arxiv.org/abs/2604.29200) — Evaluate coding agents on reproducing computational materials science.
 - [Bots Don’t Mind Waiting, Do They? Comparing the Interaction With Automatically and Manually Created Pull Requests](https://arxiv.org/abs/2103.03591) — Compares acceptance and wait time of bot vs human pull requests in OSS projects.
 - [CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs](https://arxiv.org/abs/2506.11059) — Multi-lingual benchmark for detecting AI-generated and paraphrased source code. 🌐
+- [Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents](https://arxiv.org/abs/2610.06193) — Audits repository-policy compliance in agent workflows and final patches.
 - [CUJBench: Benchmarking LLM-Agent on Cross-Modal Failure Diagnosis from Browser to Backend](https://arxiv.org/abs/2604.23455) — Benchmark LLM agents on cross-modal failure diagnosis.
 - [From Translation to Superset: Benchmark-Driven Evolution of a Production AI Agent from Rust to Python](https://arxiv.org/abs/2604.11518v1) — Study benchmark-driven evolution of a production AI agent across languages. 🏭 🦀 🐍
 - [Hot Fixing in the Wild](https://arxiv.org/abs/2604.26892v1) — Study hot-fix practices in real-world production systems. 🏭

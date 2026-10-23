@@ -1,50 +1,50 @@
 {
-  "total": 967,
+  "total": 975,
   "by_stage": {
-    "benchmarks": 556,
+    "benchmarks": 562,
     "leaderboards": 23,
-    "meta-analysis": 119,
+    "meta-analysis": 121,
     "methodology": 148,
     "toolchain": 121
   },
   "by_subcategory": {
     "code-generation": 156,
-    "end-to-end": 120,
+    "end-to-end": 121,
     "bug-fix": 70,
-    "quality-study": 58,
+    "quality-study": 60,
     "sandbox": 56,
     "process-eval": 55,
-    "security": 51,
+    "security": 52,
     "llm-judge": 50,
+    "testing": 44,
     "harness": 44,
-    "testing": 42,
-    "long-horizon": 39,
+    "long-horizon": 40,
     "blog": 35,
     "code-review": 26,
     "execution-based": 25,
     "large-codebase": 24,
     "survey": 17,
+    "production": 15,
     "multi-agent": 15,
-    "production": 14,
     "observability": 12,
+    "limitation": 9,
+    "judge-tool": 9,
+    "se-agent": 9,
     "hybrid": 9,
     "human-eval": 9,
-    "judge-tool": 9,
-    "limitation": 9,
-    "se-agent": 9,
     "feature-development": 8,
     "activity": 5
   },
   "by_type": {
-    "paper": 759,
+    "paper": 765,
     "repo": 84,
     "tool": 58,
-    "paper+repo": 49,
+    "paper+repo": 51,
     "blog": 12,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 967
+    "active": 975
   },
   "by_language": {
     "python": 154,
@@ -55,30 +55,30 @@
     "go": 12,
     "html": 9,
     "c": 6,
-    "c#": 3,
     "css": 3,
     "c++": 3,
+    "c#": 3,
     "jupyter notebook": 2,
     "cpp": 2,
-    "dockerfile": 1,
-    "shell": 1,
     "structured text": 1,
     "ruby": 1,
     "kotlin": 1,
-    "lean": 1
+    "lean": 1,
+    "dockerfile": 1,
+    "shell": 1
   },
   "by_eval_method": {
-    "execution-based": 214,
-    "hybrid": 14,
+    "execution-based": 219,
+    "hybrid": 15,
     "llm-judge": 12,
     "human-eval": 7
   },
   "by_rubric_role": {
+    "meta-evaluation": 2,
     "grading-method": 2,
     "construction-method": 2,
-    "meta-evaluation": 2,
-    "practice-guide": 1,
-    "benchmark-application": 1
+    "benchmark-application": 1,
+    "practice-guide": 1
   },
   "by_rubric_target": {
     "artifact": 4,
@@ -104,7 +104,7 @@
     },
     {
       "tag": "security",
-      "count": 57
+      "count": 58
     },
     {
       "tag": "llm-judge",
@@ -140,7 +140,7 @@
     },
     {
       "tag": "long-horizon",
-      "count": 39
+      "count": 40
     },
     {
       "tag": "coding-agent",
@@ -160,12 +160,12 @@
     },
     {
       "tag": "test-generation",
-      "count": 30
+      "count": 32
     },
     {
       "tag": "code-execution",
       "count": 28
     }
   ],
-  "last_updated": "2026-09-07"
+  "last_updated": "2026-10-23"
 }
