@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-976-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-977-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -31,7 +31,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Understand what to evaluate | → [① Evaluation Dimensions](docs/1-dimensions.md) |
 | Find the right benchmark (562) | → [② Benchmarks](#-top-30-benchmarks) |
 | Understand scoring methods (148) | → [③ Methodology](#-evaluation-methodology) |
-| Set up evaluation infrastructure (122) | → [④ Toolchain](#-evaluation-toolchain) |
+| Set up evaluation infrastructure (123) | → [④ Toolchain](#-evaluation-toolchain) |
 | See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
 | Learn about benchmark pitfalls (121) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 | Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |
@@ -291,7 +291,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🔧 Evaluation Toolchain
 
 <details>
-<summary>④ Evaluation Toolchain (122 resources)</summary>
+<summary>④ Evaluation Toolchain (123 resources)</summary>
 
 ### Evaluation Harness
 
@@ -327,6 +327,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 🔧 🐍 [pr-arena](https://github.com/neulab/pr-arena) — Platform for pairwise PR generation and human comparison to rank coding agents.
 - 🔧 🐍 [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness) — Provide a harness for long-duration coding agent evaluations.
 - 🔧 🐍 [squeez](https://github.com/KRLabsOrg/squeez) — Compresses verbose tool outputs for coding agents via LoRA fine-tuning.
+- 🔧 [agent-qa](https://github.com/vostride/agent-qa) — Verifies web and mobile app behavior after coding-agent changes.
 - 📝 [Build reliable AI agents with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/) — AWS blog on evaluating AI agents using Amazon Bedrock AgentCore Evaluations.
 - 📝 [How to Build a Coding Agent Benchmark with Claude's Agent SDK](https://lirantal.com/blog/how-to-build-a-coding-agent-benchmark-with-claudes-agent-sdk) — Tutorial on building a coding agent benchmark harness with Claude Agent SDK.
 - 📝 [OpenDevin: An Open Platform for AI Software Developers as Generalist Agents](https://www.semanticscholar.org/paper/be27ef5a9068d9e2be1ab97b7c3de7168c472972) — Open platform for building and evaluating AI software engineering agents.

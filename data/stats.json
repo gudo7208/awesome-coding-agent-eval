@@ -1,11 +1,11 @@
 {
-  "total": 976,
+  "total": 977,
   "by_stage": {
     "benchmarks": 562,
     "leaderboards": 23,
     "meta-analysis": 121,
     "methodology": 148,
-    "toolchain": 122
+    "toolchain": 123
   },
   "by_subcategory": {
     "code-generation": 156,
@@ -16,7 +16,7 @@
     "process-eval": 55,
     "security": 52,
     "llm-judge": 50,
-    "harness": 45,
+    "harness": 46,
     "testing": 44,
     "long-horizon": 40,
     "blog": 35,
@@ -27,24 +27,24 @@
     "production": 15,
     "multi-agent": 15,
     "observability": 12,
-    "limitation": 9,
-    "judge-tool": 9,
     "se-agent": 9,
     "hybrid": 9,
     "human-eval": 9,
+    "limitation": 9,
+    "judge-tool": 9,
     "feature-development": 8,
     "activity": 5
   },
   "by_type": {
     "paper": 765,
-    "repo": 85,
+    "repo": 86,
     "tool": 58,
     "paper+repo": 51,
     "blog": 12,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 976
+    "active": 977
   },
   "by_language": {
     "python": 154,
@@ -74,9 +74,9 @@
     "human-eval": 7
   },
   "by_rubric_role": {
-    "meta-evaluation": 2,
     "grading-method": 2,
     "construction-method": 2,
+    "meta-evaluation": 2,
     "benchmark-application": 1,
     "practice-guide": 1
   },
@@ -167,5 +167,5 @@
       "count": 28
     }
   ],
-  "last_updated": "2026-10-23"
+  "last_updated": "2026-10-31"
 }
