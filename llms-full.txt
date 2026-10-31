@@ -1,6 +1,6 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 976 curated resources for evaluating AI coding agents.
+> 977 curated resources for evaluating AI coding agents.
 
 ## Benchmarks & Datasets (562)
 
@@ -764,9 +764,9 @@
 - [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134): Gate scientific-paper replications on recorded evidence and validation. Method: execution-based
 - [Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation](https://github.com/DeepSoftwareAnalytics/PTA-IRT): Recover benchmark scores using process-aware calibration subsets. Method: hybrid
 
-## Evaluation Toolchain (122)
+## Evaluation Toolchain (123)
 
-### Evaluation Harness (45)
+### Evaluation Harness (46)
 
 - [OpenHands Eval Harness](https://github.com/All-Hands-AI/OpenHands): Built-in eval framework for OpenHands supporting SWE-bench and more, 30x faster. Stars: 72349
 - [OpenAI Evals](https://github.com/openai/evals): Provide a framework for evaluating LLM model outputs. Stars: 18318
@@ -800,6 +800,7 @@
 - [pr-arena](https://github.com/neulab/pr-arena): Platform for pairwise PR generation and human comparison to rank coding agents. Lang: python. Stars: 16
 - [codex-long-running-harness](https://github.com/LongWeihan/codex-long-running-harness): Provide a harness for long-duration coding agent evaluations. Lang: python. Stars: 15
 - [squeez](https://github.com/KRLabsOrg/squeez): Compresses verbose tool outputs for coding agents via LoRA fine-tuning. Lang: python. Stars: 11
+- [agent-qa](https://github.com/vostride/agent-qa): Verifies web and mobile app behavior after coding-agent changes
 - [Build reliable AI agents with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/): AWS blog on evaluating AI agents using Amazon Bedrock AgentCore Evaluations
 - [How to Build a Coding Agent Benchmark with Claude's Agent SDK](https://lirantal.com/blog/how-to-build-a-coding-agent-benchmark-with-claudes-agent-sdk): Tutorial on building a coding agent benchmark harness with Claude Agent SDK
 - [OpenDevin: An Open Platform for AI Software Developers as Generalist Agents](https://www.semanticscholar.org/paper/be27ef5a9068d9e2be1ab97b7c3de7168c472972): Open platform for building and evaluating AI software engineering agents

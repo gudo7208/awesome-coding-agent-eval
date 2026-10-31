@@ -4,7 +4,7 @@ The tool stack you need to run an evaluation end-to-end.
 
 ## Contents
 
-- [Evaluation Harness (45)](#harness)
+- [Evaluation Harness (46)](#harness)
 - [Sandbox & Execution (56)](#sandbox)
 - [Observability (12)](#observability)
 - [LLM Judge Tools (9)](#judge-tool)
@@ -17,6 +17,7 @@ The tool stack you need to run an evaluation end-to-end.
 ### A–F
 
 - [agent-bench](https://github.com/spring-ai-community/agent-bench) ⭐26 — Benchmarks Java AI agents in isolated sandboxes with Spring AI integration. ☕
+- [agent-qa](https://github.com/vostride/agent-qa) — Verifies web and mobile app behavior after coding-agent changes.
 - [agent-quality-inspect](https://github.com/SAP/agent-quality-inspect) ⭐75 — Provide quality inspection tooling for AI agent outputs.
 - [AgentDiet: Reducing Cost of LLM Agents with Trajectory Reduction](https://arxiv.org/abs/2509.23586) — Reduce agent trajectory tokens 40-60% by removing useless/redundant info.
 - [AgentEval](https://github.com/AgentEvalHQ/AgentEval) ⭐86 — Provide a harness for evaluating AI agent task performance.

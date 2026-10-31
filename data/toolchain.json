@@ -1,5 +1,32 @@
 [
   {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "stage": "toolchain",
+    "subcategory": "harness",
+    "what": "Verifies web and mobile app behavior after coding-agent changes",
+    "type": "repo",
+    "repo": "https://github.com/vostride/agent-qa",
+    "website": "https://vostride.com/docs/agent-qa/guides/coding-agent-workflow",
+    "tags": [
+      "testing",
+      "coding-agents",
+      "web",
+      "mobile",
+      "mcp",
+      "persistent-memory",
+      "self-improvement"
+    ],
+    "added_date": "2026-10-31",
+    "last_verified": "2026-10-31",
+    "status": "active",
+    "recommended": false,
+    "limitations": [
+      "Requires a configured model and web or mobile test environment.",
+      "Runtime license: FSL-1.1-ALv2; model and optional device-service costs vary."
+    ]
+  },
+  {
     "id": "agenteval",
     "name": "AgentEval",
     "stage": "toolchain",
