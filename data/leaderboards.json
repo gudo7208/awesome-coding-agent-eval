@@ -840,5 +840,22 @@
         "vader-a-human-evaluated-benchmark-for-vulnerability-assessment-detection-explanation-and-remediation"
       ]
     }
+  },
+  {
+    "id": "aihot-coding-model-leaderboard",
+    "name": "AIHOT Coding Model Leaderboard",
+    "stage": "leaderboard",
+    "subcategory": "code-generation",
+    "what": "Compares coding models using linked public software engineering benchmarks",
+    "type": "leaderboard",
+    "tags": [
+      "llm-ranking",
+      "coding",
+      "benchmark-comparison"
+    ],
+    "added_date": "2026-11-14",
+    "last_verified": "2026-11-14",
+    "status": "active",
+    "website": "https://aihot.news/leaderboard/category/coding"
   }
 ]

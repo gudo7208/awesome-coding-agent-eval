@@ -3,7 +3,7 @@
   <p>A curated collection of 900+ resources for evaluating AI coding agents</p>
 
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/resources-976-blue" alt="Resources">
+  <img src="https://img.shields.io/badge/resources-977-blue" alt="Resources">
   <img src="https://img.shields.io/badge/updated-weekly-green" alt="Updated weekly">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--4.0-lightgrey" alt="License"></a>
   <img src="https://img.shields.io/badge/links-checked-brightgreen" alt="Link Check">
@@ -32,7 +32,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 | Find the right benchmark (562) | → [② Benchmarks](#-top-30-benchmarks) |
 | Understand scoring methods (148) | → [③ Methodology](#-evaluation-methodology) |
 | Set up evaluation infrastructure (122) | → [④ Toolchain](#-evaluation-toolchain) |
-| See agent rankings (23) | → [⑤ Leaderboards](#-leaderboards) |
+| See agent rankings (24) | → [⑤ Leaderboards](#-leaderboards) |
 | Learn about benchmark pitfalls (121) | → [⑥ Meta-Analysis](#-meta-analysis--pitfalls) |
 | Design or audit scoring rubrics | → [⑦ Rubrics](docs/7-rubrics.md) |
 
@@ -436,7 +436,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 ## 🏆 Leaderboards
 
 <details>
-<summary>⑤ Leaderboards (23 resources)</summary>
+<summary>⑤ Leaderboards (24 resources)</summary>
 
 ### Activity
 
@@ -457,6 +457,7 @@ Of course, humans benefit too. The [Getting Started Guide](docs/getting-started.
 - 📊 [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) — Rank models on rigorous code generation benchmarks.
 - 📝 [LM Arena Coding Leaderboard: What Developers Need to Know](https://propelcode.ai/blog/lm-arena-coding-leaderboard-insights-for-developers) — Analysis of LM Arena coding leaderboard results and top model rankings.
 - 📊 [LiveCodeBench Leaderboard](https://livecodebench.github.io/leaderboard.html) — Rank models on live competitive programming challenges.
+- 📊 [AIHOT Coding Model Leaderboard](https://aihot.news/leaderboard/category/coding) — Compares coding models using linked public software engineering benchmarks.
 
 ### SE Agent
 
