@@ -1,14 +1,14 @@
 {
-  "total": 976,
+  "total": 977,
   "by_stage": {
     "benchmarks": 562,
-    "leaderboards": 23,
+    "leaderboards": 24,
     "meta-analysis": 121,
     "methodology": 148,
     "toolchain": 122
   },
   "by_subcategory": {
-    "code-generation": 156,
+    "code-generation": 157,
     "end-to-end": 121,
     "bug-fix": 70,
     "quality-study": 60,
@@ -27,11 +27,11 @@
     "production": 15,
     "multi-agent": 15,
     "observability": 12,
-    "limitation": 9,
-    "judge-tool": 9,
     "se-agent": 9,
     "hybrid": 9,
     "human-eval": 9,
+    "limitation": 9,
+    "judge-tool": 9,
     "feature-development": 8,
     "activity": 5
   },
@@ -41,10 +41,10 @@
     "tool": 58,
     "paper+repo": 51,
     "blog": 12,
-    "leaderboard": 5
+    "leaderboard": 6
   },
   "by_status": {
-    "active": 976
+    "active": 977
   },
   "by_language": {
     "python": 154,
@@ -74,9 +74,9 @@
     "human-eval": 7
   },
   "by_rubric_role": {
-    "meta-evaluation": 2,
     "grading-method": 2,
     "construction-method": 2,
+    "meta-evaluation": 2,
     "benchmark-application": 1,
     "practice-guide": 1
   },
@@ -167,5 +167,5 @@
       "count": 28
     }
   ],
-  "last_updated": "2026-10-23"
+  "last_updated": "2026-11-14"
 }

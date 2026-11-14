@@ -5,7 +5,7 @@ Aggregated rankings across benchmarks.
 ## Contents
 
 - [SE Agent (9)](#se-agent)
-- [Code Generation (9)](#code-generation)
+- [Code Generation (10)](#code-generation)
 - [Activity (5)](#activity)
 
 <a id="se-agent"></a>
@@ -26,6 +26,7 @@ Aggregated rankings across benchmarks.
 
 - [AI Coding Model Rankings & Benchmarks](https://onyx.app/best-llm-for-coding) — Ranks major LLMs across SE, code generation, and agentic coding benchmarks.
 - [Aider LLM Leaderboards](https://aider.chat/docs/leaderboards/) — Aider polyglot benchmark leaderboard comparing LLM coding across 6 languages. 🌐
+- [AIHOT Coding Model Leaderboard](https://aihot.news/leaderboard/category/coding) — Compares coding models using linked public software engineering benchmarks.
 - [Augment leads on CCEval: Benchmarking code completion for continuous improvement](https://www.augmentcode.com/blog/augment-leads-on-cceval-benchmarking-code-completion-for-continuous-improvement) — Rank models on code completion benchmarks for continuous improvement. 🌐
 - [Best AI Models for Coding - Arena Leaderboard](https://arena.ai/leaderboard/code) — Rank AI coding models via arena-style comparisons. 🏆
 - [BigCodeBench Leaderboard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard) — Ranks LLMs on complex function-level code generation with diverse library calls. 🏆

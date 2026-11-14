@@ -1,6 +1,6 @@
 # Awesome Coding Agent Eval — Full Content
 
-> 976 curated resources for evaluating AI coding agents.
+> 977 curated resources for evaluating AI coding agents.
 
 ## Benchmarks & Datasets (562)
 
@@ -900,7 +900,7 @@
 - [AgentSim: A Platform for Verifiable Agent-Trace Simulation](https://arxiv.org/abs/2604.26653v1): Platform for simulating and verifying agent traces for training/evaluation
 - [ScaleBox](https://arxiv.org/abs/2604.29700): High-fidelity and scalable code verification sandbox for LLMs
 
-## Leaderboards (23)
+## Leaderboards (24)
 
 ### Activity (5)
 
@@ -910,7 +910,7 @@
 - [AgentPulse: A Continuous Multi-Signal Framework for Evaluating AI Agents in Deployment](https://arxiv.org/abs/2604.24038v1): Rank AI agents via continuous multi-signal evaluation in deployment
 - [Agentic Much? Adoption of Coding Agents on GitHub](https://arxiv.org/abs/2601.18341): Study of coding agent adoption patterns on GitHub in early 2025
 
-### Code Generation (9)
+### Code Generation (10)
 
 - [Julia-LLM-Leaderboard](https://github.com/svilupp/Julia-LLM-Leaderboard): Leaderboard comparing AI models on Julia code generation with automated evals. Lang: html. Stars: 86
 - [AI Coding Model Rankings & Benchmarks](https://onyx.app/best-llm-for-coding): Ranks major LLMs across SE, code generation, and agentic coding benchmarks
@@ -921,6 +921,7 @@
 - [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html): Rank models on rigorous code generation benchmarks
 - [LM Arena Coding Leaderboard: What Developers Need to Know](https://propelcode.ai/blog/lm-arena-coding-leaderboard-insights-for-developers): Analysis of LM Arena coding leaderboard results and top model rankings
 - [LiveCodeBench Leaderboard](https://livecodebench.github.io/leaderboard.html): Rank models on live competitive programming challenges
+- [AIHOT Coding Model Leaderboard](https://aihot.news/leaderboard/category/coding): Compares coding models using linked public software engineering benchmarks
 
 ### SE Agent (9)
 
