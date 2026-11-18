@@ -116753,6 +116753,25 @@
     }
   },
   {
+    "id": "websitebench",
+    "name": "WebsiteBench",
+    "stage": "benchmark",
+    "subcategory": "code-generation",
+    "what": "Evaluates full-stack website reconstruction by agents from browser exploration",
+    "type": "repo",
+    "repo": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+    "tags": [
+      "web-development",
+      "code-generation",
+      "full-stack",
+      "browser-use"
+    ],
+    "added_date": "2026-11-18",
+    "last_verified": "2026-11-18",
+    "status": "active",
+    "eval_method": "execution-based"
+  },
+  {
     "id": "when-large-language-models-confront-repository-level-automatic-program-repair-how-well-they-done",
     "name": "When Large Language Models Confront Repository-Level Automatic Program Repair: How Well They Done?",
     "stage": "benchmark",

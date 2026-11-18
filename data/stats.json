@@ -1,14 +1,14 @@
 {
-  "total": 976,
+  "total": 977,
   "by_stage": {
-    "benchmarks": 562,
+    "benchmarks": 563,
     "leaderboards": 23,
     "meta-analysis": 121,
     "methodology": 148,
     "toolchain": 122
   },
   "by_subcategory": {
-    "code-generation": 156,
+    "code-generation": 157,
     "end-to-end": 121,
     "bug-fix": 70,
     "quality-study": 60,
@@ -27,24 +27,24 @@
     "production": 15,
     "multi-agent": 15,
     "observability": 12,
-    "limitation": 9,
-    "judge-tool": 9,
     "se-agent": 9,
+    "limitation": 9,
     "hybrid": 9,
     "human-eval": 9,
+    "judge-tool": 9,
     "feature-development": 8,
     "activity": 5
   },
   "by_type": {
     "paper": 765,
-    "repo": 85,
+    "repo": 86,
     "tool": 58,
     "paper+repo": 51,
     "blog": 12,
     "leaderboard": 5
   },
   "by_status": {
-    "active": 976
+    "active": 977
   },
   "by_language": {
     "python": 154,
@@ -68,7 +68,7 @@
     "shell": 1
   },
   "by_eval_method": {
-    "execution-based": 219,
+    "execution-based": 220,
     "hybrid": 15,
     "llm-judge": 12,
     "human-eval": 7
@@ -92,7 +92,7 @@
     },
     {
       "tag": "code-generation",
-      "count": 175
+      "count": 176
     },
     {
       "tag": "swe-bench",
@@ -167,5 +167,5 @@
       "count": 28
     }
   ],
-  "last_updated": "2026-10-23"
+  "last_updated": "2026-11-18"
 }
