@@ -12,7 +12,7 @@ SE Agent benchmarks organized by task type.
 - [Testing & QA (44)](#testing)
 - [Security & Vulnerability (52)](#security)
 - [Production-Derived (15)](#production)
-- [Code Generation (147)](#code-generation)
+- [Code Generation (148)](#code-generation)
 - [Feature Development (8)](#feature-development)
 - [Multi-Agent (15)](#multi-agent)
 
@@ -666,6 +666,7 @@ SE Agent benchmarks organized by task type.
 - [WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs](https://arxiv.org/abs/2404.06369) — Benchmark code generation from real-world webpage designs.
 - [WebCode: Search Evals for Coding Agents](https://exa.ai/blog/webcode) — WebCode: benchmark evaluating coding agents on web search capabilities.
 - [WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch](https://arxiv.org/abs/2505.03733) — Evaluate LLMs on generating interactive websites from scratch.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) — Evaluates full-stack website reconstruction by agents from browser exploration.
 - [When Prompt Under-Specification Improves Code Correctness: An Exploratory Study of Prompt Wording and Structure Effects on LLM-Based Code Generation](https://arxiv.org/abs/2604.24712) — Study of prompt wording/structure effects on LLM code generation correctness.
 - [wp-bench](https://github.com/WordPress/wp-bench) ⭐51 — Benchmark LLM code generation capabilities.
 - [xCodeEval: A Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval](https://arxiv.org/abs/2303.03004) — Benchmark multilingual code understanding, generation, translation, retrieval. 🌐
